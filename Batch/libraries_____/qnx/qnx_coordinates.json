@@ -1,0 +1,2406 @@
+{
+  "11in_31xxC": {
+      "change_cluster_view_type": "swc",
+      "android_screen_size": {
+          "width": "1280",
+          "height": "768"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "dual_gauge",
+          "map",
+          "fdi",
+          "offroad",
+          "baja",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "offroad": "full_cluster",
+              "baja": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "7",
+              "supported_cluster_views": {
+                "single_gauge": "0",
+                "dual_gauge": "1",
+                "map": "2",
+                "fdi": "3",
+                "offroad": "4",
+                "baja": "5",
+                "clean": "6"
+              }
+          }
+      }
+  },
+  "11in_31xxG": {
+      "change_cluster_view_type": "swc",
+      "android_screen_size": {
+          "width": "1280",
+          "height": "768"
+      },
+      "supported_cluster_views": [
+        "single_gauge",
+        "dual_gauge",
+        "map",
+        "fdi",
+        "offroad",
+        "baja",
+        "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "offroad": "full_cluster",
+              "baja": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "7",
+              "supported_cluster_views": {
+                "single_gauge": "0",
+                "dual_gauge": "1",
+                "map": "2",
+                "fdi": "3",
+                "offroad": "4",
+                "baja": "5",
+                "clean": "6"
+              }
+          }
+      }
+  },
+  "11in_BT1CC": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "dual_gauge",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "dual_gauge": "1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "11in_BT1CG": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "11in_BV1HX": {
+    "change_cluster_view_type": "swc",
+    "supported_cluster_views": [
+        "single_gauge",
+        "fdi",
+        "clean"
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "fdi": "full_cluster",
+            "clean": "full_cluster"
+        }
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "swc",
+            "total": "3",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "fdi": "1",
+                "clean": "2"
+            }
+        }
+    }
+},
+  "11in_C1YC": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "4",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2",
+                  "clean": "3"
+              }
+          }
+      }
+  },
+  "11in_C1YG": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "11in_C223": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "dual_gauge",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "dual_gauge": "1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "11in_C234": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+        "single_gauge",
+        "dual_gauge",
+        "map",
+        "fdi",
+        "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": "5010",
+              "height": "1320"
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+            "single_gauge": "full_cluster",
+            "dual_gauge": "full_cluster",
+            "map": "full_cluster",
+            "fdi": "full_cluster",
+            "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "dual_gauge": "1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "11in_D2UC": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "4",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2",
+                  "clean": "3"
+              }
+          }
+      }
+  },
+  "11in_D2UG": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+        "single_gauge",
+        "map",
+        "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+            "single_gauge": "full_cluster",
+            "map": "full_cluster",
+            "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                "single_gauge": "0",
+                "map": "1",
+                "fdi": "2"   
+              }
+          }
+      }
+  },
+  "11in_R233": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "11in_S233": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi":"full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "11in_T1XCF": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "dual_gauge",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge":"full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "dual_gauge":"1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "11in_T1XGF": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "dual_gauge",
+          "map",
+          "fdi",
+          "night_vision",
+		  "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "dual_gauge":"full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "night_vision":"full_cluster",
+			  "clean":"full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "6",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "dual_gauge":"1",
+                  "map": "2",
+                  "fdi": "3",
+                  "night_vision":"4",
+				  "clean":"5"
+                  }
+          }
+      }
+  },
+  "14in_Y2XX": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": "5010",
+              "height": "1320"
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "1",
+              "supported_cluster_views": {
+                  "single_gauge":"0"
+              }
+          }
+      }
+  },
+  "29in_B233": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+         "map",
+          "fdi"
+         ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+              
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+            
+              }
+          }
+      }
+  },
+  "29in_B223": {
+    "change_cluster_view_type": "swc",
+    "supported_cluster_views": [
+         "single_gauge",
+         "map",
+          "fdi"
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+     "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+              
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+            }
+        }
+    }
+},
+  "29in_C1YB": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "29in_E2UB": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2"
+              }
+          }
+      }
+  },
+  "34in_A2LL": {
+    "change_cluster_view_type": "touch",
+    "android_screen_size": {
+        "width": "3950",
+        "height": "1320"
+    },
+    "supported_cluster_views": [
+        "single_gauge",
+        "map",
+        "fdi",
+        "clean"
+    ],
+    "zones": {
+        "zone_1": {
+            "x": 0,
+            "y": 185,
+            "width": 1106,
+            "height": 950
+        },
+        "zone_2": {
+            "x": 1106,
+            "y": 185,
+            "width": 1124,
+            "height": 950
+        },
+        "gauge_area": {
+            "x": 2230,
+            "y": 185,
+            "width": 1616,
+            "height": 1050
+        },
+        "zone_3": {
+            "x": 3846,
+            "y": 185,
+            "width": 1164,
+            "height": 950
+        },
+        "telltales_top": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 215
+        },
+        "telltales_bottom": {
+            "x": 0,
+            "y": 1105,
+            "width": 5010,
+            "height": 215
+        },
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "map": "full_cluster",
+            "clean": "full_cluster",
+            "fdi":"full_cluster"
+        },
+        "telltales_top": {
+            "single_gauge": "telltales_top",
+            "map": "telltales_top",
+            "clean": "telltales_top",
+            "fdi":"telltales_bottom"
+        },
+        "telltales_bottom": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom",
+            "fdi":"telltales_bottom"
+        },
+        "speedometer": {
+            "single_gauge": "gauge_area",
+            "map": "gauge_area",
+            "clean": "gauge_area",
+            "fdi":"zone_2"
+        },
+        "prnd": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom",
+            "fdi":"telltales_bottom"
+        },
+        "alerts": {
+            "single_gauge": "zone_3",
+            "map": "zone_3",
+            "clean": "zone_3",
+            "fdi":"zone_3"
+        },
+        "audio": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None",
+            "fdi":"zone_3"
+        },
+        "infopages": {
+            "single_gauge": "zone_2",
+            "map": "None",
+            "clean": "None",
+            "fdi":"None"
+        },
+        "nav": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None",
+            "fdi":"None"
+        }
+    },
+    "single_gauge": {
+        "x": "715",
+        "y": "428"
+    },
+    "map": {
+        "x": "537",
+        "y": "639"
+    },
+    "fdi": {
+        "x": "412",
+        "y": "794"
+    },
+    "clean": {
+        "x": "375",
+        "y": "979"
+    },
+    
+
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "touch",
+            "total": "4",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "map": "1",
+                "fdi": "2",
+                "clean":"3"
+            }
+        }
+    }
+  },
+  "34in_A2LL V": {
+    "change_cluster_view_type": "touch",
+    "android_screen_size": {
+        "width": "3950",
+        "height": "1320"
+    },
+    "supported_cluster_views": [
+        "single_gauge",
+        "map",
+        "fdi",
+        "clean"
+    ],
+    "zones": {
+        "zone_1": {
+            "x": 0,
+            "y": 185,
+            "width": 1106,
+            "height": 950
+        },
+        "zone_2": {
+            "x": 1106,
+            "y": 185,
+            "width": 1124,
+            "height": 950
+        },
+        "gauge_area": {
+            "x": 2230,
+            "y": 185,
+            "width": 1616,
+            "height": 1050
+        },
+        "zone_3": {
+            "x": 3846,
+            "y": 185,
+            "width": 1164,
+            "height": 950
+        },
+        "telltales_top": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 215
+        },
+        "telltales_bottom": {
+            "x": 0,
+            "y": 1105,
+            "width": 5010,
+            "height": 215
+        },
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "map": "full_cluster",
+            "clean": "full_cluster",
+            "fdi":"full_cluster"
+        },
+        "telltales_top": {
+            "single_gauge": "telltales_top",
+            "map": "telltales_top",
+            "clean": "telltales_top",
+            "fdi":"telltales_bottom"
+        },
+        "telltales_bottom": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom",
+            "fdi":"telltales_bottom"
+        },
+        "speedometer": {
+            "single_gauge": "gauge_area",
+            "map": "gauge_area",
+            "clean": "gauge_area",
+            "fdi":"zone_2"
+        },
+        "prnd": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom",
+            "fdi":"telltales_bottom"
+        },
+        "alerts": {
+            "single_gauge": "zone_3",
+            "map": "zone_3",
+            "clean": "zone_3",
+            "fdi":"zone_3"
+        },
+        "audio": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None",
+            "fdi":"zone_3"
+        },
+        "infopages": {
+            "single_gauge": "zone_2",
+            "map": "None",
+            "clean": "None",
+            "fdi":"None"
+        },
+        "nav": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None",
+            "fdi":"None"
+        }
+    },
+    "single_gauge": {
+        "x": "715",
+        "y": "428"
+    },
+    "map": {
+        "x": "537",
+        "y": "639"
+    },
+    "fdi": {
+        "x": "412",
+        "y": "794"
+    },
+    "clean": {
+        "x": "375",
+        "y": "979"
+    },
+    
+
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "touch",
+            "total": "4",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "map": "1",
+                "fdi": "2",
+                "clean":"3"
+            }
+        }
+    }
+  },
+  "34in_C1UL": {
+    "change_cluster_view_type": "touch",
+    "android_screen_size": {
+        "width": "3950",
+        "height": "1320"
+    },
+    "supported_cluster_views": [
+        "single_gauge",
+        "map",
+        "clean"
+    ],
+    "zones": {
+        "zone_1": {
+            "x": 0,
+            "y": 185,
+            "width": 1106,
+            "height": 950
+        },
+        "zone_2": {
+            "x": 1106,
+            "y": 185,
+            "width": 1124,
+            "height": 950
+        },
+        "gauge_area": {
+            "x": 2230,
+            "y": 185,
+            "width": 1616,
+            "height": 1050
+        },
+        "zone_3": {
+            "x": 3846,
+            "y": 185,
+            "width": 1164,
+            "height": 950
+        },
+        "telltales_top": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 215
+        },
+        "telltales_bottom": {
+            "x": 0,
+            "y": 1105,
+            "width": 5010,
+            "height": 215
+        },
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "map": "full_cluster",
+            "clean": "full_cluster"
+        },
+        "telltales_top": {
+            "single_gauge": "telltales_top",
+            "map": "telltales_top",
+            "clean": "telltales_top"
+        },
+        "telltales_bottom": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom"
+        },
+        "speedometer": {
+            "single_gauge": "gauge_area",
+            "map": "gauge_area",
+            "clean": "gauge_area"
+        },
+        "prnd": {
+            "single_gauge": "telltales_bottom",
+            "map": "telltales_bottom",
+            "clean": "telltales_bottom"
+        },
+        "alerts": {
+            "single_gauge": "zone_3",
+            "map": "zone_3",
+            "clean": "zone_3"
+        },
+        "audio": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None"
+        },
+        "infopages": {
+            "single_gauge": "zone_2",
+            "map": "None",
+            "clean": "None"
+        },
+        "nav": {
+            "single_gauge": "zone_3",
+            "map": "None",
+            "clean": "None"
+        }
+    },
+    "single_gauge": {
+        "x": "633",
+        "y": "435"
+    },
+    "map": {
+        "x": "525",
+        "y": "690"
+    },
+    "clean": {
+        "x": "464",
+        "y": "875"
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "touch",
+            "total": "3",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "map": "1",
+                "clean": "2"
+            }
+        }
+    }
+  },
+  "34in_E2QL": {
+    "change_cluster_view_type": "touch",
+      "android_screen_size": {
+          "width": "3950",
+          "height": "1320"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "clean"
+      ],
+      "zones": {
+          "zone_1": {
+              "x": 0,
+              "y": 185,
+              "width": 1106,
+              "height": 950
+          },
+          "zone_2": {
+              "x": 1106,
+              "y": 185,
+              "width": 1124,
+              "height": 950
+          },
+          "gauge_area": {
+              "x": 2230,
+              "y": 185,
+              "width": 1616,
+              "height": 1050
+          },
+          "zone_3": {
+              "x": 3846,
+              "y": 185,
+              "width": 1164,
+              "height": 950
+          },
+          "telltales_top": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 215
+          },
+          "telltales_bottom": {
+              "x": 0,
+              "y": 1105,
+              "width": 5010,
+              "height": 215
+          },
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "clean": "full_cluster"
+          },
+          "telltales_top": {
+              "single_gauge": "telltales_top",
+              "map": "telltales_top",
+              "clean": "telltales_top"
+          },
+          "telltales_bottom": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "speedometer": {
+              "single_gauge": "gauge_area",
+              "map": "gauge_area",
+              "clean": "gauge_area"
+          },
+          "prnd": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "alerts": {
+              "single_gauge": "zone_3",
+              "map": "zone_3",
+              "clean": "zone_3"
+          },
+          "audio": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          },
+          "infopages": {
+              "single_gauge": "zone_2",
+              "map": "None",
+              "clean": "None"
+          },
+          "nav": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          }
+      },
+      "single_gauge": {
+          "x": "633",
+          "y": "435"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "clean": {
+          "x": "464",
+          "y": "875"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "touch",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "clean": "2"
+              }
+          }
+      }
+  },
+  "34in_E2UL": {
+    "change_cluster_view_type": "touch",
+      "android_screen_size": {
+          "width": "3950",
+          "height": "1320"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "clean"
+      ],
+      "zones": {
+          "zone_1": {
+              "x": 0,
+              "y": 185,
+              "width": 1106,
+              "height": 950
+          },
+          "zone_2": {
+              "x": 1106,
+              "y": 185,
+              "width": 1124,
+              "height": 950
+          },
+          "gauge_area": {
+              "x": 2230,
+              "y": 185,
+              "width": 1616,
+              "height": 1050
+          },
+          "zone_3": {
+              "x": 3846,
+              "y": 185,
+              "width": 1164,
+              "height": 950
+          },
+          "telltales_top": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 215
+          },
+          "telltales_bottom": {
+              "x": 0,
+              "y": 1105,
+              "width": 5010,
+              "height": 215
+          },
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "clean": "full_cluster"
+          },
+          "telltales_top": {
+              "single_gauge": "telltales_top",
+              "map": "telltales_top",
+              "clean": "telltales_top"
+          },
+          "telltales_bottom": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "speedometer": {
+              "single_gauge": "gauge_area",
+              "map": "gauge_area",
+              "clean": "gauge_area"
+          },
+          "prnd": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "alerts": {
+              "single_gauge": "zone_3",
+              "map": "zone_3",
+              "clean": "zone_3"
+          },
+          "audio": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          },
+          "infopages": {
+              "single_gauge": "zone_2",
+              "map": "None",
+              "clean": "None"
+          },
+          "nav": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          }
+      },
+      "single_gauge": {
+          "x": "633",
+          "y": "435"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "clean": {
+          "x": "464",
+          "y": "875"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "touch",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "clean": "2"
+              }
+          }
+      }
+  },
+  "34in_L232": {
+      "android_screen_size": {
+          "width": "3950",
+          "height": "1320"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "energy",
+          "map",
+          "fdi",
+         "clean"
+      ],
+      "zones": {
+          "zone_1": {
+              "x": 0,
+              "y": 185,
+              "width": 1106,
+              "height": 950
+          },
+          "zone_2": {
+              "x": 1106,
+              "y": 185,
+              "width": 1124,
+              "height": 950
+          },
+          "gauge_area": {
+              "x": 2230,
+              "y": 185,
+              "width": 1616,
+              "height": 1050
+          },
+          "zone_3": {
+              "x": 3846,
+              "y": 185,
+              "width": 1164,
+              "height": 950
+          },
+          "telltales_top": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 215
+          },
+          "telltales_bottom": {
+              "x": 0,
+              "y": 1105,
+              "width": 5010,
+              "height": 215
+          },
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "energy": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          },
+          "telltales_top": {
+              "single_gauge": "telltales_top",
+              "energy": "telltales_top",
+              "map": "telltales_top",
+              "fdi": "telltales_top",
+              "clean": "telltales_top"
+          },
+          "telltales_bottom": {
+              "single_gauge": "telltales_bottom",
+              "energy": "telltales_bottom",
+              "map": "telltales_bottom",
+              "fdi": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "speedometer": {
+              "single_gauge": "gauge_area",
+              "energy": "zone_3",
+              "map": "gauge_area",
+              "fdi": "zone_2",
+              "clean": "gauge_area"
+          },
+          "prnd": {
+              "single_gauge": "telltales_bottom"
+          },
+          "alerts": {
+              "single_gauge": "zone_3",
+              "energy": "gauge_area",
+              "map": "zone_3",
+              "fdi": "zone_3",
+              "clean": "zone_3"
+          },
+          "audio": {
+              "single_gauge": "zone_3",
+              "energy": "None",
+              "map": "None",
+              "fdi": "zone_3",
+              "clean": "None"
+          },
+          "infopages": {
+              "single_gauge": "zone_2",
+              "energy": "None",
+              "map": "None",
+              "fdi": "None",
+              "clean": "None"
+          },
+          "nav": {
+              "single_gauge": "zone_3",
+              "energy": "None",
+              "map": "None",
+              "fdi": "None",
+              "clean": "None"
+          }
+      },
+      "single_gauge": {
+          "x": "779",
+          "y": "332"
+      },
+      "energy": {
+          "x": "695",
+          "y": "535"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "fdi": {
+          "x": "464",
+          "y": "875"
+      },
+      "clean": {
+          "x": "421",
+          "y": "1070"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "cluster_view": {
+              "type": "touch",
+              "total": "5",
+              "supported_cluster_views": {
+                "single_gauge": "0",
+                "energy": "1",
+                "map": "2",
+                "fdi": "3",
+                "clean": "4"
+              }
+          },
+          "veh_type": "bev"
+      }
+  },
+  "34in_L233": {
+      "change_cluster_view_type": "touch",
+      "android_screen_size": {
+          "width": "3950",
+          "height": "1320"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "energy",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "zone_1": {
+              "x": 0,
+              "y": 185,
+              "width": 1106,
+              "height": 950
+          },
+          "zone_2": {
+              "x": 1106,
+              "y": 185,
+              "width": 1124,
+              "height": 950
+          },
+          "gauge_area": {
+              "x": 2230,
+              "y": 185,
+              "width": 1616,
+              "height": 1050
+          },
+          "zone_3": {
+              "x": 3846,
+              "y": 185,
+              "width": 1164,
+              "height": 950
+          },
+          "telltales_top": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 215
+          },
+          "telltales_bottom": {
+              "x": 0,
+              "y": 1105,
+              "width": 5010,
+              "height": 215
+          },
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "energy": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          },
+          "telltales_top": {
+              "single_gauge": "telltales_top",
+              "energy": "telltales_top",
+              "map": "telltales_top",
+              "fdi": "telltales_top",
+              "clean": "telltales_top"
+          },
+          "telltales_bottom": {
+              "single_gauge": "telltales_bottom",
+              "energy": "telltales_bottom",
+              "map": "telltales_bottom",
+              "fdi": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "speedometer": {
+              "single_gauge": "gauge_area",
+              "energy": "zone_3",
+              "map": "gauge_area",
+              "fdi": "zone_2",
+              "clean": "gauge_area"
+          },
+          "prnd": {
+              "single_gauge": "telltales_bottom",
+              "energy": "telltales_bottom",
+              "map": "telltales_bottom",
+              "fdi": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "alerts": {
+              "single_gauge": "zone_3",
+              "energy": "gauge_area",
+              "map": "zone_3",
+              "fdi": "zone_3",
+              "clean": "zone_3"
+          },
+          "audio": {
+              "single_gauge": "zone_3",
+              "energy": "None",
+              "map": "None",
+              "fdi": "zone_3",
+              "clean": "None"
+          },
+          "infopages": {
+              "single_gauge": "zone_2",
+              "energy": "None",
+              "map": "None",
+              "fdi": "None",
+              "clean": "None"
+          },
+          "nav": {
+              "single_gauge": "zone_3",
+              "energy": "None",
+              "map": "None",
+              "fdi": "None",
+              "clean": "None"
+          }
+      },
+      "single_gauge": {
+          "x": "779",
+          "y": "332"
+      },
+      "energy": {
+          "x": "695",
+          "y": "535"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "fdi": {
+          "x": "464",
+          "y": "875"
+      },
+      "clean": {
+          "x": "421",
+          "y": "1070"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "touch",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "energy": "1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "34in_L233 EU": {
+      "change_cluster_view_type": "touch",
+      "supported_cluster_views": [
+          "single_gauge",
+          "energy",
+          "map",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "energy": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "single_gauge": {
+          "x": "779",
+          "y": "332"
+      },
+      "energy": {
+          "x": "695",
+          "y": "535"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "fdi": {
+          "x": "464",
+          "y": "875"
+      },
+      "clean": {
+          "x": "421",
+          "y": "1070"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "touch",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "energy": "1",
+                  "map": "2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "34in_L233 RHD": {
+    "change_cluster_view_type": "touch",
+    "supported_cluster_views": [
+        "single_gauge",
+        "energy",
+        "map",
+        "fdi",
+        "clean"
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "energy": "full_cluster",
+            "map": "full_cluster",
+            "fdi": "full_cluster",
+            "clean": "full_cluster"
+        }
+    },
+    "single_gauge": {
+        "x": "8187",
+        "y": "309"
+    },
+    "energy": {
+        "x": "8342",
+        "y": "481"
+    },
+    "map": {
+        "x": "8467",
+        "y": "699"
+    },
+    "fdi": {
+        "x": "8510",
+        "y": "896"
+    },
+    "clean": {
+        "x": "8622",
+        "y": "1025"
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "touch",
+            "total": "5",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "energy": "1",
+                "map": "2",
+                "fdi": "3",
+                "clean": "4"
+            }
+        }
+    }
+  },
+  "34in_L234": {
+    "change_cluster_view_type": "touch",
+    "supported_cluster_views": [
+        "single_gauge",
+        "energy",
+        "map",
+        "fdi",
+        "night_vision",
+        "clean"
+        
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "energy": "full_cluster",
+            "map": "full_cluster",
+            "fdi": "full_cluster",
+            "night_vision":"full_cluster",
+            "clean": "full_cluster"
+        }
+    },
+    "single_gauge": {
+        "x": "808",
+        "y": "329"
+    },
+    "energy": {
+        "x": "604",
+        "y": "516"
+    },
+    "map": {
+        "x": "511",
+        "y": "697"
+    },
+    "fdi": {
+        "x": "441",
+        "y": "870"
+    },
+    "night_vision": {
+        "x": "352",
+        "y": "1042"
+    },
+    "clean": {
+        "x": "352",
+        "y": "1042"
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "touch",
+            "total": "5",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "energy": "1",
+                "map": "2",
+                "fdi": "3",
+                "night_vision":"4",
+                "clean": "5"
+            }
+        }
+    }
+  },
+  "34in_O1SL": {
+      "change_cluster_view_type": "touch",
+      "android_screen_size": {
+          "width": "3950",
+          "height": "1320"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "clean"
+      ],
+      "zones": {
+          "zone_1": {
+              "x": 0,
+              "y": 185,
+              "width": 1106,
+              "height": 950
+          },
+          "zone_2": {
+              "x": 1106,
+              "y": 185,
+              "width": 1124,
+              "height": 950
+          },
+          "gauge_area": {
+              "x": 2230,
+              "y": 185,
+              "width": 1616,
+              "height": 1050
+          },
+          "zone_3": {
+              "x": 3846,
+              "y": 185,
+              "width": 1164,
+              "height": 950
+          },
+          "telltales_top": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 215
+          },
+          "telltales_bottom": {
+              "x": 0,
+              "y": 1105,
+              "width": 5010,
+              "height": 215
+          },
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "clean": "full_cluster"
+          },
+          "telltales_top": {
+              "single_gauge": "telltales_top",
+              "map": "telltales_top",
+              "clean": "telltales_top"
+          },
+          "telltales_bottom": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "speedometer": {
+              "single_gauge": "gauge_area",
+              "map": "gauge_area",
+              "clean": "gauge_area"
+          },
+          "prnd": {
+              "single_gauge": "telltales_bottom",
+              "map": "telltales_bottom",
+              "clean": "telltales_bottom"
+          },
+          "alerts": {
+              "single_gauge": "zone_3",
+              "map": "zone_3",
+              "clean": "zone_3"
+          },
+          "audio": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          },
+          "infopages": {
+              "single_gauge": "zone_2",
+              "map": "None",
+              "clean": "None"
+          },
+          "nav": {
+              "single_gauge": "zone_3",
+              "map": "None",
+              "clean": "None"
+          }
+      },
+      "single_gauge": {
+          "x": "633",
+          "y": "435"
+      },
+      "map": {
+          "x": "525",
+          "y": "690"
+      },
+      "clean": {
+          "x": "464",
+          "y": "875"
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "touch",
+              "total": "3",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "clean": "2"
+              }
+          }
+      }
+  },
+  "54in_BT1YL": {
+    "incomplete_cluster_view_data": true,
+    "change_cluster_view_type": "swc",
+    "supported_cluster_views": [
+        "single_gauge",
+        "map",
+        "fdi",
+        "night_vision"
+    ],
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "map": "full_cluster",
+            "fdi":"full_cluster",
+            "night_vision":"full_cluster"
+        }
+    },
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 4441,
+            "height": 1111
+        }
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "swc",
+            "total": "4",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "map": "1",
+                "fdi": "2",
+                "night_vision":"3"
+            }
+        },
+        "veh_type": "bev"
+      }
+  },
+  "54in_L246": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi",
+          "night_vision",
+          "ar_camera"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 4441,
+              "height": 1111
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "night_vision": "full_cluster",
+              "ar_camera": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2",
+                  "night_vision": "3",
+                  "ar_camera": "4"
+              }
+          },
+          "veh_type": "bev"
+      }
+  },
+  "54in_T1XL": {
+    "incomplete_cluster_view_data": true,
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "map",
+          "fdi",
+          "night_vision",
+          "ar_camera"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 4441,
+              "height": 1111
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "map": "full_cluster",
+              "fdi": "full_cluster",
+              "night_vision": "full_cluster",
+              "ar_camera": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_item",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "map": "1",
+                  "fdi": "2",
+                  "night_vision": "3",
+                  "ar_camera": "4"
+              }
+          }
+      }
+  },
+"8in_31xxC": {
+      "change_cluster_view_type": "swc",
+      "android_screen_size": {
+          "width": "1280",
+          "height": "768"
+      },
+      "supported_cluster_views": [
+          "single_gauge",
+          "info_view",
+          "rhmi",
+          "fdi",
+          "offroad",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": 5010,
+              "height": 1320
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "info_view": "full_cluster",
+              "rhmi":"full_cluster",
+              "fdi": "full_cluster",
+              "offroad": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "6",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "info_view": "1",
+                  "rhmi":"2",
+                  "fdi": "3",
+                  "offroad": "4",
+                  "clean": "5"
+              }
+          }
+      }
+  },
+  "8in_31xxG": {
+    "change_cluster_view_type": "swc",
+    "android_screen_size": {
+        "width": "1280",
+        "height": "768"
+    },
+    "supported_cluster_views": [
+        "single_gauge",
+        "info_view",
+        "rhmi",
+        "fdi",
+        "offroad",
+        "clean"
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": 5010,
+            "height": 1320
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "info_view": "full_cluster",
+            "rhmi":"full_cluster",
+            "fdi": "full_cluster",
+            "offroad": "full_cluster",
+            "clean": "full_cluster"
+        }
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "swc",
+            "total": "6",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "info_view": "1",
+                "rhmi":"2",
+                "fdi": "3",
+                "offroad": "4",
+                "clean": "5"
+            }
+        }
+    }
+},
+  "8in_BT1CC": {
+      "change_cluster_view_type": "swc",
+      "supported_cluster_views": [
+          "single_gauge",
+          "info_view",
+          "rhmi",
+          "fdi",
+          "clean"
+      ],
+      "zones": {
+          "full_cluster": {
+              "x": 0,
+              "y": 0,
+              "width": "5010",
+              "height": "1320"
+          }
+      },
+      "areas_of_interest": {
+          "full_cluster": {
+              "single_gauge": "full_cluster",
+              "info_view": "full_cluster",
+              "rhmi":"full_cluster",
+              "fdi": "full_cluster",
+              "clean": "full_cluster"
+          }
+      },
+      "info": {
+          "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+          "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+          "cluster_view": {
+              "type": "swc",
+              "total": "5",
+              "supported_cluster_views": {
+                  "single_gauge": "0",
+                  "info_view": "1",
+                  "rhmi":"2",
+                  "fdi": "3",
+                  "clean": "4"
+              }
+          }
+      }
+  },
+  "8in_BT1CC-WT": {
+    "change_cluster_view_type": "swc",
+    "supported_cluster_views": [
+        "single_gauge",
+        "info_view",
+        "rhmi",
+        "fdi",
+        "clean"
+    ],
+    "zones": {
+        "full_cluster": {
+            "x": 0,
+            "y": 0,
+            "width": "5010",
+            "height": "1320"
+        }
+    },
+    "areas_of_interest": {
+        "full_cluster": {
+            "single_gauge": "full_cluster",
+            "info_view": "full_cluster",
+            "rhmi":"full_cluster",
+            "fdi": "full_cluster",
+            "clean": "full_cluster"
+        }
+    },
+    "info": {
+        "radio_fav": "com.gm.hmi.radio:id/txt_fav_title",
+        "maps_blue_arrow": "com.google.android.apps.maps:id/place_details_navigation_footer_action_button",
+        "cluster_view": {
+            "type": "swc",
+            "total": "5",
+            "supported_cluster_views": {
+                "single_gauge": "0",
+                "info_view": "1",
+                "rhmi":"2",
+                "fdi": "3",
+                "clean": "4"
+            }
+        }
+    }
+}
+}

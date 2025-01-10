@@ -1,0 +1,3 @@
+cd Batch/VirtualControls
+Python TrlrTirePresFtrEnbld.py
+exit

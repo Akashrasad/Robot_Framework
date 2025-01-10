@@ -1,0 +1,102 @@
+import builtins as __builtin__
+import glob
+import os, sys
+import json
+import pickle
+import time
+from datetime import datetime
+import logging
+
+from pywinauto import application
+import warnings
+import configparser
+#from weCanSim import *
+'''
+Usage 
+     $python sendCanSignal.py predelay signalName=value postdelay 
+EX:: $python sendCanSignal.py 1 signalName1=1 2 3 signalName2=2 3
+'''
+# Basic logging setup
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger()
+logger.addHandler(logging.StreamHandler())  # pass logging to console
+
+#Changing directory to Batch folder
+cwd = os.getcwd()
+#os.chdir(cwd+'/Batch')
+os.chdir(cwd)
+
+#Getting configuration values from config.ini
+configParser = configparser.RawConfigParser()   
+configFilePath = r'config.ini'
+configParser.read(configFilePath)
+simulator_Name = configParser.get('config', 'Simulator_Name')
+
+if simulator_Name.lower()=="gmvehiclesim":
+  # include module (in path)
+  sys.path.append("/GMVehicleSim")
+  from GMVehicleSim import *
+  _gmVehicleSim = GMVehicleSim()
+elif simulator_Name.lower()=="wecansim":
+  #Change directory to WeCanSim folder. 
+  sys.path.append("./WeCanSim")
+  from weCanSim import *
+  cwd = os.getcwd()+"/WeCanSim"
+  os.chdir(cwd)
+  #Access the weCanSim class
+  _wecan=weCanSim()
+
+#microsecond_now = lambda: int(round(datetime.now().microsecond))
+
+def close(sig, frame):
+  """
+  Close (ctrl-c)
+  Args:
+      N/A
+  Returns:
+      None
+  """  
+  _gmVehicleSim.close() # Note: will finally close when log queue is empty (since is slower and has to catch-up)
+  sys.exit(0)
+if simulator_Name.lower()=="gmvehiclesim":
+  signal.signal(signal.SIGINT, close)
+
+# Template as starting point to build off of... 
+def main():
+    payload_Tx = []
+    payload_Tx = []
+# First set of signals
+    entry1 ='{"Type" : "RAW","Mode" : "HS","id" : "1569","Value" : "01FFFFFFFFFFFFFF"}'
+    payload_Tx.append(entry1)
+
+    for _ in range(2):  # Transmit the first signal 5 times
+        _wecan.send(payload_Tx)
+        time.sleep(0.1)  # Sleep for 100 milliseconds (0.1 seconds)
+
+# Second set of signals
+    entry2 ='{"Type" : "Signal","Mode" : "HS","name" : "ISysPwrMd","Value" :"2"}'
+    entry3 ='{"Type" : "Signal","Mode" : "HS","name" : "IAutoFanCstStAvl","Value" :"0"}'
+    entry4 ='{"Type" : "Signal","Mode" : "HS","name" : "IAutoFanCstStAvl","Value" :"1"}'
+    payload_Tx.append(entry2)
+    payload_Tx.append(entry3)
+    payload_Tx.append(entry4)
+
+    for _ in range(3):  # Transmit the second set of signals 3 times
+        _wecan.send(payload_Tx)
+        time.sleep(0.10)  # Sleep for 250 milliseconds (0.25 seconds)
+
+# Third set of signals
+    for _ in range(2):  # Transmit the third set of signals 2 times
+        _wecan.send(payload_Tx)
+        time.sleep(0.10)  # Sleep for 250 milliseconds (0.25 seconds)
+
+# Break the loop and stop execution
+        break
+
+  
+
+""" Main   entry """
+if __name__== "__main__":
+  main()
+  
+

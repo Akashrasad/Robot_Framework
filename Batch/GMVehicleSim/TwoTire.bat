@@ -1,0 +1,7 @@
+cd Batch/VirtualControls
+Python Learn_Tire_Left_Front.py
+Python Learn_TireComplete_Left_Front.py
+Python Learn_Tire_Right_Front.py
+Python Learn_TireComplete_Right_Front.py
+Python Learn_Completed.py
+exit

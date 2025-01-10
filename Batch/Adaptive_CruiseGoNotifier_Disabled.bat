@@ -1,0 +1,3 @@
+cd Batch/Settings
+python Adaptive_CruiseGoNotifier_Disabled.py
+pause

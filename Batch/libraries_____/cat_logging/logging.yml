@@ -1,0 +1,56 @@
+version: 1
+disable_existing_loggers: true
+console_schema: &console_schema_list
+ - WARNING: "YELLOW"
+ - INFO: "GREEN"
+ - DEBUG: "BLUE"
+ - CRITICAL: "RED"
+ - ERROR: "RED"
+filters:
+  colorFilter:
+    (): color_formatter.ColorFilter
+    schema: 
+      <<: *console_schema_list
+formatters:
+  default:
+    class:  color_formatter.ColorFormatter
+    format: "$COLOR%(asctime)s - %(name)s - $BG-RED%(levelname)s$RESET $COLOR- %(message)s"
+  cat_formatter:
+    format: "%(asctime)s - %(name)s - %(testsuite)s - %(testcase)s - %(levelname)s - %(message)s"
+    defaults: 
+      testsuite: None
+      testcase: None
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: default
+    stream: ext://sys.__stdout__
+    filters:
+      - colorFilter
+    level: DEBUG
+  file:
+    class: logging.FileHandler
+    formatter: cat_formatter
+    filename: "{path}/result.log"
+    level: DEBUG
+  robot:
+    class: robot.output.pyloggingconf.RobotHandler
+    formatter: cat_formatter
+    level: INFO
+loggers:
+  root:
+    level: DEBUG
+    handlers:
+      - console
+
+  inv:
+    level: DEBUG
+    propagate: true
+    handlers:
+      - file
+
+  cat:
+    propagate: true
+    handlers:
+      - file
+      - robot
