@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6030</ScreenID>
+                <Name>ics_virtual_controls_detected</Name>
+                <ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget var="img_vc_home_back_btn">
+                    <ID>img_btn_back</ID>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+                    <Font var="var_font_title_VC"/>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_Detected_close</ID>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+               <LabelWidget>
+                    <ID>virtualcontrols_1_5_0_2_ugdo_detected_title_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content"/>
+                    <Size var="var_loc_learn_success_test_body_content"/>
+                    <Font var="var_font_title"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget> 
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_2_f_detected_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content2"/>
+                    <Size var="var_size_learn_success_test_body_content_2lines"/>
+                    <Font var="var_font_description_align_center"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                 <GroupWidget>
+					<ID>grp_img_test_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_grp_primary_btn"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="var_img_grp_primary_btn">
+						<ID>img_grp_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_primary_btn">
+						<ID>virtualcontrols_1_5_0_2_ugdo_test_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_test</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_test</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

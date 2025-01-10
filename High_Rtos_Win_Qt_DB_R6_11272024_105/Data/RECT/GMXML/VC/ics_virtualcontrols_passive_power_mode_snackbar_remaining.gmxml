@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6099</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_snackbar_remaining</Name>
+				<DialogDismiss callback = "evG_PPM_Extended_Button_Selection" zorder="1"/>
+				<ImageWidget>
+					<ID>img_notification_bg</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_2line_dialog_bg"/>
+					<NormalURL compression = "NONE">11/img_notification_dialog_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_extendTimeout_csm</ID>
+					<Font var="var_font_dialog_text"/>
+					<Location var="var_loc_2lines_dialog1_text"/>
+					<Size var="var_size_2lines_dialog_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_extendReset_csm</ID>
+					<Font var="var_font_snackbar_text"/>
+					<Location var="var_loc_2lines_dialog_text"/>
+					<Size var="var_size_dialog_1428"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+				<ID>grp_extend_btn</ID>
+				<Location var="var_loc_2line_2btn_dialog"/>
+				<Size var="var_size_yes_button"/>
+				<Alpha>100</Alpha>
+                 <ZOrder>2</ZOrder>
+				<ImageElements>
+					<ID>img_extend_btn</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_yes_button"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_normal.png</FocusURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageElements>
+				<LabelElements>
+					<ID>virtualcontrols_1_6_6_5_f_extendButton_csm</ID>
+					<Font var="var_font_primary_button_txt"/>
+					<FocusFont var="var_font_yes_button_focused"/>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PPM_Extended_Button_Selection</WidgetCallback>
+                    </InputWidgetMapping>
+		   </GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

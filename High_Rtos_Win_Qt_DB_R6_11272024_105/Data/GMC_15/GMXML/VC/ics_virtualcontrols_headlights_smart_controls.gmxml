@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6055</ScreenID>
+                <Name>ics_virtualcontrols_headlights_smart_controls</Name>
+				<DialogDismiss callback = "evG_HeadLightsDialog_DSA" zorder="1"/>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_notification_bg1"/>
+                    <NormalURL>11/img_notification_bg1.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+				   <ID>img_headlight_icon</ID>
+				   <Location>
+				     <LocationX>56</LocationX>
+				     <LocationY>56</LocationY>
+				   </Location>
+				    <Size var="var_size_Settings_img"/>
+				    <NormalURL compression = "CompressionAlias1">11/icn_lights_headlights_on_normal.png</NormalURL>
+				    <FocusURL compression = "CompressionAlias1">11/icn_lights_headlights_on_selected.png</FocusURL>
+				    <Alpha>100</Alpha>
+				    <ZOrder>2</ZOrder>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_6_4_headlights_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text1"/>
+                    <Size var="var_size_dialog_text_1"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_dialog_btn1"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <ImageElements var="var_img_notification_primary_btn_large">
+					    <ID>img_btn_bg1</ID>
+				    </ImageElements> 
+					<LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</ID>
+                    </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HeadLightsDialog_Turn_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+                    <Location var="var_loc_dialog_btn_secondary1"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <ImageElements var="var_img_notification_secondary_btn_large">
+					    <ID>img_btn_bg2</ID>
+				    </ImageElements>
+                    <LabelElements var="var_notification_secondary_btn_txt">
+                        <ID>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</ID>
+                    </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HeadLightsDialog_DSA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

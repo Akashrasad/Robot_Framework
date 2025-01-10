@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8022</ScreenID>
+				<Name>ics_camera_smart_control_scroll_third_page</Name>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_10</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="CompressionAlias1">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(10)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_11</ID>
+					<Location var="var_loc_ugdo_icon1"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="CompressionAlias1">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(11)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_12</ID>
+					<Location var="var_loc_ugdo_icon2"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="CompressionAlias1">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(12)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_13</ID>
+					<Location var="var_loc_ugdo_icon3"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="CompressionAlias1">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(13)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

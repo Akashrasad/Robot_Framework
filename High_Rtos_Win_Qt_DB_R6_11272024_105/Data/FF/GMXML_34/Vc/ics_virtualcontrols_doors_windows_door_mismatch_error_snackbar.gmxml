@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6036</ScreenID>
+                <Name>ics_virtualcontrols_doors_windows_door_mismatch_error_snackbar</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_snack_bar_2lines"/>
+                    <NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_2_2_childMismatch_csm</ID>
+                    <Font var="var_font_snackbar_txt"/>
+                    <Location var="var_loc_snackbar_txt_2lines"/>
+                    <Size var="var_size_snackbar_txt_2lines"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotarySelectReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

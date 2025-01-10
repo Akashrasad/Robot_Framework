@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6166</ScreenID>
+                <Name>ics_virtual_controls_pab</Name>
+				<ImageWidget var="img_divider">
+					<ID>img_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_back_btn">
+                    <ID>img_controls_pab_back_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Safety_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_8_3_f_PABTitle_csm</ID>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_controls_pab_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_passinger_btn</ID>
+					<Location var ="var_loc_launch_btn"/>
+					<Size>
+					   <SizeW>930</SizeW>
+                       <SizeH>142</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_pab_btn</ID>
+						<Location var = "var_loc_orgin"/>	
+				        <Size>
+					       <SizeW>930</SizeW>
+                           <SizeH>142</SizeH>
+					    </Size>
+					    <NormalURL  compression = "NONE" skinid="skin_selected_URL">11/img_bg_pab_off.png</NormalURL>
+					    <FocusURL compression = "NONE" skinid="skin_pressed_URL">11/img_bg_pab_off_on_pressed.png</FocusURL>
+					    <SelectorState>
+					    	<DataValue>0</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_bg_pab_off.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/img_bg_pab_off_on_pressed.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>1</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_bg_pab_off.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/img_bg_pab_off_on_pressed.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>2</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_bg_pab_on.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/img_bg_pab_off_on_pressed.png</FocusURL>
+					    </SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>					
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PAB_Confirm_Snackbar</WidgetCallback>
+                    </InputWidgetMapping>
+					<LabelElements>
+						<ID>virtualcontrols_1_8_f_pabOff_csm</ID>
+						<Location>
+							<LocationX>142</LocationX>
+							<LocationY>36</LocationY>
+						</Location>
+						<Size>
+					       <SizeW>297</SizeW>
+                           <SizeH>72</SizeH>
+					    </Size>
+						<Font var="var_font_pab_btn_normal"/>
+						<FocusFont var="var_font_pab_btn_pressed"/>
+					    <SelectorState>
+                            <DataValue>0</DataValue>
+                            <StaticValue>virtualcontrols_1_8_f_pabOff_csm</StaticValue>
+                            <Font var="var_font_pab_btn_selected"/>
+						    <FocusFont var="var_font_pab_btn_pressed"/>
+                        </SelectorState>
+                        <SelectorState>
+                            <DataValue>1</DataValue>
+                            <StaticValue>virtualcontrols_1_8_f_pabOff_csm</StaticValue>
+                            <Font var="var_font_pab_btn_normal"/>
+						    <FocusFont var="var_font_pab_btn_pressed"/>
+                        </SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_8_f_pabOn_csm</ID>
+						<Location>
+							<LocationX>611</LocationX>
+							<LocationY>36</LocationY>
+						</Location>
+						<Size>
+					       <SizeW>297</SizeW>
+                           <SizeH>72</SizeH>
+					    </Size>
+						<Font var="var_font_pab_btn_normal"/>
+						<FocusFont var="var_font_pab_btn_pressed"/>
+					    <SelectorState>
+                            <DataValue>0</DataValue>
+                            <StaticValue>virtualcontrols_1_8_f_pabOn_csm</StaticValue>
+                            <Font var="var_font_pab_btn_normal"/>
+							<FocusFont var="var_font_pab_btn_pressed"/>
+                        </SelectorState>
+                        <SelectorState>
+                            <DataValue>1</DataValue>
+                            <StaticValue>virtualcontrols_1_8_f_pabOn_csm</StaticValue>
+                            <Font var="var_font_pab_btn_selected"/>
+							<FocusFont var="var_font_pab_btn_pressed"/>
+                        </SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+                <ImageWidget>
+                    <ID>img_pab</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_iso_passenger_airbag_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_8_3_f_PAB_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

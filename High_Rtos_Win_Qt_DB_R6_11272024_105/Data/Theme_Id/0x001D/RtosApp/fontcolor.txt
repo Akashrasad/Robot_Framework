@@ -1,0 +1,7 @@
+VSeries,47
+skin_font_normal,ABABAB
+skin_font_focused,FCFCFC
+skin_font_pressed,FFFFFF
+skin_font_selected_35,01D4FA
+skin_font_disabled,646464
+skin_font_emergency,ED2D30

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_snackbar_camera_view</ViewID>
+			<Size>
+				<SizeW>1549</SizeW>
+				<SizeH>142</SizeH>
+			</Size>
+			<Location>
+				<LocationX>5377</LocationX>
+				<LocationY>64</LocationY>
+			</Location>
+			<ZOrder var="var_zorder_snackbars_view"/>
+			<NativeZOrder var="var_native_native_zorder_rtos_camera_icons"/>
+			<Camera>
+				<Screen load="ics_camera_drive_forward_snackbar"/>
+				<Screen load="ics_camera_calibration_unsuccessful_snackbar"/>			
+			</Camera>
+		</View>
+	</Display>
+</GMXML>

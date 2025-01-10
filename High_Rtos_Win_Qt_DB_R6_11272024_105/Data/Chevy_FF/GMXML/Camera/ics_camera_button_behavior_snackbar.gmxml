@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8026</ScreenID>
+                <Name>ics_camera_button_behavior_snackbar</Name>
+                <ImageWidget var="var_snackbar_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_1line_txt">
+                    <ID>4_4_SVRFeatureUnavailable</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

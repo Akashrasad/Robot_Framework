@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtual_controls_drive_lka_unavailable_snackbar</ScreenID>
+                <Name>ics_virtual_controls_drive_lka_unavailable_snackbar</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_notification_bg_1543_139"/>
+                    <NormalURL>11/icn_notification_bg_1543.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_2_1_h_lka_snackbar_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+                    <Location var="var_loc_snack_bar_text"/>
+                    <Size var="var_size_snackbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

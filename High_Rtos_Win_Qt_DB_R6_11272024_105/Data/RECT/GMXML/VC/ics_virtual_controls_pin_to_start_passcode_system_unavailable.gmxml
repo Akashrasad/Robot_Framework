@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtual_controls_pin_to_start_passcode_system_unavailable</ScreenID>
+                <Name>ics_virtual_controls_pin_to_start_passcode_system_unavailable</Name>	
+                <ImageWidget>
+					<ID>img_pts_bg</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_bg_11_3inch"/>
+					<NormalURL>11/img_ics_pin_to_start_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>				
+				<GroupWidget>
+					<ID>group_exit_button</ID>
+					<Location var="var_loc_close_button"/>
+					<Size var="var_size_close_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_exit_btn_pin">
+						<ID>image_exit_button</ID>
+					</ImageElements>
+					<LabelElements var="var_close_text">
+						<ID>choreography_20_3_close_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+                <ImageWidget var="img_car_btn">
+					<ID>img_car_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Doors_and_Windows_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>choreography_9_7F_PasscodeUnavailable_csm</ID>
+                    <Font var="var_font_title_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_nfc_sensor_txt"/>
+                    <Size var="var_size_nfc_sensor_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_7F_PassCodeFailureMessage_csm</ID>
+                    <Font var="var_font_toomanyattempts"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_nfc_location_txt"/>
+                    <Size var="var_size_nfc_sensor_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_failure_alert</ID>
+					<Location>
+						<LocationX>1422</LocationX>
+						<LocationY>309</LocationY>
+					</Location>
+					<Size>
+					    <SizeW>286</SizeW>
+						<SizeH>286</SizeH>
+					</Size>
+					<NormalURL>11/img_alert.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

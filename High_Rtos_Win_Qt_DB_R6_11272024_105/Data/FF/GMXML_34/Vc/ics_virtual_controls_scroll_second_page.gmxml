@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6501</ScreenID>
+                <Name>ics_virtual_controls_scroll_second_page</Name>
+                <!-- 1st row starts here -->
+                <GroupWidget>
+                    <ID>home_icon_10</ID>
+                    <Location var="var_loc_orgin"/>
+                    <!-- <LayoutOverride var="var_layout_home_icon_0"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_10</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_10</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(10)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_11</ID>
+                    <Location>
+                        <LocationX>591</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_1"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_11</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_11</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(11)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_12</ID>
+                    <Location>
+                        <LocationX>1182</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_2"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_12</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_12</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(12)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_13</ID>
+                    <Location>
+                        <LocationX>1772</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_3"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_13</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_13</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(13)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_14</ID>
+                    <Location>
+                        <LocationX>2395</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_4"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_14</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_14</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(14)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <!-- 1st row ends here -->
+                <!-- 2nd row starts here -->
+                <GroupWidget>
+                    <ID>home_icon_15</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_5"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_15</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_15</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(15)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_16</ID>
+                    <Location>
+                        <LocationX>591</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_6"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_16</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_16</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(16)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_17</ID>
+                    <Location>
+                        <LocationX>1182</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_7"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_17</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_17</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(17)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_18</ID>
+                    <Location>
+                        <LocationX>1772</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_8"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_18</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_18</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(18)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <GroupWidget>
+                    <ID>home_icon_19</ID>
+                    <Location>
+                        <LocationX>2395</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <!-- <LayoutOverride var="var_layout_home_icon_9"/> -->
+                    <Size var="var_size_img_home_card"/>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <ImageElements var="var_img_home_card">
+                        <ID>img_home_icon_19</ID>
+                    </ImageElements>
+                    <LabelElements var="var_lbl_home_text">
+                        <ID>lbl_home_txt_19</ID>
+                    </LabelElements>
+                    <Draggable>
+                        <Enabled>1</Enabled>
+                        <ActivationLag>1000</ActivationLag>
+                    </Draggable>
+                    <InputWidgetMapping>
+                        <UserInput>89</UserInput>
+                        <WidgetCallback>evG_Drag_Begin</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>90</UserInput>
+                        <WidgetCallback>evG_Drag</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>91</UserInput>
+                        <WidgetCallback>evG_Drag_End</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HomeControl(19)</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <!-- 2nd row ends here -->
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_10</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>11</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(10)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_11</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>12</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>600</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(11)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_12</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>13</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>1196</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(12)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_13</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>14</TabH>
+                    </TabOrder>
+                    <Location>
+                       <LocationX>1796</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(13)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_14</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>15</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>2395</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(14)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_15</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>16</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(15)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_16</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>17</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>600</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(16)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_17</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>18</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>1196</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(17)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_18</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>19</TabH>
+                    </TabOrder>
+                    <Location>
+                       <LocationX>1796</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(18)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_icon_mfc_19</ID>
+                    <TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>20</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>2395</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size var="var_size_img_home_card"/>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/dummy_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HomeControl(19)</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

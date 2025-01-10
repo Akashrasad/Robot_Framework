@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_smart_controls_bottom_persistent_view</ViewID>
+			<Location>
+				<LocationX>3005</LocationX>
+				<LocationY>816</LocationY>
+			</Location>
+			<Size>
+				<SizeW>3003</SizeW>
+				<SizeH>118</SizeH>
+			</Size>
+			<ZOrder var="var_zorder_smart_controls_bottom_bar_view"/> 
+			<Screen load="ics_persistent_smart_controls"/>
+		</View>
+	</Display>
+</GMXML>

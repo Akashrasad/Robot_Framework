@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>main_view_34</ViewID>
+			<ZOrder>0</ZOrder>
+			<CustomLocation>
+				<LocationX>5010</LocationX>
+				<LocationY>0</LocationY>
+			</CustomLocation>
+             <Location>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location> 
+			<Size>
+				<SizeW>3950</SizeW>
+				<SizeH>1320</SizeH>
+			</Size>
+			<ZOrder>1</ZOrder>
+			<Camera>
+				<Screen load="ics_camera_bowl_mfcfocused"/>
+				<Screen load="ics_vpm_front_camera"/>
+				<Screen load="ics_camera_bowl_touch"/>
+				<Screen load="ics_camera_settings"/>
+				<Screen load="ics_exit_button"/>
+				<Screen load="ics_camera_rvc_standard_trailer_hitch"/>
+				<Screen load="ics_camera_rvc_system_error"/>
+				<Screen load="ics_camera_rvc_standard_view"/>
+				<Screen load="ics_camera_rvc_standard_trailer"/>
+				<Screen load="ics_vpm_rear_camera"/>
+				<Screen load="ics_vpm_hitch_camera"/>
+				<!-- <Screen load="ics_camera_rvc_standard_hitch"/> -->
+			</Camera>
+		</View>
+	</Display>
+</GMXML>

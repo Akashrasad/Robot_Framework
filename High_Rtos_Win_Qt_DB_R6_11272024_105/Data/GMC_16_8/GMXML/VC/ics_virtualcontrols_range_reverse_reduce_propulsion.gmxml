@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6125</ScreenID>
+				<Name>ics_virtualcontrols_range_reverse_reduce_propulsion</Name>
+				<DialogDismiss callback = "dummy_event" zorder="1"/>
+				<ImageWidget var="var_img_simple_dialogue_regular_bg">
+					<ID>img_notification_bg_large</ID>
+				</ImageWidget>
+				<LabelWidget var="var_lbl_simple_regular_primar_text">
+					<ID>virtualcontrols_1_14_2_3_dialogHeader_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_lbl_simple_regular_secondary_text">
+					<ID>virtualcontrols_1_14_2_3_dialogBody_csm</ID>
+					<Size>
+					  <SizeH>195</SizeH>
+					</Size>
+				</LabelWidget>
+				<GroupWidget>
+				  <ID>grp_btn_bg1</ID>
+				       <Location var="var_loc_notification_dialog_primary_button"/>
+			           <Size var="var_size_yes_button"/>
+			           <Alpha>100</Alpha>
+			           <ZOrder>2</ZOrder>
+					<ImageElements var="var_img_primary_btn">
+				       <ID>img_btn_bg1</ID>
+			       </ImageElements>
+			       <LabelElements var="var_primary_btn_txt">
+				      <ID>virtualcontrols_1_14_2_3_dialogPrimaryButton_csm</ID>
+				</LabelElements>
+				<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_SetTo_5_Percent</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>	
+				<GroupWidget>
+				  <ID>grp_btn_bg2</ID>
+				       <Location var="var_loc_notification_dialog_secondary_button"/>
+			           <Size var="var_size_yes_button"/>
+			           <Alpha>100</Alpha>
+			           <ZOrder>2</ZOrder>
+			           <ImageElements var="var_img_secondary_btn">
+				          <ID>img_btn_bg2</ID>
+			           </ImageElements>
+				       <LabelElements var="var_secondary_btn_txt">
+	                        <ID>virtualcontrols_1_14_2_3_dialogSecondaryButton_csm</ID>
+		              </LabelElements>
+					  <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_ChangeTo_10_Percent</WidgetCallback>
+					   </InputWidgetMapping>
+				</GroupWidget>	
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

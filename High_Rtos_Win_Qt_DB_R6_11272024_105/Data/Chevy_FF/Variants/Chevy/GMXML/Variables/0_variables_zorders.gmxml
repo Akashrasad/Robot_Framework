@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ZOrder id = "var_zorder_safety_view">10</ZOrder>
+        <ZOrder id = "var_zorder_notification_view">8</ZOrder>
+        <ZOrder id = "var_zorder_camera_smart_controls_view">3</ZOrder>
+        <ZOrder id = "var_zorder_vc_smart_controls_view">3</ZOrder>
+        <ZOrder id = "var_zorder_emergency_notification_view">9</ZOrder>
+    </Variables>
+</GMXML>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6141</ScreenID>
+                <Name>ics_vehicle_knob</Name>                
+				<A3dWidget>
+					<ID>my24_chevy_audio_knob</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>456</SizeW>
+						<SizeH>456</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<URL>3D/my24_chevy_audio_knob.a3d</URL>
+					<AnimationName>audio_progress</AnimationName>
+					<AnimationName>Dialer_Swap_Off</AnimationName>
+					<AnimationName>Dialer_Swap_On</AnimationName>
+					<AnimationName>Mute_Swap_Off</AnimationName>
+					<AnimationName>Mute_Swap_On</AnimationName>
+					<AnimationName>Navigation_Swap_Off</AnimationName>
+					<AnimationName>Navigation_Swap_On</AnimationName>
+					<AnimationName>SetMaxLimit</AnimationName>
+					<AnimationName>SetMinLimit</AnimationName>
+					<AnimationName>Unmute_Swap_Off</AnimationName>
+					<AnimationName>Unmute_Swap_On</AnimationName>
+					<AnimationName>Voice_Swap_Off</AnimationName>
+					<AnimationName>Voice_Swap_On</AnimationName>
+					<AnimationName>mute_animation</AnimationName>
+					<AnimationName>unmute_animation</AnimationName>
+					<AnimationName>Progress_Swap_On</AnimationName>
+					<AnimationName>startup_shutdown</AnimationName>
+				</A3dWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

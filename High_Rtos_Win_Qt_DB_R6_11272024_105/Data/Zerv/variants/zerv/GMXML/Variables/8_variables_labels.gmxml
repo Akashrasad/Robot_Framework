@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <LabelWidget id="wakescreen_exit_btn_txt">
+            <Font var="var_font_exit_btn_txt_normal"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size var="var_size_exit_btn_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>5</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_snackbar_1line_txt">
+			<Font var="var_font_snackbar_text"/>
+			<Location var="var_loc_snack_bar_text"/>
+			<Size var="var_size_snackbar_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_action_bar_text_vc">
+			<Font var="var_font_title"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_actionbar_text"/>
+			<Size var="var_size_actionbar_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="1strow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_off_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOff_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_focused"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOff_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_normal"/>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="2ndrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_on_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_focused"/>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOn_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOn_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_focused"/>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_vc">
+			<Location var="var_loc_radio_btn_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_details_unavailable_vc">
+			<Location var="var_loc_radio_btn_desc_txt_FF"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="3rdrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_grp_3rdrow_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_focused"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="exit_btn_txt">
+             <Font var="var_font_exit_btn_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_exit_btn_txt"/>
+            <Size var="var_size_exit_btn_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>6</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_close_text">
+			<Location>
+			    <LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>272</SizeW>
+				<SizeH>117</SizeH>
+			</Size>
+		    <Font>
+			    <Name>GMSUIChevyCCSTGlobal-Light</Name>
+			    <Size>43</Size>
+			    <Decoration>0</Decoration>
+			    <TextAlign>2</TextAlign>
+			    <Color>175,180,191</Color>
+			    <TextDirection>1</TextDirection>
+		    </Font>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_snackbar_2lines_txt">
+		      <Font var="var_font_snackbar_text"/>
+             <Location var="var_loc_2lines_snack_bar_text"/>
+             <Size var="var_size_2lines_snackbar_text"/>
+             <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_action_2line_snackbar">
+			 <Font var="var_font_camera_alert_text"/>
+             <Location var="var_loc_camera_alert_text"/>
+             <Size var="var_size_2line_snackbar_txt"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+    </Variables>
+</GMXML>

@@ -1,0 +1,87 @@
+#include "Screen_6028.h"
+
+#include "RTOS_InternalData.h"
+#include "StringData.h"
+#include "WidgetData.h"
+#include <cstdlib>
+
+namespace gm
+{
+namespace csm
+{
+
+
+Screen_6028::Screen_6028():BindableScreenLogic("6028")
+{
+}
+
+void Screen_6028::Widget_Logic_Visibility_img_placeholder_WakeScreen()
+{
+    const auto var_005 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_004 = !(var_005);
+    
+    const auto var_007 = gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE.data();
+    const auto var_006 = !(var_007);
+    
+    const auto var_002 = var_004;
+    const auto var_003 = var_006;
+    const auto var_001 = var_002 && var_003;
+    
+    Image_img_placeholder_WakeScreen.Visibility = var_001;
+}
+
+void Screen_6028::Widget_Logic_Visibility_img_close()
+{
+    const auto var_012 = gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE.data();
+    const auto var_011 = !(var_012);
+    
+    const auto var_009 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_010 = var_011;
+    const auto var_008 = var_009 && var_010;
+    
+    Image_img_close.Visibility = var_008;
+}
+
+void Screen_6028::Widget_Logic_Visibility_apa_3_0_Exit_f_csm()
+{
+    const auto var_017 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_016 = !(var_017);
+    
+    const auto var_019 = gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE.data();
+    const auto var_018 = !(var_019);
+    
+    const auto var_014 = var_016;
+    const auto var_015 = var_018;
+    const auto var_013 = var_014 && var_015;
+    
+    Label_apa_3_0_Exit_f_csm.Visibility = var_013;
+}
+
+void Screen_6028::Label_virtualcontrols_1_5_UGDO_csm_bindings()
+{
+    std::string text = Label_virtualcontrols_1_5_UGDO_csm.Text.getLanguageText();
+
+    FindReplaceString(text,"%1$s",ramp::to_string(gm::csm::VIRTUALCONTROLS_UGDO_ASSISTANCE));
+    Label_virtualcontrols_1_5_UGDO_csm = text.c_str();
+}
+
+void Screen_6028::onScreenHide()
+{
+    Image_img_placeholder_WakeScreen.State.unBind(gm::csm::VIRTUALCONTROLS_WAKESCREEN_ANDROID_BUTTON_STATE, mBindingsIds[0]);
+}
+
+void Screen_6028::onScreenShow()
+{
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_img_placeholder_WakeScreen, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_img_placeholder_WakeScreen, gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE);
+    mBindingsIds[0] = Image_img_placeholder_WakeScreen.State.bind(gm::csm::VIRTUALCONTROLS_WAKESCREEN_ANDROID_BUTTON_STATE);
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_img_close, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_img_close, gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE);
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_apa_3_0_Exit_f_csm, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6028::Widget_Logic_Visibility_apa_3_0_Exit_f_csm, gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE);
+    addDependency(this, &Screen_6028::Label_virtualcontrols_1_5_UGDO_csm_bindings,gm::csm::VIRTUALCONTROLS_UGDO_ASSISTANCE);
+}
+
+
+}//namespace csm
+}//namespace gm

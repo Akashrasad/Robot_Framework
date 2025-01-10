@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>9005</ScreenID>
+				<Name>ics_hvac_bottom_bar_air_direction_flyout</Name>
+				<ImageWidget>
+					<ID>img_hvac_quick_airflow_bg</ID>
+					<Location>
+						<LocationX>453</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1000</SizeW>
+						<SizeH>800</SizeH>
+					</Size>
+					<NormalURL>11/img_quick_hvac_airflow_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_expand_full</ID>
+					<Location>
+						<LocationX>458</LocationX>
+						<LocationY>5</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_expand_full_normal.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_expand_full_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_expand_full_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_expand_full_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_disabled_URL">11/btn_icn_expand_full_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_FrontClimate</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+                    <ID>dyn_lbl_airflow_auto</ID>
+                    <Location>
+                        <LocationX>815</LocationX>
+                        <LocationY>36</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>314</SizeW>
+                        <SizeH>56</SizeH>
+                    </Size>
+                    <Font var="var_font_powerlimit_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_windshield</ID>
+					<Location>
+						<LocationX>544</LocationX>
+						<LocationY>147</LocationY>
+					</Location>
+					<Size>
+						<SizeW>814</SizeW>
+						<SizeH>183</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL">11/img_airflow_windshield_selected.png</FocusURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_windshield_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_windshield_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_windshield_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_windshield_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_windshield_selected.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_WhinShield</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_face</ID>
+					<Location>
+						<LocationX>544</LocationX>
+						<LocationY>347</LocationY>
+					</Location>
+					<Size>
+						<SizeW>814</SizeW>
+						<SizeH>183</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL">11/img_airflow_face_selected.png</FocusURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_face_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_face_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_face_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_face_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_face_selected.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_air_Vent</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_foot</ID>
+					<Location>
+						<LocationX>544</LocationX>
+						<LocationY>547</LocationY>
+					</Location>
+					<Size>
+						<SizeW>814</SizeW>
+						<SizeH>183</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL">11/img_airflow_foot_selected.png</FocusURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_foot_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_foot_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/img_airflow_foot_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_foot_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_selected_URL">11/img_airflow_foot_selected.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_air_Floor</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_climate_seat</ID>
+					<Location>
+						<LocationX>714</LocationX>
+						<LocationY>232</LocationY>
+					</Location>
+					<Size>
+						<SizeW>625</SizeW>
+						<SizeH>522</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/img_climate_seat.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

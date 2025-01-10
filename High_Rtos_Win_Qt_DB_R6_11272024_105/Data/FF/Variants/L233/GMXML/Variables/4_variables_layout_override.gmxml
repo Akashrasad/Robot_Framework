@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<LayoutOverride id="var_layout_apa_camera_exit_btn">
+			<ID>RHD</ID>
+			<Location>
+				<LocationX>151</LocationX>
+				<LocationY>1155</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_loc_popup_body_txt">
+			<ID>RHD</ID>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>316</LocationY>
+			</Location>
+		</LayoutOverride>
+        <LayoutOverride id="var_layout_loc_popup_body_txt2">
+			<ID>RHD</ID>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>610</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_progress_activity">
+			<ID>RHD</ID>
+			<Location>
+				<LocationX>2085</LocationX>
+				<LocationY>900</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_unable_con_desc">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>512</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_loc_try_again_btn">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>918</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_loc_keep_looking_button">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1531</LocationX>
+				<LocationY>918</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_down_arrow_btn">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>203</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_down_arrow_btn_txt">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>955</LocationX>
+				<LocationY>229</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_perp_right_instr_txt">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>572</LocationX>
+				<LocationY>519</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_yes_btn">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>238</LocationX>
+				<LocationY>948</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_keep_looking_btn">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1547</LocationX>
+				<LocationY>948</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_superior_btn">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>891</LocationX>
+				<LocationY>948</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_space_found_desc_txt">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>572</LocationX>
+				<LocationY>406</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_spot_found_desc_txt">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>572</LocationX>
+				<LocationY>482</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_img_park_left_parallel">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1625</LocationX>
+				<LocationY>444</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_img_park_right_parallel">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>2205</LocationX>
+				<LocationY>444</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_img_park_left_perp">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>2785</LocationX>
+				<LocationY>444</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_img_park_right_perp">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>3365</LocationX>
+				<LocationY>444</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_apa_title">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1626</LocationX>
+				<LocationY>241</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_tab_one">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>820</LocationX>
+				<LocationY>203</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_tab_two">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>820</LocationX>
+				<LocationY>384</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_park_left_parallel">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1430</LocationX>
+				<LocationY>572</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_park_right_parallel">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>2010</LocationX>
+				<LocationY>572</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_park_left_perp">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>2589</LocationX>
+				<LocationY>572</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_grp_park_right_perp">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>3169</LocationX>
+				<LocationY>572</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id="var_layout_mybrand_title">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>858</LocationX>
+				<LocationY>188</LocationY>
+			</Location>
+		</LayoutOverride>
+        <LayoutOverride id = "var_layout_override_exit_camera">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>151</LocationX>
+                <LocationY>1155</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_caution_left">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>1761</LocationX>
+                <LocationY>181</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_caution_right">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>3436</LocationX>
+                <LocationY>181</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_UPA_symbol">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2635</LocationX>
+                <LocationY>892</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_UPA_symbol_3">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2635</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_UPA_symbol_2">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2635</LocationX>
+                <LocationY>598</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_UPA_symbol_1">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2635</LocationX>
+                <LocationY>452</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_caution_left">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2362</LocationX>
+                <LocationY>181</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_caution_right">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>3436</LocationX>
+                <LocationY>181</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_UPA_symbol">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2931</LocationX>
+                <LocationY>926</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_UPA_symbol_3">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2931</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_UPA_symbol_2">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2931</LocationX>
+                <LocationY>670</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_UPA_symbol_1">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2931</LocationX>
+                <LocationY>542</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_pedestrain_alert_amber">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2635</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_pedestrain_alert_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2630</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+        <LayoutOverride id = "var_layout_override_img_vpm_pedestrain_alert_amber_surround_view">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2931</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_pedestrain_alert_red_surround_view">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2921</LocationX>
+                <LocationY>797</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_var_list_with_single_label_image_vpm">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>809</LocationX>
+                <LocationY>260</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_var_list_with_single_label_vpm">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>809</LocationX>
+                <LocationY>260</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_ics_camera_single_image_vpm_list">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>260</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_var_font_title_VC">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2371</LocationX>
+				<LocationY>45</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_btn_back">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>3688</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_actionbar_text">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2371</LocationX>
+				<LocationY>45</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_loc_icon">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1946</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_launch_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_action_desc_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2104</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_radio_button_Off">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_img_radio_button_on">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>411</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_radio_btn_off_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>794</LocationX>
+				<LocationY>290</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_radio_btn_on_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>794</LocationX>
+				<LocationY>456</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_1strow_radio_btn_transparent">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_2ndrow_radio_btn_transparent">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>411</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_exit_vc">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>151</LocationX>
+				<LocationY>1189</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_radio_btn_3rdrow">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>577</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_radio_btn_3rdrow_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>794</LocationX>
+				<LocationY>622</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_3rdrow_radio_btn_transparent">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>577</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_radio_btn_4throw">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>744</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_radio_btn_4throw_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>794</LocationX>
+				<LocationY>788</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_4throw_radio_btn_transparent">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>743</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_checkbox">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>743</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_lbl_checkbox_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>790</LocationX>
+				<LocationY>788</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_5throw_radio_btn_transparent">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>909</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_img_test_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>866</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_img_delete_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>967</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_img_deleteAll_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1302</LocationX>
+				<LocationY>967</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_wakescreen_exit_btn_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>222</LocationX>
+				<LocationY>1199</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_yes_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>410</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_d_mode_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>873</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_ur_mode_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1302</LocationX>
+				<LocationY>873</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_var_three_rows_list">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1980</LocationX>
+				<LocationY>252</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_var_list_with_multi_row_buttons">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>636</LocationX>
+				<LocationY>252</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_img_worked_popup">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1302</LocationX>
+				<LocationY>866</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_grp_img_it_didnot_work">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1976</LocationX>
+				<LocationY>866</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_car_btn">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2855</LocationX>
+				<LocationY>1155</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_progress_bar_pointer1">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1908</LocationX>
+				<LocationY>1250</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_progress_bar_pointer2">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>1983</LocationX>
+				<LocationY>1250</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_progress_bar_pointer3">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2058</LocationX>
+				<LocationY>1250</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_see_more_control">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>1121</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_signalfound_desc">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>406</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img__headlight_checkbox">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>907</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_checkbox_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>794</LocationX>
+				<LocationY>953</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_ugdo_assistance_txt">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>635</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_call_assistance">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>2104</LocationX>
+				<LocationY>1024</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_ugdo_dmode">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>632</LocationX>
+				<LocationY>245</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_ugdo_dmode_info">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>632</LocationX>
+				<LocationY>561</LocationY>
+			</Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_img_ugdo_checkbox">
+            <ID>RHD</ID>
+            <RTL>1</RTL>
+            <Location>
+				<LocationX>629</LocationX>
+				<LocationY>847</LocationY>
+			</Location>
+        </LayoutOverride>
+        <LayoutOverride id = "var_layout_dialog_check_box_txt">
+			<ID>RHD</ID>
+				<Location>
+					<LocationX>790</LocationX>
+					<LocationY>856</LocationY>
+				</Location>
+		</LayoutOverride>
+		<LayoutOverride id = "var_layout_call_assistance_d_mode">
+			<ID>RHD</ID>
+				<Location>
+					<LocationX>632</LocationX>
+					<LocationY>1065</LocationY>
+				</Location>
+		</LayoutOverride>
+		<LayoutOverride id = "var_layout_option_name_csm">
+			<ID>RHD</ID>
+				<Location>
+					<LocationX>677</LocationX>
+					<LocationY>305</LocationY>
+				</Location>
+		</LayoutOverride>
+		<LayoutOverride id = "var_layout_btn_forward">
+			<ID>RHD</ID>
+				<Location>
+					<LocationX>2574</LocationX>
+					<LocationY>316</LocationY>
+				</Location>
+		</LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_side_pedestrain_amber">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>3014</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_side_pedestrain_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>3003</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_center_pedestrain_amber">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2921</LocationX>
+                <LocationY>670</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_center_pedestrain_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2921</LocationX>
+                <LocationY>670</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_side_pedestrain_alert_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2848</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_vpm_topdown_pedestrain_alert_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2921</LocationX>
+                <LocationY>798</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_center_pedestrain_amber">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2631</LocationX>
+                <LocationY>598</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_center_pedestrain_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2631</LocationX>
+                <LocationY>598</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_side_pedestrain_amber">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2717</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_side_pedestrain_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2717</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_side_pedestrain_alert_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2552</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_topdown_pedestrain_alert_red">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2631</LocationX>
+                <LocationY>745</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_perp_right_instr_txt2">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>572</LocationX>
+                <LocationY>715</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id="var_layout_apa_title1">
+			<ID>RHD</ID>
+			<RTL>1</RTL>
+			<Location>
+				<LocationX>1430</LocationX>
+				<LocationY>369</LocationY>
+			</Location>
+		</LayoutOverride>
+		<LayoutOverride id = "var_layout_override_img_camera_error_icon">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>3703</LocationX>
+                <LocationY>903</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_0">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>628</LocationX>
+                <LocationY>245</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_1">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>1219</LocationX>
+                <LocationY>245</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_2">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>1810</LocationX>
+                <LocationY>245</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_3">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2401</LocationX>
+                <LocationY>245</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_4"> 
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2992</LocationX>
+                <LocationY>245</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_5">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>628</LocationX>
+                <LocationY>677</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_6">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>1219</LocationX>
+                <LocationY>677</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_7">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>1810</LocationX>
+                <LocationY>677</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_8">
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2401</LocationX>
+                <LocationY>677</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_home_icon_9"> 
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>2992</LocationX>
+                <LocationY>677</LocationY>
+            </Location>
+        </LayoutOverride>
+		<LayoutOverride id = "var_layout_front_txt"> 
+            <ID>RHD</ID>
+            <Location>
+                <LocationX>810</LocationX>
+                <LocationY>192</LocationY>
+            </Location>
+        </LayoutOverride>
+	</Variables>
+</GMXML>

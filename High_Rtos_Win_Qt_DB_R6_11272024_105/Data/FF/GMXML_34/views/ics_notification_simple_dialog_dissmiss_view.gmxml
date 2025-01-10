@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_notification_simple_dialog_dissmiss_view</ViewID>
+            <Size>
+                <SizeW>2138</SizeW>
+                <SizeH>602</SizeH>
+            </Size>
+            <CustomLocation>
+                <LocationX>3831</LocationX>
+                <LocationY>482</LocationY>
+            </CustomLocation>
+			<Location>
+				<LocationX>1580</LocationX>
+				<LocationY>482</LocationY>
+			</Location>
+            <ZOrder>7</ZOrder>
+            <Screen load="ics_virtualcontrols_lights_headlights_dialog"/>
+			<Screen load="ics_virtualcontrols_lane_change_alert_notification"/>
+        </View>
+    </Display>
+</GMXML>

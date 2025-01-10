@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<Size id="var_size_bottom_bar_bg">
+			<SizeW>3400</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_bg">
+            <SizeW>2914</SizeW>
+            <SizeH>1133</SizeH>
+        </Size>
+		<Size id="var_size_temp_down">
+			<SizeW>119</SizeW>
+			<SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_btn_temp_indicator">
+			<SizeW>213</SizeW>
+			<SizeH>40</SizeH>
+		</Size>
+		<Size id="var_size_btn_climate_bg">
+			<SizeW>210</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_img_btn_driver">
+			<SizeW>158</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_img_fan_down">
+			<SizeW>117</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_img_fan_speed">
+			<SizeW>119</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_img_modeman">
+			<SizeW>99</SizeW>
+			<SizeH>82</SizeH>
+		</Size>
+		<Size id="var_size_img_air">
+			<SizeW>158</SizeW>
+			<SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_img_air_foot">
+			<SizeW>22</SizeW>
+			<SizeH>30</SizeH>
+		</Size>
+		<Size id="var_size_notification_simple_dialog_body_content_bg">
+			<SizeW>1578</SizeW>
+			<SizeH>392</SizeH>
+		</Size>
+		<Size id="var_size_dialog_text_1">
+			<SizeW>1478</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_drive_calibration_txt">
+			<SizeW>1189</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_notification_simple_dialog_body_content_primary_btn">
+			<SizeW>458</SizeW>
+			<SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_notification_simple_dialog_body_content_primary_btn_txt">
+			<SizeW>417</SizeW>
+			<SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_actionbar_back_img">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_actionbar_text">
+            <SizeW>1622</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn">
+            <SizeW>1147</SizeW>
+            <SizeH>172</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_text">
+            <SizeW>944</SizeW>
+            <SizeH>97</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_image_1">
+            <SizeW>94</SizeW>
+            <SizeH>94</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_desc_txt">
+            <SizeW>872</SizeW>
+            <SizeH>450</SizeH>
+        </Size>
+		<Size id="var_size_exit_btn_txt">
+            <SizeW>271</SizeW>
+            <SizeH>79</SizeH>
+        </Size>
+		<Size id="var_size_1line_snackbar_bg">
+			<SizeW>1578</SizeW>
+			<SizeH>172</SizeH>
+		</Size>
+		<Size id="var_size_snackbar_txt">
+			<SizeW>1478</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_icn_image">
+            <SizeW>94</SizeW>
+            <SizeH>94</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_text_large">
+            <SizeW>944</SizeW>
+            <SizeH>97</SizeH>
+        </Size>
+		<Size id="var_size_2line_snackbar_bg">
+			<SizeW>1578</SizeW>
+			<SizeH>244</SizeH>
+		</Size>
+		<Size id="var_size_snackbar_2lines_txt">
+			<SizeW>1464</SizeW>
+			<SizeH>144</SizeH>
+		</Size>
+        <Size id="var_size_card_door_window_placeholder">
+            <SizeW>361</SizeW>
+            <SizeH>361</SizeH>
+        </Size>
+		<Size id="var_size_card_door_window_placeholder_lbl">
+            <SizeW>339</SizeW>
+            <SizeH>139</SizeH>
+        </Size>
+		<Size id="var_size_learn_success_test_body_content_1line">
+            <SizeW>972</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_program_body_content">
+            <SizeW>972</SizeW>
+            <SizeH>333</SizeH>
+        </Size>
+		<Size id="var_size_dmode_openers">
+            <SizeW>1086</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+		<Size id="var_size_call_assistance">
+            <SizeW>1547</SizeW>
+            <SizeH>212</SizeH>
+        </Size>
+		<Size id="var_size_notification_simple_dialog_bg">
+			<SizeW>1578</SizeW>
+			<SizeH>592</SizeH>
+		</Size>
+		<Size id="var_size_notification_dialog_secondary_text">
+			<SizeW>2450</SizeW>
+			<SizeH>200</SizeH>
+		</Size>
+		<Size id="var_size_notification_dialog_check_box">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_notification_dialog_check_box_txt">
+            <SizeW>944</SizeW>
+            <SizeH>97</SizeH>
+		</Size>
+		<Size id="var_size_learn_success_test_body_content">
+            <SizeW>1611</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_learn_success_test_body_content_2lines">
+            <SizeW>1611</SizeW>
+            <SizeH>112</SizeH>
+        </Size>
+		<Size id="var_size_test_btn">
+            <SizeW>458</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_test_btn_txt">
+            <SizeW>403</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_learn_body_content">
+            <SizeW>972</SizeW>
+            <SizeH>223</SizeH>
+        </Size>
+		<Size id="var_size_notification_simple_dialog_action_button_bg">
+			<SizeW>1578</SizeW>
+			<SizeH>469</SizeH>
+		</Size>
+		<Size id="var_size_notification_dialog_text_secondary">
+			<SizeW>1478</SizeW>
+			<SizeH>135</SizeH>
+		</Size>
+		<Size id="var_size_dialog_btn_text">
+            <SizeW>417</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_options_desc">
+            <SizeW>994</SizeW>
+            <SizeH>111</SizeH>
+		</Size>
+		<Size id="var_size_ugdo_edit_normal">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_add_remote_btn">
+            <SizeW>967</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_add_remote_btn_txt">
+            <SizeW>911</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_programming_successful_desc_txt">
+            <SizeW>1193</SizeW>
+            <SizeH>550</SizeH>
+		</Size>
+		<Size id="var_size_ugdo_learn">
+            <SizeW>1681</SizeW>
+            <SizeH>1068</SizeH>
+        </Size>
+		<Size id="var_size_Settings_img">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_image">
+            <SizeW>94</SizeW>
+            <SizeH>94</SizeH>
+        </Size>
+		<Size id="var_size_univRemote_1">
+            <SizeW>367</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_primary_btn_text">
+            <SizeW>403</SizeW>
+            <SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_univRemote">
+            <SizeW>1611</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_transmit">
+            <SizeW>1611</SizeW>
+            <SizeH>112</SizeH>
+        </Size>
+		<Size id="var_size_dialog_primary_btn">
+            <SizeW>1167</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_dialog_primary_btn_text">
+            <SizeW>1117</SizeW>
+			<SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_btn_tab_one_txt">
+            <SizeW>411</SizeW>
+			<SizeH>125</SizeH>
+		</Size>
+		<Size id="var_size_title_text">
+            <SizeW>1611</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_perp_img">
+            <SizeW>400</SizeW>
+			<SizeH>536</SizeH>
+		</Size>
+		<Size id="var_size_park_left_perp_label">
+            <SizeW>338</SizeW>
+			<SizeH>166</SizeH>
+		</Size>
+		<Size id="var_size_btn_tab_one">
+            <SizeW>467</SizeW>
+			<SizeH>142</SizeH>
+		</Size>
+		<Size id="var_size_perp_right_instr_txt">
+            <SizeW>1611</SizeW>
+			<SizeH>288</SizeH>
+		</Size>
+		<Size id="var_size_perp_right_instr_txt1">
+            <SizeW>1611</SizeW>
+			<SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_secondary_label_txt">
+            <SizeW>1611</SizeW>
+			<SizeH>289</SizeH>
+		</Size>
+		<Size id="var_size_yes_button">
+            <SizeW>458</SizeW>
+			<SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_confirmParker_perp_right_img">
+            <SizeW>681</SizeW>
+			<SizeH>875</SizeH>
+		</Size>
+		<Size id="var_size_titlebar_up_arrow">
+            <SizeW>119</SizeW>
+			<SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_change_selection_txt">
+            <SizeW>425</SizeW>
+			<SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_popup_body_txt">
+            <SizeW>1611</SizeW>
+			<SizeH>504</SizeH>
+		</Size>
+		<Size id="var_size_ivi_bg">
+            <SizeW>2914</SizeW>
+			<SizeH>244</SizeH>
+		</Size>
+		<Size id="var_size_hvac_popup_bg">
+            <SizeW>228</SizeW>
+			<SizeH>875</SizeH>
+		</Size>
+		<Size id="var_size_camera_alert">
+            <SizeW>64</SizeW>
+			<SizeH>64</SizeH>
+		</Size>
+		<Size id="var_size_drive_forward_text">
+            <SizeW>1364</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_header_text">
+            <SizeW>972</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_body_text">
+            <SizeW>972</SizeW>
+			<SizeH>522</SizeH>
+		</Size>
+		<Size id="var_size_time_bg">
+            <SizeW>556</SizeW>
+			<SizeH>522</SizeH>
+		</Size>
+		<Size id="var_size_timer_btn">
+            <SizeW>167</SizeW>
+			<SizeH>133</SizeH>
+		</Size>
+		<Size id="var_size_hours_txt">
+            <SizeW>222</SizeW>
+			<SizeH>86</SizeH>
+		</Size>
+		<Size id="var_size_timer_txt">
+            <SizeW>272</SizeW>
+			<SizeH>58</SizeH>
+		</Size>
+		<Size id="var_size_btn_txt">
+            <SizeW>403</SizeW>
+			<SizeH>56</SizeH>
+		</Size>
+		<Size id="var_size_rangereserve_text">
+            <SizeW>772</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_dynamic_text">
+            <SizeW>772</SizeW>
+			<SizeH>61</SizeH>
+		</Size>
+		<Size id="var_size_divider">
+            <SizeW>500</SizeW>
+			<SizeH>3</SizeH>
+		</Size>
+		<Size id="var_size_summary_option_text">
+            <SizeW>394</SizeW>
+            <SizeH>58</SizeH>
+        </Size>
+		<Size id="var_size_title_emergency_text">
+            <SizeW>1611</SizeW>
+            <SizeH>113</SizeH>
+        </Size>
+		<Size id="var_size_main_area_popup">
+            <SizeW>2914</SizeW>
+            <SizeH>1133</SizeH>
+        </Size>
+		<Size id="var_size_handheld_call_assistance">
+            <SizeW>2500</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+		<Size id="var_size_d_mode_primary_txt">
+            <SizeW>1611</SizeW>
+            <SizeH>216</SizeH>
+        </Size>
+		<Size id="var_size_svr_secondary_label_txt">
+            <SizeW>1611</SizeW>
+            <SizeH>111</SizeH>
+        </Size>
+		<Size id="var_size_svr_record_desc_txt">
+            <SizeW>872</SizeW>
+            <SizeH>750</SizeH>
+        </Size>
+		<Size id="var_size_radio_btn_txt">
+            <SizeW>872</SizeW>
+            <SizeH>611</SizeH>
+        </Size>
+		<Size id="var_size_snackbar_2lines_txt1">
+            <SizeW>1300</SizeW>
+            <SizeH>144</SizeH>
+		</Size>
+		<Size id="var_size_rangereserve_txt">
+            <SizeW>972</SizeW>
+            <SizeH>500</SizeH>
+        </Size>
+		<Size id="var_size_percent_txt">
+            <SizeW>366</SizeW>
+            <SizeH>121</SizeH>
+        </Size>
+		<Size id="var_size_dynamicMileageNumber_txt">
+            <SizeW>394</SizeW>
+            <SizeH>50</SizeH>
+        </Size>
+		<Size id="var_size_rangepercent_txt">
+            <SizeW>183</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_peekin_screen_header">
+            <SizeW>1260</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_rangereserve_icon">
+            <SizeW>94</SizeW>
+            <SizeH>94</SizeH>
+        </Size>
+		<Size id="var_size_peek_in_screen_circle_body_text">
+            <SizeW>1125</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_peek_in_screen_circle_progressbar_oulets_text">
+            <SizeW>500</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_peek_in_screen_peek_in_screen_circle_progressbar_powerlimit_text">
+            <SizeW>500</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_peek_in_screen_peek_in_screen_circle_progressbar_turned_on_text">
+            <SizeW>500</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_power_primary">
+            <SizeW>1360</SizeW>
+            <SizeH>56</SizeH>	
+        </Size>
+		<Size id="var_size_selector_btn_bg">
+            <SizeW>575</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_actionbar_close_img">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_control_remote_icon">
+            <SizeW>389</SizeW>
+            <SizeH>261</SizeH>
+        </Size>
+		<Size id="var_size_multiple_smart_controls_txt">
+            <SizeW>339</SizeW>
+            <SizeH>122</SizeH>
+        </Size>
+		<Size id="var_size_jack_knife_amber_text">
+            <SizeW>917</SizeW>
+			<SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_jack_knife_truck">
+            <SizeW>186</SizeW>
+			<SizeH>67</SizeH>
+		</Size>
+		<Size id="var_size_notification_cancel_off_btn">
+            <SizeW>458</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_notification_cancel_btn_txt">
+            <SizeW>414</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_vc_notification_cancel_off_btn">
+            <SizeW>339</SizeW>
+            <SizeH>92</SizeH>
+        </Size>
+		<Size id="var_size_vc_notification_cancel_btn_txt">
+            <SizeW>350</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_simple_dialogue_regular_bg">
+            <SizeW>1578</SizeW>
+            <SizeH>542</SizeH>
+        </Size>
+		<Size id="var_size_simple_dialogue_hun_bg">
+            <SizeW>1578</SizeW>
+            <SizeH>664</SizeH>
+        </Size>
+		<Size id="var_size_simple_dialogue_4lines_bg">
+            <SizeW>1578</SizeW>
+            <SizeH>653</SizeH>
+        </Size>
+		<Size id="var_size_simple_dialogue_regular_primary">
+            <SizeW>1478</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+		<Size id="var_size_simple_dialogue_regular_secondary">
+            <SizeW>1478</SizeW>
+            <SizeH>112</SizeH>
+        </Size>
+		<Size id="var_size_btn_large">
+            <SizeW>472</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_2lines_dialog_text">
+            <SizeW>1478</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+		<Size id="var_size_dialog_1428">
+            <SizeW>1478</SizeW>
+            <SizeH>111</SizeH>
+        </Size>
+		<Size id="var_size_extend_btn_txt">
+            <SizeW>417</SizeW>
+            <SizeH>56</SizeH>
+        </Size>
+		<Size id="var_size_container_img">
+            <SizeW>967</SizeW>
+            <SizeH>250</SizeH>
+        </Size>
+		<Size id="var_size_aux_txt">
+            <SizeW>789</SizeW>
+            <SizeH>72</SizeH>
+	    </Size>
+		<Size id="var_size_enterpasscode_text">
+            <SizeW>1915</SizeW>
+            <SizeH>133</SizeH>
+        </Size>
+		<Size id="var_size_keypad_bg">
+            <SizeW>172</SizeW>
+            <SizeH>139</SizeH>
+        </Size>
+		<Size id="var_size_keypad_txt">
+            <SizeW>142</SizeW>
+            <SizeH>72</SizeH>
+        </Size>
+		<Size id="var_size_close_button">
+            <SizeW>389</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_passcoderequired_text">
+            <SizeW>1089</SizeW>
+            <SizeH>135</SizeH>
+        </Size>
+		<Size id="var_size_error_img">
+            <SizeW>33</SizeW>
+            <SizeH>33</SizeH>
+        </Size>
+		<Size id="var_size_launch_btn">
+            <SizeW>458</SizeW>
+            <SizeH>119</SizeH>
+	    </Size>
+		<Size id="var_size_down_arrow">
+            <SizeW>575</SizeW>
+            <SizeH>119</SizeH>
+	    </Size>
+		<Size id="var_size_nfc_sensor_txt">
+            <SizeW>1300</SizeW>
+            <SizeH>172</SizeH>
+	    </Size>
+		<Size id="var_size_nfc_location_txt">
+            <SizeW>1300</SizeW>
+            <SizeH>55</SizeH>
+	    </Size>
+		<Size id="var_size_brake_only_txt">
+		    <SizeW>1300</SizeW>
+            <SizeH>269</SizeH>
+	    </Size>
+		<Size id="var_size_start_stop_txt">
+            <SizeW>1300</SizeW>
+            <SizeH>269</SizeH>
+	    </Size>
+		<Size id="var_size_shift_to_reverse">
+            <SizeW>1389</SizeW>
+            <SizeH>250</SizeH>
+        </Size>
+		<Size id="var_size_unabletoconnect_txt">
+            <SizeW>1611</SizeW>
+            <SizeH>222</SizeH>
+        </Size>
+		<Size id="var_size_handoff_one_txt">
+            <SizeW>1611</SizeW>
+            <SizeH>500</SizeH>
+		</Size>
+		<Size id="var_size_park_instructions_txt_1">
+            <SizeW>1611</SizeW>
+            <SizeH>144</SizeH>
+		</Size>
+		<Size id="var_size_park_instructions_txt_2">
+            <SizeW>1611</SizeW>
+            <SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_ugdo_icon">
+            <SizeW>119</SizeW>
+            <SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_spacefound_txt_1">
+            <SizeW>1389</SizeW>
+            <SizeH>72</SizeH>
+		</Size>
+		<Size id="var_size_spacefound_txt_2">
+            <SizeW>1389</SizeW>
+            <SizeH>167</SizeH>
+		</Size>
+		<Size id="var_size_cancel_off">
+            <SizeW>392</SizeW>
+            <SizeH>267</SizeH>
+		</Size>
+		<Size id="var_size_front_txt">
+            <SizeW>439</SizeW>
+            <SizeH>50</SizeH>
+		</Size>
+		<Size id="var_size_two_line_radio_button_text">
+            <SizeW>864</SizeW>
+            <SizeH>172</SizeH>
+		</Size>		
+		<Size id="var_size_camera_error">
+            <SizeW>142</SizeW>
+            <SizeH>142</SizeH>
+		</Size>
+		<Size id="var_size_handoff_txt">
+            <SizeW>1611</SizeW>
+            <SizeH>144</SizeH>
+		</Size>
+		<Size id="var_size_settings_button">
+            <SizeW>300</SizeW>
+            <SizeH>119</SizeH>
+		</Size>
+		<Size id="var_size_aux_icons">
+            <SizeW>967</SizeW>
+            <SizeH>110</SizeH>
+        </Size>
+		<Size id="var_size_calibration_txt">
+            <SizeW>1042</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+		<Size id="var_size_snackbar_camera_calibration_pbg">
+            <SizeW>1275</SizeW>
+            <SizeH>333</SizeH>
+        </Size>
+		<Size id="var_size_srp_btn_txt">
+            <SizeW>402</SizeW>
+            <SizeH>119</SizeH>
+        </Size>
+		<Size id="var_size_snackbar_jackknife_bg">
+            <SizeW>1253</SizeW>
+            <SizeH>172</SizeH>
+        </Size>
+		<Size id="var_size_snackbar_camera_calibration_bg">
+            <SizeW>1253</SizeW>
+            <SizeH>244</SizeH>
+        </Size>
+		<Size id="var_size_snackbar_camera_trailer">
+            <SizeW>1075</SizeW>
+            <SizeH>144</SizeH>
+        </Size>
+	</Variables>
+</GMXML>

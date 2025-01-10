@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+    <GmXmlRenderer>
+		<DebugPainter z_order="1104">false</DebugPainter>
+		<MergeVariables auto="true"/>
+		<Variables>
+			<Path>AppFx/Data/Variables/Common</Path>
+		</Variables>
+        <CompressionDefault layer="OpenGL" format="ASTC_12X12" quality="ASTC_EXHAUSTIVE">
+            <AliasType  id="NONE">NONE</AliasType>
+            <AliasType  id="CompressionAlias1">ASTC_4X4, PVRTC_FASTEST</AliasType>
+            <AliasType  id="CompressionAlias2">ASTC_5X4, PVRTC_FAST</AliasType>
+            <AliasType  id="CompressionAlias3">ASTC_5X5, PVRTC_NORMAL</AliasType>
+            <AliasType  id="CompressionAlias4">ASTC_6X5, PVRTC_HIGH</AliasType>
+            <AliasType  id="CompressionAlias5">ASTC_6X6, PVRTC_BEST</AliasType>
+            <AliasType  id="CompressionAlias6">ASTC_8X5, ETC_FAST</AliasType>
+            <AliasType  id="CompressionAlias7">ASTC_8X6, ETC_FAST_PERCEPTUAL</AliasType>
+            <AliasType  id="CompressionAlias8">ASTC_8X8, ETC_SLOW</AliasType>
+            <AliasType  id="CompressionAlias9">ASTC_10X5, ETC_SLOW_PERCEPTUAL</AliasType>
+            <AliasType  id="CompressionAlias10">ASTC_10X6, ASTC_VERY_FAST</AliasType>
+            <AliasType  id="CompressionAlias11">ASTC_10X8, ASTC_FAST</AliasType>
+            <AliasType  id="CompressionAlias12">ASTC_10X10, ASTC_MEDIUM</AliasType>
+            <AliasType  id="CompressionAlias13">ASTC_12X10, ASTC_THOROUGH</AliasType>
+            <AliasType  id="CompressionAlias14">ASTC_12X12, ASTC_EXHAUSTIVE</AliasType>
+            <AliasType  id="CompressionAlias15">ETC1,</AliasType>
+			<AliasType  id="CompressionAlias16">ETC2-A1,</AliasType>
+            <AliasType  id="CompressionAlias17">DXT1,</AliasType>
+            <AliasType  id="CompressionAlias18">DXT3,</AliasType>
+            <AliasType  id="CompressionAlias19">DXT5,</AliasType>
+            <AliasType  id="CompressionAlias20">PVRTC_1_4BPP,</AliasType>
+            <AliasType  id="CompressionAlias21">PVRTC_1_2BPP,</AliasType>
+            <AliasType  id="CompressionAlias22">PVRTC_2_4BPP,</AliasType>
+            <AliasType  id="CompressionAlias23">PVRTC_2_2BPP,</AliasType>
+        </CompressionDefault>
+        <Display referenceId="11.3" target="snapdragon_8155_CSM" targetID="0" path="Data/RECT/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/RECT/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="11.3 HIGH" target="snapdragon_8195_CSM" targetID="0" path="Data/RECT/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/RECT/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="FF 34" target="snapdragon_8155_FFD" targetID="0" path="Data/FF/GMXML_34/Display_34/display_34.gmxml">
+            <GmXmls>
+                <Path>Data/FF/GMXML_34</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="FF 34 HIGH" target="snapdragon_8195_FFD" targetID="0" path="Data/FF/GMXML_34/Display_34/display_34.gmxml">
+            <GmXmls>
+                <Path>Data/FF/GMXML_34</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="FF2 35 HIGH" target="snapdragon_8195_FFD" targetID="0" path="Data/FF2/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/FF2/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="17.7 HIGH" target="snapdragon_8195_CSM" targetID="0" path="Data/Chevy_FF/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/Chevy_FF/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="17.7" target="snapdragon_8155_CSM" targetID="0" path="Data/Chevy_FF/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/Chevy_FF/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="16.8 HIGH" target="snapdragon_8195_CSM" targetID="0" path="Data/GMC_16_8/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/GMC_16_8/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="15 HIGH" target="snapdragon_8195_CSM" targetID="0" path="Data/GMC_15/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/GMC_15/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="15" target="snapdragon_8155_CSM" targetID="0" path="Data/GMC_15/GMXML/Display/display.gmxml">
+            <GmXmls>
+                <Path>Data/GMC_15/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="29" target="snapdragon_8155_CSM" targetID="0" path="Data/Buick_FF/GMXML/Display/display.gmxml"><!--Mid-->
+            <GmXmls>
+                <Path>Data/Buick_FF/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <Display referenceId="29 HIGH" target="snapdragon_8195_FFD" targetID="0" path="Data/Buick_FF/GMXML/Display/display.gmxml"><!--HIGH-->
+            <GmXmls>
+                <Path>Data/Buick_FF/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+		<Display referenceId="14 HIGH" target="snapdragon_8195_CSM" targetID="0" path="Data/Zerv/GMXML/Display/display.gmxml"><!--HIGH-->
+            <GmXmls>
+                <Path>Data/Zerv/GMXML</Path>
+                <Filter>*.gmxml</Filter>
+            </GmXmls>
+        </Display>
+        <DisplaySet id="11_3_MID" cal-id="0" name="RTOS 11.3 Inch">
+            <DisplayRefId>11.3</DisplayRefId><!--Mid-->  
+            <Themes>
+                <Theme id="Default"><!--Default is GMC-->
+                    <Assets> 
+                        <Path>Data/RECT/Variants/GMC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/GMC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="Chevy">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="BT1CC"><!--TO sync with IPC we are changing id-->
+                    <Assets> 
+                        <Path>Data/RECT/Variants/BT1CC_WT/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/BT1CC_WT/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="Brightdrop">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/BV1/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/BV1/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="R233">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/R233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/R233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="S233">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/S233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/S233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="D2UC">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/D2UC/Assets/drawable</Path>
+						<Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/D2UC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="D2UC_PHEV">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/D2UC/Assets/drawable</Path>
+						<Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/D2UC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		            
+        </DisplaySet>
+        <DisplaySet id="11_3_HIGH" cal-id="7" name="RTOS 11.3 Inch High">
+			<QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <DisplayRefId>11.3 HIGH</DisplayRefId><!--High-->
+            <Themes>
+                <Theme id="Default"><!--Default is GMC-->
+                    <Assets> 
+                        <Path>Data/RECT/Variants/GMC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/GMC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="Chevy">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="BT1CC"><!--TO sync with IPC we are changing id-->
+                    <Assets> 
+                        <Path>Data/RECT/Variants/BT1CC_WT/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/BT1CC_WT/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="Brightdrop">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/BV1/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/BV1/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="R233">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/R233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/R233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="S233">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/S233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/S233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="D2UC">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/D2UC/Assets/drawable</Path>
+						<Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/D2UC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="D2UC_PHEV">
+                    <Assets> 
+                        <Path>Data/RECT/Variants/D2UC/Assets/drawable</Path>
+						<Path>Data/RECT/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/RECT/Variants/D2UC/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		
+        </DisplaySet>
+        <DisplaySet id="FF_MID" cal-id="9" name="FF CSM 34 Inch">
+            <QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <DisplayRefId>FF 34</DisplayRefId><!--Mid-->
+            <Themes>
+                <Theme id="Default"><!-- Common -->
+                    <Assets>
+                        <Path>Data/FF/Variants/FF1_Common/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L233"><!-- L233 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L233_Captivate"><!-- L233_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_Captivate/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L233_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_V/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="O1SL"><!-- O1SL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="O1SL_Captivate"><!-- O1SL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="O1SL_V"><!-- O1SL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2UL"><!-- E2UL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="E2UL_Captivate"><!-- E2UL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2UL_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2QL"><!-- E2QL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="E2QL_Captivate"><!-- E2QL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2QL_V"><!-- E2QL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="A2LL"><!-- A2LL -->
+                    <Assets> 
+                        <Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="A2LL_Captivate"><!-- A2LL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="A2LL_V"><!-- A2LL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="A2LL_VBlackWing"><!-- A2LL_VBlackWing -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_VBlackWing/Assets/drawable</Path>
+					    <Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="C1UL"><!-- C1UL -->
+                    <Assets>
+                        <Path>Data\FF\Variants\C1UL\Assets\drawable</Path>
+                    </Assets>
+					<Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L232"><!-- L232 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L232/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L234"><!-- L234 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L234_Captivate"><!-- L234_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L234_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L234_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L234_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L233_PATAC"><!-- L233_PATAC -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_PATAC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		
+        </DisplaySet>
+        <DisplaySet id="FF_HIGH" cal-id="9" name="FF CSM 34 Inch High">
+            <QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <DisplayRefId>FF 34 HIGH</DisplayRefId><!--High-->        
+            <Themes>
+                <Theme id="Default"><!-- Common -->
+                    <Assets>
+                        <Path>Data/FF/Variants/FF1_Common/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L233"><!-- L233 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L233_Captivate"><!-- L233_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_Captivate/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L233_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_V/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="O1SL"><!-- O1SL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="O1SL_Captivate"><!-- O1SL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="O1SL_V"><!-- O1SL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/O1SL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/O1SL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2UL"><!-- E2UL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="E2UL_Captivate"><!-- E2UL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2UL_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2QL"><!-- E2QL -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="E2QL_Captivate"><!-- E2QL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="E2QL_V"><!-- E2QL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2QL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2QL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="A2LL"><!-- A2LL -->
+                    <Assets> 
+                        <Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="A2LL_Captivate"><!-- A2LL_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="A2LL_V"><!-- A2LL_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="A2LL_VBlackWing"><!-- A2LL_VBlackWing -->
+                    <Assets>
+                        <Path>Data/FF/Variants/A2LL_VBlackWing/Assets/drawable</Path>
+					    <Path>Data/FF/Variants/A2LL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="C1UL"><!-- C1UL -->
+                    <Assets>
+                        <Path>Data\FF\Variants\C1UL\Assets\drawable</Path>
+                    </Assets>
+					<Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L232"><!-- L232 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L232/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L234"><!-- L234 -->
+                    <Assets>
+                        <Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+                <Theme id="L234_Captivate"><!-- L234_Captivate -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L234_Captivate/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L234_V"><!-- L233_V -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L234_V/Assets/drawable</Path>
+						<Path>Data/FF/Variants/E2UL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+                <Theme id="L233_PATAC"><!-- L233_PATAC -->
+                    <Assets>
+                        <Path>Data/FF/Variants/L233_PATAC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF/Variants/L233/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		
+        </DisplaySet>
+        <DisplaySet id="FF2_HIGH" cal-id="12" name="FF2 CSM 35 Inch High">
+            <QnXConfigPath src_path="Data/qnx_config_legeto" des_path="qnx_config"/>
+            <DisplayRefId>FF2 35 HIGH</DisplayRefId><!--High-->
+            <Themes>
+                <Theme id="Default"><!--common-->
+                    <Assets>
+                        <!-- <Path>Data/Assets/drawable/FF2</Path> -->
+                        <Path>Data/FF2/Variants/FF2_Common/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF2/Variants/FF2_Common/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L246">
+                    <Assets>
+                        <Path>Data/FF2/Variants/L246/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF2/Variants/FF2_Common/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="BT1YL">
+                    <Assets>
+                        <Path>Data/FF2/Variants/BT1YL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF2/Variants/FF2_Common/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="T1XL">
+                    <Assets>
+                        <Path>Data/FF2/Variants/T1XL/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/FF2/Variants/FF2_Common/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="L246_V">
+                    <Assets>
+                        <Path>Data/FF2/Variants/L246_V/Assets/drawable</Path>
+						<Path>Data/FF2/Variants/L246/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="T1XL_V">
+                    <Assets>
+                        <Path>Data/FF2/Variants/L246_V/Assets/drawable</Path>
+						<Path>Data/FF2/Variants/T1XL/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="BT1ZL">
+					<Assets>
+						<Path>Data/FF2/Variants/BT1ZL/Assets/drawable</Path>
+					</Assets>
+					<Fonts>
+						<Path>Data/Assets/fonts</Path>
+					</Fonts>
+					<Variables>
+						<Path>Data/FF2/Variants/FF2_Common/GMXML/Variables</Path>
+					</Variables>
+				</Theme>
+			</Themes>
+        </DisplaySet>
+        <DisplaySet id="17_7_HIGH" cal-id="5" name="RTOS 17.7 Inch High"><!--MY24 ChevyFF 17.7 Inch-->
+            <DisplayRefId>17.7 HIGH</DisplayRefId><!--High-->
+			<QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <Themes>
+                <Theme id="Default">
+                    <Assets> 
+                        <Path>Data/Assets/drawable</Path>
+                        <Path>Data/Chevy_FF/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C223">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/C223/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C234">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/C234/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C1YC">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/C1YC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="T1YCF">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/T1YCF/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="T1UCF">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/T1UCF/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>
+        </DisplaySet>
+        <DisplaySet id="17_7_MID" cal-id="5" name="RTOS 17.7 Inch"><!--MY24 ChevyFF 17.7 Inch-->
+            <DisplayRefId>17.7</DisplayRefId><!--Mid-->
+            <Themes>
+                <Theme id="Default">
+                    <Assets>
+                        <Path>Data/Assets/drawable</Path>                    
+                        <Path>Data/Chevy_FF/Variants/Chevy/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C223">
+                    <Assets>
+                        <Path>Data/Chevy_FF/Variants/C223/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C234">
+                    <Assets> 
+                        <Path>Data/Chevy_FF/Variants/C234/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C1YC">
+                    <Assets> 
+                        <Path>Data/Chevy_FF/Variants/C1YC/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="T1YCF">
+                    <Assets> 
+                        <Path>Data/Chevy_FF/Variants/T1YCF/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="T1UCF">
+                    <Assets> 
+                        <Path>Data/Chevy_FF/Variants/T1UCF/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Chevy_FF/Variants/Chevy/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		
+        </DisplaySet>
+		<DisplaySet id="16_8_HIGH" cal-id="4" name="RTOS 16.8 Inch High"><!-- MY24GMC potrait 16.8 inch -->
+            <DisplayRefId>16.8 HIGH</DisplayRefId><!--High-->
+			<QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+			<Themes>
+				<Theme id="Default">
+					<Assets>
+						<Path>Data/Assets/drawable</Path>
+						<Path>Data/GMC_16_8/Variants/GMC_COMMON/Assets/drawable</Path>
+					</Assets>
+					<Fonts>
+						<Path>Data/Assets/fonts</Path>
+					</Fonts>
+					<Variables>
+						<Path>Data/GMC_16_8/Variants/GMC_COMMON/GMXML/Variables</Path>
+					</Variables>
+				</Theme>
+				<Theme id="CROSSOVER"><!-- CROSSOVER -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/CROSSOVER/Assets/drawable</Path>
+					</Assets>
+				</Theme>
+				<Theme id="SUV"><!-- SUV -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/SUV/Assets/drawable</Path>
+					</Assets>
+				</Theme>
+				<Theme id="TRUCK"><!-- TRUCK -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/TRUCK/Assets/drawable</Path>
+					</Assets>
+				</Theme>
+				<Theme id="T1UGF"><!-- T1UGF -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/T1UGF/Assets/drawable</Path>
+					</Assets>
+					<Variables>
+						<Path>Data/GMC_16_8/Variants/GMC_COMMON/GMXML/Variables</Path>
+					</Variables>
+				</Theme>
+				<Theme id="T1YGF"><!-- T1YGF -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/T1YGF/Assets/drawable</Path>
+					</Assets>
+					<Variables>
+						<Path>Data/GMC_16_8/Variants/GMC_COMMON/GMXML/Variables</Path>
+					</Variables>
+				</Theme>
+				<Theme id="T1XG"><!-- T1XG -->
+					<Assets>
+						<Path>Data/GMC_16_8/Variants/T1XG/Assets/drawable</Path>
+					</Assets>
+					<Variables>
+						<Path>Data/GMC_16_8/Variants/GMC_COMMON/GMXML/Variables</Path>
+					</Variables>
+				</Theme>
+			</Themes>
+		</DisplaySet>
+        <DisplaySet id="15_HIGH" cal-id="3" name="RTOS 15 Inch High"><!-- MY24GMC potrait 15 inch -->
+            <DisplayRefId>15 HIGH</DisplayRefId><!--High-->
+			<QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <Themes>
+                <Theme id="Default">
+                    <Assets> 
+						<Path>Data/Assets/drawable</Path>
+                        <Path>Data/GMC_15/Variants/GMC_COMMON/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/GMC_15/Variants/GMC_COMMON/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="CROSSOVER"><!-- CROSSOVER -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/CROSSOVER/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="SUV"><!-- SUV -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/SUV/Assets/drawable</Path>
+                    </Assets>
+                </Theme> 
+				<Theme id="TRUCK"><!-- TRUCK -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/TRUCK/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+            </Themes>
+        </DisplaySet>
+        <DisplaySet id="15_MID" cal-id="3" name="RTOS 15 Inch"><!-- MY24GMC potrait 15 inch -->
+            <DisplayRefId>15</DisplayRefId><!--Mid-->
+			<Themes>
+                <Theme id="Default">
+                    <Assets> 
+						<Path>Data/Assets/drawable</Path>
+                        <Path>Data/GMC_15/Variants/GMC_COMMON/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/GMC_15/Variants/GMC_COMMON/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>			
+				<Theme id="CROSSOVER"><!-- CROSSOVER -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/CROSSOVER/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+				<Theme id="SUV"><!-- SUV -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/SUV/Assets/drawable</Path>
+                    </Assets>
+                </Theme> 
+				<Theme id="TRUCK"><!-- TRUCK -->
+                    <Assets>
+                        <Path>Data/GMC_15/Variants/TRUCK/Assets/drawable</Path>
+                    </Assets>
+                </Theme>
+            </Themes>		
+        </DisplaySet>
+        <DisplaySet id="29_MID" cal-id="13" name="RTOS 29 Inch"><!-- MY24 buick 29 inch -->
+            <QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <DisplayRefId>29</DisplayRefId><!--Mid-->
+            <Themes>
+                <Theme id="Default">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/Buick/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C1YB">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/C1YB/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="B233">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/B233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+            </Themes>		            
+        </DisplaySet>
+        <DisplaySet id="29_HIGH" cal-id="13" name="RTOS 29 Inch"><!-- MY24 buick 29 inch HIGH -->
+            <QnXConfigPath src_path="Data/qnx_config_legeto" des_path="qnx_config"/>
+            <DisplayRefId>29 HIGH</DisplayRefId><!-- HIGH -->  
+            <Themes>
+                <Theme id="Default">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/Buick/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="C1YB">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/C1YB/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>
+				<Theme id="B233">
+                    <Assets> 
+                        <Path>Data/Buick_FF/Variants/B233/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Buick_FF/Variants/Buick/GMXML/Variables</Path>
+                    </Variables>
+                </Theme>				
+            </Themes>
+        </DisplaySet>
+		 <DisplaySet id="14_HIGH" cal-id="14" name="14 CSM 14 Inch">
+            <QnXConfigPath src_path="Data/qnx_config" des_path="qnx_config"/>
+            <DisplayRefId>14 HIGH</DisplayRefId><!--HIGH-->
+            <Themes>
+                <Theme id="Default"><!-- Common -->
+                    <Assets>
+                        <Path>Data/Zerv/Variants/Zerv/Assets/drawable</Path>
+                    </Assets>
+                    <Fonts>
+                        <Path>Data/Assets/fonts</Path>
+                    </Fonts>
+                    <Variables>
+                        <Path>Data/Zerv/Variants/Zerv/GMXML/variables</Path>
+                    </Variables>
+                </Theme>
+			</Themes>
+        </DisplaySet>
+        <EnumValueCallBacks>
+            <Path>Data/RECT/GMXML</Path>
+            <Path>Data/FF/GMXML_34</Path>
+            <Path>Data/Chevy_FF/GMXML</Path>
+            <Path>Data/GMC_15/GMXML</Path>
+            <Path>Data/GMC_16_8/GMXML</Path>
+            <Path>Data/FF2/GMXML</Path>
+            <Path>Data/Buick_FF/GMXML</Path>
+			<Path>Data/Zerv/GMXML</Path>
+        </EnumValueCallBacks>
+        <Strings language-prefix="values" language-init="">
+            <Path>Data/strings/values-en-us/strings.xml</Path>
+            <StringDirPath>Data/strings</StringDirPath>
+            <LanguageInputsPath path=""/>
+        </Strings>
+    </GmXmlRenderer>
+    <HmicDesigner>
+        <Bindings>
+            <Binding path="AppMainLib/bindings"/>
+        </Bindings>  
+        <BindableImports>
+            <Includes>
+                <Path>AppMainLib/HmiApp</Path>
+                <Path>AppMainLib/HmiApp/VC</Path>
+                <Path>AppMainLib/HmiApp/HVAC</Path>
+                <Path>AppMainLib/gen</Path>
+                <Path>AppFx/Bindings/inc</Path>
+                <Path>AppFx/src</Path>
+                <Path>AppFx/inc</Path>
+                <Path>AppFx/AppFxCore/inc</Path>
+                <Path>AppFx/DeepScreen/common</Path>
+                <Path>LGHeaders</Path>
+                <Path>AppMainLib/HmiApp/Camera</Path>
+                <Path>AppFx/VDataLib/VIP/include/qnx</Path>
+                <Path>AppFx/Keyboard/inc</Path>
+                <Path>AppFx/VDataLib/HighMid_Win/include</Path>
+                <Path>AppFx/VDataPool/inc</Path>
+                <Path>AppFx/VDataLib/HighMid_Win/include/arxml</Path>
+                <Path>AppMainLib/HmiApp/Camera/HighMid_Header</Path>
+				<Path>AppMainLib/HmiApp/Camera/inc</Path>
+				<Path>AppFx/Qnx/inc/sys</Path>
+				<Path>AppFx/Qnx/inc</Path>
+				<Path>AppFx/BoschMiddleware/Susd/Susd_Win/inc</Path>
+				<Path>AppFx/Language/inc</Path>
+				<Path>AppFx/OdiCore/inc</Path>
+				<Path>AppMainLib/HmiApp/Channels/inc</Path>
+				<Path>AppFx/HmicDesignerTool/GmXmlRendererLib/include</Path>
+            </Includes>
+            <File>AppMainLib/genModel/DataPool.cpp</File>
+			<File>AppMainLib/HmiApp/VC_CustomDataPool.cpp</File>
+			<File>AppMainLib/HmiApp/APA_CustomDataPool.cpp</File>
+			<File>AppMainLib/HmiApp/Camera_CustomDataPool.cpp</File>
+			<File>AppMainLib/HmiApp/Hvac_CustomDataPool.cpp</File>
+            <File>AppMainLib/HmiApp/RTOS_CustomDataPool.cpp</File>
+            <File>AppMainLib/HmiApp/RTOS_InternalData.cpp</File>
+            <File>AppMainLib/HmiApp/RTOS_LocalDataPool.cpp</File>
+        </BindableImports>
+        <CodeGenParams path="AppMainLib/gen" generate-string-table="true" generate-plural-table="true" namespace="gm,csm" namespace-screen="gm,datapool" source-unit-limit="550" screen-base="::ramp::BindableScreenLogic">
+		<FileBanner>Copyright (C) GM Global Technology Operations LLC 2024.</FileBanner>
+		<FileBanner>All Rights Reserved.</FileBanner>
+		<FileBanner>GM Confidential Restricted.</FileBanner>
+		<FileBanner></FileBanner>
+		<FileBanner>Designed and Developed by Rampgroup, © 2024 People Tech Group all rights reserved.</FileBanner>
+            <CMake target = "Gen">
+                <target_inclue_directories>.</target_inclue_directories>
+                <target_link_libraries>ScreenBinding</target_link_libraries>
+                <target_link_libraries>Data</target_link_libraries>
+                <!-- <target_link_libraries>Gen</target_link_libraries> -->
+				<target_link_libraries>GenModel</target_link_libraries>
+                <target_link_libraries>HmiApp</target_link_libraries>
+                <target_link_libraries>AppMainLib</target_link_libraries>
+            </CMake>
+        </CodeGenParams>
+		<BaseURLPath>
+			<Path>Data/Assets/drawable/baseurls</Path>
+			<URLPath>Data/GMXML/base_urls.gmxml</URLPath>
+		</BaseURLPath>
+        <UserInputs path=""/>
+        <ScreenConfig path=""/>
+        <DeepScreenUrls path="Data/FF/GMXML_34/url_path.gmxml"/>
+		<DeepScreenUrls path="Data/FF2/GMXML/url_path.gmxml"/>
+        <TickBindable>gm::csm::FU_HMIC_Timer_Tick_50_MilliSec</TickBindable>
+    </HmicDesigner>
+    <ModelParser input-path="ScreenManager/HMI/MSVC2019_Debug" output-path="AppMainLib/genModel" namespace="gm,datapool">
+        <CallbacksPath path=""/>
+        <Events enum-name="ModelEvents_t"/>
+        <DataPool>
+            <Enum name="eInfoId" type="ramp::BindableDataPool&lt;int32_t&gt;::Type">
+                <Include standard="false">BindableDataPool.h</Include> 
+            </Enum>
+            <Enum name="eInfoRtosIds" type="ramp::BindableDataPool&lt;int32_t&gt;::Type">
+            </Enum>
+        </DataPool>
+    </ModelParser>
+</Configuration>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6099</ScreenID>
+                <Name>ics_virtualcontrols_passive_power_mode_snackbar_remaining</Name>
+				<DialogDismiss callback = "evG_PPM_Extended_Button_Selection" zorder="1"/>
+				<ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>                  
+                </ImageWidget>
+				<LabelWidget var="var_notification_primary_txt">
+                    <ID>virtualcontrols_1_6_6_5_f_extendTimeout_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_notification_secondary_txt">
+                    <ID>virtualcontrols_1_6_6_5_f_extendReset_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+				    <ID>grp_extend_btn</ID>
+				    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <ImageElements var="img_notification_primary_btn">
+					    <ID>img_extend_btn</ID>
+				    </ImageElements>
+					<LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_6_6_5_f_extendButton_csm</ID>
+                    </LabelElements>
+				    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PPM_Extended_Button_Selection</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

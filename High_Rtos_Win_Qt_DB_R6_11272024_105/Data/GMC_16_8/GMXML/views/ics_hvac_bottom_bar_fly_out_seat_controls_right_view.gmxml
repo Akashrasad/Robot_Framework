@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_fly_out_seat_controls_right_view</ViewID>
+            <Location>
+                <LocationX>1518</LocationX>
+                <LocationY>1636</LocationY>
+            </Location>
+            <Size>
+                <SizeW>201</SizeW>
+                <SizeH>338</SizeH> 
+            </Size>
+            <ZOrder>7</ZOrder>
+            <Screen load="ics_hvac_menu_right_four_options_sz_flyout"/>
+            <Screen load="ics_hvac_menu_right_four_options_flyout"/>
+			<Screen load="ics_hvac_menu_right_three_options_sz_flyout"/>
+            <Screen load="ics_hvac_menu_right_three_options_flyout"/>
+        </View>
+    </Display>
+</GMXML>

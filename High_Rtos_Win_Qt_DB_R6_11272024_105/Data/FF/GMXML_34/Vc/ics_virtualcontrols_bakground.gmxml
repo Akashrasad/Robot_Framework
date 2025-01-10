@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6100</ScreenID>
+				<Name>ics_virtualcontrols_bakground</Name>
+				<ImageWidget>
+					<ID>img_bg_vc_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/img_ics_astral_bg.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/img_ics_astral_rhd_bg.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_bg_half_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression = "NONE">11/img_half_screen_bg1.png</NormalURL>
+					<Alpha>0</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6020</ScreenID>
+                <Name>ics_virtualcontrols_headlights</Name>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_all_lights_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_0_0_headlights_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_headlights_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_1strow_radio_multi_btn">
+                    <ID>img_radio_button_headlight_off</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_2_headlightsOff_csm</ID>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_2ndrow_radio_multi_btn">
+                    <ID>img_radio_button_headlight_auto</ID>
+                    <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+					<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_2_HeadlightsAuto_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsAuto_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsAuto_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsAuto_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsAuto_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_3rdrow_radio_btn">
+                    <ID>img_radio_button_headlight_parking</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_headlights_parking_lights</ID>
+                    <Location>
+						<LocationX>359</LocationX>
+						<LocationY>601</LocationY>
+					</Location>
+                    <Size>
+						<SizeW>105</SizeW>
+						<SizeH>105</SizeH>
+					</Size>
+                    <NormalURL>11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+                    <FocusURL>11/btn_icn_lights_headlights_parking_lights_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_lights_headlights_parking_lights_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_icn_lights_headlights_parking_lights_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+                    </SelectorState>
+                </ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_2_HeadlightsParking_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsParking_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsParking_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsParking_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsParking_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_4throw_radio_btn">
+                    <ID>img_radio_button_headlight_on</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_headlights_on</ID>
+                    <Location>
+						<LocationX>359</LocationX>
+						<LocationY>802</LocationY>
+					</Location>
+                    <Size>
+						<SizeW>105</SizeW>
+						<SizeH>105</SizeH>
+					</Size>
+                    <NormalURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+                    <FocusURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+                    </SelectorState>
+                </ImageWidget>
+                <LabelWidget var="4throw_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_2_HeadlightsOn_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_controls_icn_headlights_u550</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias3">11/controls_icn_headlights_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_4_0_2_headlights_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_checkbox</ID>
+                    <Location>
+                        <LocationX>186</LocationX>
+                        <LocationY>957</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn_large"/>
+                    <NormalURL>11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias3">11/icn_tick_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/icn_tick_large.png</NormalURL>
+                        <FocusURL>11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Reminder</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_4_0_2_HeadlightsReminder_csm</ID>
+                    <Location>
+                        <LocationX>359</LocationX>
+                        <LocationY>978</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn_text_one"/>
+                    <Font var="var_font_radio_btn_off_normal">
+						<LineSpacing>-4</LineSpacing>
+						<TextAlign>4</TextAlign>
+					</Font>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsReminder_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused">
+							<LineSpacing>-4</LineSpacing>
+							<TextAlign>4</TextAlign>
+					</Font>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_HeadlightsReminder_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal">
+							<LineSpacing>-4</LineSpacing>
+							<TextAlign>4</TextAlign>
+						</Font>		
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_Head_lights_off_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>img_Head_lights_auto_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_Head_lights_parking_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_4throw_radio_btn_divider">
+                    <ID>img_Head_lights_on_divider</ID>
+					 <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_divider">
+                    <ID>img_Head_lights_headligh_reminder_divider</ID>
+					<Location>
+					    <LocationX>186</LocationX>
+                        <LocationY>957</LocationY>
+					</Location>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_Reminder</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

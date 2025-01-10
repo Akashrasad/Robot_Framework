@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8029</ScreenID>
+                <Name>ics_camera_cvs_vpm_menu</Name>
+                <ImageWidget var="var_img_main_bg"> 
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+				<GroupWidget var="grp_img_exit">
+                    <ID>grp_img_exit</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <ListWidget var ="var_list_cvs_screen">
+                    <ListID>ics_camera_cvs_vpm_menu_list</ListID>
+                </ListWidget>	
+			   <!--<ActivityIndicatorWidget>
+                    <ID>img_camera_busy_icon</ID>
+                    <Location>
+                        <LocationX>722</LocationX>
+                        <LocationY>121</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>121</SizeW>
+                        <SizeH>121</SizeH>
+                    </Size>
+                    <Spinner>
+                        <SpinnerLocation>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </SpinnerLocation>
+                        <SpinnerSize>
+                            <SizeW>121</SizeW>
+                            <SizeH>121</SizeH>
+                        </SpinnerSize>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_busy_icon_1.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias9">11/img_camera_busy_icon_2.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_busy_icon_3.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_busy_icon_4.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_5.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_6.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_7.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_8.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_9.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_busy_icon_10.png</SpinnerURL>
+                    </Spinner>
+                    <Alpha>0</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ActivityIndicatorWidget>-->
+				<!--<ActivityIndicatorWidget>
+                    <ID>img_camera_loading_icon</ID>
+                    <Location>
+                        <LocationX>1455</LocationX>
+                        <LocationY>400</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>242</SizeW>
+                        <SizeH>242</SizeH>
+                    </Size>
+                    <Spinner>
+                        <SpinnerLocation>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </SpinnerLocation>
+                        <SpinnerSize>
+                            <SizeW>242</SizeW>
+                            <SizeH>242</SizeH>
+                        </SpinnerSize>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_loading_icon_1.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias9">11/img_camera_loading_icon_2.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_loading_icon_3.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_camera_loading_icon_4.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_5.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_6.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_7.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_8.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_9.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_camera_loading_icon_10.png</SpinnerURL>
+                    </Spinner>
+                    <Alpha>0</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ActivityIndicatorWidget>-->
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7050</ScreenID>
+                <Name>ics_safety_screen</Name>
+                <ImageWidget>
+                    <ID>img_safety_icons</ID>
+                    <Location>
+                        <LocationX>1</LocationX>
+                        <LocationY>1</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>2</SizeH> 
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+						<NormalURL>11/img_rec_01.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL>11/img_rec_02.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>
+

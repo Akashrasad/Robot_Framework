@@ -1,0 +1,49 @@
+#ifndef WIDGETDATA_H
+#define WIDGETDATA_H
+
+#include <WidgetProperties.h>
+
+namespace gm
+{
+namespace csm
+{
+
+extern ActivityIndicatorWidget ActivityIndicator_img_progress_activity;
+extern GroupImageWidget GroupImage_btn_tab_two;
+extern GroupImageWidget GroupImage_img_exit_again_btn;
+extern GroupImageWidget GroupImage_img_keep_looking_btn;
+extern GroupImageWidget GroupImage_img_park_in_vehicle_btn;
+extern GroupImageWidget GroupImage_img_supervise_remotely_btn;
+extern GroupImageWidget GroupImage_img_try_again_btn;
+extern GroupImageWidget GroupImage_img_yes_btn;
+extern GroupLabelWidget GroupLabel_apa_4_13_TryAgain_csm;
+extern GroupLabelWidget GroupLabel_apa_4_13_btn2_f_csm;
+extern GroupLabelWidget GroupLabel_apa_4_4_KeepLooking_csm;
+extern GroupLabelWidget GroupLabel_apa_4_4_YesPark_csm;
+extern GroupLabelWidget GroupLabel_apa_4_8_btn2_f_csm;
+extern ImageWidget Image_img_CameraViews;
+extern ImageWidget Image_img_auto_steering;
+extern ImageWidget Image_img_exit;
+extern ImageWidget Image_img_guideliness_view;
+extern ImageWidget Image_img_hitch_zoom;
+extern ImageWidget Image_img_park_left_parallel;
+extern ImageWidget Image_img_park_left_perp;
+extern ImageWidget Image_img_park_right_parallel;
+extern ImageWidget Image_img_park_right_perp;
+extern ImageWidget Image_img_trailer_assist;
+extern LabelWidget Label_apa_3_0_ParaLeft_csm;
+extern LabelWidget Label_apa_3_0_ParaRight_csm;
+extern LabelWidget Label_apa_3_0_PerpLeft_csm;
+extern LabelWidget Label_apa_3_0_PerpRight_csm;
+extern LabelWidget Label_apa_3_0_WhatTypePark_csm;
+extern LabelWidget Label_apa_4_12_Connecting_csm;
+extern LabelWidget Label_apa_5_1_maneuvermessaging1_csm;
+extern LabelWidget Label_dyn_safetysystems_7_3_ParkAssistOff_f_csm;
+extern ProgressBarWidget ProgressBar_7015_img_pogressbar;
+extern ProgressBarWidget ProgressBar_7015_img_pogressbar_amber;
+extern ProgressBarWidget ProgressBar_7015_img_pogressbar_green;
+
+}//namespace csm
+}//namespace gm
+
+#endif // WIDGETDATA_H

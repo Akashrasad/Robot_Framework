@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <LabelWidget id="exit_btn_txt">
+            <Font var="var_font_exit_btn_txt"/>
+			<FocusFont var="var_font_exit_btn_txt_pressed"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_exit_btn_txt"/>
+            <Size var="var_size_exit_btn_txt_camera_apa"/>
+            <Alpha>100</Alpha>
+            <ZOrder>6</ZOrder>
+        </LabelWidget>
+        <LabelWidget id="wakescreen_exit_btn_txt">
+            <Font var="var_font_exit_btn_txt"/>
+			<FocusFont var="var_font_exit_btn_txt_pressed"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+				<LocationX>260</LocationX>
+				<LocationY>1189</LocationY>
+			</Location>
+            <Size var="var_size_exit_btn_txt"/>
+            <SelectorState>
+                <DataValue>0</DataValue>
+				<Font var="var_font_exit_btn_txt"/>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <Font var="var_font_exit_btn_txt"/>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <Font var="var_font_exit_btn_txt"/>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="power_modesnack_bar_lbl">
+           <Font var="var_font_snackbar_txt"/>
+           <Location var="var_loc_snackbar_txt_2lines"/>
+           <Size var="var_size_snackbar_txt_2lines"/>
+	       <TextWrap>1</TextWrap>
+           <Alpha>100</Alpha>
+           <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_snackbar_1line_txt">
+         <Font var="var_font_snackbar_txt"/>
+		 <Location var="var_loc_snackbar_txt"/>
+		 <Size var="var_size_snackbar_txt"/>
+		 <Alpha>100</Alpha>
+		<ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_close_text">
+         <Font var="var_font_test_btn_txt_normal"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_close_button"/>
+			<LayoutOverride>
+				<ID>RHD</ID>
+				<Location>
+					<LocationX>3278</LocationX>
+					<LocationY>1155</LocationY>
+				</Location>
+			</LayoutOverride>
+			<Size var="var_size_close_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_change_selection_text">
+            <Font var="var_font_change_selection_txt"/>
+             <TextWrap>1</TextWrap>
+            <Location var="var_loc_change_selection_txt"/>
+			<LayoutOverride var = "var_layout_down_arrow_btn_txt"/>
+            <Size var="var_size_change_selection_txt"/>
+            <Alpha>100</Alpha>
+             <ZOrder>3</ZOrder>
+        </LabelWidget>
+        <LabelWidget id="var_perp_right_instr_txt">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt"/>
+			<LayoutOverride var = "var_layout_perp_right_instr_txt"/>
+            <Size var="var_size_perp_right_instr_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_lbl_space_found_desc_txt">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt"/>
+			<LayoutOverride var = "var_layout_space_found_desc_txt"/>
+            <Size var="var_space_found_desc_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_lbl_SpotFound_csm_txt">
+            <Font var="var_font_dialog_text"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_apa_spot_found_header_text"/>
+			<LayoutOverride var = "var_layout_perp_right_instr_txt"/>
+            <Size var="var_size_spot_found_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_lbl_SpotFound_desc_txt">
+            <Font var="var_font_spot_text"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_apa_spot_found_body_text"/>
+			<LayoutOverride var = "var_layout_perp_right_instr_txt2"/>
+            <Size var="var_size_perp_right_instr_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_dyn_ParkAssistOff_txt">
+			<Font>
+				<Name>GMSUICadillacGlobal-Light</Name>
+				<Size>75</Size>
+				<Decoration>0</Decoration>
+				<TextAlign>2</TextAlign>
+				<Color>255,255,255</Color>
+				<TextDirection>1</TextDirection>
+			</Font>
+			<TextWrap>1</TextWrap>
+			<Location>
+				<LocationX>1253</LocationX>
+				<LocationY>1114</LocationY>
+			</Location>
+			<Size>
+				<SizeW>1942</SizeW>
+				<SizeH>203</SizeH>
+			</Size>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<StaticValue>safetysystems_7_3_ParkAssistOff_f_csm</StaticValue>
+				<Font>
+					<Name>GMSUICadillacGlobal-Light</Name>
+					<Size>75</Size>
+					<Decoration>0</Decoration>
+					<TextAlign>2</TextAlign>
+					<Color>255,255,255</Color>
+					<TextDirection>1</TextDirection>
+				</Font>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>safetysystems_7_3_ParkAssistOn_f_csm</StaticValue>
+				<Font>
+					<Name>GMSUICadillacGlobal-Light</Name>
+					<Size>75</Size>
+					<Decoration>0</Decoration>
+					<TextAlign>2</TextAlign>
+					<Color>255,255,255</Color>
+					<TextDirection>1</TextDirection>
+				</Font>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_actionbar_text">
+		  <Font var="var_font_title_VC"/>
+		  <TextWrap>1</TextWrap>
+		  <Location var="var_loc_actionbar_text"/>
+		  <LayoutOverride var = "var_layout_actionbar_text"/>
+		  <Size var="var_size_actionbar_text_without_icon"/>
+		  <Alpha>100</Alpha>
+		  <ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_action_desc_txt">
+			<Location var="var_loc_radio_btn_desc_txt"/>
+			<LayoutOverride var = "var_layout_action_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_radio_btn_off_txt">
+            <Location var="var_loc_radio_btn_off_txt"/>
+			<LayoutOverride var = "var_layout_img_radio_btn_off_txt"/>
+            <Size var="var_size_radio_btn_text"/>
+            <Font var="var_font_radio_btn_off_normal"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_lbl_radio_btn_on_txt">
+            <Location var="var_loc_radio_btn_on_txt"/>
+			<LayoutOverride var = "var_layout_img_radio_btn_on_txt"/>
+            <Size var="var_size_radio_btn_text"/>
+            <Font var="var_font_radio_btn_off_focused"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_lbl_detailsUnavailable_txt">
+			<Location var="var_loc_radio_btn_desc_txt_FF"/>
+			<LayoutOverride var = "var_layout_action_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_actionbar_text_without_icon">
+		  <Font var="var_font_title_VC"/>
+		  <TextWrap>1</TextWrap>
+		  <Location var="var_loc_actionbar_text"/>
+		  <LayoutOverride var = "var_layout_actionbar_text"/>
+		  <Size var="var_size_actionbar_text_without_icon"/>
+		  <Alpha>100</Alpha>
+		  <ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_park_instructions_text_1">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_instruction1_text"/>
+			<LayoutOverride var = "var_layout_perp_right_instr_txt"/>
+            <Size var="var_size_apa_spot_found_header_text"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_park_instructions_text_2">
+            <Font var="var_font_perp_right_instr_txt2"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_apa_spot_found_body_text"/>
+			<LayoutOverride var = "var_layout_perp_right_instr_txt2"/>
+            <Size var="var_size_apa_spot_found_header_text_1"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_change_selected_text">
+            <Font var="var_font_parallel_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_change_selected_text"/>
+			<LayoutOverride var = "var_layout_space_found_desc_txt"/>
+            <Size var="var_size_change_selected_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_front_txt">
+            <Font var="var_font_front_txt"/>
+            <Location var="var_loc_front_txt"/>
+            <Size var="var_size_front_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_snackbar_2lines_txt">
+            <Font var="var_font_snackbar_txt"/>
+            <Location var="var_loc_2line_snackbar_txt"/>
+            <Size var="var_size_snackbar_2lines_txt"/>
+			<TextWrap>1</TextWrap>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	    <LabelWidget id="exit_btn_txt_apa_cam">
+            <Font var="var_font_exit_btn_txt"/>
+			<FocusFont var="var_font_exit_btn_txt_pressed"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_exit_txt"/>
+			<Size var="var_size_exit_btn_txt_camera_apa"/>
+			<LayoutOverride var= "var_layout_apa_camera_exit_btn"/>
+            <Alpha>100</Alpha>
+            <ZOrder>6</ZOrder>
+        </LabelWidget>
+        <LabelWidget id="var_lbl_home_text">
+            <ID>lbl_home_txt_0</ID>
+            <Font var="var_font_title_quick_control_txt"/>
+			<FocusFont var="var_font_quick_controls_text"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>252</LocationY>
+            </Location>
+            <Size>
+                <SizeW>497</SizeW>
+                <SizeH>158</SizeH>
+            </Size>
+            <Alpha>100</Alpha>
+            <ZOrder>4</ZOrder>
+        </LabelWidget>
+    </Variables>
+</GMXML>

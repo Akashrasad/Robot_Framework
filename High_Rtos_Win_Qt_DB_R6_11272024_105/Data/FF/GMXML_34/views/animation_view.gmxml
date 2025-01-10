@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>animation_view</ViewID>
+            <ZOrder>0</ZOrder>
+            <CustomLocation>
+				<LocationX>5010</LocationX>
+				<LocationY>0</LocationY>
+			</CustomLocation> 
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>3950</SizeW>
+                <SizeH>1320</SizeH>
+            </Size>
+            <Screen load="ics_animation_startup"/>
+            <Screen load="ics_animation_shutdown"/>
+        </View>
+    </Display>
+</GMXML>

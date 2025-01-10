@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6043</ScreenID>
+				<Name>ics_virtualcontrols_options_delete_dialog</Name>
+				<DialogDismiss callback = "evI_VC_Discard_Notification" zorder="1"/>
+				<ImageWidget var="var_img_simple_notification_regular_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_lbl_simple_regular_primary_text">
+					<ID>virtualcontrols_1_5_6_4_f_ugdoDeleteHeader_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_lbl_simple_notification_secondary_text">
+					<ID>virtualcontrols_1_5_3_4_UGDODeleteDialogText1_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<Location var="var_loc_primary_btn_large"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_grp_primary_btn">
+						<ID>img_btn_bg1</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_primary_btn">
+						<ID>virtualcontrols_1_5_3_4_btnUGDODelete_csm</ID>	
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Erase_Remote</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Erase_Remote</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<Location var="var_loc_secondary_btn_large"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_grp_secondary_btn">
+						<ID>img_btn_bg2</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_secondary_btn">
+						<ID>virtualcontrols_1_5_3_4_btnUGDOCancel_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remotes_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remotes_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

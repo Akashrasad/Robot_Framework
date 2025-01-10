@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_apa_park_view_bg_3950_1320</ViewID>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>3950</SizeW>
+                <SizeH>1320</SizeH> 
+            </Size>
+            <CustomLocation>
+				<LocationX>5010</LocationX>
+				<LocationY>0</LocationY>
+			</CustomLocation> 
+            <ZOrder>0</ZOrder>
+			<Screen load="ics_apa_back_ground_update"/>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,63 @@
+add_library(
+    Gen_DisplaySet_5
+    )
+
+target_include_directories(
+    Gen_DisplaySet_5
+    PUBLIC
+    .
+    )
+
+target_link_libraries(
+    Gen_DisplaySet_5
+    PUBLIC
+    AppFxLib
+    Data
+    GenModel
+    Gen_CommonGenCode
+    )
+
+target_sources(
+    Gen_DisplaySet_5
+    PRIVATE
+    ScreenEnumerations.h
+    ScreenExperssions.h
+    ScreenIntegers.h
+    Screen_8014.h
+    Screen_8014.cpp
+    Screen_7007.h
+    Screen_7007.cpp
+    Screen_7026.h
+    Screen_7026.cpp
+    Screen_7027.h
+    Screen_7027.cpp
+    Screen_7013.h
+    Screen_7013.cpp
+    Screen_7028.h
+    Screen_7028.cpp
+    Screen_7008.h
+    Screen_7008.cpp
+    Screen_7014.h
+    Screen_7014.cpp
+    Screen_7010.h
+    Screen_7010.cpp
+    Screen_8003.h
+    Screen_8003.cpp
+    Screen_7009.h
+    Screen_7009.cpp
+    Screen_7001.h
+    Screen_7001.cpp
+    Screen_8001.h
+    Screen_8001.cpp
+    Screen_8002.h
+    Screen_8002.cpp
+    Screen_7029.h
+    Screen_7029.cpp
+    Screen_7015.h
+    Screen_7015.cpp
+    GeneratedCode.h
+    GeneratedCode.cpp
+    WidgetData.h
+    WidgetData.cpp
+    )
+

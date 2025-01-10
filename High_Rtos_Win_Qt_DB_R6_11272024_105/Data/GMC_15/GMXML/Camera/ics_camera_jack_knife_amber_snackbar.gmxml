@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6157</ScreenID>
+                <Name>ics_camera_jack_knife_amber_snackbar</Name>
+				<DialogDismiss callback = "evG_Camera_No_Snackbar" zorder="1"/>
+                <ImageWidget var="var_snackbar_jackknife_bg">
+                    <ID>img_notification_bg</ID>
+				</ImageWidget>
+               <LabelWidget var="var_lbl_action_1line_knife_snackbar">
+                    <ID>safetysystems_4_2_jackKnifeAmber_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="var_img_jackknife_amber_snackbar">
+                    <ID>img_jack_knife_truck</ID>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6073</ScreenID>
+                <Name>ics_saftey_camera_feature_unavailable</Name>
+                 <ImageWidget var="var_snackbar_1line_bg">
+				 <ID>img_notification_bg</ID>
+					<TabV>1</TabV>
+					<TabH>1</TabH>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>camera_warning_icon</ID>
+                    <Location>
+                        <LocationX>57</LocationX>
+                        <LocationY>37</LocationY>
+                    </Location>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias2">11/icn_alert_base.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>                                     
+                </ImageWidget>
+                <LabelWidget>              
+                    <ID>safetysystems_4_1_1_FeatureUnavailable_csm</ID>
+                    <Font var="var_font_snackbar_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_img_snackbar_txt"/>
+                    <Size var="var_size_camera_1line_icon_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotarySelectReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

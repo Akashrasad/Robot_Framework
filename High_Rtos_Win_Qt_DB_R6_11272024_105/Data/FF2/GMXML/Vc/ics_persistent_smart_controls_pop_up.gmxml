@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6090</ScreenID>
+				<Name>ics_persistent_smart_controls_pop_up</Name>
+				<ImageWidget>
+					<ID>img_popup_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression="NONE">11/img_ics_astral_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_3F_SmartControls_csm</ID>
+					<Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>291</LocationX>
+						<LocationY>134</LocationY>
+					</Location>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_smart_controls_close</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>9</LocationY>
+					</Location>
+					<Size var="var_size_actionbar_close_img"/>
+					<NormalURL skinid="skin_normal_URL">11/btn_general_close_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/btn_general_close_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_0</ID>
+					<Location>
+						<LocationX>288</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_0</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<!-- These SelectorState to copy images in target -->
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_opd_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_opd_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_opd_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_opd_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_vehicle_off_suv_truck_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_vehicle_off_suv_truck_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_vehicle_off_suv_truck_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_vehicle_off_suv_truck_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_extend_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_extend_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_extend_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_extend_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>6</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_universal_remote_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_universal_remote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>7</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_universalremote_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_universal_remote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>8</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_doors_and_windows_motion_sensor_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>9</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_doors_and_windows_motion_sensor_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_doors_and_windows_motion_sensor_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>10</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_lights_headlights_auto_high_beams_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_lights_headlights_auto_high_beams_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>11</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_lights_headlights_auto_high_beams_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_lights_headlights_auto_high_beams_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>12</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_gloves_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_gloves_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>13</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_gloves_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_gloves_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>14</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_lights_dome_lights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>15</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_lights_dome_lights_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_lights_dome_lights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>16</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_passive_power_mode_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_passive_power_mode_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>17</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_passive_power_mode_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_passive_power_mode_pressed.png</FocusURL>
+						</SelectorState>
+						 <SelectorState> 
+							 <DataValue>18</DataValue> 
+							 <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_auto_reverse_braking_normal .png</NormalURL> 
+							 <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_auto_reverse_braking_pressed.png</FocusURL> 
+						 </SelectorState> 
+						 <SelectorState> 
+							 <DataValue>19</DataValue> 
+							 <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_auto_reverse_braking_selected .png</NormalURL> 
+							 <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_auto_reverse_braking_pressed.png</FocusURL> 
+						 </SelectorState> 
+						<SelectorState>
+							<DataValue>20</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_drive_park_park_assist_on_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_drive_park_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>21</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_drive_park_park_assist_on_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_drive_park_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>22</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_traction_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_traction_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>23</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_traction_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_traction_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>24</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_headlights_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_headlights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>25</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_headlights_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_headlights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>26</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo1_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo1_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>27</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo1_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo1_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>28</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo2_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo2_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>29</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo2_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo2_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>30</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo3_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo3_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>31</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo3_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo3_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>32</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo4_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo4_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>33</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo4_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo4_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>34</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo5_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo5_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>35</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo5_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo5_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>36</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo6_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo6_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>37</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo6_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo6_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>38</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo7_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo7_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>39</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo7_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo7_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>40</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_ugdo8_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo8_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>41</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_ugdo8_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_ugdo8_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>42</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_energy_out_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_energy_out_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>43</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_energy_out_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_energy_out_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>44</DataValue>
+							<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_crabwalk_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_crabwalk_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>45</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_crabwalk_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_crabwalk_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>46</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_lights_headlights_auto_high_beams_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_lights_dome_lights_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>47</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_extend_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_gloves_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>48</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_doors_and_windows_motion_sensor_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_opd_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>49</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_traction_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo1_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>50</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo2_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo3_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>51</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo4_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo5_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>52</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo6_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo7_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>53</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_ugdo8_focused.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_vehicle_off_suv_truck_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>54</DataValue>
+							<NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_icn_crabwalk_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+					    	<DataValue>55</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_doors_and_windows_motion_sensor_suv_normal.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_doors_and_windows_motion_sensor_suv_pressed.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>56</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_doors_and_windows_motion_sensor_suv_selected.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_doors_and_windows_motion_sensor_suv_focused.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>57</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_doors_and_windows_motion_sensor_sedan_normal.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_doors_and_windows_motion_sensor_sedan_pressed.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>58</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_doors_and_windows_motion_sensor_sedan_selected.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_doors_and_windows_motion_sensor_sedan_focused.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>59</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_doors_and_windows_motion_sensor_crossover_normal.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_doors_and_windows_motion_sensor_crossover_pressed.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>60</DataValue>
+					    	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_doors_and_windows_motion_sensor_crossover_selected.png</NormalURL>
+					    	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_doors_and_windows_motion_sensor_crossover_focused.png</FocusURL>
+					    </SelectorState>
+					    <SelectorState>
+					     	<DataValue>61</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_extend_suv_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_extend_suv_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>62</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_extend_suv_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_extend_suv_focused.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>63</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_extend_sedan_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_extend_sedan_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>64</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_extend_sedan_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_extend_sedan_focused.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>65</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_extend_crossover_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_extend_crossover_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>66</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_extend_crossover_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_extend_crossover_focused.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>67</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_ppm_vehicle_off_suv_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_ppm_vehicle_off_suv_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>68</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_ppm_vehicle_off_suv_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_ppm_vehicle_off_suv_focused.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>69</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_ppm_vehicle_off_sedan_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_ppm_vehicle_off_sedan_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>70</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_ppm_vehicle_off_sedan_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_ppm_vehicle_off_sedan_focused.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>71</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_ppm_vehicle_off_crossover_normal.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_ppm_vehicle_off_crossover_pressed.png</FocusURL>
+					     </SelectorState>
+					     <SelectorState>
+					     	<DataValue>72</DataValue>
+					     	<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_ppm_vehicle_off_crossover_selected.png</NormalURL>
+					     	<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_ppm_vehicle_off_crossover_focused.png</FocusURL>
+					     </SelectorState>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_0</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(0)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_1</ID>
+					<Location>
+						<LocationX>768</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_1</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(1)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_2</ID>
+					<Location>
+						<LocationX>1248</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_2</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_2</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(2)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_3</ID>
+					<Location>
+						<LocationX>1727</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_3</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_3</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(3)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_4</ID>
+					<Location>
+						<LocationX>2206</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_4</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_4</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(4)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_5</ID>
+					<Location>
+						<LocationX>288</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_5</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_5</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(5)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_6</ID>
+					<Location>
+						<LocationX>768</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_6</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_6</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(6)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_7</ID>
+					<Location>
+						<LocationX>1248</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_7</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_7</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(7)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_8</ID>
+					<Location>
+						<LocationX>1727</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_8</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_8</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(8)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_multiple_smart_controls_9</ID>
+					<Location>
+						<LocationX>2207</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_multiple_smart_controls_9</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_control_remote_icon"/>
+						<NormalURL>11/dummy.png</NormalURL>
+						<FocusURL>11/dummy.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_multiple_smart_controls_txt_9</ID>
+						<Font var="var_font_smart_controls"/>
+						<FocusFont var="var_font_smart_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_multiple_smart_controls_txt"/>
+						<Size var="var_size_multiple_smart_controls_txt"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(9)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+                    <ID>img_smart_controls_close_mfc</ID>
+                    <Location>
+						<LocationX>0</LocationX>
+						<LocationY>9</LocationY>
+					</Location>
+					<Size var="var_size_actionbar_close_img"/>
+					<FocusURL skinid="skin_focused_URL">11/btn_general_close_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+			    </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_0</ID>
+                    <Location>
+						<LocationX>288</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(0)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(0)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+			    </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_1</ID>
+                    <Location>
+						<LocationX>768</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(1)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(1)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_2</ID>
+                    <Location>
+						<LocationX>1248</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(2)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(2)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_3</ID>
+                    <Location>
+						<LocationX>1727</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(3)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(3)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>4</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_4</ID>
+                    <Location>
+						<LocationX>2206</LocationX>
+						<LocationY>235</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(4)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(4)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>5</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_5</ID>
+                    <Location>
+						<LocationX>288</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(5)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(5)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>6</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_6</ID>
+                    <Location>
+						<LocationX>768</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(6)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(6)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>7</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_7</ID>
+                    <Location>
+						<LocationX>1248</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(7)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(7)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>8</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_8</ID>
+                    <Location>
+						<LocationX>1727</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(8)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(8)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>9</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_multiple_smart_control_mfc_9</ID>
+                    <Location>
+						<LocationX>2207</LocationX>
+						<LocationY>602</LocationY>
+					</Location>
+					<Size var="var_size_control_remote_icon"/>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected(9)</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_SmartControl_Selected(9)</WidgetCallback>
+                    </InputWidgetMapping>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>10</TabH>
+                    </TabOrder>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>BackReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Back_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>HomeReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Home_Press</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

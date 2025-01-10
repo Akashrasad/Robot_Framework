@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6110</ScreenID>
+                <Name>ics_virtual_controls_pin_to_start_successful_start_stop_button</Name>
+				<ImageWidget>
+					<ID>img_pts_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression="NONE">11/img_ics_pin_to_start_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+                <GroupWidget>
+					<ID>group_exit_button</ID>
+					<Location var="var_loc_close_button"/>
+					<Size var="var_size_close_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="image_exit_button">
+						<ID>image_exit_button</ID>
+					</ImageElements>
+					<LabelElements var="var_close_text">
+						<ID>choreography_20_3_close_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+                    <ID>choreography_9_3F_PressStartStopButton_csm</ID>
+                    <Font var="var_font_title_pin">
+					<TextAlign>0</TextAlign>
+					</Font>
+                    <Location var="var_loc_enterpasscode_text"/>
+                    <Size var="var_size_start_stop_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_4F_PressStartStopButton_csm</ID>
+                    <Font var="var_font_title_pin"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_enterpasscode_text"/>
+                    <Size var="var_size_start_stop_txt"/>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ProgressBarWidget>
+                    <ID>img_progressbar</ID>
+                    <Value>30</Value>
+                    <Location>
+                        <LocationX>314</LocationX>
+                        <LocationY>481</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1221</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <ProgressBarURL>11/img_dyn_progress_bar_filled.png</ProgressBarURL>
+                    <ProgressBarURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </ProgressBarURLLocation>
+                    <ProgressBarURLSize>
+                        <SizeW>1221</SizeW>
+                        <SizeH>8</SizeH>
+                    </ProgressBarURLSize>
+                    <HousingURL>11/img_dyn_progress_bar_empty.png</HousingURL>
+                    <HousingURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </HousingURLLocation>
+                    <HousingURLSize>
+                        <SizeW>1221</SizeW>
+                        <SizeH>8</SizeH>
+                    </HousingURLSize>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                    <Orientation>0</Orientation>
+					<IsScaledProgressBar>1</IsScaledProgressBar>
+                </ProgressBarWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_exit_btn</ID>
+                    <Location var="var_loc_close_button"/>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Size var="var_size_close_button"/>
+                    <FocusURL>11/btn_close_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

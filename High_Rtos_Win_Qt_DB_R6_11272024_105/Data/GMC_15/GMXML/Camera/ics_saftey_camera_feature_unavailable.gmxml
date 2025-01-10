@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6073</ScreenID>
+                <Name>ics_saftey_camera_feature_unavailable</Name>
+                <ImageWidget var="var_snackbar_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                 <ImageWidget var="var_img_action_1line_snackbar">
+                    <ID>img_camera_alert</ID>
+					<Location var="var_loc_camera_alert2"/>
+                </ImageWidget>
+                <LabelWidget var="var_lbl_action_1line_snackbar">
+                    <ID>safetysystems_4_1_1_FeatureUnavailable_csm</ID>
+					<Location var="var_loc_cam_alert_text"/>
+					<Size var="var_size_calibration_forward_text"/>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

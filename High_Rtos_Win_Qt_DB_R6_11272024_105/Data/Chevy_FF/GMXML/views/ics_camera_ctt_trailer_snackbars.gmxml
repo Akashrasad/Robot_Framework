@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_camera_ctt_trailer_snackbars</ViewID>
+			<Location>
+				<LocationX>1461</LocationX>
+				<LocationY>233</LocationY>
+			</Location>
+			<Size>
+				<SizeW>1275</SizeW>
+				<SizeH>333</SizeH>
+			</Size>
+			<ZOrder>6</ZOrder>
+			<Camera>
+			<Screen load="ics_camera_transparent_trailer_driveforward"/>
+			<Screen load="ics_camera_transparent_trailer_highspeed"/>
+			<Screen load="ics_camera_transparent_trailer_no_straight"/>
+		   </Camera>
+		</View>
+	</Display>
+</GMXML>

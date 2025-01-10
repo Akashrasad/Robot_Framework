@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_universal_remotes_auto_open_close</ScreenID>
+                <Name>ics_virtualcontrols_universal_remotes_auto_open_close</Name>
+				<ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<ImageWidget>
+					<ID>img_control_icn_universal_remote</ID>
+					<Location var="var_loc_univRemote_icn"/>
+					<Size var="var_size_icn_image"/> 
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_voc_universal_remote_small_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOUnivRemote_csm</ID>
+					<Font var="var_font_call_assistance"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_univRemote_1"/>
+					<Size var="var_size_univRemote_1"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn1">
+                    <ID>img_placeholder_WakeScreen</ID>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_exit_btn1">
+                    <ID>img_close</ID>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+                    <ID>virtualcontrols_1_0_4_wakeScreenExit_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="exit_btn_txt">
+                    <ID>apa_3_0_Exit_f_csm</ID>
+                </LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_2_2_G_desc_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_autoTransmit"/>
+					<Size var="var_size_snackbar_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_btn_bg1</ID>
+					<Location var="var_loc_primary_btn"/>
+					<Size var="var_size_notification_simple_dialog_body_content_primary_btn"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias1" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_6_2_2_UGDOAutoDont_csm</ID>
+                    <Font var="var_font_test_btn_txt_normal"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_primary_btn_text"/>
+                    <Size var="var_size_primary_btn_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_notification_simple_dialog_view</ViewID>
+            <Size>
+                <SizeW>1578</SizeW>
+                <SizeH>653</SizeH>
+            </Size>
+            <Location>
+                <LocationX>651</LocationX>
+                <LocationY>426</LocationY>
+            </Location>
+            <ZOrder var="var_zorder_notification_view"/>
+            <Screen load="ics_virtualcontrols_geolocation_not_detected"/>
+        </View>
+    </Display>
+</GMXML>

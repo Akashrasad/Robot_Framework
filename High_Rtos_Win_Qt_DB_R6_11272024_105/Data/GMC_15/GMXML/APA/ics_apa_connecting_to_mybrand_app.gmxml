@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7013</ScreenID>
+                <Name>ics_apa_connecting_to_mybrand_app</Name>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>apa_4_12_Connecting_csm</ID>
+                    <Font var="var_font_radio_btn_off_focused"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_unableToconnect_txt"/>
+                    <Size var="var_size_unabletoconnect_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ActivityIndicatorWidget>
+                    <ID>img_progress_activity</ID>
+                    <Location>
+                        <LocationX>167</LocationX>
+                        <LocationY>300</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>142</SizeW>
+                        <SizeH>142</SizeH>
+                    </Size>
+                    <Spinner>
+                        <SpinnerLocation>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </SpinnerLocation>
+                        <SpinnerSize>
+                            <SizeW>142</SizeW>
+                            <SizeH>142</SizeH>
+                        </SpinnerSize>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_progress_circle_1.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias9">11/img_progress_circle_2.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_progress_circle_3.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias10">11/img_progress_circle_4.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_5.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_6.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_7.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_8.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_9.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias11">11/img_progress_circle_10.png</SpinnerURL>
+                    </Spinner>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ActivityIndicatorWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

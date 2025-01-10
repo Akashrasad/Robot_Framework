@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_wake_screen</ScreenID>
+                <Name>ics_virtualcontrols_wake_screen</Name>
+                <ImageWidget>
+                    <ID>img_controlimg_main_background</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_bg_11_3inch"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                </ImageWidget>
+                <ImageWidget var="img_wakescreen_exit_btn">
+                    <ID>img_placeholder</ID>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_card_doors_windows</ID>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias6">11/img_home_card_doorswindows_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias6">11/img_home_card_doorswindows_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/img_home_card_doorswindows_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/img_home_card_doorswindows_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/img_home_card_doorswindows_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_doorswindows_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_DoorsWindowsCard_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_card_door_window_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_card_drivepark_placeholder</ID>
+                    <Location var="var_loc_card_controls_drive_park_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias9">11/img_home_card_drivepark_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias6">11/img_home_card_drivepark_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias9">11/img_home_card_drivepark_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/img_home_card_drivepark_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/img_home_card_drivepark_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_drivepark_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_DriveParkCard_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <Location var="var_loc_card_controls_drive_park_placeholder_txt"/>
+                    <Size var="var_size_card_door_window_placeholder_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_card_lights</ID>
+                    <Location var="var_loc_card_controls_lights_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias5">11/img_home_card_lights_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias5">11/img_home_card_lights_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/img_home_card_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/img_home_card_lights_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_lights_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_lights_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_LightsCard_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <Location var="var_loc_card_controls_lights_placeholder_txt"/>
+                    <Size var="var_size_card_door_window_placeholder_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_gloves</ID>
+                    <Location var="var_loc_home_screen_icon_1st_row_1st_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_gloves_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_gloves_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_gloves_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_gloves_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickGloveLabel_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_1st_row_1st_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickGloveLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickGloveLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_remote</ID>
+                    <Location var="var_loc_home_screen_icon_1st_row_2nd_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression="CompressionAlias1">11/btn_icn_universal_remote_selected.png</NormalURL>
+                    <FocusURL compression="CompressionAlias1">11/btn_icn_universal_remote_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_icn_universal_remote_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_icn_universal_remote_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_1st_row_2nd_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_dome_lights</ID>
+                    <Location var="var_loc_home_screen_icon_1st_row_3rd_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickDomeLabel_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_1st_row_3rd_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickDomeLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickDomeLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>control_child_saftey_icon</ID>
+                    <Location var="var_loc_home_screen_icon_2nd_row_1st_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickChildLabel_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_2nd_row_1st_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickChildLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_0_QuickChildLabel_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_power_window_lockout</ID>
+                    <Location var="var_loc_home_screen_icon_2nd_row_2nd_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias4">11/btn_icn_power_window_lockout_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/btn_icn_power_window_lockout_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_0_0_powerWindowLockout_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_2nd_row_2nd_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_0_0_powerWindowLockout_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_0_0_powerWindowLockout_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_motion_sensor</ID>
+                    <Location var="var_loc_home_screen_icon_2nd_row_3rd_col"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_motion_sensor_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_motion_sensor_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_2_card_motion_csm</ID>
+                    <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    <Location var="var_loc_home_screen_icon_txt_2nd_row_3rd_col"/>
+                    <Size var="var_size_home_screen_icon_txt_1st_row_1st_col"/>
+                    <TextWrap>1</TextWrap>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_2_card_motion_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_noraml"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_2_card_motion_csm</StaticValue>
+                        <Font var="var_font_home_screen_icon_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget var="wakescreen_exit_btn_txt">
+                    <ID>virtualcontrols_1_0_exit_f_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6062</ScreenID>
+				<Name>ics_virtualcontrols_hmi_factory_reset_confirmation</Name>
+				<ImageWidget var="var_snackbar_2line_recovery_bg">
+					<ID>img_notification_ivi_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_snackbar_2line_recovery_text">
+					<ID>virtualcontrols_factory_reset_are_you_sure_csm</ID>
+					<Location>
+						<LocationX>47</LocationX>
+						<LocationY>17</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1314</SizeW>
+						<SizeH>117</SizeH>
+					</Size>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_img_yes_btn</ID>
+					<Location>
+						<LocationX>1350</LocationX>
+						<LocationY>17</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_yes_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>192</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<NormalURL>11/btn_secondary_bg_small_normal.png</NormalURL>
+						<FocusURL>11/btn_secondary_bg_small_focused.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_factory_reset_yes_csm</ID>
+						<Font var="var_font_yes_button_pressed"/>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>192</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_RTOS_Inprogress</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_no_btn</ID>
+					<Location>
+						<LocationX>1550</LocationX>
+						<LocationY>17</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_no_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>192</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<NormalURL>11/btn_secondary_bg_small_normal.png</NormalURL>
+						<FocusURL>11/btn_secondary_bg_small_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_secondary_bg_small_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_factory_reset_no_csm</ID>
+						<Font var="var_font_yes_button_pressed"/>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>192</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HMI_Factory_Reset</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

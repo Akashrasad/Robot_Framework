@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6012</ScreenID>
+				<Name>ics_virtual_controls_traction_control</Name>
+				<ImageWidget var="img_btn_back">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+				 <LabelWidget var="var_lbl_actionbar_text">
+					<ID>virtualcontrols_1_3_0_1_tractionTitle_csm</ID>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_1_tractionTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_1_tractionTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+				</LabelWidget>
+                <ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+			  </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+					<Location>
+                        <LocationX>260</LocationX>
+                        <LocationY>1189</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <Size>
+                        <SizeW>410</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                </LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_traction_Off</ID>
+					<Location var="var_loc_radio_btn_off"/>
+					<LayoutOverride var = "var_layout_img_radio_button_Off"/>
+					<Size var="var_size_radio_btn"/>
+					<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+					 <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						 <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_TractionControl_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_3_0_1_TractionOff_csm</ID>
+					<Location var="var_loc_radio_btn_off_txt"/>
+					<LayoutOverride var = "var_layout_img_radio_btn_off_txt"/>
+					<Size var="var_size_radio_btn_text_large"/>
+					<Font var="var_font_radio_btn_off_focused_large"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_TractionOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_TractionOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_TractionOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_TractionOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_traction_esc_off</ID>
+					<Location var="var_loc_radio_btn_on"/>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>410</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_radio_btn">
+					<SizeH>248</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+					<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_radio_button_tc_selected_large.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_TractionControl_ESC_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_e_traction_esc_off_csm</ID>
+					<Location var="var_loc_radio_btn_on_txt">
+					<LocationY>376</LocationY>
+					</Location>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>790</LocationX>
+                            <LocationY>455</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_esc_traction_text"/>
+					<Font var="var_font_radio_btn_off_normal_large"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_esc_off_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_esc_off_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_esc_off_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_esc_off_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>icn_traction_control_off_normal</ID>
+					<Location var="var_loc_icon_esc_off"/>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>1667</LocationX>
+                            <LocationY>470</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_esc_img"/>
+					<Alpha>100</Alpha>
+					<ZOrder>6</ZOrder>
+					<NormalURL compression="CompressionAlias1" skinid="skin_normal_URL">11/icn_traction_control_off_normal.png</NormalURL>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_traction_esc_on</ID>
+					<Location var="var_loc_radio_btn_grp_3rdrow">
+					<LocationY>580</LocationY>
+					</Location>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>659</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_radio_btn">
+					<SizeH>248</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+					<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_selected_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_normal_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_tc_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_tc_selected_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_TractionControl_ESC_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_e_traction_on_csm</ID>
+					<Location var="var_loc_radio_btn_grp_3rdrow_txt">
+					<LocationY>625</LocationY>
+					</Location>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>790</LocationX>
+                            <LocationY>704</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_esc_traction_text"/>
+					<Font var="var_font_radio_btn_off_normal_large"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_on_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_on_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_on_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<StaticValue>virtualcontrols_1_0_e_traction_on_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>icn_traction_control_normal</ID>
+					<Location var="var_loc_icon_esc_on"/>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>1667</LocationX>
+                            <LocationY>719</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_esc_img"/>
+					<Alpha>100</Alpha>
+					<ZOrder>6</ZOrder>
+					<NormalURL compression="CompressionAlias1" skinid="skin_normal_URL">11/icn_traction_control_normal.png</NormalURL>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_competitive_on</ID>
+					<Location var="var_loc_radio_btn_grp_4throw">
+					<LocationY>828</LocationY>
+					</Location>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>907</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_radio_btn"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+					<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						 <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_TractionControl_Competitive_Mode_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_3_0_1_1_TractionCompetitive_csm</ID>
+					<Location var="var_loc_radio_btn_grp_4throw_txt">
+					<LocationY>873</LocationY>
+					</Location>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>790</LocationX>
+                            <LocationY>950</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<Size var="var_size_radio_btn_text_large"/>
+					<Font var="var_font_radio_btn_off_normal_large"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_1_TractionCompetitive_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_1_TractionCompetitive_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_1_TractionCompetitive_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal_large"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_1_1_TractionCompetitive_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused_large"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_traction_control</ID>
+					<Location var="var_loc_icon"/>
+					<LayoutOverride var = "var_layout_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_traction_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_lbl_detailsUnavailable_txt">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_lbl_action_desc_txt">
+					<ID>virtualcontrols_1_3_0_1_traction_csm</ID>
+				</LabelWidget>
+                <ImageWidget var="img_1strow_radio_btn_mfc">
+                    <ID>img_tc_off_mfc</ID>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>245</LocationY>
+                        </Location>
+					</LayoutOverride>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_TractionControl_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_mfc">
+                    <ID>img_tc_escoff_mfc</ID>
+					<Size>
+						<SizeW>1167</SizeW>
+						<SizeH>248</SizeH>
+					</Size>
+					<FocusURL>11/btn_vc_onoff_long_bg_focused1.png</FocusURL>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>411</LocationY>
+                        </Location>
+					</LayoutOverride>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_TractionControl_ESC_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_mfc">
+                    <ID>img_escon_mfc</ID>
+					<Location>
+						<LocationX>373</LocationX>
+						<LocationY>579</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1167</SizeW>
+						<SizeH>248</SizeH>
+					</Size>
+					<FocusURL>11/btn_vc_onoff_long_bg_focused1.png</FocusURL>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>659</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_TractionControl_ESC_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_4throw_radio_btn_mfc">
+                    <ID>img_competetive_mode_mfc</ID>
+					<Location>
+						<LocationX>373</LocationX>
+						<LocationY>828</LocationY>
+					</Location>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>4</TabH>
+                    </TabOrder>
+					<LayoutOverride>
+                     <ID>RHD</ID>
+                     <RTL>0</RTL>
+                        <Location>
+                            <LocationX>629</LocationX>
+                            <LocationY>907</LocationY>
+                        </Location>
+                    </LayoutOverride>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_TractionControl_Competitive_Mode_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <!-- <ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_tc_off_divider</ID>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>mg_tc_escoff_divider</ID>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_escon_divider</ID>
+                </ImageWidget>
+                <ImageWidget var="img_4throw_radio_btn_divider">
+                    <ID>img_competetive_mode_divider</ID>
+                </ImageWidget> -->
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

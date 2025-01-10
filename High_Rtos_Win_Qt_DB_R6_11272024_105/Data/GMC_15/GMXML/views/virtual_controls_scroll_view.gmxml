@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>virtual_controls_scroll_view</ViewID>
+			<Size>
+				<SizeW>1485</SizeW>
+				<SizeH>1195</SizeH>
+			</Size>
+			<Location>
+				<LocationX>197</LocationX>
+				<LocationY>167</LocationY>
+			</Location>
+			<ZOrder>1</ZOrder>
+			<Screen load="ics_virtual_controls_scroll_first_page"/>
+			<Screen load="ics_virtual_controls_scroll_second_page"/>
+		</View>
+	</Display>
+</GMXML>

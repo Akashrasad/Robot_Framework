@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_virtual_controls_power_outlets_view</ViewID>
+            <Size>
+                <SizeW>2914</SizeW>
+                <SizeH>1133</SizeH>
+            </Size>
+            <Location>
+                <LocationX>486</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <ZOrder>6</ZOrder>
+			<Screen load="ics_virtualcontrols_outlets_start_screen"/>
+            <Screen load="ics_virtualcontrols_range_reserve"/>
+			<Screen load="ics_virtualcontrols_summary_screen"/>
+			<Screen load="ics_virtualcontrols_peekin_screen_circle_alt"/>
+		</View>
+    </Display>
+</GMXML>

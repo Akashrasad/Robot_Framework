@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8032</ScreenID>
+				<Name>ics_camera_transparent_trailer_no_straight</Name>
+				<ImageWidget var="var_snackbar_camera_calibration_pbg">
+					<ID>img_camera_calibration_pbg</ID>
+				</ImageWidget>
+				<ImageWidget var="var_img_camera_alert_icon">
+					<ID>img_camera_alert</ID>
+				</ImageWidget>
+				<LabelWidget var="var_ctt_trailer_driveforward_txt">
+					<ID>safetysystems_2_6_2_Calibrationmessage3_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_ctt_trailer_calibrating_txt">
+					<ID>safetysystems_2_6_2_CalibrationPercentage2_csm</ID>
+				</LabelWidget>
+				<ProgressBarWidget>
+					<ID>img_calibration_progressbar</ID>
+					<Value>0</Value>
+					<Location>
+						<LocationX>58</LocationX>
+						<LocationY>112</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1215</SizeW>
+						<SizeH>9</SizeH>
+					</Size>
+					<ProgressBarTouch>1</ProgressBarTouch>
+					<ProgressBarURL>11/calibration_progress_bar_filled.png</ProgressBarURL>
+					<IsScaledProgressBar>1</IsScaledProgressBar>
+					<ProgressBarURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>1215</SizeW>
+						<SizeH>9</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL>11/calibration_progress_bar_empty.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>1215</SizeW>
+						<SizeH>9</SizeH>
+					</HousingURLSize>
+					<Alpha>100</Alpha>
+					<ZOrder>5</ZOrder>
+					<Orientation>0</Orientation>
+				</ProgressBarWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

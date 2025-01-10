@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables> 
+        <GroupWidget id="var_change_selection_down">
+			<Location var="var_loc_titilebar_up_arrow"/>
+			<Size var="var_size_title_bar_bg"/>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+			<ImageElements>
+				<ID>img_up_arrow</ID>
+				<Location var="var_loc_change_selection_arrow"/>
+				<Size var="var_size_title_bar_up_arrow"/>
+				<NormalURL compression="NONE">11/icn_down_normal_small.png</NormalURL>
+				<FocusURL compression="NONE">11/icn_down_focused_small.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression="NONE">11/icn_down_normal_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression="NONE">11/icn_down_focused_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression="NONE">11/icn_down_pressed_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression="NONE">11/icn_down_selected_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>4</DataValue>
+					<NormalURL compression="NONE">11/icn_down_disabled_small.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</ImageElements>
+		</GroupWidget>
+		<GroupWidget id="var_primary_btn">
+			<Location var="var_loc_yes_button_img"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_park_in_vehicle_btn</ID>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_primary_disabled.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression="CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_ParkInVehicle_csm</ID>
+				<Font var="var_font_yes_button"/>
+				<FocusFont var="var_font_yes_button_pressed"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_yes_button_disabled"/>
+					<FocusFont var="var_font_yes_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_yes_button_selected"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_secondary_btn_non_srp">
+			<Location var="var_loc_keep_looking_button"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_keep_looking_btn</ID>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_selected.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_KeepLooking_csm</ID>
+				<Font var="var_font_keep_looking_button"/>
+				<FocusFont var="var_font_keep_looking_button_pressed"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_keep_looking_button_disabled"/>
+					<FocusFont var="var_font_keep_looking_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_keep_looking_button_selected"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_secondary_btn">
+			<Location var="var_loc_keep_looking_button"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_supervise_remotely_btn</ID>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_selected.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_ParkRemotely_csm</ID>
+				<Font var="var_font_keep_looking_button"/>
+				<FocusFont var="var_font_keep_looking_button_pressed"/>
+				<TextWrap>1</TextWrap>
+				<Location>
+                        <LocationX>27</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+				<Size var="var_size_park_remotly"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_keep_looking_button_disabled"/>
+					<FocusFont var="var_font_keep_looking_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_keep_looking_button_selected"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_tertiary_btn">
+			<Location var="var_loc_park_in_vehicle"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_keep_looking_btn</ID>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression = "CompressionAlias1">11/btn_secondary_selected.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_KeepLooking_csm</ID>
+				<Font var="var_font_keep_looking_button"/>
+				<FocusFont var="var_font_keep_looking_button_pressed"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin_0_0"/>
+				<Size var="var_size_yes_button"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_keep_looking_button_disabled"/>
+					<FocusFont var="var_font_keep_looking_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_keep_looking_button_selected"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_change_selection">
+			<Location var="var_loc_titilebar_up_arrow"/>
+			<Size var="var_size_title_bar_bg"/>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+			<ImageElements>
+				<ID>img_change_selection</ID>
+				<Location var="var_loc_change_selection_arrow"/>
+				<Size var="var_size_title_bar_up_arrow"/>
+				<NormalURL compression="NONE">11/icn_up_normal_small.png</NormalURL>
+				<FocusURL compression="NONE">11/icn_up_focused_small.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression="NONE">11/icn_up_normal_small.png</NormalURL>
+					<FocusURL compression="NONE">11/icn_up_focused_small.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression="NONE">11/icn_up_focused_small.png</NormalURL>
+					<FocusURL compression="NONE">11/icn_up_pressed_small.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression="NONE">11/icn_up_pressed_small.png</NormalURL>
+					<FocusURL compression="NONE">11/icn_up_normal_small.png</FocusURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>5</ZOrder>
+			</ImageElements>
+		</GroupWidget>
+	</Variables>
+</GMXML>

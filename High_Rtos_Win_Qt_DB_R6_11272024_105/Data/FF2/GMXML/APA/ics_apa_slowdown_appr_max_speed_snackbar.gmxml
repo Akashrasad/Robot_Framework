@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7019</ScreenID>
+                <Name>ics_apa_slowdown_appr_max_speed_snackbar</Name>
+                <ImageWidget var="var_snackbar_2line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2line_txt">
+                    <ID>apa_6_1_SlowDown_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>9005</ScreenID>
+				<Name>ics_hvac_bottom_bar_air_direction_flyout</Name>
+				<ImageWidget>
+					<ID>img_hvac_quick_airflow_bg</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>1</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1069</SizeW>
+						<SizeH>723</SizeH>
+					</Size>
+					<NormalURL>11/img_quick_hvac_airflow_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_windshield</ID>
+					<Location>
+						<LocationX>53</LocationX>
+						<LocationY>74</LocationY>
+					</Location>
+					<Size>
+						<SizeW>661</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/img_airflow_windshield_selected.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_windshield_selected.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_WhinShield</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_face</ID>
+					<Location>
+						<LocationX>53</LocationX>
+						<LocationY>265</LocationY>
+					</Location>
+					<Size>
+						<SizeW>566</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/img_airflow_face_selected.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_face_selected.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_air_Vent</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_airflow_foot</ID>
+					<Location>
+						<LocationX>53</LocationX>
+						<LocationY>388</LocationY>
+					</Location>
+					<Size>
+						<SizeW>648</SizeW>
+						<SizeH>258</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/img_airflow_foot_selected.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/img_airflow_foot_selected.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_air_Floor</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hvac_climate_seat</ID>
+					<Location>
+						<LocationX>201</LocationX>
+						<LocationY>156</LocationY>
+					</Location>
+					<Size>
+						<SizeW>528</SizeW>
+						<SizeH>506</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_climate_seat.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_fan_up_normal</ID>
+					<Location>
+						<LocationX>730</LocationX>
+						<LocationY>218</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_arrow_up_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_arrow_up_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_Fan_Speed_Inc</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_fan_down_normal</ID>
+					<Location>
+						<LocationX>730</LocationX>
+						<LocationY>371</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_arrow_down_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_arrow_down_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_Fan_Speed_Dec</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_fan_level_rotation</ID>
+					<Location>
+						<LocationX>852</LocationX>
+						<LocationY>314</LocationY>
+					</Location>
+					<Size>
+						<SizeW>94</SizeW>
+						<SizeH>94</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/icn_fan_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<BehaviorState>
+						<BehaviorStateValue>0</BehaviorStateValue>
+						<BehaviorProperty>2</BehaviorProperty>
+						<BehaviorPropertyValue>0</BehaviorPropertyValue>
+					</BehaviorState>
+					<BehaviorState>
+						<BehaviorStateValue>90</BehaviorStateValue>
+						<BehaviorProperty>2</BehaviorProperty>
+						<BehaviorPropertyValue>-90</BehaviorPropertyValue>
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+				<ID>dyn_lbl_fan_number</ID>
+				<Location>
+						<LocationX>947</LocationX>
+						<LocationY>303</LocationY>
+					</Location>
+					<Size>
+						<SizeW>69</SizeW>
+						<SizeH>114</SizeH>
+					</Size>
+					<Font>
+                        <Name>GMSUIBuickGlobal-Light</Name>
+                        <Size>88</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>1</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection/>
+                    </Font>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_modeman_fan_auto</ID>
+					<Location>
+						<LocationX>14</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1039</SizeW>
+						<SizeH>672</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_modeman_fan_auto_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_fan_auto</ID>
+					<Location>
+						<LocationX>736</LocationX>
+						<LocationY>14</LocationY>
+					</Location>
+					<Size>
+						<SizeW>297</SizeW>
+						<SizeH>671</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_fan_auto_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_modeman_auto</ID>
+					<Location>
+						<LocationX>22</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+					<Size>
+						<SizeW>713</SizeW>
+						<SizeH>642</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_modeman_auto_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

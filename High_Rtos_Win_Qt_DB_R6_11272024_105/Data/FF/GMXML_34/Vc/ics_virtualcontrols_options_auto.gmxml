@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6042</ScreenID>
+                <Name>ics_virtualcontrols_options_auto</Name>
+                <ImageWidget>
+                    <ID>img_controlimg__main_background</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_placeholder_WakeScreen</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+				    <TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_btn_back">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Options_back</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_Options_back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+                <LabelWidget var="var_lbl_actionbar_text">
+                    <ID>virtualcontrols_1_5_6_2_RemoteAutoTitle_csm</ID>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_2_RemoteAutoTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_2_RemoteAutoTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+                <LabelWidget var="exit_btn_txt">
+                    <ID>virtualcontrols_1_0_4_wakeScreenExit_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="exit_btn_txt">
+                    <ID>virtualcontrols_1_1_exitBtn_csm</ID>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_check_box_auto_open</ID>
+                    <Location var="var_loc_radio_btn_off"/>
+                    <Size var="var_size_radio_btn"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remotes_Options_Auto_Open</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_6_3_UGDOAutoOpen_csm</ID>
+                    <Location var="var_loc_radio_btn_off_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_3_UGDOAutoOpen_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_3_UGDOAutoOpen_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_check_box_auto_close</ID>
+                    <Location var="var_loc_radio_btn_on"/>
+                    <Size var="var_size_radio_btn"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remotes_Options_Auto_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_6_3_UGDOAutoClose_csm</ID>
+                    <Location var="var_loc_radio_btn_on_txt"/>
+                    <Size var="var_size_actionbar_text_without_icon"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_3_UGDOAutoClose_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_6_3_UGDOAutoClose_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_3_2_UGDOAutoOpenCloseMessage_csm</ID>
+                    <Location>
+                        <LocationX>373</LocationX>
+                        <LocationY>625</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1347</SizeW>
+                        <SizeH>166</SizeH>
+                    </Size>
+                    <Font var="var_font_options_desc"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_3_2_UGDORange_csm</ID>
+                    <Location var="var_loc_options_desc"/>
+                    <Size var="var_size_options_desc"/>
+                    <Font var="var_font_options_desc"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_auto_open_list_divider</ID> 
+                    <Location var="var_loc_off_divider"/>
+                    <Size>
+                        <SizeW>1347</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/img_list_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_auto_close_list_divider</ID>
+                    <Location var="var_loc_on_divider"/>
+                    <Size>
+                        <SizeW>1347</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/img_list_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ListWidget>
+                    <ListID>ics_vc_options_auto_selected_list</ListID>
+                    <Location>
+                        <LocationX>1980</LocationX>
+                        <LocationY>226</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>275</SizeW>
+                        <SizeH>531</SizeH>
+                    </Size>
+                    <FocusedRow>0</FocusedRow>
+                    <BackgroundURL/>
+                    <RowLayout>
+                        <RowLayoutID>normal_layout</RowLayoutID>
+                        <Size>
+                            <SizeW>275</SizeW>
+                            <SizeH>175</SizeH>
+                        </Size>
+                        <RowSpacing>2</RowSpacing>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <NormalURL />
+                        <FocusURL/>
+                        <RowSeparatorImageURL></RowSeparatorImageURL>
+                    </RowLayout>
+                    <ZOrder>5</ZOrder>
+                    <ElementData>
+                        <LabelElements>
+                            <ID>distance_disabled</ID>
+                            <Location>
+                                <LocationX>25</LocationX>
+                                <LocationY>44</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>225</SizeW>
+                                <SizeH>87</SizeH>
+                            </Size>
+                            <Font var="var_font_radio_btn_txt_noraml"/>
+                            <TextWrap>1</TextWrap>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                        <LabelElements>
+                            <ID>distance</ID>
+                            <Location>
+                                <LocationX>25</LocationX>
+                                <LocationY>44</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>225</SizeW>
+                                <SizeH>87</SizeH>
+                            </Size>
+                            <Font var="var_font_radio_btn_txt_focused"/>
+                            <TextWrap>1</TextWrap>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                    </ElementData>
+                </ListWidget>
+                <ImageWidget var="img_1strow_radio_btn_mfc">
+                    <ID>img_off_mfc</ID>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_mfc">
+                    <ID>img_on_mfc</ID>
+                </ImageWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

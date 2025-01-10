@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8005</ScreenID>
+				<Name>ics_camera_rvc_standard_hitch</Name>
+				<ImageWidget var="var_img_main_bg">
+					<ID>img_bg_black</ID>
+				</ImageWidget>
+				<GroupWidget var="grp_img_exit">
+                    <ID>grp_img_exit</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+				<RVCGuideLinesWidget>
+					<ID>img_rvc_widget</ID>
+					<Location>
+						<LocationX>314</LocationX>
+						<LocationY>761</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1391</SizeW>
+						<SizeH>562</SizeH>
+					</Size>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</RVCGuideLinesWidget>
+				<ImageWidget>
+					<ID>img_guideliness_view</ID>
+					<Location var="var_loc_guideline_small"/>
+					<Size var="var_size_guideline"/>
+					<NormalURL compression="CompressionAlias10">11/btn_guideline_view_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias10">11/icn_guideline_view_small_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+					</InputWidgetMapping>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias10">11/btn_guideline_view_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias10">11/icn_guideline_view_small_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias2">11/btn_guideline_view_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_guideline_view_disabled.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias10">11/icn_guideline_view_small_pressed.png</NormalURL>
+					</SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_trailer_view</ID>
+					<Location var="var_loc_trailer"/>
+					<Size var="var_size_trailer"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<NormalURL compression="CompressionAlias3">11/btn_rvc_2btns_rearview_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias3">11/btn_rvc_2btns_rearview_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Rear_Camera</WidgetCallback>
+					</InputWidgetMapping>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias3">11/btn_rvc_2btns_rearview_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_rvc_2btns_rearview_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias2">11/btn_rvc_2btns_rearview_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_rvc_2btns_rearview_disabled.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias3">11/btn_rvc_2btns_rearview_pressed.png</NormalURL>
+					</SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hitch_zoom</ID>
+					<Location var="var_loc_hitch_zoom"/>
+					<Size var="var_size_trailer"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<NormalURL compression="CompressionAlias2">11/icn_hitch_view_small_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/icn_hitch_view_small_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HitchZoom</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HitchZoom</WidgetCallback>
+					</InputWidgetMapping>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias2">11/icn_hitch_view_small_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_hitch_view_small_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_hitch_view_small_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias3">11/icn_hitch_view_small_disabled.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_hitch_view_small_pressed.png</NormalURL>
+					</SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_safetysystems_7_3_ParkAssistOff_f_csm</ID>
+					<Font var="var_font_vc_dyn_list_center_label"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>1253</LocationX>
+						<LocationY>1114</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1942</SizeW>
+						<SizeH>203</SizeH>
+					</Size>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>safetysystems_7_3_ParkAssistOff_f_csm</StaticValue>
+						<Font var="var_font_vc_dyn_list_center_label"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>safetysystems_7_3_ParkAssistOn_f_csm</StaticValue>
+						<Font var="var_font_vc_dyn_list_center_label"/>
+					</SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7005</ScreenID>
+                <Name>ics_apa_park_instr_parallel_right</Name>
+                <GroupWidget var="var_change_selection_down">
+				<ID>grp_change_selection</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <OnFocusCallback>evG_Apa_Selection_Back</OnFocusCallback>
+                </GroupWidget>
+				<ImageWidget var="var_change_selection_down_mfc">
+					<ID>change_selection_down_mfc</ID>
+                   <TabOrder>
+					<TabV>1</TabV>
+					<TabH>1</TabH>
+				   </TabOrder>
+                 </ImageWidget>
+                <LabelWidget var="var_change_selected_text">
+				<ID>apa_4_1_selectedbuttonParaRight_csm</ID>
+				</LabelWidget>
+                <LabelWidget var="var_park_instructions_text_1">
+                    <ID>apa_4_0_StartByPullingPast_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_park_instructions_text_2">
+                    <ID>apa_4_0_instructions_1_csm</ID>
+                </LabelWidget>                
+		        <GroupWidget var="var_apa_exit">
+					<ID>grp_exit_apa_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget var="var_apa_exit_mfc">
+					<ID>grp_exit_apa_btn_mfc</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

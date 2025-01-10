@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6169</ScreenID>
+                <Name>ics_virtual_controls_seat_massage</Name>
+				<GroupWidget var="var_grp_exit_wake">
+					<ID>grp_placeholder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget var="grp_placeholder_WakeScreen_mfc">
+					<ID>grp_placeholder_WakeScreen_mfc</ID>
+				</GroupWidget>
+                <ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+			  </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+					<Location>
+                        <LocationX>260</LocationX>
+                        <LocationY>1189</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <Size>
+                        <SizeW>410</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                </LabelWidget>
+                <ImageWidget var="img_btn_back">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_AppHome_back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+                <LabelWidget var="var_lbl_actionbar_text_without_icon">
+                    <ID>virtualcontrols_1_15_f_SeatMassageTitle_csm</ID>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_15_f_SeatMassageTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_15_f_SeatMassageTitle_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+                <ListWidget var="var_list_with_multi_row_buttons">
+                    <ListID>virtual_seat_massage_list1_view</ListID>
+                </ListWidget>
+                <ListWidget var="var_four_rows_list">
+                    <ListID>virtual_seat_massage_list2_view</ListID>
+                </ListWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

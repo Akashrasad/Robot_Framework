@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6076</ScreenID>
+                <Name>ics_virtualcontrols_auto_hold</Name>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_auto_hold_back_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_3_h_hold_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_auto_hold_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_1strow_radio_multi_btn">
+                    <ID>img_radio_button_auto_hold_off</ID>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_HillOff_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_HillOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_HillOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_2ndrow_radio_multi_btn">
+                    <ID>img_radio_button_auto_hold_on</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_HillOn_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_HillOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_HillOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_3rdrow_radio_btn">
+                    <ID>img_radio_button_auto_hold_always_on</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_AlwaysOn</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_1_DomeOnAlways_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOnAlways_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOnAlways_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOnAlways_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_controls_icn_autohold</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_auto_vehicle_hold_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_3_6_V_desc_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>		
+                <ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_Auto_hold_off_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>img_Auto_hold_escoff_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_Auto_hold_escon_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Auto_hold_AlwaysOn</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

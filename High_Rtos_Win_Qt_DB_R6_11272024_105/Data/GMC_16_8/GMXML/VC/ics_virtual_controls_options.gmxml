@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6035</ScreenID>
+                <Name>ics_virtual_controls_options</Name>
+				<ImageWidget var="img_wakescreen_exit_btn">
+					<ID>img_place_holder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_6_OptionsTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_options_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_3_Name_csm</ID>
+                    <Location>
+                        <LocationX>220</LocationX>
+                        <LocationY>274</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1555</SizeW>
+                        <SizeH>81</SizeH>
+                    </Size>
+                    <Font var="var_font_vc_options_name"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_vc_options_name"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_vc_options_name_disabled"/>
+					</SelectorState>
+                    <ZOrder>3</ZOrder>
+                    <Alpha>100</Alpha>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>btn_list_options</ID>
+                    <Location>
+                        <LocationX>186</LocationX>
+                        <LocationY>214</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1809</SizeW>
+                        <SizeH>201</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias5">11/btn_list_medium_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias11">11/btn_list_medium_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias5">11/btn_list_medium_right_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias11">11/btn_list_medium_right_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias14">11/btn_list_medium_right_disabled.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_OptionsName</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_6_AutoOpenClose_G_csm</ID>
+                    <Location>
+                        <LocationX>220</LocationX>
+                        <LocationY>476</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1555</SizeW>
+                        <SizeH>81</SizeH>
+                    </Size>
+                    <Font var="var_font_vc_options_name"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_vc_options_name"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_vc_options_name_disabled"/>
+					</SelectorState>
+                    <ZOrder>3</ZOrder>
+                    <Alpha>100</Alpha>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>button_transparent</ID>
+                    <Location>
+                        <LocationX>186</LocationX>
+                        <LocationY>415</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1809</SizeW>
+                        <SizeH>201</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias5">11/btn_list_medium_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias11">11/btn_list_medium_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias5">11/btn_list_medium_right_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias11">11/btn_list_medium_right_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias14">11/btn_list_medium_right_disabled.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Location_Save_Dailog</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>grp_delete_btn</ID>
+					<Location var="var_loc_test_btn"/>
+                    <Size var="var_size_test_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_primary_btn">
+						<ID>img_delete_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_primary_btn_txt">
+						<ID>virtualcontrols_1_5_3_delete_csm</ID>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Options_Delete</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_deleteAll_btn</ID>
+					<Location var="var_loc_itworked_btn"/>
+                    <Size var="var_size_test_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_secondary_btn">
+						<ID>img_deleteAll_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_secondary_btn_txt">
+						<ID>virtualcontrols_1_5_3_DeleteAll_csm</ID>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Options_Delete_All</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

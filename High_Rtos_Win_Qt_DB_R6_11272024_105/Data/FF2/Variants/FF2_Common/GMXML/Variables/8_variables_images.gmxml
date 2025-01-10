@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ImageWidget id="img_exit_btn">
+            <ID>img_exit</ID>
+            <Location>
+				<LocationX>76</LocationX>
+				<LocationY>956</LocationY>
+			</Location>
+			<Size>
+				<SizeW>273</SizeW>
+				<SizeH>125</SizeH>
+			</Size>
+            <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>4</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="var_snackbar_1line_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_notification_bg"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_notification_1lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+			<TabV>1</TabV>
+			<TabH>1</TabH>
+			<InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+            </InputWidgetMapping>
+        </ImageWidget>	
+		<ImageWidget id="img_2line_dialog_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snack_bar_2lines"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_notification_2lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+			<InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+			</InputWidgetMapping>
+		</ImageWidget>
+		<ImageWidget id="perperpendicular_left">
+			<Location var="var_loc_park_left_perp_img"/>
+			<Size var="var_size_perp_img"/>
+			<NormalURL>11/btn_card_perpendicular_left_bg_normal.png</NormalURL>
+			<FocusURL>11/btn_card_perpendicular_left_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL>11/btn_card_perpendicular_left_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_card_perpendicular_left_bg_focused.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_card_perpendicular_left_bg_focused.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL>11/btn_card_perpendicular_left_bg_focusonselected.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL>11/btn_card_perpendicular_left_bg_pressed.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL>11/btn_card_perpendicular_left_bg_selected.png</NormalURL>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="perperpendicular_right">
+			<Location var="var_loc_park_right_perp_img"/>
+			<Size var="var_size_perp_img"/>
+			<NormalURL>11/btn_card_perpendicular_right_bg_normal.png</NormalURL>
+			<FocusURL>11/btn_card_perpendicular_right_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL>11/btn_card_perpendicular_right_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_card_perpendicular_right_bg_focused.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_card_perpendicular_right_bg_focused.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL>11/btn_card_perpendicular_right_bg_focusonselected.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL>11/btn_card_perpendicular_right_bg_pressed.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL>11/btn_card_perpendicular_right_bg_selected.png</NormalURL>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="parallel_left">
+			<Location var="var_loc_park_left_para_img"/>
+			<Size var="var_size_perp_img"/>
+			<NormalURL>11/btn_card_parallel_left_bg_normal.png</NormalURL>
+			<FocusURL>11/btn_card_parallel_left_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL>11/btn_card_parallel_left_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_card_parallel_left_bg_focused.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_card_parallel_left_bg_focused.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL>11/btn_card_parallel_left_bg_focusonselected.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL>11/btn_card_parallel_left_bg_pressed.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL>11/btn_card_parallel_left_bg_selected.png</NormalURL>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="parallel_right">
+			<Location var="var_loc_park_right_para_img"/>
+			<Size var="var_size_perp_img"/>
+			<NormalURL>11/btn_card_parallel_right_bg_normal.png</NormalURL>
+			<FocusURL>11/btn_card_parallel_right_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL>11/btn_card_parallel_right_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_card_parallel_right_bg_focused.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_card_parallel_right_bg_focused.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL>11/btn_card_parallel_right_bg_focusonselected.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL>11/btn_card_parallel_right_bg_pressed.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL>11/btn_card_parallel_right_bg_selected.png</NormalURL>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="var_img_jackknife_amber_snackbar">
+			<Location var="var_loc_jack_knife_truck"/>
+			<Size var="var_size_jack_knife_truck"/>
+			<NormalURL compression="CompressionAlias1">11/icn_jack_knife_amber_truck.png</NormalURL>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</ImageWidget>
+        <ImageWidget id="img_keypad_bg">
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_keypad_bg"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<NormalURL compression = "CompressionAlias3">11/btn_short_keypad_bg_normal.png</NormalURL>
+			<FocusURL>11/btn_short_keypad_bg_pressed.png</FocusURL>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression = "CompressionAlias3">11/btn_short_keypad_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_short_keypad_bg_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_short_keypad_bg_disabled.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="image_exit_button">
+            <Location var="var_loc_origin"/>
+            <Size var="var_size_close_button"/>
+             <NormalURL skinid="skin_normal_URL">11/btn_close_bg_normal.png</NormalURL>
+            <FocusURL skinid="skin_pressed_URL">11/btn_close_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL skinid="skin_normal_URL">11/btn_close_bg_normal.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL skinid="skin_focused_URL">11/btn_close_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL skinid="skin_pressed_URL">11/btn_close_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_notification_ivi_2lines_bg">
+	        <Location var="var_loc_orgin"/>
+			<Size var="var_size_snackbar_ivi"/>
+			<NormalURL skinid="skin_snackbar_URL">11/img_notification_ivi_2lines_bg.png</NormalURL>
+			<Alpha>100</Alpha>
+			<ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+		<!-- Variables cleanup -->
+        <ImageWidget id="var_snackbar_2line_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snack_bar_2lines"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_notification_2lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+        <ImageWidget id="var_snackbar_camera_1line_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snackbar_camera_bg"/>
+            <NormalURL>11/img_snackbar_1line_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+		<ImageWidget id="img_3line_dialog_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snack_bar_3lines"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_notification_3lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+			<InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+			</InputWidgetMapping>
+		</ImageWidget>
+		   <ImageWidget id="var_img_exit_btn_mfc">
+		   <TabOrder>
+				<TabV>3</TabV>
+				<TabH>1</TabH>
+			</TabOrder>
+            <Location>
+                <LocationX>76</LocationX>
+                <LocationY>956</LocationY>
+            </Location>
+            <Size>
+                <SizeW>273</SizeW>
+                <SizeH>125</SizeH>
+            </Size>
+            <FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_exit_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>4</ZOrder>
+		</ImageWidget>
+       <ImageWidget id="var_snackbar_feed_1line_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snackbar_camera_bg"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_camera_feed_notification_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+		 <ImageWidget id="var_snackbar_camera_calibration_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snackbar_camera_calibration_bg"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_snackbar_calibration_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+		<ImageWidget id="var_snackbar_camera_calibration_pbg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snackbar_camera_calibration_pbg"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_snackbar_calibration_pbg.png</NormalURL>
+			 <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+		 <ImageWidget id="var_img_camera_alert_icon">
+	        <Location var="var_loc_camera_alert2"/>
+			<Size var="var_size_icn_image"/>
+			<NormalURL compression="CompressionAlias1">11/icn_alert.png</NormalURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="var_img_exit_btn_apptray_bg">
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>1081</LocationY>
+            </Location>
+            <Size>
+                <SizeW>425</SizeW>
+                <SizeH>49</SizeH>
+            </Size>
+            <NormalURL>11/exit_btn_apptray_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="var_snackbar_jackknife_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snackbar_jackknife_bg"/>
+            <NormalURL skinid="skin_snackbar_URL">11/img_camera_jackknife_feed_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>dummy_event</WidgetCallback>
+            </InputWidgetMapping>
+		</ImageWidget>
+	</Variables>
+</GMXML>

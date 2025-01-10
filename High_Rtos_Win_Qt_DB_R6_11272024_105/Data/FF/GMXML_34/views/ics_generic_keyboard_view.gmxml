@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_generic_keyboard_view</ViewID>
+            <Location>
+                <LocationX>418</LocationX>
+                <LocationY>457</LocationY>
+            </Location>
+            <CustomLocation>
+				<LocationX>5010</LocationX>
+				<LocationY>0</LocationY>
+			</CustomLocation>
+            <Size>
+                <SizeW>2164</SizeW>
+                <SizeH>821</SizeH> 
+            </Size>
+            <ZOrder>3</ZOrder>
+            <Keyboard>
+                <Screen load="ics_default_keyboard_screen"/>
+                <Screen load="ics_default_special_character_screen"/>
+                <Screen load="ics_default_numerical_screen"/>
+                <Screen load="ics_spanish_default_keyboard_screen"/>
+                <Screen load="ics_spanish_default_numerical_screen"/>
+                <Screen load="ics_spanish_default_special_character_screen"/>
+                <Screen load="ics_highmid_spanish_keyboard_screen"/>
+				<Screen load="ics_default_chinese_keyboard_screen"/>
+            </Keyboard>
+        </View>
+    </Display>
+</GMXML>

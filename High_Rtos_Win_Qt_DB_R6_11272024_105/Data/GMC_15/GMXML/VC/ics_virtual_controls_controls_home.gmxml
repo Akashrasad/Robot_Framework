@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6001</ScreenID>
+                <Name>ics_virtual_controls_controls_home</Name>	
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_controls_controls_home_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_0_ControlsSafety_csm</ID>
+				</LabelWidget>
+				<ScrollPageWidget>
+                    <ScrollPageID>VC_HomeScroll</ScrollPageID>
+                    <InitialPage>1</InitialPage>
+                    <MinPageCount>1</MinPageCount>
+                    <MaxPageCount>2</MaxPageCount>
+                    <Location>
+                        <LocationX>197</LocationX>
+                        <LocationY>150</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1485</SizeW>
+                        <SizeH>1195</SizeH>
+                    </Size>
+                    <ZOrder>2</ZOrder>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_first_page</ID>
+                        <IncludeScreen>6500</IncludeScreen> 
+                        <PageIndex>1</PageIndex>
+                    </PageWidget>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_second_page</ID>
+                        <IncludeScreen>6501</IncludeScreen>
+                        <PageIndex>2</PageIndex>
+                    </PageWidget>
+					<!-- <PageWidget>
+                        <ID>ics_virtual_controls_scroll_third_page</ID>
+                        <IncludeScreen>6502</IncludeScreen>
+                        <PageIndex>3</PageIndex>
+                    </PageWidget> -->
+                </ScrollPageWidget>
+				<ImageWidget>
+                    <ID>img_control_progress_bar_pointer</ID>
+                    <Location>
+                        <LocationX>836</LocationX>
+                        <LocationY>1722</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>56</SizeW>
+                        <SizeH>4</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_selected.png</NormalURL>
+                    <FocusURL>11/btn_page_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_control_progress_bar_pointer2</ID>
+                    <Location>
+                        <LocationX>948</LocationX>
+                        <LocationY>1722</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>56</SizeW>
+                        <SizeH>4</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_normal.png</NormalURL>
+                    <FocusURL>11/btn_page_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<!-- <ImageWidget>
+                    <ID>img_control_progress_bar_pointer3</ID>
+                    <Location>
+                        <LocationX>1063</LocationX>
+                        <LocationY>924</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>79</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_normal.png</NormalURL>
+                    <FocusURL>11/btn_page_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget> -->
+				<GroupWidget>
+					<ID>grp_more_controls_btn</ID>
+					<Location>
+						<LocationX>196</LocationX>
+						<LocationY>1533</LocationY>
+					</Location>
+					<Size>
+						<SizeW>733</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<ZOrder>2</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_see_more_contrilse</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>733</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/btn_primary_settings_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_primary_settings_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_settings_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/btn_primary_settings_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_settings_pressed.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/btn_primary_settings_selected.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_settings_selected.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/btn_primary_settings_normal.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_settings_disabled.png</NormalURL>
+					</SelectorState>	
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageElements>
+				<LabelElements>
+					<ID>virtualcontrols_1_0_categories_csm</ID>
+					<Font var="var_font_see_more_control_button_normal"/>
+					<FocusFont var="var_font_see_more_control_button_pressed"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>111</LocationX>
+						<LocationY>31</LocationY>
+					</Location>
+					<Size>
+						<SizeW>519</SizeW>
+						<SizeH>58</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelElements>
+				<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SeeMore_Controls</WidgetCallback>
+					</InputWidgetMapping>
+			    </GroupWidget>
+				<ImageWidget>
+                    <ID>img_pintostart</ID>
+					<Location>
+						<LocationX>970</LocationX>
+						<LocationY>1553</LocationY>
+					</Location>
+					<Size>
+                       <SizeW>68</SizeW>
+                       <SizeH>90</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/btn_vc_wakescreen_pintostart_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_vc_wakescreen_pintostart_pressed.png</FocusURL>
+                    <OnFocusCallback/>
+                    <ZOrder>5</ZOrder>
+					<Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

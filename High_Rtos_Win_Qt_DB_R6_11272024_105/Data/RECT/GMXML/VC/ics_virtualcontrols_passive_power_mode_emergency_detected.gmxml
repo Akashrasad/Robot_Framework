@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6097</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_emergency_detected</Name>
+				<ImageWidget>
+					<ID>img_bg_emergency_black</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_bg_11_3inch"/>
+					<NormalURL>11/img_virtualcontrols_fullscreen_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_icon</ID>
+					<Location>
+						<LocationX>372</LocationX>
+						<LocationY>358</LocationY>
+					</Location>
+					<Size>
+						<SizeW>93</SizeW>
+						<SizeH>93</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/trailer_camera_icons_alert.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_emergency_csm</ID>
+					<Location>
+						<LocationX>492</LocationX>
+						<LocationY>349</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1457</SizeW>
+						<SizeH>112</SizeH>
+					</Size>
+					<Font var="var_font_emergency_detected_txt"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_off</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location>
+						<LocationX>373</LocationX>
+						<LocationY>515</LocationY>
+					</Location>
+					<Size>
+						<SizeW>450</SizeW>
+						<SizeH>117</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+							<FocusURL compression="CompressionAlias1">11/btn_primary_normal.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+						</SelectorState>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_5_f_powerOff_csm</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_yes_button"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_5_f_powerOff_csm</StaticValue>
+							<Font var="var_font_yes_button"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_5_f_powerOff_csm</StaticValue>
+							<Font var="var_font_yes_button_focused"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_5_f_powerOff_csm</StaticValue>
+							<Font var="var_font_yes_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_5_f_powerOff_csm</StaticValue>
+							<Font var="var_font_yes_button_disabled"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_5_f_powerOff_csm</StaticValue>
+							<Font var="var_font_yes_button_selected"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Emergency_Detected_Turnoff</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

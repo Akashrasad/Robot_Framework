@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6089</ScreenID>
+				<Name>ics_virtual_controls_opd_enabled_snackbar</Name>
+				<ImageWidget>
+					<ID>img_notification_bg</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_notification_bg_139"/>
+					<NormalURL>11/icn_notification_bg_1543.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<TabV>1</TabV>
+					<TabH>1</TabH>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_0_0_1_f_snackbar_csm</ID>
+					<Font var="var_font_snackbar_text"/>
+					<Location var="var_loc_snack_bar_text"/>
+					<Size>
+						<SizeW>1082</SizeW>
+						<SizeH>55</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_settings_button</ID>
+					<Location>
+						<LocationX>1223</LocationX>
+						<LocationY>21</LocationY>
+					</Location>
+					<Size>
+						<SizeW>294</SizeW>
+						<SizeH>90</SizeH>
+					</Size>
+					<ZOrder>2</ZOrder>
+					<NormalURL compression="CompressionAlias1">11/btn_tertiary_bg_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_tertiary_bg_focused.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_tertiary_bg_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_tertiary_bg_focused.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_tertiary_bg_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias2">11/btn_tertiary_bg_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_OnePedalSetting</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evg_unused_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_0_0_1F_SetLevel_csm</ID>
+					<Font var="var_font_keep_looking_button"/>
+					<Location>
+						<LocationX>1245</LocationX>
+						<LocationY>34</LocationY>
+					</Location>
+					<Size>
+						<SizeW>251</SizeW>
+						<SizeH>55</SizeH>
+					</Size>
+					<ZOrder>3</ZOrder>
+					<Alpha>100</Alpha>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6159</ScreenID>
+				<Name>ics_virtual_controls_rear_steering</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_top_bar_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_AppHome_back</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_0_QuickCrabLabel_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_rearsteering_btn</ID>
+					<Location var="var_loc_launch_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_rearsteering_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_3_V_RearSteeringButton_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_primary_button_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_primary_button_normal"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_primary_button_selected"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_primary_button_normal"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<Font var="var_font_primary_button_normal"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<Font var="var_font_primary_button_normal"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<Font var="var_font_primary_button_normal"/>
+							<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_RearStearing_Open</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_crab_btn</ID>
+					<Location var="var_loc_crab_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>0</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_launch_btn_crab</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL>11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_3_10_G_CrabWalkButton_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_secondary_button_txt"/>
+					    <FocusFont var="var_font_secondary_button_pressed"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_secondary_button_txt"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_secondary_button_txt"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_secondary_button_txt"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<Font var="var_font_secondary_button_selected"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<Font var="var_font_secondary_button_selected"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<Font var="var_font_secondary_button_selected"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_CrabWalk_Open</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_controls_icn_rear_steering</ID>
+					<Location var="var_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression="CompressionAlias3">11/icn_rearsteering_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_radio_button_description_text_vc">
+					<ID>virtualcontrols_1_3_10_v_rearSteering_csm</ID>
+					<Size>
+                        <SizeW>716</SizeW>
+                        <SizeH>1431</SizeH>
+                    </Size>
+				</LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

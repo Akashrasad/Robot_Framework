@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7071</ScreenID>
+                <Name>ics_disable_touch_snack_bar</Name>
+                <ImageWidget var="var_snackbar_2line_bg">
+                    <ID>img_notification_bg</ID>
+                    <LayoutOverride>
+                        <ID>camera_view_update</ID>
+                        <Location>
+                            <LocationX>297</LocationX>
+                            <LocationY>169</LocationY>
+                        </Location>
+                    </LayoutOverride>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2line_txt">
+                    <ID>vehiclehealth_103_1H_RTOS_Use_Rotary_Controller_csm</ID>
+                    <LayoutOverride>
+                        <ID>camera_view_update</ID>
+                        <Location>
+                            <LocationX>355</LocationX>
+                            <LocationY>207</LocationY>
+                        </Location>
+                    </LayoutOverride>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

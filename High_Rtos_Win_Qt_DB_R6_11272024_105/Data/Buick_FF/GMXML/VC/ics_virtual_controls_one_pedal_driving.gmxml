@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6015</ScreenID>
+                <Name>ics_virtual_controls_one_pedal_driving</Name>
+				<ImageWidget>
+					<ID>img_bg_opd_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_general_back_btn">
+                    <ID>img_btn_back_opd</ID>
+                    <Location>
+                        <LocationX>617</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_3_cardOPD_csm</ID>
+                    <Location>
+                        <LocationX>767</LocationX>
+                        <LocationY>30</LocationY>
+                    </Location>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_one_pedal_driving_close</ID>
+                    <Location>
+                        <LocationX>497</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Opd_Exit</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_1strow_radio_multi_btn">
+                    <ID>img_radio_button_off</ID>
+                    <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>137</LocationY>
+                    </Location>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_OPDOff_csm</ID>
+                    <Location>
+                        <LocationX>742</LocationX>
+                        <LocationY>184</LocationY>
+                    </Location>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_2ndrow_radio_multi_btn">
+                    <ID>img_radio_button_on</ID>
+                    <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>304</LocationY>
+                    </Location>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_OPDNormal_csm</ID>
+                     <Location>
+                        <LocationX>742</LocationX>
+                        <LocationY>350</LocationY>
+                    </Location>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_3rdrow_radio_btn">
+                    <ID>img_radio_button_high</ID>
+                    <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>470</LocationY>
+                    </Location>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_High</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_OPDHigh_csm</ID>
+                    <Location>
+                        <LocationX>742</LocationX>
+                        <LocationY>518</LocationY>
+                    </Location>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_radio_button_enhanced</ID>
+					<Location>
+						<LocationX>631</LocationX>
+						<LocationY>470</LocationY>
+					</Location>					
+					<Size>
+						<SizeW>994</SizeW>
+						<SizeH>167</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Enhanced</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_OPDHighplus_csm</ID>
+                    <Location>
+                        <LocationX>742</LocationX>
+                        <LocationY>517</LocationY>
+                    </Location>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget var="img_4throw_radio_btn">
+				<Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>637</LocationY>
+                    </Location>
+                    <ID>img_checkbox</ID>
+					<NormalURL compression="CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/icn_tick_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_tick_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1">11/icn_tick_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedal_ShowInAppTray</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_3_4F_HomeScreen_csm</ID>
+                    <Location>
+                        <LocationX>742</LocationX>
+                        <LocationY>684</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_driving_pedal</ID>
+                    <Location>
+                        <LocationX>1720</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "NONE">11/controls_icn_opd_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_3_0_5_opd_csm</ID>
+                    <Location>
+                        <LocationX>1810</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opd_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opdAWD_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opdRWD_csm</StaticValue>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                    <Location>
+                        <LocationX>1810</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+                </LabelWidget>
+				<ImageWidget var="img_1strow_radio_btn_mfc">
+                    <ID>img_off_mfc</ID>
+                    <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_mfc">
+                    <ID>img_on_mfc</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>304</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_mfc">
+                    <ID>img_high_mfc</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>471</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_High</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_High</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_4throw_radio_btn_mfc">
+                    <ID>img_enhaced_mfc</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>638</LocationY>
+                    </Location>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>4</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Enhanced</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Enhanced</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_off_divider</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>img_auto_divider</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>304</LocationY>
+                    </Location>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_parking_divider</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>471</LocationY>
+                    </Location>
+                </ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_divider">
+                    <ID>img_show_in_apptray_divider</ID>
+                     <Location>
+                        <LocationX>631</LocationX>
+                        <LocationY>638</LocationY>
+                    </Location>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

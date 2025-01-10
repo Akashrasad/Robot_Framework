@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8017</ScreenID>
+				<Name>ics_camera_cargo_bed_view</Name>
+				<ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+				<ListWidget var ="var_list_with_single_label_vpm">
+                    <ListID>vpm_cargobed_view_list</ListID>
+                </ListWidget>
+				<LabelWidget var="var_front_txt">
+					<ID>safetysystems_2_1_1_Cargo_f_csm</ID>
+			</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_exit</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>					
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget var="var_img_cargo_light_icon">
+					<ID>img_cargo_light_icon</ID>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

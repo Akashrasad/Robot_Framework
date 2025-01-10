@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7031</ScreenID>
+                <Name>ics_apa_back_ground_update</Name>
+                <ImageWidget> 
+                    <ID>img_apa_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression_format="NONE" compression_quality="ASTC_EXHAUSTIVE">11/apa_background.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression_format="NONE" compression_quality="ASTC_EXHAUSTIVE">11/vid_dyn_apa_bg.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression_format="NONE" compression_quality="ASTC_EXHAUSTIVE">11/apa_view_one_rhd_bg.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression_format="NONE" compression_quality="ASTC_EXHAUSTIVE">11/apa_view_two_rhd.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget> 
+                    <ID>img_apa_video_bg</ID>
+                    <Location>
+                        <LocationX>2187</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1763</SizeW>
+                        <SizeH>1320</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/video_apa_trans_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

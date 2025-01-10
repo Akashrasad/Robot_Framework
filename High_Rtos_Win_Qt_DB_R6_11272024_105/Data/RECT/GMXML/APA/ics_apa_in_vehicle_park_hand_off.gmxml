@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7012</ScreenID>
+                <Name>ics_apa_in_vehicle_park_hand_off</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_title_bar_bg"/>
+                    <Size var="var_size_popup_body_txt_bg"/>
+                    <NormalURL>11/img_apa_handoff_background_blue.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<ImageWidget var="img_exit_apa">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+                    <BehaviorState var="var_behavior_animation_interpolation"/>
+                    <BehaviorState var="var_behavior_state_value_1"/>
+                    <BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_4_9_InVehicleHandoff_1_csm</ID>
+                    <Font var="var_font_apa_primary_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_popup_body_txt"/>
+                    <Size var="var_size_unabletoconnect_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_9_ItMayTakeAFew_csm</ID>
+                    <Font var="var_font_apa_secondary_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_popup_body_txt1"/>
+                    <Size var="var_size_popup_body_txt1"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

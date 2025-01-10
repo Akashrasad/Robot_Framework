@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6122</ScreenID>
+                <Name>ics_virtualcontrols_start_screen_vehicle_conditions_not_met_fault</Name>
+                <DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_simple_dialog_body_content_bg"/>
+                    <NormalURL>11/img_notification_simple_dialog_body_content_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_14_1_10_dialogHeader_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text"/>
+                    <Size var="var_size_dialog_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_simple_dialog_body_content_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                        <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_focused.png</NormalURL>
+                        <FocusURL>11/btn_primary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_14_1_10_dialogPrimaryButton_csm</ID>
+                    <Font var="var_font_primary_button_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_orgin_0_0">
+						<LocationY>23</LocationY>
+					</Location>
+                    <Size var="var_size_dialog_btn_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

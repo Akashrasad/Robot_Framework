@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+		<View>
+			<ViewID>ics_dimming_view</ViewID>
+			<Screen>
+				<ScreenID>7051</ScreenID>
+				<Name>ics_brightness_control_screen</Name>
+			</Screen>
+		</View>
+    </Display>
+</GMXML>
+

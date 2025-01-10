@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_vc_factory_reset_view</ViewID>
+			<Location>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>1836</SizeW>
+				<SizeH>180</SizeH>
+			</Size>
+			<ZOrder>6</ZOrder>
+            <Screen load="ics_virtual_controls_factory_reset_is_vehicle_in_park_snackbar"/>
+            <Screen load="ics_virtual_controls_factory_reset_is_temperature_in_range_snackbar"/>
+		</View>
+	</Display>
+</GMXML>

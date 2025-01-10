@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6028</ScreenID>
+                <Name>ics_virtual_controls_universal_remotes_start</Name>
+				<ImageWidget var="img_divider">
+					<ID>img_divider</ID>
+				</ImageWidget>
+                <ImageWidget var="img_back_btn">
+                    <ID>img_btn_back</ID>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_F_UGDOTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_universal_remotes_start_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <ListWidget>
+                    <ListID>ics_vc_remotestart_list</ListID>
+                   <Location>
+                        <LocationX>215</LocationX>
+                        <LocationY>233</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>967</SizeW>
+                        <SizeH>792</SizeH>
+                    </Size>
+                    <FocusedRow>0</FocusedRow>
+                    <BackgroundURL/>
+                     <RowLayout>
+                        <RowLayoutID>normal_layout</RowLayoutID>
+                        <Size>
+                            <SizeW>967</SizeW>
+                            <SizeH>250</SizeH>
+                        </Size>
+                        <RowSpacing>14</RowSpacing>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>						 
+                        <RowSeparatorImageURL/>
+                    </RowLayout>
+					<RowLayout>
+                        <RowLayoutID>add_remote_row_layout</RowLayoutID>
+                        <Size>
+                            <SizeW>967</SizeW>
+                            <SizeH>119</SizeH>
+                        </Size>
+                        <RowSpacing>14</RowSpacing>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <RowSeparatorImageURL/>
+						<FocusURL compression = "CompressionAlias3">11/btn_remotes_edit_bg_focused.png</FocusURL>
+                    </RowLayout>
+                    <ZOrder>2</ZOrder>
+					<ElementData>
+                        <ImageElements>
+                            <ID>img_icn_bg_white_small</ID>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>967</SizeW>
+                                <SizeH>250</SizeH>
+                            </Size>
+                            <NormalURL skinid="skin_normal_URL">11/img_remotes_container_bg.png</NormalURL>
+							<FocusURL skinid="skin_pressed_URL">11/img_remotes_container_bg_pressed.png</FocusURL>
+							<SelectorState>
+                                <DataValue>0</DataValue>
+                                <NormalURL skinid="skin_normal_URL">11/img_remotes_container_bg.png</NormalURL>
+                                <FocusURL skinid="skin_pressed_URL">11/img_remotes_container_bg_pressed.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <NormalURL skinid="skin_focused_URL">11/img_remotes_container_bg_focused.png</NormalURL>
+                                <FocusURL skinid="skin_normal_URL">11/img_remotes_container_bg.png</FocusURL>
+                            </SelectorState>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>Actuate</WidgetCallback>
+                            </InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>RotarySelectReleased</UserInput>
+								<WidgetCallback>Actuate</WidgetCallback>
+							</InputWidgetMapping>
+                            <Alpha>100</Alpha>
+                            <ZOrder>2</ZOrder>
+                        </ImageElements>
+                        <LabelElements>
+                            <ID>primary</ID>
+                            <Font>
+                                <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+                                <Size>55</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>2</TextAlign>
+                                <Color>215,221,235</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <TextWrap>1</TextWrap>
+                            <Location>
+                                <LocationX>22</LocationX>
+                                <LocationY>47</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>722</SizeW>
+                                <SizeH>156</SizeH>
+                            </Size>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+						<LabelElements>
+                            <ID>secondary</ID>
+                            <Font>
+                                <Name>GMSUIChevyCCSTGlobal-Light</Name>
+                                <Size>44</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>2</TextAlign>
+                                <Color>114,148,194</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <TextWrap>1</TextWrap>
+                            <Location>
+                                <LocationX>22</LocationX>
+                                <LocationY>178</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>722</SizeW>
+                                <SizeH>58</SizeH>
+                            </Size>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                        <ImageElements>
+                            <ID>img_controls_ugdo_edit_normal</ID>
+                            <Location var="var_loc_ugdo_edit_normal"/>
+                            <Size var="var_size_ugdo_edit_normal"/>
+                            <NormalURL skinid="skin_normal_URL" compression = "CompressionAlias3">11/btn_remotes_edit_bg.png</NormalURL>
+							<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/btn_remotes_edit_bg_pressed.png</FocusURL>
+                            <Alpha>100</Alpha>
+							<SelectorState>
+                                <DataValue>0</DataValue>
+                                <NormalURL skinid="skin_normal_URL" compression = "CompressionAlias3">11/btn_remotes_edit_bg.png</NormalURL>
+                                <FocusURL skinid="skin_focused_URL" compression = "CompressionAlias3">11/btn_remotes_edit_bg_focused.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <NormalURL skinid="skin_focused_URL" compression = "CompressionAlias3">11/btn_remotes_edit_bg_focused.png</NormalURL>
+                                <FocusURL skinid="skin_normal_URL" compression = "CompressionAlias3">11/btn_remotes_edit_bg.png</FocusURL>
+                            </SelectorState>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>EditRemote</WidgetCallback>
+                            </InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>RotarySelectReleased</UserInput>
+								<WidgetCallback>EditRemote</WidgetCallback>
+							</InputWidgetMapping>
+                            <ZOrder>3</ZOrder>
+                        </ImageElements>
+                        <ImageElements>
+                            <ID>img_AddRemote_btn</ID>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size var="var_size_add_remote_btn"/>
+                             <NormalURL skinid="skin_normal_URL">11/btn_addremote_normal.png</NormalURL>
+                            <FocusURL skinid="skin_pressed_URL">11/btn_addremote_pressed.png</FocusURL>
+                            <SelectorState>
+                                <DataValue>0</DataValue>
+                                <NormalURL skinid="skin_normal_URL">11/btn_addremote_normal.png</NormalURL>
+                                <FocusURL skinid="skin_pressed_URL">11/btn_addremote_pressed.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <NormalURL skinid="skin_focused_URL">11/btn_addremote_focused.png</NormalURL>
+                                <FocusURL skinid="skin_normal_URL">11/btn_addremote_normal.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>2</DataValue>
+                                <NormalURL skinid="skin_disabled_URL">11/btn_addremote_disabled.png</NormalURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>3</DataValue>
+                                <NormalURL skinid="skin_focused_URL">11/btn_addremote_focused.png</NormalURL>
+                            </SelectorState>
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>AddRemote</WidgetCallback>
+                            </InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>RotarySelectReleased</UserInput>
+								<WidgetCallback>AddRemote</WidgetCallback>
+							</InputWidgetMapping>
+                            <ZOrder>3</ZOrder>
+                        </ImageElements>
+                        <LabelElements>
+                            <ID>centerLabel</ID>
+                            <Location>
+                                <LocationX>28</LocationX>
+                                <LocationY>33</LocationY>
+                            </Location>
+                            <Size var="var_size_add_remote_btn_txt"/>
+                            <Font var="var_font_add_remote_btn_txt_normal"/>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_add_remote_btn_txt_normal"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>2</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_add_remote_btn_txt_focused"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>3</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_add_remote_btn_txt_pressed"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>4</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_add_remote_btn_txt_disabled"/>
+                            </SelectorState>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                    </ElementData>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCW</UserInput>
+						<WidgetInput>0</WidgetInput>
+						<EventCallbackString>evG_MFC_CW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCCW</UserInput>
+						<WidgetInput>1</WidgetInput>
+						<EventCallbackString>evG_MFC_CCW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+                </ListWidget>
+				<ScrollBarWidget>
+					<ID>Scrollbar_small</ID>
+					<ListID>ics_vc_remotestart_list</ListID>
+					<Location>
+						<LocationX>31</LocationX>
+						<LocationY>210</LocationY>
+					</Location>
+					<Size>
+						<SizeW>150</SizeW>
+						<SizeH>914</SizeH>
+					</Size>
+					<Track>
+						<TrackHousing>
+							<ID>img_scrollbar_bg_small</ID>
+							<ImageWidgetID>img_scrollbar_bg_small</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>150</SizeW>
+								<SizeH>508</SizeH>
+							</Size>
+							<NormalURL skinid="skin_scrollbar_track_URL">11/img_scroll_track_normal.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+						</TrackHousing>
+						<ThumbHousing>
+							<ID>img_scrollbar_indicator_short</ID>
+							<ImageWidgetID>img_scrollbar_indicator_short</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>150</SizeW>
+								<SizeH>508</SizeH>
+							</Size>
+							<NormalURL skinid="skin_scrollbar_thumb_URL">11/btn_scroll_thumb.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>5</ZOrder>
+						</ThumbHousing>
+					</Track>
+					<IncrementArrow>
+						<ID>img_scroll_up_selector</ID>
+						<ImageWidgetID>img_scroll_up_selector</ImageWidgetID>
+						<Location>
+							<LocationX>16</LocationX>
+							<LocationY>671</LocationY>
+						</Location>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV>0</TabV>
+							<TabH>0</TabH>
+						</TabOrder>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/btn_general_scroll_up_normal.png</NormalURL>
+						<FocusURL skinid="skin_pressed_URL" compression = "NONE">11/btn_general_up_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</IncrementArrow>
+					<DecrementArrow>
+						<ID>img_scroll_down_selector</ID>
+						<ImageWidgetID>img_scroll_down_selector</ImageWidgetID>
+						<Location>
+							<LocationX>16</LocationX>
+							<LocationY>790</LocationY>
+						</Location>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV>0</TabV>
+							<TabH>0</TabH>
+						</TabOrder>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/btn_general_scroll_down_normal.png</NormalURL>
+						<FocusURL skinid="skin_pressed_URL" compression = "NONE">11/btn_general_down_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</DecrementArrow>
+					<ZOrder>5</ZOrder>
+				</ScrollBarWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_UGDO_csm</ID>
+                    <Font var="var_font_call_assistance"/>
+                    <TextWrap>1</TextWrap>
+					<Location var="var_loc_programming_successful_desc_txt"/>
+                    <Size var="var_size_programming_successful_desc_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				 <LabelWidget>
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                    <Font var="var_font_call_assistance"/>
+                    <TextWrap>1</TextWrap>
+					<Location var="var_loc_programming_successful_desc_txt"/>
+                    <Size var="var_size_programming_successful_desc_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+				<ImageWidget var="img_wakescreen_pintostart_btn">
+                    <ID>img_pintostart</ID>
+					<Location>
+						<LocationX>2530</LocationX>
+						<LocationY>920</LocationY>
+					</Location>
+					<Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

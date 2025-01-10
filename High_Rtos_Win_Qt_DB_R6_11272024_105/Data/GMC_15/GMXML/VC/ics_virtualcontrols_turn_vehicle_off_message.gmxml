@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6126</ScreenID>
+                <Name>ics_virtualcontrols_turn_vehicle_off_message</Name>
+                <ImageWidget var="var_snackbar_2lines_bg"> 
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_14_3V_snackbar_csm</ID>
+                    <Font var="var_font_snackbar_2lines_text">
+						<LineSpacing>-8</LineSpacing>
+					</Font>
+                    <Location var="var_loc_snack_bar_text"/>
+                    <Size>
+						<SizeW>1108</SizeW>
+						<SizeH>144</SizeH>
+					</Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<TextWrap>1</TextWrap>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_cancle_btn</ID>
+					<Location>
+						<LocationX>1206</LocationX>
+						<LocationY>31</LocationY>
+					</Location>
+					<Size>
+						<SizeW>342</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_teritary_btn"/>
+						<NormalURL>11/btn_teritary_bg_normal.png</NormalURL>
+						<FocusURL>11/btn_teritary_bg_pressed.png</FocusURL>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_14_3_primaryButtonCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_teritary_btn"/>
+						<Font var="var_font_teritary_normal"/>
+						<FocusFont var="var_font_yes_button"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>50</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>83</SizeH>
+					</Size>
+					<NormalURL>11/img_vertical_divider_3_83.png</NormalURL>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

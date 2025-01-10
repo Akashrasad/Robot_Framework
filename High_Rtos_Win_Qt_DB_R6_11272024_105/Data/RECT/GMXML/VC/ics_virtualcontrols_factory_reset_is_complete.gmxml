@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6064</ScreenID>
+                <Name>ics_virtualcontrols_factory_reset_is_complete</Name>
+                <ImageWidget var="img_no_ivi_bg">
+				<ID>img_notification_bg</ID>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_factory_reset_is_complete_csm</ID>
+                    <Font var="var_font_factory_reset_progress"/>
+                    <Location>
+                        <LocationX>93</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1815</SizeW>
+                        <SizeH>98</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

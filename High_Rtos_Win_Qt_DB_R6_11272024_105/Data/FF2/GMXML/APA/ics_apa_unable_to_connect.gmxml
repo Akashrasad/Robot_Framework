@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>7014</ScreenID>
+				<Name>ics_apa_unable_to_connect</Name>
+				<ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL  compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>apa_4_1_selectedbuttonPerpRight_csm</ID>
+                    <Font var="var_font_title"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title"/>
+                    <Size var="var_size_title"/>
+                    <Alpha>0</Alpha>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonParaRight_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonParaLeft_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonPerpLeft_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonPerpRight_csm</StaticValue> 
+                    </SelectorState>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>				
+				<LabelWidget>
+					<ID>apa_4_13_UnabletoConnect_csm</ID>
+					<Font var="var_font_title">
+					</Font>
+					<Size var="var_size_popup_body_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>119</LocationX>
+						<LocationY>172</LocationY>
+					</Location>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>apa_4_13_UnableToConnectDesc_csm</ID>
+					<Font var="var_font_perp_right_instr_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_perp_right_instr_txt">
+						<LocationY>326</LocationY>
+					</Location>
+					<Size var="var_unable_to_connect_label_2">
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+			<GroupWidget>
+				<ID>grp_try_again_btn</ID>
+				 <TabOrder>
+					<TabV>1</TabV>
+					<TabH>1</TabH>
+				 </TabOrder>
+                <Location var="var_loc_yes_button">
+					<LocationY>727</LocationY>
+				</Location>
+                 <Size var="var_size_yes_button"/>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>
+				<ImageElements>
+					<ID>img_try_again_btn</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_yes_button"/>
+					<NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL  compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageElements>
+				<LabelElements>
+					<ID>apa_4_13_TryAgain_csm</ID>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_focused"/>
+					<TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin"/>
+					<Size var="var_size_yes_button"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>apa_4_13_TryAgain_csm</StaticValue>
+						<Font var="var_font_yes_button"/>
+						<FocusFont var="var_font_yes_button_focused"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>apa_4_13_TryAgain_csm</StaticValue>
+						<Font var="var_font_yes_button_disabled"/>
+						<FocusFont var="var_font_yes_button_disabled"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>apa_4_13_TryAgain_csm</StaticValue>
+						<Font var="var_font_yes_button"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>apa_4_13_TryAgain_csm</StaticValue>
+						<Font var="var_font_yes_button_focused"/>
+						<FocusFont var="var_font_yes_button_focused"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Connecting_To_MyBrand_App</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Apa_Connecting_To_MyBrand_App</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+			</GroupWidget>
+			<GroupWidget>
+				<ID>grp_exit_again_btn</ID>
+				  <TabOrder>
+					<TabV>1</TabV>
+					<TabH>2</TabH>
+				  </TabOrder>
+				<Location var="var_loc_keep_looking_button">
+					<LocationY>726</LocationY>
+				</Location>
+				<Size var="var_size_yes_button"/>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>				
+				<ImageElements>
+					<ID>img_exit_again_btn</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_yes_button"/>
+					<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageElements>
+				<LabelElements>
+					<ID>apa_14_2f_ParkInVehicle_csm</ID>
+					<Font var="var_font_keep_looking_button"/>
+					<FocusFont var="var_font_keep_looking_button_focused"/>
+					<TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin"/>
+					<Size var="var_size_yes_button"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_keep_looking_button"/>
+						<FocusFont var="var_font_keep_looking_button_focused"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_keep_looking_button_disabled"/>
+						<FocusFont var="var_font_keep_looking_button_disabled"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<Font var="var_font_keep_looking_button"/>
+						<FocusFont var="var_font_keep_looking_button_pressed"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<Font var="var_font_keep_looking_button_focused"/>
+						<FocusFont var="var_font_keep_looking_button_focused"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Unable_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Unable_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+			</GroupWidget>
+				<GroupWidget var="grp_exit_apa">
+					<ID>grp_exit_apa_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget var="var_img_exit_btn_apptray_bg">
+					<ID>img_exit_btn_apptray_bg</ID>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+					<ID>grp_exit_apa_btn_mfc</ID>
+				<TabOrder>
+				  <TabV>2</TabV>
+				  <TabH>1</TabH>
+			     </TabOrder>
+		         <InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+			  </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

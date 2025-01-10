@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_snackbar_2line_view</ViewID>
+			<Size>
+				<SizeW>1651</SizeW>
+				<SizeH>227</SizeH>
+			</Size>
+			<Location>
+				<LocationX>4757</LocationX>
+				<LocationY>727</LocationY>
+			</Location>
+			<ZOrder>4</ZOrder>
+			<VirtualControls>
+			    <Screen load="ics_virtual_controls_opd_enabled_snackbar"/>
+				<Screen load="ics_virtualcontrols_lights_auto_high_beams_snackbar"/>
+			</VirtualControls>
+			<APA>
+				<Screen load="ics_apa_unavailable_snack_bar"/>
+				<Screen load="ics_apa_deactiated_speed_snack_bar"/>
+				<Screen load="ics_apa_slowdown_appr_max_speed_snackbar"/>
+				<Screen load="ics_apa_canceled_over_max_speed_snackbar"/>
+				<Screen load="ics_apa_deactivated_snack_bar"/>
+				<Screen load="ics_apa_unavailable_snack_bar_at_ultra_cruise"/>
+                <Screen load="ics_virtual_controls_factory_reset_is_vehicle_in_park_snackbar"/>
+			</APA>
+		</View>
+	</Display>
+</GMXML>

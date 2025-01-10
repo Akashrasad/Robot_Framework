@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8009</ScreenID>
+                <Name>ics_camera_vpm_rearview_topdown_multipart_buttons</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/img_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_Close">
+                    <ID>img_btn_close_active</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ListWidget var ="var_list_vpm_rear_view1">
+                    <ListID>ics_camera_vpm_rearview_topdown_multipart_buttons_list1</ListID>
+                </ListWidget>
+                <ImageWidget> 
+                    <ID>img_btn_camera_wash</ID>
+                    <Location>
+                        <LocationX>35</LocationX>
+                        <LocationY>561</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>136</SizeW>
+                        <SizeH>136</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_camera_wash_normal.png</NormalURL>
+                    <FocusURL>11/btn_camera_wash_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_camera_wash_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_camera_wash_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_camera_wash_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/btn_camera_wash_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Camera_Wash_Btn</WidgetCallback>
+					</InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_Wash_Btn_Release</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget> 
+                    <ID>img_btn_camera_zoom_in_out</ID>
+                    <Location>
+                        <LocationX>35</LocationX>
+                        <LocationY>698</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>136</SizeW>
+                        <SizeH>136</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_camera_zoom_in_normal.png</NormalURL>
+                    <FocusURL>11/btn_camera_zoom_in_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_camera_zoom_in_normal.png</NormalURL>
+						<FocusURL>11/btn_camera_zoom_in_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_camera_zoom_out_normal.png</NormalURL>
+						<FocusURL>11/btn_camera_zoom_out_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_camera_zoom_in_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/btn_camera_zoom_in_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_camera_zoom_out_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>11/btn_camera_zoom_out_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL>11/btn_camera_zoom_out_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/btn_camera_zoom_out_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_Zoom_Btn</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

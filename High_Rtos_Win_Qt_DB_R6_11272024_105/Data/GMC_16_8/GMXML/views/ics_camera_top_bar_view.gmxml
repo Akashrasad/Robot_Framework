@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_camera_top_bar_view</ViewID>
+			<Size>
+				<SizeW>946</SizeW>
+				<SizeH>158</SizeH>
+			</Size>
+			<Location>
+				<LocationX>54</LocationX>
+				<LocationY>248</LocationY>
+			</Location>
+			<ZOrder>3</ZOrder>
+			<Screen load="ics_camera_top_bar_list"/>
+		</View>
+	</Display>
+</GMXML>

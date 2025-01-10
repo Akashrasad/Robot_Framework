@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_view</ViewID>
+            <Location>
+                <LocationX>4442</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2880</SizeW>
+                <SizeH>1130</SizeH> 
+            </Size>
+            <ZOrder>2</ZOrder>
+            <Screen load="ics_persistent_smart_controls_pop_up"/>
+            <Screen load="ics_virtual_controls_pin_to_start"/>
+            <Screen load="ics_virtual_controls_pin_to_start_successful_start_stop_button"/>
+            <Screen load="ics_virtual_controls_pin_to_start_nfc"/>
+		</View>
+    </Display>
+</GMXML>

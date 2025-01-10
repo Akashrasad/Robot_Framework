@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8018</ScreenID>
+				<Name>ics_camera_vpm_menu</Name>
+				<ListWidget>
+					<ID>ics_camera_single_image_vpm_list</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>183</SizeW>
+						<SizeH>837</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL>11/img_list_tabs_small_highlight.png</BackgroundURL>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size>
+							<SizeW>183</SizeW>
+							<SizeH>140</SizeH>
+						</Size>
+						<RowSpacing>0</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL>11/camera_transperent_row.png</NormalURL>
+						<FocusURL>11/img_vpm_mfc_focused.png</FocusURL>
+					</RowLayout>
+					<ZOrder>4</ZOrder>
+					<ElementData>
+						<ImageElements>
+							<ID>img_vpm_tabs_normal</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>183</SizeW>
+								<SizeH>140</SizeH>
+							</Size>
+							<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL compression = "CompressionAlias4" skinid="skin_selected_URL">11/btn_tabs_camera_front_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias4" skinid="skin_disabled_URL">11/btn_tabs_camera_front_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>4</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_selected_URL">11/btn_tabs_camera_rear_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias3" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>5</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/btn_tabs_camera_bowl_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>6</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_selected_URL">11/btn_tabs_camera_bowl_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias3" skinid="skin_disabled_URL">11/btn_tabs_camera_bowl_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>7</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/btn_tabs_camera_hitch_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>8</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_tabs_camera_hitch_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_hitch_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>9</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_settings_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>10</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_settings_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_settings_disabled.png</FocusURL>
+							</SelectorState>							
+							<SelectorState>
+								<DataValue>11</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_bowl_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_tabs_camera_sedan_bowl_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>12</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_sedan_bowl_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>13</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_sedan_front_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>14</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_sedan_rear_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>15</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_tabs_camera_crossover_rear_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>16</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_crossover_front_selected.png</FocusURL>
+							</SelectorState>	
+							<SelectorState>
+								<DataValue>17</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_settings_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_tabs_camera_settings_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>18</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_trailer_outside_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>19</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_tabs_camera_trailer_outside_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_trailer_outside_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>20</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_crossover_front_disabled.png</NormalURL>								
+							</SelectorState>
+							<SelectorState>
+								<DataValue>21</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_crossover_rear_disabled.png</NormalURL>								
+							</SelectorState>
+							<SelectorState>
+								<DataValue>22</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_sedan_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>23</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_sedan_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>24</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>25</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_crossover_front_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>26</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_crossover_front_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>27</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>28</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_focused_URL">11/btn_tabs_camera_crossover_rear_focussed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>29</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_focusonselected_URL">11/btn_tabs_camera_crossover_rear_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>30</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>31</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_sedan_front_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>32</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_front_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_sedan_front_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>33</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>34</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_sedan_rear_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>35</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_sedan_rear_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_sedan_rear_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>36</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_bowl_suv_disabled.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_bowl_crossover_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>37</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_bowl_sedan_disabled.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_bowl_suv_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>38</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_bowl_crossover_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_bowl_sedan_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>39</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_bowl_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>40</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_bowl_sedan_pressed.png</NormalURL>
+							    <FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_bowl_suv_focused.png</FocusURL>
+							</SelectorState>			
+							<SelectorState>
+								<DataValue>41</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_bowl_crossover_focused.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_bowl_sedan_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>42</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_bowl_suv_focusonselected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_bowl_crossover_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>43</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_bowl_sedan_focusonselected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_bowl_suv_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>44</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_bowl_crossover_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_bowl_sedan_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>45</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_front_suv_disabled.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_front_crossover_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>46</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_front_sedan_disabled.png</NormalURL>
+						        <FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_front_suv_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>47</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_front_crossover_focused.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_front_sedan_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>48</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_front_suv_focusonselected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_front_crossover_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>49</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_front_sedan_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>50</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_front_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>51</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_front_suv_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_front_crossover_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>52</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_front_sedan_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_front_suv_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>53</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_front_crossover_normal.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_front_sedan_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>54</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_suv_disabled.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_crossover_disabled.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>55</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_sedan_disabled.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_rear_suv_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>56</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_rear_crossover_focused.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_tabs_camera_rear_sedan_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>57</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_rear_suv_focusonselected.png</NormalURL>
+							    <FocusURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_rear_crossover_focusonselected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>58</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_rear_sedan_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>59</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_rear_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>60</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_rear_suv_selected.png</NormalURL>
+								<FocusURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_rear_crossover_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>61</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_tabs_camera_rear_sedan_selected.png</NormalURL>
+							    <FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_rear_suv_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>62</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_rear_crossover_normal.png</NormalURL>
+							    <FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_tabs_camera_rear_sedan_normal.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>63</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_tabs_camera_settings_pressed.png</NormalURL>
+								<FocusURL compression = "CompressionAlias2" skinid="skin_focused_URL">11/btn_tabs_camera_settings_focused.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>64</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_settings_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>65</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_pressed_URL">11/btn_tabs_camera_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>66</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_tabs_camera_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>67</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_pressed_URL">11/btn_tabs_camera_bowl_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>68</DataValue>
+								<NormalURL compression = "CompressionAlias3" skinid="skin_pressed_URL">11/btn_tabs_camera_hitch_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>69</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_tabs_settings_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>70</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_tabs_camera_trailer_outside_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>71</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_crossover_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>72</DataValue>
+								<NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_tabs_camera_crossover_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>73</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_sedan_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>74</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_sedan_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>75</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_bowl_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>76</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_front_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>77</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_front_sedan_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>78</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_rear_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>79</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_tabs_camera_rear_sedan_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>80</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_bowl_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>81</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_front_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>82</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_rear_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>83</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_settings_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>84</DataValue>
+								<NormalURL compression = "CompressionAlias1" skinid="skin_focusonselected_URL">11/btn_tabs_camera_trailer_outside_focusonselected.png</NormalURL>
+							</SelectorState>
+							<Alpha>100</Alpha>
+							<ZOrder>1</ZOrder>
+							<InputWidgetMapping>
+								<UserInput>TouchPressRelease</UserInput>
+								<WidgetCallback>primarytransparent</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchOutOfWidgetRelease</UserInput>
+								<WidgetCallback>dummy_event</WidgetCallback>
+							</InputWidgetMapping>
+						</ImageElements>
+					</ElementData>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCW</UserInput>
+						<WidgetInput>0</WidgetInput>
+						<EventCallbackString>evG_MFC_CW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCCW</UserInput>
+						<WidgetInput>1</WidgetInput>
+						<EventCallbackString>evG_MFC_CCW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+				</ListWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>0</FocusInput>
+					<FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>1</FocusInput>
+					<FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotarySelectReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+				</InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

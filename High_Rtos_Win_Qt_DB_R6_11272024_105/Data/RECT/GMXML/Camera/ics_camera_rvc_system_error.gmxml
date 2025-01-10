@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8008</ScreenID>
+                <Name>ics_camera_rvc_system_error</Name>
+				<ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/img_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<GroupWidget>
+                    <ID>grp_img_exit</ID>
+                    <Location>
+                        <LocationX>35</LocationX>
+                        <LocationY>35</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>117</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>6</ZOrder>
+					<ImageElements var="img_grp_Close">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <ImageWidget>
+                    <ID>img_upa_warning_icon</ID>
+                    <Location>
+                        <LocationX>782</LocationX>
+                        <LocationY>147</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>139</SizeW>
+                        <SizeH>139</SizeH>
+                    </Size>
+                    <NormalURL>11/icn_upa_symbols_n_red_large.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_cameraerror</ID>
+                    <Location>
+                        <LocationX>950</LocationX>
+                        <LocationY>147</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>139</SizeW>
+                        <SizeH>139</SizeH>
+                    </Size>
+                    <NormalURL>11/icn_cameraerror.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_transparent</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <NormalURL>11/transparent_2000_974.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_TouchEvent_Release</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

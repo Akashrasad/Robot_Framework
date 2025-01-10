@@ -1,0 +1,18 @@
+VSeries,47
+skin_normal_URL,ABABAB
+skin_focused_URL,FCFCFC
+skin_pressed_URL,01D4FA
+skin_selected_URL,01D4FA
+skin_disabled_URL,646464
+skin_focusonselected_URL,01D8FF
+
+<-- Buttons -->
+skin_primary_btn_normal_URL,01D4FA
+skin_primary_btn_focused_URL,FCFCFC
+skin_primary_btn_pressed_URL,01D4FA
+skin_primary_btn_selected_URL,01D4FA
+skin_secondary_btn_normal_URL,ABABAB
+skin_secondary_btn_focused_URL,FCFCFC
+skin_secondary_btn_pressed_URL,557CF5
+skin_secondary_btn_selected_URL,01D4FA
+skin_btn_disabled_URL,646464

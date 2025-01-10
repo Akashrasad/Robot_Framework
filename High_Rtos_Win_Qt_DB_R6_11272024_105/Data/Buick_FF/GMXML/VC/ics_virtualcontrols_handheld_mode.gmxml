@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6085</ScreenID>
+				<Name>ics_virtualcontrols_handheld_mode</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_handheld_mode_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="img_general_back_btn">
+					<ID>img_btn_back</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_v_ugdo_handheld_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content"/>
+					<Size var="var_loc_learn_success_test_body_content"/>
+					<Font var="var_font_radio_btn_off_normal"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_yes_btn</ID>
+					<Location var="var_loc_learn_success_test_body_content2"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_grp_primary_btn">
+						<ID>img_yes_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_primary_btn">
+						<ID>virtualcontrols_1_5_1btnTransmitter_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Program</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_g_ugdo_handheld_instructions_csm</ID>
+					<Font var="var_font_description_align_center"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_handheld_content"/>
+					<Size var="var_size_learn_success_test_body_content_2lines"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_d_mode_btn</ID>
+					<Location var="var_loc_handheld_grp_d_mode"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_grp_secondary_btn">
+						<ID>img_d_mode_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_secondary_btn">
+						<ID>virtualcontrols_1_5_1_1btnDMode_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_D_Mode</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_ur_mode_btn</ID>
+					<Location var="var_loc_handheld_grp_ur_mode"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_grp_secondary_btn">
+						<ID>img_ur_mode_btn</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_secondary_btn">
+						<ID>virtualcontrols_1_5_1_2btnUR_Mode_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Ur_Mode</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

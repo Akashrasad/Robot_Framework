@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ListWidget id = "var_four_rows_list">
+            <Location>
+                <LocationX>1716</LocationX>
+                <LocationY>173</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_var_three_rows_list"/>
+            <Size>
+                <SizeW>1212</SizeW>
+                <SizeH>1017</SizeH>
+            </Size>
+            <FocusedRow>0</FocusedRow>
+            <BackgroundURL/>
+            <RowLayout>
+                <RowLayoutID>two_row_normal_layout</RowLayoutID>
+                <Size>
+                    <SizeW>1212</SizeW>
+                    <SizeH>339</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL/>
+                <FocusURL compression="CompressionAlias3" skinid="skin_cards_focused_URL">11/card_control_pressed_small.png</FocusURL>
+                <RowSeparatorImageURL/>
+            </RowLayout>
+            <RowLayout>
+                <RowLayoutID>four_row_layout</RowLayoutID>
+                <Size>
+                    <SizeW>1212</SizeW>
+                    <SizeH>1017</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL/>
+                <FocusURL compression="NONE" skinid="skin_cards_focused_URL">11/card_control_pressed_large.png</FocusURL>
+                <RowSeparatorImageURL/>
+            </RowLayout>
+            <ZOrder>4</ZOrder>
+            <ElementData>
+                <LabelElements>
+                    <ID>primary</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>192</LocationX>
+                        <LocationY>45</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>900</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_primary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>secondary</ID>
+                    <Location>
+                        <LocationX>297</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>361</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>third</ID>
+                    <Location>
+                        <LocationX>828</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>361</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_A</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_B</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>376</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_C</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>542</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_D</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>708</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>secondaryBold</ID>
+                    <Location>
+                        <LocationX>297</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>361</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>thirdBold</ID>
+                    <Location>
+                        <LocationX>828</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>361</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_A_Bold</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_B_Bold</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>376</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_C_Bold</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>542</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>Label_D_Bold</ID>
+                    <Location>
+                        <LocationX>275</LocationX>
+                        <LocationY>708</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>828</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <LabelElements>
+                    <ID>sub_title</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>192</LocationX>
+                        <LocationY>211</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>922</SizeW>
+                        <SizeH>79</SizeH>
+                    </Size>
+                    <Font var="var_font_list_secondary_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <ImageElements>
+                    <ID>img_card_control</ID>
+                    <UUID/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1212</SizeW>
+                        <SizeH>339</SizeH>
+                    </Size>
+                    <NormalURL compression="CompressionAlias4" skinid="skin_cards_normal_URL">11/img_virtual_controls_card_small.png</NormalURL>
+                    <FocusURL compression="CompressionAlias3" skinid="skin_cards_focused_URL">11/card_control_focused_small_mfc.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias4" skinid="skin_cards_normal_URL">11/img_virtual_controls_card_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="CompressionAlias3" skinid="skin_cards_focused_URL">11/card_control_focused_small_mfc.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="CompressionAlias2" skinid="skin_cards_selected_URL">11/img_card_controls_binary_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias4" skinid="skin_cards_normal_URL">11/img_card_controls_binary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression="CompressionAlias14" skinid="skin_emergency_URL">11/card_control_binary_warning.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>rowEvent</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_card_control_Big</ID>
+                    <UUID/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1212</SizeW>
+                        <SizeH>1016</SizeH>
+                    </Size>
+                    <NormalURL compression="CompressionAlias1" skinid="skin_cards_normal_URL">11/img_virtual_controls_card_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias2" skinid="skin_cards_focused_URL">11/card_control_focused_large_mfc.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1" skinid="skin_cards_normal_URL">11/img_virtual_controls_card_large.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="CompressionAlias2" skinid="skin_cards_focused_URL">11/card_control_focused_large_mfc.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>rowEvent</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_Headlights</ID>
+                    <Location>
+                        <LocationX>45</LocationX>
+                        <LocationY>19</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn_image"/>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_headlights_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_icon</ID>
+                    <Location>
+                        <LocationX>45</LocationX>
+                        <LocationY>19</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn_image"/>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_dome_normal.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_emergency_URL">11/icn_error.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_lockout_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_motion_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_traction_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_opd.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_park_assist_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_beams_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_dome_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_fog_front_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>9</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_fog_rear_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>10</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_headlights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>11</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/controls_icn_liftgate_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>12</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_controls_cargo_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>13</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_normal_URL">11/icn_controls_child.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>14</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_controls_task_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>15</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_controls_driver_seat_massage_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>16</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/icn_controls_passenger_seat_massage_normal.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                 <ImageElements>
+                    <ID>img_pakring_lights</ID>
+                    <Location>
+                        <LocationX>256</LocationX>
+                        <LocationY>518</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL  compression = "NONE" skinid="skin_selected_URL">11/btn_icn_lights_headlights_parking_lights_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+				<ImageElements>
+                    <ID>img_pakring_lights_low_beam</ID>
+                    <Location>
+                        <LocationX>256</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+				<ImageElements>
+                    <ID>img_pakring_lights_normal</ID>
+                    <Location>
+                        <LocationX>256</LocationX>
+                        <LocationY>518</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+				<ImageElements>
+                    <ID>img_pakring_lights_low_beam_normal</ID>
+                    <Location>
+                        <LocationX>256</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_binary_line</ID>
+                    <Location>
+                        <LocationX>24</LocationX>
+                        <LocationY>116</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>742</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/icn_line_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements> 
+				 <ImageElements>
+                    <ID>img_Off_transparent</ID>
+                    <Location>
+                        <LocationX>113</LocationX>
+                        <LocationY>166</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>583</SizeW>
+                        <SizeH>166</SizeH>
+                    </Size>
+                    <NormalURL>11/389_118.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/389_118.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonX</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_On_transparent</ID>
+                    <Location>
+                        <LocationX>696</LocationX>
+                        <LocationY>166</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>583</SizeW>
+                        <SizeH>166</SizeH>
+                    </Size>
+                    <NormalURL>11/389_118.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/389_118.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonY</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_full_transparent_A</ID>
+                    <Location>
+                        <LocationX>113</LocationX>
+                        <LocationY>166</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1012</SizeW>
+                        <SizeH>165</SizeH>
+                    </Size>
+                    <NormalURL>11/789_155.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/789_155.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_long_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonA</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_full_transparent_B</ID>
+                    <Location>
+                        <LocationX>113</LocationX>
+                        <LocationY>332</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1012</SizeW>
+                        <SizeH>165</SizeH>
+                    </Size>
+                    <NormalURL>11/789_155.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/789_155.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_long_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonB</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_full_transparent_C</ID>
+                    <Location>
+                        <LocationX>113</LocationX>
+                        <LocationY>497</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1012</SizeW>
+                        <SizeH>165</SizeH>
+                    </Size>
+                    <NormalURL>11/789_155.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/789_155.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_long_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonC</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_full_transparent_D</ID>
+                    <Location>
+                        <LocationX>113</LocationX>
+                        <LocationY>663</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1012</SizeW>
+                        <SizeH>165</SizeH>
+                    </Size>
+                    <NormalURL>11/789_155.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/789_155.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_list_focused_URL">11/btn_vc_onoff_long_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonD</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_binary_lineA</ID>
+                    <Location>
+                        <LocationX>16</LocationX>
+                        <LocationY>117</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>742</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/icn_line_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_binary_lineB</ID>
+                    <Location>
+                        <LocationX>16</LocationX>
+                        <LocationY>274</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>742</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/icn_line_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_binary_lineC</ID>
+                    <Location>
+                        <LocationX>16</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>742</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/icn_line_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_binary_lineD</ID>
+                    <Location>
+                        <LocationX>16</LocationX>
+                        <LocationY>587</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>742</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_list_normal_URL">11/icn_line_divider.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_X</ID>
+                    <Location>
+                        <LocationX>151</LocationX>
+                        <LocationY>186</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonX</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_Y</ID>
+                    <Location>
+                        <LocationX>681</LocationX>
+                        <LocationY>186</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonY</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_A</ID>
+                    <Location>
+                        <LocationX>128</LocationX>
+                        <LocationY>186</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                         <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonA</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_B</ID>
+                    <Location>
+                        <LocationX>128</LocationX>
+                        <LocationY>352</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonB</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_C</ID>
+                    <Location>
+                        <LocationX>128</LocationX>
+                        <LocationY>518</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonC</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_radio_button_D</ID>
+                    <Location>
+                        <LocationX>128</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>128</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>radiobuttonD</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_forward_arrow_x</ID>
+                    <Location>
+                        <LocationX>1114</LocationX>
+                        <LocationY>38</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>87</SizeW>
+                        <SizeH>87</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE" skinid="skin_normal_URL">11/icn_right.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_focused_URL">11/icn_right_focused.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_normal_URL">11/icn_right.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_focused_URL" >11/icn_right_focused.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_pressed_URL">11/icn_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_selected_URL">11/icn_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_disabled_URL">11/icn_right_disabled.png</NormalURL>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                <ImageElements>
+                    <ID>img_forward_arrow_Y</ID>
+                    <Location>
+                        <LocationX>1106</LocationX>
+                        <LocationY>30</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>87</SizeW>
+                        <SizeH>87</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE" skinid="skin_normal_URL">11/icn_right.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_focused_URL">11/icn_right_focused.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_normal_URL">11/icn_right.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_focused_URL" >11/icn_right_focused.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_pressed_URL">11/icn_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_selected_URL">11/icn_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_disabled_URL">11/icn_right_disabled.png</NormalURL>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+            </ElementData>
+        </ListWidget>
+    </Variables>
+</GMXML>

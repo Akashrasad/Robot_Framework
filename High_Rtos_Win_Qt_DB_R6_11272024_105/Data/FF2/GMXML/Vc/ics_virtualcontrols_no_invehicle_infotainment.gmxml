@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6058</ScreenID>
+                <Name>ics_virtualcontrols_no_invehicle_infotainment</Name>
+				<ImageWidget var="img_2line_dialog_bg">
+                    <ID>img_notification_ivi_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="power_mode_snackbar_lbl">
+                    <ID>virtualcontrols_no_infotainment_notification_csm</ID>
+					<Location var="var_loc_snackbar_ivi"/>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6074</ScreenID>
+                <Name>ics_virtual_controls_lane_centering_assist</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_3_card_holca_csm</ID>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_lane_centering_assist_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_1strow_radio_btn">
+                    <ID>img_radio_button_Off</ID>
+                    <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+		       	    <FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+					 <SelectorState>
+		       	    	<DataValue>1</DataValue>
+		       	    	<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+		       	    	<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+		       	    </SelectorState>
+					<SelectorState>
+				        <DataValue>2</DataValue>
+				        <NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+				        <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+		       	    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_LaneCenteringAssist_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_ParkAssistOff_csm</ID>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_ParkAssistOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_ParkAssistOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget var="img_2ndrow_radio_btn">
+                    <ID>img_radio_button_on</ID>
+                    <NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+				    <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					<SelectorState>
+				        <DataValue>1</DataValue>
+				        <NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+				        <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+		       	    </SelectorState>
+		       	    <SelectorState>
+		       	    	<DataValue>2</DataValue>
+		       	    	<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+		       	    	<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+		       	    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_LaneCenteringAssist_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_ParkAssistOn_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_ParkAssistOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_ParkAssistOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_lane_centering_icon</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL>11/icn_voc_lane_centering_assist_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_3_1_holca_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_lane_centering_assist_off_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_LaneCenteringAssist_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>img_lane_centering_assist_on_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_LaneCenteringAssist_On</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

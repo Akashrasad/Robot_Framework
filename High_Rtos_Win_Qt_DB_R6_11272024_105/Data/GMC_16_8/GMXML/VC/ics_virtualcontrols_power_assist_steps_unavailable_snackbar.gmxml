@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6164</ScreenID>
+				<Name>ics_virtualcontrols_power_assist_steps_unavailable_snackbar</Name>
+				<ImageWidget var="var_snackbar_2lines_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_snackbar_2lines_txt">
+					<ID>virtualcontrols_1_9_1_h_stepsSnackbar_csm</ID>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

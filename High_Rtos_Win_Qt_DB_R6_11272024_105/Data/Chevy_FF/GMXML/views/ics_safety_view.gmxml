@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+           <ViewID>ics_safety_view</ViewID>
+		   <Layer touch="false">32</Layer>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>3400</SizeW>
+                <SizeH>1300</SizeH> 
+            </Size>
+            <ZOrder var="var_zorder_safety_view"/>
+            <Screen load="ics_safety_screen"/>
+        </View>
+    </Display>
+</GMXML>

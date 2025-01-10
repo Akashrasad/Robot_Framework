@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6029</ScreenID>
+				<Name>ics_virtualcontrols_program</Name>
+				<ImageWidget var="img_general_back_btn">
+					<ID>img_btn_back</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_back</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_1_f_desc_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content2"/>
+					<Size var="var_size_program_body_content"/>
+					<Font var="var_font_description_align_center"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_0_1_ugdo_waiting_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content"/>
+					<Size var="var_loc_learn_success_test_body_content"/>
+					<Font var="var_font_snackbar_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_program_close</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>0</FocusInput>
+					<FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>1</FocusInput>
+					<FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

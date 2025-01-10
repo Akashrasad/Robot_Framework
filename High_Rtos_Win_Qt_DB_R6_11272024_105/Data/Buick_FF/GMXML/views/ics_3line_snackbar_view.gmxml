@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_3line_snackbar_view</ViewID>
+            <Size>
+                <SizeW>1586</SizeW>
+                <SizeH>292</SizeH>
+            </Size>
+            <Location>
+                <LocationX>3715</LocationX>
+                <LocationY>461</LocationY>
+            </Location>
+            <ZOrder var="var_zorder_snackbar_view"/>
+			<Screen load="ics_virtualcontrols_passive_power_mode_extend_snackbar"/>
+			<Screen load="ics_virtualcontrols_programming_successful_maximum_snackbar"/>
+			</View>
+    </Display>
+</GMXML>

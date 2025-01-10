@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8018</ScreenID>
+				<Name>ics_camera_vpm_menu</Name>
+				<ListWidget>
+					<ID>ics_camera_single_image_vpm_list</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>113</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_ics_camera_single_image_vpm_list"/>
+					<Size>
+						<SizeW>237</SizeW>
+						<SizeH>904</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size var="var_size_img_vpm_tabs_normal"/>
+						<RowSpacing>0</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL>11/camera_transperent_row.png</NormalURL>
+						<FocusURL skinid="skin_camera_focused_URL">11/img_vpm_mfc_focused.png</FocusURL>
+					</RowLayout>
+					<ZOrder>4</ZOrder>
+					<ElementData>
+						<ImageElements>
+							<ID>img_vpm_tabs_normal</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size var="var_size_img_vpm_tabs_normal"/>
+							<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>4</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>5</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>6</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>7</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>8</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_hitch_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>9</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_hitch_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>10</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_hitch_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>11</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_hitch_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>12</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_settings_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>13</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_settings_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>14</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_settings_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>15</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_settings_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>16</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_svr_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>17</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_svr_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>18</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_svr_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>19</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_svr_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>20</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>21</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_bowl_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>22</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_bowl_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>23</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_bowl_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>24</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_crossover_bowl_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>25</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_bowl_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>26</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_crossover_bowl_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>27</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>28</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_crossover_front_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>29</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>30</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_crossover_rear_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>31</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_sedan_bowl_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>32</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_sedan_bowl_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>33</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_sedan_bowl_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>34</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_sedan_front_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>35</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_sedan_front_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>36</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_sedan_rear_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>37</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_sedan_rear_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>38</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_crossover_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>39</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_crossover_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>40</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_sedan_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>41</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_sedan_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>42</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_crossover_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>43</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_crossover_front_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>44</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_crossover_front_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>45</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_crossover_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>46</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_crossover_rear_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>47</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_crossover_rear_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>48</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_sedan_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>49</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_sedan_front_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>50</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_sedan_front_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>51</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_sedan_rear_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>52</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_sedan_rear_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>53</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_sedan_rear_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>54</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_bowl_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>55</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_bowl_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>56</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_bowl_sedan_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>57</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_suv_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>58</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_crossover_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>59</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_sedan_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>60</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_bowl_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>61</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_bowl_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>62</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_bowl_sedan_pressed.png</NormalURL>
+							</SelectorState>			
+							<SelectorState>
+								<DataValue>63</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_suv_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>64</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_crossover_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>65</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_sedan_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>66</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_suv_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>67</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_crossover_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>68</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_sedan_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>69</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_bowl_suv_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>70</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_bowl_crossover_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>71</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_bowl_sedan_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>72</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>73</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>74</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_sedan_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>75</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_suv_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>76</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_crossover_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>77</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_sedan_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>78</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_suv_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>79</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_crossover_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>80</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_sedan_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>81</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>82</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>83</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_sedan_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>84</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_suv_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>85</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_crossover_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>86</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_sedan_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>87</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_suv_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>88</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_crossover_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>89</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_sedan_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>90</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>91</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>92</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_sedan_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>93</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_suv_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>94</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_crossover_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>95</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_sedan_focused.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>96</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_suv_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>97</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_crossover_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>98</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_sedan_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>99</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>100</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>101</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_sedan_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>102</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_suv_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>103</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_crossover_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>104</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_sedan_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>105</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_suv_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>106</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_crossover_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>107</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_sedan_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>108</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>109</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>110</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>111</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_focusonselected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>112</DataValue>
+								<NormalURL skinid="skin_camera_focused_URL">11/btn_tabs_camera_settings_focusonselected.png</NormalURL>
+							</SelectorState>
+							<Alpha>100</Alpha>
+							<ZOrder>1</ZOrder>
+							<InputWidgetMapping>
+								<UserInput>TouchPressRelease</UserInput>
+								<WidgetCallback>primarytransparent</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchOutOfWidgetRelease</UserInput>
+								<WidgetCallback>dummy_event</WidgetCallback>
+							</InputWidgetMapping>
+						</ImageElements>
+					</ElementData>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCW</UserInput>
+						<WidgetInput>0</WidgetInput>
+						<EventCallbackString>evG_MFC_CW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+					<ListInputWidgetMapping>
+						<UserInput>RotaryCCW</UserInput>
+						<WidgetInput>1</WidgetInput>
+						<EventCallbackString>evG_MFC_CCW_Rotation</EventCallbackString>
+					</ListInputWidgetMapping>
+				</ListWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>0</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>1</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

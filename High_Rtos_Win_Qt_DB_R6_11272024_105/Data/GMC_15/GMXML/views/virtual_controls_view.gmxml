@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_view</ViewID>
+            <Size>
+                <SizeW>1836</SizeW>
+                <SizeH>1800</SizeH>
+            </Size>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <ZOrder>1</ZOrder>
+			<Screen load="ics_virtualcontrols_rear_fog_lights"/>
+			<Screen load="ics_virtualcontrols_front_fog_lights"/>
+			<Screen load="ics_virtualcontrols_auto_high_beams"/>
+			<Screen load="ics_virtualcontrols_program"/>
+			<Screen load="ics_virtualcontrols_cargo_lights"/>
+			<Screen load="ics_virtualcontrols_task_lights"/>	
+			<Screen load="ics_virtual_controls_detected"/>
+			<Screen load="ics_virtualcontrols_learn"/>
+			<Screen load="ics_virtual_controls_success_test"/>
+			<Screen load="ics_virtualcontrols_learn_success_test"/>
+			<Screen load="ics_virtual_controls_child_safety_locks"/>
+			<Screen load="ics_virtualcontrols_wake_screen"/>
+			<Screen load="ics_virtual_controls_universal_remotes_start"/>
+			<Screen load="ics_virtual_controls_head_up_display"/>
+			<Screen load="ics_virtual_controls_power_window_lockout"/>
+			<Screen load="ics_virtualcontrols_motion_sensor"/>
+			<Screen load="ics_virtualcontrols_power_liftgate_height"/>
+			<Screen load="ics_virtual_controls_traction_control"/>
+			<Screen load="ics_virtual_controls_traction_control_competitive"/>
+			<Screen load="ics_virtual_controls_drive_and_park"/>
+			<Screen load="ics_virtual_controls_hill_descent_control"/>
+			<Screen load="ics_virtual_controls_auto_parking_assist"/>
+			<Screen load="ics_virtualcontrols_front_rear_fog_lights"/>
+			<Screen load="ics_virtual_controls_lights"/>
+			<Screen load="ics_virtualcontrols_dome_light"/>
+			<Screen load="ics_virtualcontrols_headlights"/>
+			<Screen load="ics_virtualcontrols_fog_lights"/>
+			<Screen load="ics_virtual_controls_programming_successful"/>
+			<Screen load="ics_virtual_controls_options"/>
+			<screen load="ics_virtual_controls_options_name"/>
+			<Screen load="ics_virtualcontrols_options_auto"/>
+			<Screen load="ics_virtual_controls_wake_screen_doors_and_windows"/>
+			<Screen load="ics_virtual_controls_wake_screen_lights"/>
+			<Screen load="ics_virtual_controls_doors_and_windows"/>
+			<Screen load="ics_virtual_controls_controls_home"/>
+			<Screen load="ics_virtualcontrols_handheld_mode"/>
+			<Screen load="ics_virtualcontrols_program_d_mode_dialog"/>
+            <Screen load="ics_virtualcontrols_program_ur_mode_dialog"/>
+            <Screen load="ics_virtualcontrols_auto_hold"/>
+			<Screen load="ics_virtualcontrols_lane_keep_assist"/>
+			<Screen load="ics_virtual_controls_scroll_first_page_aux"/>
+			<Screen load="ics_virtual_controls_scroll_second_page_aux"/>
+			<Screen load="ics_virtual_controls_controls_home_aux"/>
+			<Screen load="ics_virtual_controls_aux_switches"/>
+			<Screen load="ics_virtual_controls_aux_edit"/>
+			<Screen load="ics_virtual_controls_aux_name"/>
+			<Screen load="ics_virtualcontrols_lane_assistance_with_bzsa_and_holca"/>
+			<Screen load="ics_virtualcontrols_lane_keep_assist_bzsa_only"/>
+			<Screen load="ics_virtual_controls_lane_centering_assist"/>
+			<Screen load="ics_virtual_controls_home_cards"/>
+			<Screen load="ics_virtual_controls_speed_limiter"/>
+			<Screen load="ics_virtualcontrols_start_screen_tdl_set_thinking"/>
+			<Screen load="ics_virtual_controls_rear_steering"/>
+			<Screen load="ics_virtual_controls_rear_auto_breaking"/>
+			<Screen load="ics_virtual_controls_park_assist"/>
+        </View>
+    </Display>
+</GMXML>

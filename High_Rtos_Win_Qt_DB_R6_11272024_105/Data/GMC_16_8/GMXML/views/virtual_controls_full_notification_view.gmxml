@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_full_notification_view</ViewID>
+            <Size var="var_size_bg"/>
+            <Location var="var_loc_orgin"/>
+           <ZOrder>10</ZOrder>
+			<Screen load="ics_virtualcontrols_passive_power_mode_emergency_detected"/>
+        </View>
+    </Display>
+</GMXML>

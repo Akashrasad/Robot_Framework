@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6099</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_snackbar_remaining</Name>
+				<DialogDismiss callback = "evG_PPM_Extended_Button_Selection" zorder="1"/>
+				<ImageWidget var="var_img_simple_dialogue_regular_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_extendTimeout_csm</ID>
+					<Font var="var_font_body_text">
+						<TextAlign>4</TextAlign>
+					</Font>
+					<Location var="var_loc_2lines_dialog1_text"/>
+					<Size var="var_size_2lines_dialog_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_extendReset_csm</ID>
+					<Font var="var_font_call_assistance">
+						<TextAlign>4</TextAlign>
+					</Font>
+					<Location var="var_loc_2lines_dialog_text"/>
+					<Size var="var_size_dialog_1428"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				 <GroupWidget>
+				 <ID>grp_extend_btn</ID>
+				 <Location var="var_loc_dialog_button"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				<ImageElements>
+				     <ID>img_extend_btn</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_btn_large"/>
+					<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal_large.png</NormalURL>
+					<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed_large.png</NormalURL>
+						<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_selected_URL">11/btn_primary_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias1" skinid="skin_btn_disabled_URL">11/btn_primary_disabled_large.png</NormalURL>
+					</SelectorState>
+					<ZOrder>3</ZOrder>
+				</ImageElements>
+				<LabelElements>
+					<ID>virtualcontrols_1_6_6_5_f_extendButton_csm</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_btn_large"/>
+					<Font var="var_font_primary_button_normal"/>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PPM_Extended_Button_Selection</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

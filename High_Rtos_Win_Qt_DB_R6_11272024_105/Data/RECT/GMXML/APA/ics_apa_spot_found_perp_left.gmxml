@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7035</ScreenID>
+                <Name>ics_apa_spot_found_perp_left</Name>
+				<ImageWidget> 
+                    <ID>img_apa_bg</ID>
+                    <Location var="var_loc_title_bar_bg"/>
+                    <Size var="var_size_popup_body_txt_bg"/>
+                    <NormalURL compression = "NONE">11/img_apa_handoff_background_blue.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<ImageWidget var="img_exit_apa">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget var="var_topbar_apa">
+                    <ID>img_top_bar</ID>
+                </ImageWidget>
+				<LabelWidget var="var_topbar_changeselection_label">
+                    <ID>apa_4_0F_ChangeSelection_csm</ID>
+                </LabelWidget>
+                <GroupWidget  var="var_change_selection_down">
+					<ID>grp_change_selection_down_arrow</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Park_Selection</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+                <ImageWidget var="var_space_spot_found_image">
+                    <ID>img_perp_left_space</ID>
+                    <NormalURL compression = "CompressionAlias1">11/icn_confirmperpleft_car_normal.png</NormalURL>
+                </ImageWidget>
+				<LabelWidget var="var_apa_park_inst_1">
+                    <ID>apa_4_1_selectedbuttonPerpLeft_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_apa_space_found_1">
+                    <ID>apa_4_4_2F_SpotFound_csm</ID>
+                </LabelWidget>	
+				<LabelWidget var="var_apa_space_found_2">
+                    <ID>apa_4_4_2F_ReversePark_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

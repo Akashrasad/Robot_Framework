@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8015</ScreenID>
+                <Name>ics_vpm_rear_camera</Name>
+                <ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+                <ImageWidget var="img_exit_btn_camera_apa">
+					<ID>img_exit_camera</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				 <LabelWidget var="exit_btn_txt_apa_cam">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+			    </LabelWidget>
+				<ImageWidget var="img_exit_btn_camera_apa_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<ListWidget var ="var_list_with_single_label_vpm">
+                    <ListID>vpm_rear_view_list</ListID>
+				<LayoutOverride var = "var_layout_override_var_list_with_single_label_vpm"/>
+                </ListWidget>
+				<LabelWidget var="var_front_txt">
+					<ID>safetysystems_2_1_1_Rear_f_csm</ID>
+					<LayoutOverride var = "var_layout_front_txt"/>
+				</LabelWidget>
+			    <ImageWidget var="img_camera_error_icon">
+					<ID>img_icn_cameraerror</ID>
+				<LayoutOverride var = "var_layout_override_img_camera_error_icon"/>
+			   </ImageWidget>			   
+			   <ImageWidget var="img_icn_cameraerror">
+					<ID>img_icn_camera_error</ID>
+				<LayoutOverride var = "var_layout_override_img_camera_error_icon"/>
+			   </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

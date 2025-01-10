@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7030</ScreenID>
+                <Name>ics_apa_park_instructions_selection_drawer</Name>
+				<ImageWidget>
+                    <ID>img_bg_vc_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>	
+				<GroupWidget var="var_change_selection">
+                    <ID>grp_change_selection</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Change_Selection</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <OnFocusCallback>evG_Apa_Change_Selection</OnFocusCallback>
+                </GroupWidget>
+				 <ImageWidget var="var_change_selection_down_mfc">
+					<ID>change_selection_down_mfc</ID>	
+			      <FocusURL compression="NONE" skinid="skin_focused_URL">11/icn_up_focused_small.png</FocusURL>
+			     <InputWidgetMapping>
+                 <UserInput>RotarySelectReleased</UserInput>
+                 <WidgetCallback>evG_Apa_Change_Selection</WidgetCallback>
+                 </InputWidgetMapping>
+                  </ImageWidget>				
+				<LabelWidget>
+					<ID>apa_3_0F_HowtoPark_csm</ID>
+					<Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_park_title"/>
+					<LayoutOverride var = "var_layout_apa_title1"/>
+					<Size var="var_size_title"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>apa_3_0F_HowtoPark_csm</StaticValue>
+					</SelectorState>
+				</LabelWidget>
+                <ImageWidget>
+                    <ID>img_park_left_perp</ID>
+                     <Location var="var_loc_perp_left"/>
+					 <LayoutOverride var = "var_layout_grp_park_left_perp"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>                   
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+					 <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_disabled.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_disabled.png</FocusURL>
+                    </SelectorState>
+					 <SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Perp_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+               <ImageWidget>
+					 <ID>img_park_left_focus_perp</ID>
+                     <Location var="var_loc_perp_left"/>
+					 <LayoutOverride var = "var_layout_grp_park_left_perp"/>
+                    <Size var="var_size_perp_img"/>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+					<FocusURL compression="NONE">11/icn_park_leftperp_car_focused.png</FocusURL>
+					<InputWidgetMapping>
+                       <UserInput>RotarySelectReleased</UserInput>
+                       <WidgetCallback>evG_Apa_Perp_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>				
+                <ImageWidget>
+                    <ID>img_park_right_perp</ID>
+                    <Location var="var_loc_perp_right"/>
+					<LayoutOverride var = "var_layout_grp_park_right_perp"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                   <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                     <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_disabled.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_disabled.png</FocusURL>
+                    </SelectorState>	
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>					
+                    <Alpha>100</Alpha>                   
+                    <ZOrder>2</ZOrder> 
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Perp_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>					
+				</ImageWidget>
+                <ImageWidget>
+					<ID>img_park_right_focus_perp</ID>
+                    <Location var="var_loc_perp_right"/>
+					<LayoutOverride var = "var_layout_grp_park_right_perp"/>
+                    <Size var="var_size_perp_img"/>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>4</TabH>
+                    </TabOrder>
+					<FocusURL compression="NONE">11/icn_park_rightperp_car_focused.png</FocusURL>
+					<InputWidgetMapping>
+                       <UserInput>RotarySelectReleased</UserInput>
+                       <WidgetCallback>evG_Apa_Perp_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>							
+                <ImageWidget>
+                    <ID>img_park_left_parallel</ID>
+                    <Location var="var_loc_para_left"/>
+					<LayoutOverride var = "var_layout_grp_park_left_parallel"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_disabled.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_disabled.png</FocusURL>
+                    </SelectorState>
+					 <SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder> 
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Parallel_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+              <ImageWidget>
+					<ID>img_park_left_focus_parallel</ID>
+                    <Location var="var_loc_para_left"/>
+					<LayoutOverride var = "var_layout_grp_park_left_parallel"/>
+                    <Size var="var_size_perp_img"/>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+					<FocusURL compression="NONE">11/icn_park_leftpar_car_focused.png</FocusURL>
+					<InputWidgetMapping>
+                       <UserInput>RotarySelectReleased</UserInput>
+                       <WidgetCallback>evG_Apa_Parallel_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>						
+                <ImageWidget>
+                    <ID>img_park_right_parallel</ID>
+                    <Location var="var_loc_para_right"/>
+					<LayoutOverride var = "var_layout_grp_park_right_parallel"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "NONE">11/icn_park_rightpar_car_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightpar_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE">11/icn_park_rightpar_car_disabled.png</NormalURL>
+                        <FocusURL compression = "NONE">11/icn_park_rightpar_car_disabled.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression="NONE">11/icn_park_rightpar_car_normal.png</NormalURL>
+						<FocusURL compression = "NONE">11/icn_park_rightpar_car_pressed.png</FocusURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Parallel_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_park_right_focus_parallel</ID>
+                    <Location var="var_loc_para_right"/>
+					<LayoutOverride var = "var_layout_grp_park_right_parallel"/>
+                    <Size var="var_size_perp_img"/>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>2</TabH>
+                    </TabOrder>
+					<FocusURL compression="NONE">11/icn_park_rightpar_car_focused.png</FocusURL>
+					<InputWidgetMapping>
+                       <UserInput>RotarySelectReleased</UserInput>
+                       <WidgetCallback>evG_Apa_Parallel_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>			
+                <GroupWidget var="var_apa_exit">
+					<ID>grp_exit_apa_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget var="var_apa_exit_mfc">
+					<ID>grp_exit_apa_btn_mfc</ID>
+					<TabOrder>
+						<TabV>3</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+					<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

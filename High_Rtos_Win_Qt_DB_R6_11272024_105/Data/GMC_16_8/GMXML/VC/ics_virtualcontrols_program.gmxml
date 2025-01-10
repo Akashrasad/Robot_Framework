@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6029</ScreenID>
+                <Name>ics_virtualcontrols_program</Name>
+				<ImageWidget var="img_wakescreen_exit_btn">
+					<ID>img_place_holder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Handheld_Mode</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_btnAddRemote_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_program_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_0_1_ugdo_waiting_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content"/>
+                    <Size var="var_size_learn_success_test_body_content"/>
+                    <Font var="var_font_learn_success_test_body_content"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_1_1_f_desc_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content_1"/>
+                    <Size>
+                        <SizeW>1636</SizeW>
+                        <SizeH>161</SizeH>
+                    </Size>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6098</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget>
+					<ID>img_notification_bg</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_3line_snackbar_bg"/>
+					<NormalURL compression = "NONE">11/img_notification_3lines_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_7_V_ExtendSnackbar_csm</ID>
+					<Font var="var_font_snackbar_text"/>
+					<Location var="var_loc_2lines_snack_bar_text"/>
+					<Size>
+						<SizeW>1106</SizeW>
+						<SizeH>155</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_dismiss_btn</ID>
+					<Location>
+						<LocationX>1223</LocationX>
+						<LocationY>67</LocationY>
+					</Location>
+					<Size>
+						<SizeW>294</SizeW>
+						<SizeH>90</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_dismiss_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>294</SizeW>
+							<SizeH>90</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias1">11/btn_tertiary_bg_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_tertiary_bg_pressed.png</FocusURL>
+						<ZOrder>3</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_7_V_ExtendSnackbarDismiss_csm</ID>
+						<Location>
+							<LocationX>21</LocationX>
+							<LocationY>18</LocationY>
+						</Location>
+						<Size>
+							<SizeW>251</SizeW>
+							<SizeH>55</SizeH>
+						</Size>
+						<Font var="var_font_teritary_button_normal"/>
+						<FocusFont var="var_font_teritary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

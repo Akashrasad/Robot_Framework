@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6091</ScreenID>
+				<Name>ics_virtual_controls_pin_to_start</Name>
+				<LabelWidget>
+					<ID>choreography_6_1F_EnterPasscode_csm</ID>
+					<Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_enterpasscode_text"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>971</LocationX>
+							<LocationY>188</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_enterpasscode_text"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>choreography_6_1F_EnterPasscode_csm</StaticValue>
+						<Font var="var_font_title"/>
+					</SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>choreography_9_5F_ReEnterPasscode_csm</StaticValue>
+						<Font var="var_font_title"/>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg1</ID>
+					<Location var="var_loc_keypad_bg1"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn1</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_1_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_One</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg2</ID>
+					<Location var="var_loc_keypad_bg2"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn2</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_2_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Two</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg3</ID>
+					<Location var="var_loc_keypad_bg3"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn3</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_3_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Three</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg4</ID>
+					<Location var="var_loc_keypad_bg4"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn4</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_4_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Four</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg5</ID>
+					<Location var="var_loc_keypad_bg5"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn5</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_5_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Five</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg6</ID>
+					<Location var="var_loc_keypad_bg6"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn6</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_6_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Six</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg7</ID>
+					<Location var="var_loc_keypad_bg7"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn7</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_7_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Seven</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg8</ID>
+					<Location var="var_loc_keypad_bg8"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn8</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_8_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Eight</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg9</ID>
+					<Location var="var_loc_keypad_bg9"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn9</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_9_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Nine</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg0</ID>
+					<Location var="var_loc_keypad_bg0"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>922</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn0</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_0_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Zero</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_keypad_delete_btn</ID>
+					<Location var="var_loc_keypad_delete_btn"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>922</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_keypad_btn_normal_URL">11/btn_keypad_delete_normal.png</NormalURL>
+					<FocusURL  compression = "CompressionAlias1" skinid="skin_keypad_btn_pressed_URL">11/btn_keypad_delete_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_keypad_btn_normal_URL">11/btn_keypad_delete_normal.png</NormalURL>
+						<FocusURL  compression = "CompressionAlias1" skinid="skin_keypad_btn_pressed_URL">11/btn_keypad_delete_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_keypad_btn_focused_URL">11/btn_keypad_delete_focused.png</NormalURL>
+						<FocusURL  compression = "CompressionAlias1" skinid="skin_keypad_btn_pressed_URL">11/btn_keypad_delete_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_keypad_btn_focused_URL">11/btn_keypad_delete_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_keypad_btn_disabled_URL">11/btn_keypad_delete_disabled.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Delete</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>choreography_6_1F_notUsingRemoteKey_csm</ID>
+					<Font var="var_font_enterpasscode_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_enterpasscode_txt"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>203</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_passcoderequired_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_1F_IncorrectPassCode_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_toomanyattempts_text"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>508</LocationY>
+						</Location>
+					</LayoutOverride>
+                    <Size var="var_size_passcoderequired_text"/>
+					 <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_2F_TooManyAttempts_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_toomanyattempts_text"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>508</LocationY>
+						</Location>
+					</LayoutOverride>
+                    <Size var="var_size_passcoderequired_text"/>
+					 <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_5F_TimerExpired_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_toomanyattempts_text"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>508</LocationY>
+						</Location>
+					</LayoutOverride>
+                    <Size var="var_size_passcoderequired_text"/>
+					 <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_error_btn1</ID>
+					<Location var="var_loc_error_img"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn2</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1803</LocationX>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2397</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn3</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1886</LocationX>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2480</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn4</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1968</LocationX>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2563</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn5</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>2051</LocationX>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2646</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn6</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>2134</LocationX>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2729</LocationX>
+							<LocationY>429</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_error_img"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+                    <ID>choreography_9_1F_ForgotPINNote_csm</ID>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+				        <LocationX>1720</LocationX>
+				        <LocationY>666</LocationY>
+					</Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>2315</LocationX>
+							<LocationY>666</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_passcoderequired_text"/>
+                    <Font var="var_font_toomanyattempts"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget var="img_car_btn">
+					<ID>img_car_btn</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Ptos_VC</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>	
+				<ImageWidget var="img_car_btn_pressed">
+					<ID>img_car_btn_pressed</ID>
+				</ImageWidget>
+				<ImageWidget var="img_car_mfc_btn">
+					<ID>img_car_mfc_btn</ID>
+				</ImageWidget>
+				<ImageWidget var="image_exit_button">
+					<ID>image_exit_button</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_close_text">
+					<ID>choreography_20_3_close_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="image_exit_button_mfc">
+					<ID>image_exit_mfc_button</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+ 				<ImageWidget>
+                    <ID>img_keypad_mfc_bg1</ID>
+                    <Location var="var_loc_keypad_bg1"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                   <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_One</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg2</ID>
+                    <Location var="var_loc_keypad_bg2"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Two</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg3</ID>
+                    <Location var="var_loc_keypad_bg3"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>312</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Three</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg4</ID>
+                    <Location var="var_loc_keypad_bg4"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>4</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Four</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg5</ID>
+                    <Location var="var_loc_keypad_bg5"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>5</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Five</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg6</ID>
+                    <Location var="var_loc_keypad_bg6"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>6</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>516</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Six</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg7</ID>
+                    <Location var="var_loc_keypad_bg7"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>7</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>986</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Seven</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg8</ID>
+                    <Location var="var_loc_keypad_bg8"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>8</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Eight</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg9</ID>
+                    <Location var="var_loc_keypad_bg9"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>9</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>719</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Nine</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg0</ID>
+                    <Location var="var_loc_keypad_bg0"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>10</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1257</LocationX>
+							<LocationY>922</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+                    <FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Zero</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_keypad_mfc_bg_delet</ID>
+                    <Location var="var_loc_keypad_delete_btn"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>11</TabH>
+					</TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>1528</LocationX>
+							<LocationY>922</LocationY>
+						</Location>
+					</LayoutOverride>
+					<Size var="var_size_keypad_bg"/>
+					<FocusURL>11/btn_keypad_delete_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Ptos_Key_Delete</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+        	</Screen>
+		</View>
+	</Display>
+</GMXML>

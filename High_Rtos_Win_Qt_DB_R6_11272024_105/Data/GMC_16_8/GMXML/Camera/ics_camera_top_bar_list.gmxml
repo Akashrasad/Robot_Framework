@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8028</ScreenID>
+				<Name>ics_camera_top_bar_list</Name>
+				<ListWidget>
+					<ListID>ics_camera_top_bar_list</ListID>
+					<Location var="var_loc_camera_top_bar_list"/>
+					<Size var="var_size_camera_top_bar_list"/>
+					<Orientation>1</Orientation>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout_top_bar</RowLayoutID>
+						<Size var="var_size_camera_top_bar_row_layout"/>
+						<RowSpacing>17</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+					</RowLayout>
+					<ZOrder>2</ZOrder>
+					<ElementData>
+						<ImageElements>
+							<ID>img_standard_button</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size var="var_size_camera_top_bar_row_layout"/>
+							<NormalURL compression="CompressionAlias3">11/btn_360_normal.png</NormalURL>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_360_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_360_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL compression="CompressionAlias10">11/btn_360_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>4</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_trailer_guideline_guidelines_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>5</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_trailer_guideline_standard_guidelines_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>6</DataValue>
+								<NormalURL compression="CompressionAlias10">11/btn_trailer_guideline_guidelines_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>7</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_svr_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias4">11/btn_svr_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>8</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_svr_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>9</DataValue>
+								<NormalURL compression="CompressionAlias10">11/btn_svr_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>10</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_zoom_in_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias4">11/btn_zoom_in_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>11</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_zoom_in_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>12</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_zoom_in_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>13</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_underbody_wash_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>14</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_underbody_wash_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>15</DataValue>
+								<NormalURL compression="CompressionAlias10">11/btn_underbody_wash_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>16</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_standard_guideline_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>17</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_standard_guideline_trailer_guidelines_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>18</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_standard_guideline_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>19</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_lights_cargo_lights_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>20</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_lights_cargo_lights_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>21</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_lights_cargo_lights_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>22</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_underbody_wash_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>23</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_360_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>24</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_lights_cargo_lights_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>25</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_standard_guideline_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>26</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_trailer_guideline_guidelines_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>27</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_suv_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>28</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_suv_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>29</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_suv_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>30</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>31</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_crossover_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>32</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_crossover_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>33</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_crossover_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>34</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>35</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_truck_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>36</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_truck_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>37</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_truck_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>38</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_360_truck_selected.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>39</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_standard_selected_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>40</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_trailer_selected_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>41</DataValue>
+								<NormalURL compression="CompressionAlias4">11/btn_guideline_view_pressed.png</NormalURL>
+							</SelectorState>
+							<Alpha>100</Alpha>
+							<ZOrder>3</ZOrder>
+						</ImageElements>
+					</ElementData>
+				</ListWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

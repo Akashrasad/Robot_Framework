@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6008</ScreenID>
+                <Name>ics_virtualcontrols_power_liftgate_height</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Doors_and_Windows_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_2_0_4_LiftgateTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_power_liftgate_height_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_1strow_radio_multi_btn">
+                    <ID>img_radio_button_Off_manual</ID>
+					<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>	
+					<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Power_Liftgate_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_2_0_4_liftgate_off_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_off_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_off_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_off_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                </LabelWidget>
+				<ImageWidget var="img_2ndrow_radio_multi_btn">
+					<ID>img_radio_button_custom</ID>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Power_Liftgate_Custom</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_2_0_4_liftgate_custom_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_custom_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_custom_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_custom_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                </LabelWidget>
+				<ImageWidget var="img_3rdrow_radio_btn">
+					<ID>img_radio_button_maxopen</ID>
+					<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+					<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Power_Liftgate_MaxOpen</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_2_0_4_liftgate_max_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_max_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_max_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_2_0_4_liftgate_max_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_liftgate</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias1">11/controls_icn_liftgate_normal.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/controls_icn_liftgate_suv_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/controls_icn_liftgate_truck_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/controls_icn_liftgate_crossover_normal.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_2_0_4_liftgate_csm</ID>
+                </LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_Power_Liftgate_off_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Power_Liftgate_Off</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>mg_Power_Liftgate_escoff_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Power_Liftgate_Custom</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_Power_Liftgate_escon_divider</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Power_Liftgate_MaxOpen</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

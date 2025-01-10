@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6062</ScreenID>
+                <Name>ics_virtualcontrols_hmi_factory_reset_confirmation</Name>
+                <ImageWidget var="img_no_ivi_bg">
+				<ID>img_notification_bg</ID>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_factory_reset_are_you_sure_csm</ID>
+                    <Font var="var_font_factory_reset_progress"/>
+                    <Location>
+                        <LocationX>50</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>950</SizeW>
+                        <SizeH>98</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_yes_btn</ID>
+                    <Location>
+                        <LocationX>1033</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_yes_btn</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_factory_reset_yes_csm</ID>
+                    <Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_focused"/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>31</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>430</SizeW>
+                        <SizeH>55</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_RTOS_Inprogress</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_no_btn</ID>
+                    <Location>
+                        <LocationX>1516</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_no_btn</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_factory_reset_no_csm</ID>
+                    <Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_keep_looking_button_focused"/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>31</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>430</SizeW>
+                        <SizeH>55</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HMI_Factory_Reset</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

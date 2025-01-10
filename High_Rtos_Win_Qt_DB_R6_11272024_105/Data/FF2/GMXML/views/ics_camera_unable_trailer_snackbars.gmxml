@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_camera_unable_trailer_snackbars</ViewID>
+			<Location>
+				<LocationX>5486</LocationX>
+				<LocationY>64</LocationY>
+			</Location>
+			<Size>
+				<SizeW>1651</SizeW>
+				<SizeH>228</SizeH>
+			</Size>
+			<ZOrder var="var_zorder_snackbars_view"/>
+			<Screen load="ics_camera_transparent_trailer_unable"/>
+		</View>
+	</Display>
+</GMXML>

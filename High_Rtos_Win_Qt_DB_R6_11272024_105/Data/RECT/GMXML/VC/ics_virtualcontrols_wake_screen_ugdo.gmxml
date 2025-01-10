@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_wake_screen_ugdo</ScreenID>
+                <Name>ics_virtualcontrols_wake_screen_ugdo</Name>
+                <ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_bg_11_3inch"/>
+                    
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_back</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_actionbar_back_img"/>
+                    <NormalURL>11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL>11/btn_icn_left_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</ID>
+                    <Font var="var_font_title"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_actionbar_text"/>
+                    <Size var="var_size_actionbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_0_1_ugdo_instructions_csm</ID>
+                    <Location var= "var_loc_universal_remotes_desc"/>
+                    <Size var="var_size_universal_remotes_desc">
+                        <SizeH>454</SizeH>
+                    </Size>
+                    <Font var="var_font_universal_remotes_desc"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>btn_primary_test_normal</ID>
+                    <Location var= "var_loc_add_remote_btn"/>
+                    <Size var="var_size_test_btn"/>
+                    <NormalURL>11/btn_primary_test_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_test_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_test_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_test_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_test_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_primary_test_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_2_btnUGDOManage_csm</ID>
+                    <Location var= "var_loc_add_remote_btn">
+                        <LocationY>206</LocationY>
+                    </Location>
+                    <Size var="var_size_test_btn">
+                        <SizeH>42</SizeH>
+                    </Size>
+                    <Font var="var_font_test_btn_txt_normal"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_2_btnUGDOManage_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_5_2_btnUGDOManage_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>btn_addremote_normal</ID>
+                    <Location>
+                        <LocationX>204</LocationX>
+                        <LocationY>447</LocationY>
+                    </Location>
+                    <Size var="var_size_add_remote_btn"/>
+                    <NormalURL>11/btn_addremote_focused.png</NormalURL>
+                    <FocusURL>11/btn_addremote_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_addremote_focused.png</NormalURL>
+                        <FocusURL>11/btn_addremote_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_addremote_normal.png</NormalURL>
+                        <FocusURL>11/btn_addremote_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_addremote_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_addremote_pressed.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_btnAddRemote_csm</ID>
+                    <Location>
+                        <LocationX>204</LocationX>
+                        <LocationY>484</LocationY>
+                    </Location>
+                    <Size var="var_size_add_remote_btn">
+                        <SizeH>42</SizeH>
+                    </Size>
+                    <Font var="var_font_test_btn_txt_focused"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_btnAddRemote_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_5_btnAddRemote_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_wakescreen_exit_btn">
+                    <ID>img_placeholder</ID>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_remotes_container_bg</ID>
+                    <Location>
+                        <LocationX>204</LocationX>
+                        <LocationY>167</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>373</SizeW>
+                        <SizeH>332</SizeH>
+                    </Size>
+                    <NormalURL>11/img_remotes_container.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_2_UGDODefault_csm</ID>
+                    <Location>
+                        <LocationX>223</LocationX>
+                        <LocationY>227</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>653</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <Font var="var_font_test_btn_txt_normal"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_2_UGDODefault_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_5_2_UGDODefault_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget var="wakescreen_exit_btn_txt">
+                    <ID>virtualcontrols_1_0_exit_f_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

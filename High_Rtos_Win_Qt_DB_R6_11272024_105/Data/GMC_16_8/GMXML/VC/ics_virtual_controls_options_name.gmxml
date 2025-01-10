@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6041</ScreenID>
+                <Name>ics_virtual_controls_options_name</Name>
+				<LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_6_1_OptionNameTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Options_back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_options_name_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_text_box</ID>
+                    <Location>
+                        <LocationX>65</LocationX>
+                        <LocationY>248</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1249</SizeW>
+                        <SizeH>133</SizeH>
+                    </Size>
+                    <NormalURL>11/icn_editfield_transparent.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<EditTextWidget>
+					<ID>dyn_lbl_ugdo_edit1</ID>
+					<Location>
+                        <LocationX>86</LocationX>
+                        <LocationY>273</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1206</SizeW>
+                        <SizeH>81</SizeH>
+                    </Size>
+					<Font var="var_font_dialog_text"/>
+					<Cursor>
+					<CursorURL>11/cursor_transparent.png</CursorURL>
+                    <Size>
+						<SizeW>3</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					</Cursor>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</EditTextWidget>
+				<ImageWidget>
+                    <ID>img_text_transparent_box</ID>
+                    <Location>
+                        <LocationX>65</LocationX>
+                        <LocationY>248</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1249</SizeW>
+                        <SizeH>133</SizeH>
+                    </Size>
+                    <NormalURL>11/img_bg_transparent1.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_EditText</WidgetCallback>
+					</InputWidgetMapping> 
+			    </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_6_1_OptionCharCount_csm</ID>
+                    <Location>
+                        <LocationX>1413</LocationX>
+                        <LocationY>282</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>471</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <Font var="var_font_notification_dialog_checkbox_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

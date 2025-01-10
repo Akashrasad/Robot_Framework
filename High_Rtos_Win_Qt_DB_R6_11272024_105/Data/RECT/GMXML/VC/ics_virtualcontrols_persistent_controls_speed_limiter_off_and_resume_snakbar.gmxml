@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6081</ScreenID>
+                <Name>ics_virtualcontrols_persistent_controls_speed_limiter_off_and_resume_snakbar</Name>
+                <ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<LabelWidget var ="var_snackbar_2lines_txt">
+                    <ID>virtualcontrols_1_0_3_3_v_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>ics_virtualcontrols_outlets_while_vehicle_off</ScreenID>
+				<Name>ics_virtualcontrols_outlets_while_vehicle_off</Name>
+				<ImageWidget var="var_snackbar_2lines_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_snackbar_2lines_txt">
+					<ID>virtualcontrols_1_14_6V_snackbar_csm</ID>
+					<Size>
+						<SizeW>1128</SizeW>
+					</Size>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1200</LocationX>
+						<LocationY>62</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/img_vertical_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<Zorder>2</Zorder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location>
+						<LocationX>1228</LocationX>
+						<LocationY>64</LocationY>
+					</Location>
+					<Size>
+						<SizeW>300</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<!-- <ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_focused.png</NormalURL>
+							<FocusURL compression="CompressionAlias1">11/btn_primary_normal.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements> -->
+					<LabelElements>
+						<ID>virtualcontrols_1_14_6V_snackbarButton_csm</ID>
+						<Location>
+							<LocationX>28</LocationX>
+							<LocationY>28</LocationY>
+						</Location>
+						<Size>
+							<SizeW>300</SizeW>
+							<SizeH>56</SizeH>
+						</Size>
+						<Font var="var_font_test_btn_txt_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

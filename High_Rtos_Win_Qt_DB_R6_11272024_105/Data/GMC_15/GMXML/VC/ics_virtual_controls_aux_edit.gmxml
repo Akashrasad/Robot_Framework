@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6134</ScreenID>
+                <Name>ics_virtual_controls_aux_edit</Name>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_8_G_aux1_csm</ID>
+					<Font var="var_font_title_vc"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_actionbar_text"/>
+                    <Size var="var_size_actionbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_back</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_actionbar_back_img"/>
+                    <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL compression = "NONE">11/btn_icn_left_focused_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Aux_Edit_Back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_close</ID>
+                    <Location var="var_loc_actionbar_close_img"/>
+                    <Size var="var_size_actionbar_close_img"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_close_focused_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_text_box</ID>
+                    <Location>
+                        <LocationX>100</LocationX>
+                        <LocationY>239</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1625</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+                    <NormalURL>11/img_input_text_large.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					 <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Aux_Name</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_3_Name_csm</ID>
+                    <Font var="var_font_aux_edit"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>100</LocationX>
+                        <LocationY>167</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1625</SizeW>
+                        <SizeH>61</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>dyn_lbl_aux_edit</ID>
+                    <Location>
+                        <LocationX>128</LocationX>
+                        <LocationY>262</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1570</SizeW>
+                        <SizeH>72</SizeH>
+                    </Size>
+                    <Font var="var_font_dialog_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_check_box_held_down</ID>
+                    <Location>
+                        <LocationX>129</LocationX>
+                        <LocationY>418</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn"/>
+                    <NormalURL>11/icn_sqaure.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/icn_tick.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/icn_sqaure.png</NormalURL>
+                        <FocusURL>11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/icn_sqaure.png</NormalURL>
+                        <FocusURL>11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_tick.png</NormalURL>
+                        <FocusURL>11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_tick.png</NormalURL>
+                        <FocusURL>11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Aux_Latch_Momentary_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_8_1_G_radioBtn2_csm</ID>                   
+                    <Location>
+                        <LocationX>267</LocationX>
+                        <LocationY>440</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1425</SizeW>
+                        <SizeH>72</SizeH>
+                    </Size>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn2_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn2_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn2_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn2_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_check_box_switch_On</ID>
+                    <Location>
+                        <LocationX>129</LocationX>
+                        <LocationY>599</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn"/>
+                    <NormalURL>11/icn_sqaure.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/icn_tick.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/icn_sqaure.png</NormalURL>
+                        <FocusURL>11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/icn_sqaure.png</NormalURL>
+                        <FocusURL>11/icn_tick.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_tick.png</NormalURL>
+                        <FocusURL>11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_tick.png</NormalURL>
+                        <FocusURL>11/icn_sqaure.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Aux_Lightbar_on</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_8_1_G_radioBtn1_csm</ID>                   
+                    <Location>
+                        <LocationX>267</LocationX>
+                        <LocationY>621</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1425</SizeW>
+                        <SizeH>72</SizeH>
+                    </Size>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn1_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn1_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn1_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_8_1_G_radioBtn1_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_aux_edit_divider">
+                    <ID>img_divider</ID>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_8_1_v_select_csm</ID>
+                    <Font var="var_font_aux_edit"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>100</LocationX>
+                        <LocationY>814</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1503</SizeW>
+                        <SizeH>61</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_icon_1</ID>
+                    <Location>
+                        <LocationX>103</LocationX>
+                        <LocationY>906</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_normal.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_2</ID>
+                    <Location>
+                        <LocationX>481</LocationX>
+                        <LocationY>906</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_3</ID>
+                    <Location>
+                        <LocationX>858</LocationX>
+                        <LocationY>906</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_4</ID>
+                    <Location>
+                        <LocationX>1236</LocationX>
+                        <LocationY>906</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_5</ID>
+                    <Location>
+                        <LocationX>103</LocationX>
+                        <LocationY>1297</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_6</ID>
+                    <Location>
+                        <LocationX>481</LocationX>
+                        <LocationY>1297</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_7</ID>
+                    <Location>
+                        <LocationX>858</LocationX>
+                        <LocationY>1297</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_icon_8</ID>
+                    <Location>
+                        <LocationX>1236</LocationX>
+                        <LocationY>1297</LocationY>
+                    </Location>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    <FocusURL compression_format="ASTC_5X12" compression_quality="ASTC_EXHAUSTIVE">11/img_grid_background_selected.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/img_grid_background_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/img_grid_background_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/img_grid_background_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_grid_background_selected.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>icn_keyboard_bg</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>956</LocationY>
+                    </Location>
+                    <!-- <Size var="var_size_title_bar_bg"> -->
+                    <Size>
+                        <SizeW>2014</SizeW>
+                        <SizeH>866</SizeH>
+                    </Size>
+                    <!-- </Size> -->
+                    <!-- <NormalURL>11/icn_keyboard_bg.png</NormalURL> -->
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

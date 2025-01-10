@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_options_auto_location_not_detected</ScreenID>
+                <Name>ics_virtualcontrols_options_auto_location_not_detected</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_snack_bar_1542"/>
+                    <NormalURL>11/img_notification_simple_dialog_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_placeholder_WakeScreen</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_5_3UGDONoLocation_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text_1"/>
+                    <Size var="var_size_dialog_text_1"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_5_3UGDOWhyLocation_csm</ID>
+                    <Font var="var_font_notification_dialog_text_secondary"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_notification_dialog_text_secondary"/>
+                    <Size var="var_size_notification_dialog_text_secondary"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+                    <FocusURL compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HeadLightsDialog_TurnOff</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_5_3btnTryAgain_csm</ID>
+                    <Font var="var_font_test_btn_txt_normal"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_notification_dialog_primary_button_text"/>
+                    <Size var="var_size_dialog_btn_text"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_5_3btnTryAgain_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_5_3btnTryAgain_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_5_5_3btnTryAgain_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_5_5_3btnTryAgain_csm</StaticValue>
+                        <Font var="var_font_test_btn_txt_disabled"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HeadLightsDialog_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</ID>
+                    <Font var="var_font_btn_txt_secondary_normal"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var = "var_loc_notification_dialog_secondary_button_text"/>
+                    <Size var="var_size_dialog_btn_text"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</StaticValue>
+                        <Font var="var_font_btn_txt_secondary_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</StaticValue>
+                        <Font var="var_font_btn_txt_secondary_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</StaticValue>
+                        <Font var="var_font_btn_txt_secondary_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</StaticValue>
+                        <Font var="var_font_btn_txt_secondary_disabled"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

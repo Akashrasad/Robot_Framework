@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_power_outlets_view</ViewID>
+            <ZOrder>4</ZOrder>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2048</SizeW>
+                <SizeH>2008</SizeH>
+            </Size>
+            <Screen load="ics_virtualcontrols_outlets_start_screen"/>
+			<Screen load="ics_virtualcontrols_peekin_screen_circle_alt"/>
+			<Screen load="ics_virtualcontrols_range_reserve"/>
+        </View>
+    </Display>
+</GMXML>

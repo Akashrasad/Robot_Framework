@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <LabelWidget id="wakescreen_exit_btn_txt">
+            <Font var="var_font_exit_btn_txt_normal"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size var="var_size_exit_btn_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>5</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_snackbar_1line_txt">
+			<Font var="var_font_snackbar_text"/>
+			<Location var="var_loc_snack_bar_text"/>
+			<Size var="var_size_snackbar_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_action_bar_text_vc">
+			<Font var="var_font_title"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_actionbar_text"/>
+			<Size var="var_size_actionbar_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="1strow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_off_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOff_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_focused"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOff_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_normal"/>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="2ndrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_on_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_focused"/>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOn_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>virtualcontrols_1_3_7_v_lkaOn_csm</StaticValue>
+				<Font var="var_font_radio_btn_off_focused"/>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_vc">
+			<Location var="var_loc_radio_btn_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_details_unavailable_vc">
+			<Location var="var_loc_radio_btn_desc_txt_FF"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_universal_remotes_desc"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="3rdrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_grp_3rdrow_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_focused"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="exit_btn_txt">
+             <Font var="var_font_exit_btn_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_exit_btn_txt"/>
+            <Size var="var_size_exit_btn_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>6</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_close_text">
+			<Location>
+			    <LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>272</SizeW>
+				<SizeH>117</SizeH>
+			</Size>
+		     <Font var="var_font_close_btn_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+	    <LabelWidget id="var_snackbar_2lines_txt">
+		      <Font var="var_font_snackbar_text"/>
+             <Location var="var_loc_2lines_snack_bar_text"/>
+             <Size var="var_size_2lines_snackbar_text"/>
+             <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_apa_park_inst_1">
+            <Font var="var_font_program_body_content"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_park_instructions_text_1"/>
+            <Size var="var_size_spacefound_txt_1"/>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+         </LabelWidget>
+		 <LabelWidget id="var_apa_park_inst_2">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt_2line"/>
+            <Size var="var_size_spacefound_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+		 <LabelWidget id="var_apa_park_inst_3">
+            <Font var="var_font_perp_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_shift_park"/>
+            <Size var="var_size_instruction_3_text"/>		
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_apa_space_found_1">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_spotfound_label_1"/>
+            <Size var="var_size_spacefound_txt"/>		
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_apa_space_found_2">
+            <Font var="var_font_perp_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_spot_label_2"/>
+            <Size var="var_size_instruction_3_text"/>		
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_topbar_changeselection_label">
+			<Font var="var_font_title"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_heading"/>
+			<Size var="var_size_title"/>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_apa_space_found_srp_1">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt_2line"/>
+            <Size var="var_size_spacefound_txt"/>		
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_apa_space_found_srp_2">
+            <Font var="var_font_perp_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_shift_park"/>
+            <Size var="var_size_instruction_3_text"/>		
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </LabelWidget>
+    </Variables>
+</GMXML>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6075</ScreenID>
+				<Name>ics_virtualcontrols_universal_remotes_multiple</Name>
+                <ImageWidget>
+					<ID>img_bg_remotes_multiple_black</ID>
+					<Location var="var_loc_ugdo_bg_normal"/>
+					<Size var="var_size_ugdo_bg_normal"/>
+					<NormalURL compression = "NONE">11/img_menu_simple_dialog_notification_bg_large.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOUnivRemote_csm</ID>
+					<Font var="var_font_transmit"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_location_univRemote"/>
+					<Size var="var_size_transmit"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+                <LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOTransmit_csm</ID>
+					<Font var="var_font_univRemote"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_univRemote"/>
+					<Size var="var_size_univRemote"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+                <ScrollBarWidget>
+					<ID>Scrollbar_small</ID>
+					<ListID>ics_vc_universal_remotes_multiple_list</ListID>
+					<Location>
+						<LocationX>255</LocationX>
+						<LocationY>124</LocationY>
+					</Location>
+					<Size>
+						<SizeW>25</SizeW>
+						<SizeH>619</SizeH>
+					</Size>
+                    <Track>
+						<TrackHousing>
+							<ID>img_scrollbar_bg_small</ID>
+							<ImageWidgetID>img_scrollbar_bg_small</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>25</SizeW>
+								<SizeH>619</SizeH>
+							</Size>
+							<NormalURL>11/img_scroll_track_normal.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+						</TrackHousing>
+						<ThumbHousing>
+							<ID>img_scrollbar_indicator_short</ID>
+							<ImageWidgetID>img_scrollbar_indicator_short</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>25</SizeW>
+								<SizeH>619</SizeH>
+							</Size>
+							<NormalURL>11/btn_scroll_thumb.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>5</ZOrder>
+						</ThumbHousing>
+					</Track>					
+					<ZOrder>5</ZOrder>					
+				</ScrollBarWidget>
+                <ListWidget>
+					<ListID>ics_vc_universal_remotes_multiple_list</ListID>
+					<Location>
+						<LocationX>284</LocationX>
+						<LocationY>321</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1478</SizeW>
+						<SizeH>432</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout_two</RowLayoutID>
+						<Size>
+							<SizeW>1478</SizeW>
+							<SizeH>144</SizeH>
+						</Size>
+						<RowSpacing>31</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+						<RowSeparatorImageURL/>
+					</RowLayout>
+					<ZOrder>6</ZOrder>
+					<ElementData>
+                        <ImageElements>
+							<ID>img_icn_bg_white</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size var="var_size_dialog_primary_btn"/>
+							<NormalURL compression="CompressionAlias3">11/btn_tertiary_bg_normal.png</NormalURL>							
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_tertiary_bg_normal.png</NormalURL>								
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_tertiary_bg_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL compression="CompressionAlias3">11/btn_tertiary_bg_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL>11/btn_tertiary_bg_normal.png</NormalURL>
+							</SelectorState>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>Actuate</WidgetCallback>
+                            </InputWidgetMapping>
+                            <Alpha>100</Alpha>
+							<ZOrder>3</ZOrder>
+						</ImageElements>
+						<LabelElements>
+							<ID>primary</ID>
+							<Location>
+								<LocationX>3</LocationX>
+								<LocationY>29</LocationY>
+							</Location>
+							<Size>
+								<SizeW>1372</SizeW>
+								<SizeH>58</SizeH>
+							</Size>
+							<Font var="var_font_radio_btn_txt_noraml"/>
+							<TextWrap>1</TextWrap>
+							<Alpha>100</Alpha>
+							<ZOrder>5</ZOrder>
+					</LabelElements>
+					<LabelElements>
+                            <ID>secondary</ID>
+                            <Font>
+                                <Name>GMSUIChevyCCSTGlobal-Light</Name>
+                                <Size>44</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>2</TextAlign>
+                                <Color>147,178,255</Color>
+                                <TextDirection/>
+                            </Font>
+                            <TextWrap>1</TextWrap>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>722</SizeW>
+                                <SizeH>58</SizeH>
+                            </Size>
+                            <Alpha>0</Alpha>
+                            <ZOrder>0</ZOrder>
+                   </LabelElements>						
+				   </ElementData>
+				</ListWidget>				
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

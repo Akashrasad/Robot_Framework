@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>7010</ScreenID>
+				<Name>ics_apa_space_found_parallel_left</Name>
+				<GroupWidget var="var_change_selection_down">
+				<ID>grp_change_selection_down_arrow</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <OnFocusCallback>evG_Apa_Selection_Back</OnFocusCallback>
+                </GroupWidget>
+				<LabelWidget>
+					<ID>apa_4_1_selectedbuttonParaLeft_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_perp_right_instr_txt"/>
+					<Size var="var_size_spacefound_txt_1"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>apa_4_4_StopYourVehicle_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_park_instructions_text_1"/>
+					<Size var="var_size_spacefound_txt_1"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_4_DoYouWantToPark_1_csm</ID>
+                    <Font var="var_font_call_assistance"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_park_instructions_text_2"/>
+                    <Size var="var_size_spacefound_txt_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget var ="var_primary_btn">
+					<ID>grp_park_in_vehicle_btn</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Yes_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Apa_Yes_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget var="var_secondary_btn_non_srp">
+					<ID>grp_keep_looking_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Keep_Looking_Button</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Apa_Keep_Looking_Button</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_apa_exit_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_confirmParker_perp_right</ID>
+                    <Location var="var_loc_confirmParker_perp_right_img"/>
+                    <Size var="var_size_confirmParker_perp_right_img"/>					
+                    <NormalURL compression = "CompressionAlias1">11/vid_dyn_apa_parleft_step2.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>    

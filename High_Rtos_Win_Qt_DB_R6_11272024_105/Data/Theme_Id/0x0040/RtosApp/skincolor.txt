@@ -1,0 +1,64 @@
+VSeries,40
+skin_normal_URL,8FA2AE
+skin_focused_URL,C9E2F5
+skin_pressed_URL,E3AD79
+skin_selected_URL,E3AD79
+skin_disabled_URL,2C333A
+
+<--  Home cards -->
+skin_cards_normal_URL,8FA2AE
+skin_cards_focused_URL,C9E2F5
+skin_cards_pressed_URL,E3AD79
+skin_cards_selected_URL,E3AD79
+
+<-- AppTray -->
+skin_apptray_normal_URL,0D233C
+skin_apptray_focused_URL,24476E 
+skin_apptray_pressed_URL,E3AD79
+
+<-- Emergency -->
+skin_emergency_URL,ED2E30 
+
+<-- Buttons -->
+skin_primary_btn_normal_URL,E3AD79
+skin_primary_btn_focused_URL,C9E2F5
+skin_primary_btn_pressed_URL,E3AD79
+skin_primary_btn_selected_URL,E3AD79
+skin_secondary_btn_normal_URL,8FA2AE
+skin_secondary_btn_focused_URL,C9E2F5
+skin_secondary_btn_pressed_URL,E3AD79
+skin_secondary_btn_selected_URL,E3AD79
+skin_btn_disabled_URL,2C333A
+
+<-- Keypad Buttons -->
+skin_keypad_btn_normal_URL,8FA2AE
+skin_keypad_btn_focused_URL,C9E2F5
+skin_keypad_btn_pressed_URL,E3AD79
+skin_keypad_btn_disabled_URL,2C333A
+
+<-- scrollbar -->
+skin_scrollbar_track_URL,2C333A
+skin_scrollbar_thumb_URL,E3AD79
+
+<-- List -->
+skin_list_normal_URL,C9E2F5
+skin_list_focused_URL,C9E2F5
+skin_list_pressed_URL,E3AD79
+skin_list_selected_URL,E3AD79
+skin_list_disabled_URL,2C333A
+
+<-- Progress bar -->
+skin_progress_bar_normal_URL,E3AD79
+
+
+skin_camera_URL,FFFFFF
+
+<-- Camera -->
+skin_camera_normal_URL,8FA2AE
+skin_camera_focused_URL,C9E2F5
+skin_camera_pressed_URL,E3AD79
+skin_camera_selected_URL,E3AD79
+skin_camera_disabled_URL,2C333A
+
+<-- Camera error -->
+skin_camera_error_URL,ED2D30

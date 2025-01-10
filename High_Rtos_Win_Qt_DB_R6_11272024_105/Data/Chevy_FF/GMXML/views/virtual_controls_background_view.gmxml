@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_background_view</ViewID>
+            <ZOrder>0</ZOrder>
+            <Location>
+                <LocationX>486</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2914</SizeW>
+                <SizeH>1133</SizeH>
+            </Size>
+			<Screen load="ics_virtualcontrols_bakground"/>
+        </View>
+    </Display>
+</GMXML>

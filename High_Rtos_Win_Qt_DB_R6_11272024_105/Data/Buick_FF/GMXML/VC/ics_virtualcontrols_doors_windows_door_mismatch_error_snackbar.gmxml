@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6036</ScreenID>
+                <Name>ics_virtualcontrols_doors_windows_door_mismatch_error_snackbar</Name>
+               <ImageWidget var="var_snackbar_2line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget  var="var_snackbar_2line_txt">
+					<ID>virtualcontrols_1_2_2_childMismatch_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

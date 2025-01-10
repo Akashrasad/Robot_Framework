@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7006</ScreenID>
+                <Name>ics_apa_park_instr_parallel_left</Name>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<GroupWidget var="var_change_selection_down">
+				<ID>grp_change_selection_down_arrow</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </GroupWidget>
+				<ImageWidget>
+                    <ID>img_parallel_left_instruction</ID>
+                    <Location var="var_loc_perp_right_instr"/>
+                    <Size var="var_size_perp_right_instr"/>
+                    <NormalURL compression = "CompressionAlias4">11/icn_drivepastparleft_car_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_4_0_PerpRightHeader_f_csm</ID>
+                    <Font var="var_font_perp_right_instr_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_perp_right_instr_txt"/>
+                    <Size var="var_size_perp_right_instr_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_0_instructions_1_csm</ID>
+                    <Font var="var_font_i_will_let"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_perp_left_instr_txt"/>
+                    <Size var="var_size_perp_left_instr_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_1_selectedbuttonParaLeft_csm</ID>
+                    <Font var="var_font_park_exit_space_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title_bar_apa"/>
+                    <Size var="var_size_perp_left_instr_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

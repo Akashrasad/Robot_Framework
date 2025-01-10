@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>70000</ScreenID>
+				<Name>ics_development_home</Name>
+				<ImageWidget>
+					<ID>img_dev_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size>
+						<SizeW>6008</SizeW>
+						<SizeH>934</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/ics_dev_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_1</ID>
+					<Location>
+						<LocationX>3548</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>apa_1_1_APA_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>169</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_Apa</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_Apa</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_2</ID>
+					<Location>
+						<LocationX>3915</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_2</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_0_Camera_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>4</LocationX>
+							<LocationY>169</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_Camera</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_Camera</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_3</ID>
+					<Location>
+						<LocationX>4273</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_3</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_0_0_home_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>169</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_4</ID>
+					<Location>
+						<LocationX>4636</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_4</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_1_Climate_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>169</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_Bar</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Hvac_Bar</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_5</ID>
+					<Location>
+						<LocationX>5003</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_5</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_1_AndroidAuto_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>169</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_6</ID>
+					<Location>
+						<LocationX>3548</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_6</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_1_GoogleAssistant_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>165</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_7</ID>
+					<Location>
+						<LocationX>3915</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_7</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_1_VideoPlayer_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>4</LocationX>
+							<LocationY>165</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_8</ID>
+					<Location>
+						<LocationX>4273</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_8</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_1_Energy_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>165</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_9</ID>
+					<Location>
+						<LocationX>4636</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_9</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_0_Settings_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>165</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_10</ID>
+					<Location>
+						<LocationX>5003</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size var="var_size_img_home"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_10</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_img_home"/>
+						<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/img_home_card_doorswindows_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias9">11/img_home_card_doorswindows_disabled.png</NormalURL>
+						</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>home_1_0_PlayStore_csm</ID>
+						<Font var="var_font_home_card_label"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>165</LocationY>
+						</Location>
+						<Size var="var_size_label_home"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_jackknife_snackbar_view</ViewID>
+			<Size>
+				<SizeW>1253</SizeW>
+				<SizeH>172</SizeH>
+			</Size>
+			<Location>
+				<LocationX>1460</LocationX>
+				<LocationY>233</LocationY>
+			</Location>
+			<ZOrder>6</ZOrder>
+			<NativeZOrder var="var_native_native_zorder_rtos_camera_icons"/>
+			<Camera>
+				<Screen load="ics_camera_jack_knife_amber_snackbar"/>					
+				<Screen load="ics_camera_jack_knife_red_snackbar"/>					
+			</Camera>
+		</View>
+	</Display>
+</GMXML>

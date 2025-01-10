@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6085</ScreenID>
+				<Name>ics_virtualcontrols_handheld_mode</Name>
+                <ImageWidget var="img_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evg_unused_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_close</ID>
+                    	<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_ugdo_waiting_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content"/>
+					<Size var="var_size_learn_success_test_body_content_1line">
+					<SizeH>65</SizeH>
+					</Size>
+					<Font var="var_font_learn_success_test_body_content"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_yes_btn</ID>
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>253</LocationY>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_yes_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_primary_normal.png</NormalURL>
+						<FocusURL>11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+							<FocusURL>11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_primary_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_1btnTransmitter_csm</ID>
+						<Font var="var_font_yes_button"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_yes_button"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_yes_button_disabled">
+							  <Color>127,127,127</Color>
+							</Font>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_yes_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<Font var="var_font_yes_button_selected"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<Font var="var_font_yes_button_focused"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Program</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_h_ugdo_instructions_csm</ID>
+					<Font var="var_font_dialog_text">
+					     <Size>49</Size>
+					</Font>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_handheld_content">
+					     <LocationY>414</LocationY>
+	                </Location>
+					<Size var="var_size_handheld_call_assistance">
+					    <SizeH>126</SizeH>
+		            </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_d_mode_btn</ID>
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>575</LocationY>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_d_mode_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_primary_normal.png</NormalURL>
+						<FocusURL>11/btn_secondary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+							<FocusURL>11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_primary_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_1_1btnDMode_csm</ID>
+						<Font var="var_font_yes_button">
+						      <Color>127,127,127</Color>
+						 </Font>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_yes_button"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_yes_button_disabled">
+							     <Color>127,127,127</Color>
+                            </Font>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_yes_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<Font var="var_font_yes_button_selected"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<Font var="var_font_yes_button_focused"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_D_Mode</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_ur_mode_btn</ID>
+					<Location>
+						<LocationX>770</LocationX>
+						<LocationY>575</LocationY>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_ur_mode_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_primary_normal.png</NormalURL>
+						<FocusURL>11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+							<FocusURL>11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_primary_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_primary_selected.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_1_2btnUR_Mode_csm</ID>
+						<Font var="var_font_yes_button">
+						     <Color>127,127,127</Color>
+						 </Font>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_yes_button"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_yes_button_disabled">
+							<Color>127,127,127</Color>
+						 </Font>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_yes_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<Font var="var_font_yes_button_selected"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<Font var="var_font_yes_button_focused"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Ur_Mode</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_f_ugdo_assistance_csm</ID>
+					<Font var="var_font_dialog_text">
+					     <Size>43</Size>
+				    </Font>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_handheld_call_assistance"/>
+					<Size var="var_size_handheld_call_assistance"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

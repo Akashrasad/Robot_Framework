@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8034</ScreenID>
+				<Name>ics_camera_upa_symbols</Name>
+				<ImageWidget>
+					<ID>img_caution_left_Indicator</ID>
+					<LayoutOverride var="var_layout_override_img_caution_left"/>
+					<Location>
+						<LocationX>1291</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>192</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_caution_left.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_caution_right_Indicator</ID>
+					<LayoutOverride var="var_layout_override_img_caution_right"/>
+					<Location>
+						<LocationX>2966</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>192</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_caution_right.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_1</ID>
+					<LayoutOverride var="var_layout_override_img_UPA_symbol"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>911</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_2</ID>
+					<LayoutOverride var="var_layout_override_img_UPA_symbol_3"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>764</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_3</ID>
+					<LayoutOverride var="var_layout_override_img_UPA_symbol_2"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>617</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_upa_symbols_n_amber.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_4</ID>
+					<LayoutOverride var="var_layout_override_img_UPA_symbol_1"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>470</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_upa_symbols_n_amber.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_caution_left_Indicator_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_caution_left"/>
+					<Location>
+						<LocationX>1893</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>192</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_caution_left.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_caution_right_Indicator_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_caution_right"/>
+					<Location>
+						<LocationX>2966</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>192</SizeW>
+						<SizeH>192</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_caution_right.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_1_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_UPA_symbol"/>
+					<Location>
+						<LocationX>2461</LocationX>
+						<LocationY>945</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_2_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_UPA_symbol_3"/>
+					<Location>
+						<LocationX>2461</LocationX>
+						<LocationY>817</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_3_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_UPA_symbol_2"/>
+					<Location>
+						<LocationX>2461</LocationX>
+						<LocationY>689</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_upa_symbols_n_amber.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_UPA_symbol_4_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_UPA_symbol_1"/>
+					<Location>
+						<LocationX>2461</LocationX>
+						<LocationY>561</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias13">11/icn_upa_symbols_n_amber.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_pedestrain_alert_vpm</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_pedestrain_alert_amber"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>764</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<FocusURL/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_pedestrain_alert_vpm_surround</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_pedestrain_alert_amber_surround_view"/>
+					<Location>
+						<LocationX>2461</LocationX>
+						<LocationY>817</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_side_pedestrain_alert</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_side_pedestrain_amber"/>
+					<Location>
+						<LocationX>2563</LocationX>
+						<LocationY>817</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_center_pedestrain_alert</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_center_pedestrain_amber"/>
+					<Location>
+						<LocationX>2450</LocationX>
+						<LocationY>817</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_side_pedestrain_red_amber_alert</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_side_pedestrain_alert_red"/>
+					<Location>
+						<LocationX>2360</LocationX>
+						<LocationY>817</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_topdown_pedestrain_red_amber_alert</ID>
+					<LayoutOverride var="var_layout_override_img_vpm_topdown_pedestrain_alert_red"/>
+					<Location>
+						<LocationX>2450</LocationX>
+						<LocationY>945</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_center_pedestrain_alert_rvc</ID>
+					<LayoutOverride var="var_layout_override_img_center_pedestrain_amber"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>764</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_side_pedestrain_alert_rvc</ID>
+					<LayoutOverride var="var_layout_override_img_side_pedestrain_amber"/>
+					<Location>
+						<LocationX>2266</LocationX>
+						<LocationY>764</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                       <NormalURL compression="CompressionAlias12">11/icn_pedestrian_notification_amber.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                       <NormalURL compression="CompressionAlias10">11/icn_pedestrian_notification_red.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_side_pedestrain_red_amber_alert_rvc</ID>
+					<LayoutOverride var="var_layout_override_img_side_pedestrain_alert_red"/>
+					<Location>
+						<LocationX>2062</LocationX>
+						<LocationY>764</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_topdown_pedestrain_red_amber_alert_rvc</ID>
+					<LayoutOverride var="var_layout_override_img_topdown_pedestrain_alert_red"/>
+					<Location>
+						<LocationX>2164</LocationX>
+						<LocationY>910</LocationY>
+					</Location>
+					<Size>
+						<SizeW>128</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias14">11/icn_upa_symbols_n_red.png</NormalURL>
+					<FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

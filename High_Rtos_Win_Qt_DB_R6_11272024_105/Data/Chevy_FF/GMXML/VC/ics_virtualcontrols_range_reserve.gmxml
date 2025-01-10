@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6114</ScreenID>
+                <Name>ics_virtualcontrols_range_reserve</Name>
+				<ImageWidget var="var_img_bg_vc_black">
+					<ID>img_bg_outlet_start_black</ID>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_btn_back</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_temp_down"/>
+                    <NormalURL compression="CompressionAlias1" skinid="skin_normal_URL">11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL skinid="skin_pressed_URL">11/btn_icn_left_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1" skinid="skin_normal_URL">11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_focused_URL">11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL skinid="skin_pressed_URL">11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL skinid="skin_selected_URL">11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL skinid="skin_disabled_URL">11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Back</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ScaleAnchor>Center</ScaleAnchor>
+                    <BehaviorState var="var_behavior_animation_interpolation"/>
+                    <BehaviorState var="var_behavior_state_value_1"/>
+                    <BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget var="img_exit_btn">
+					<Location var="var_loc_back_btn"/>
+					<ID>img_close</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Power_Outlet_Start</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Power_Outlet_Start</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>              
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_header_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_range_reserve_text"/>
+					<Size var="var_size_header_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_body_csm</ID>
+					<Font var="var_font_call_assistance"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_bdy_txt"/>
+					<Size var="var_size_rangereserve_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<CustomDrawingWidget>
+					<ID>img_battery_level_progressbar</ID>
+                    <Location>
+                        <LocationX>261</LocationX>
+                        <LocationY>336</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>664</SizeW>
+                        <SizeH>664</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_CDW_TouchPressDown</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_CDW_TouchPressRelease</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchDragLeft</UserInput>
+						<WidgetCallback>evG_CDW_TouchDragLeft</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchDragRight</UserInput>
+						<WidgetCallback>evG_CDW_TouchDragRight</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchDragUp</UserInput>
+						<WidgetCallback>evG_CDW_TouchDragUp</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchDragDown</UserInput>
+						<WidgetCallback>evG_CDW_TouchDragDown</WidgetCallback>
+					</InputWidgetMapping>
+				</CustomDrawingWidget>
+				<ImageWidget>
+					<ID>img_progressbar_housing</ID>
+					<Location>
+                        <LocationX>261</LocationX>
+                        <LocationY>336</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>664</SizeW>
+                        <SizeH>664</SizeH>
+                    </Size>
+					<ZOrder>2</ZOrder>
+					<Alpha>0</Alpha>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_progress_bar_normal_URL">11/img_charging_rangereserve_outline.png</NormalURL>			
+				</ImageWidget>
+				<ImageWidget>
+					<ID>dao_thumb_img</ID>
+					<Location>
+						<LocationX>261</LocationX>
+						<LocationY>336</LocationY>
+					</Location>
+					<Size>
+						<SizeW>131</SizeW>
+						<SizeH>131</SizeH>
+					</Size>
+					<ZOrder>4</ZOrder>
+					<Alpha>0</Alpha>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_scrollbar_thumb_URL">11/img_charging_rangereserve_toucharea.png</NormalURL>			
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_up_arrow</ID>
+                    <Location>
+                        <LocationX>535</LocationX>
+                        <LocationY>418</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_up_with_bg_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_general_up_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_up_with_bg_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_general_up_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1"  skinid="skin_disabled_URL">11/btn_general_up_disabled.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1"  skinid="skin_disabled_URL">11/btn_general_up_disabled.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Progress_Bar_Increase</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Progress_Bar_Increase</WidgetCallback>
+					</InputWidgetMapping>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_down_arrow</ID>
+                    <Location>
+                        <LocationX>535</LocationX>
+                        <LocationY>799</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_down_with_bg_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_down_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_down_with_bg_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_down_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_down_disabled.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_down_disabled.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Progress_Bar_Decrease</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Progress_Bar_Decrease</WidgetCallback>
+					</InputWidgetMapping>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2V_rangeReserve_csm</ID>
+					<Font var="var_font_range_reserve_text_circle"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_txt"/>
+					<Size var="var_size_summary_option_text"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_range_reserve_text_circle"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_distance_number"/>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2V_rangeReservePercent_csm</ID>
+					<Font var="var_font_percent_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_percent_txt"/>
+					<Size var="var_size_percent_txt"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_percent_text"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_percent_text_red"/>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_percentMile_csm</ID>
+					<Font var="var_font_range_reserve_text_circle"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_per_txt"/>
+					<Size var="var_size_dynamicMileageNumber_txt"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_range_reserve_text_circle"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_distance_number"/>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2V_measureOfDistance_csm</ID>
+					<Font var="var_font_range_distance_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_distance_units_txt"/>
+					<Size var="var_size_rangepercent_txt"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_range_distance_text"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_emergency_text"/>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2V_dynamicMileageNumber_csm</ID>
+					<Font var="var_font_peek_in_circle_oulets_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_per_txt"/>
+					<Size var="var_size_rangepercent_txt"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_peek_in_circle_oulets_text"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_peek_in_distance_number"/>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_descriptor_csm</ID>
+					<Font var="var_font_peek_in_screen_circle_progressbar_oulets_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_per_txt"/>
+					<Size var="var_size_rangepercent_txt"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_peek_in_screen_circle_progressbar_oulets_text"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_distance_number"/>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

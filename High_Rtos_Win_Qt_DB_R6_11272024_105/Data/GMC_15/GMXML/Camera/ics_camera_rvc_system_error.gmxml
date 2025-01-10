@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8008</ScreenID>
+                <Name>ics_camera_rvc_system_error</Name>
+				<ImageWidget var="var_img_main_bg">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+				<GroupWidget var="grp_img_exit">
+                    <ID>grp_img_exit</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+                <ImageWidget>
+                    <ID>img_cameraerror</ID>
+                    <Location var="var_loc_camera_error_icon"/>
+                    <Size var="var_size_camera_error_icon"/>
+                    <NormalURL>11/icn_cameraerror.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

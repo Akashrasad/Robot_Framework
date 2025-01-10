@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8008</ScreenID>
+                <Name>ics_camera_rvc_system_error</Name>
+                <ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_cameraerror</ID>
+					<Location>
+						<LocationX>2617</LocationX>
+						<LocationY>858</LocationY>
+					</Location>
+					<Size>
+						<SizeW>142</SizeW>
+						<SizeH>142</SizeH>
+					</Size>
+					<NormalURL skinid="skin_camera_URL" compression="CompressionAlias10">11/icn_camera.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+               </ImageWidget>
+			   <ImageWidget>
+                    <ID>img_camera_error_icn</ID>
+					<Location>
+						<LocationX>2617</LocationX>
+						<LocationY>858</LocationY>
+					</Location>
+					<Size>
+						<SizeW>142</SizeW>
+						<SizeH>142</SizeH>
+					</Size>
+					<NormalURL skinid="skin_camera_error_URL" compression="CompressionAlias10">11/icn_error_circle.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+               </ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_exit</ID>
+					<Location>
+                        <LocationX>47</LocationX>
+                        <LocationY>44</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_exit_btn">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>	
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

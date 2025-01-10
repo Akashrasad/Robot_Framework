@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_notification_view_1651_503</ViewID>
+			<Size>
+				<SizeW>1651</SizeW>
+				<SizeH>517</SizeH>
+			</Size>
+			<Location>
+				<LocationX>4757</LocationX>
+				<LocationY>450</LocationY>
+			</Location>
+			<ZOrder>4</ZOrder>
+			<Screen load="ics_virtualcontrols_headlights_smart_controls"/>
+		</View>
+	</Display>
+</GMXML>

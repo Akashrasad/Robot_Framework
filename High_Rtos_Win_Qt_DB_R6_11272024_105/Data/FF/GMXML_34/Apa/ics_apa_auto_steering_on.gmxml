@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7022</ScreenID>
+                <Name>ics_apa_auto_steering_on</Name>
+                <LabelWidget>
+                    <ID>apa_8_0_AutomaticSteering_csm</ID>
+                    <Font var="var_font_perp_right_instr_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_popup_body_txt"/>
+					<LayoutOverride var = "var_layout_loc_popup_body_txt"/>
+                    <Size var="var_size_popup_body_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn_camera_apa">
+					<ID>img_exit_apa</ID>
+					<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+				<ScaleAnchor>Center</ScaleAnchor>
+				<BehaviorState var="var_behavior_animation_interpolation"/>
+				<BehaviorState var="var_behavior_state_value_1"/>
+				<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="exit_btn_txt_apa_cam">
+					<ID>apa_2_1_1_exit_f_csm</ID>
+				</LabelWidget>
+			   <ImageWidget var="img_exit_btn_camera_apa_mfc">
+					<ID>img_exit_btn_mfc</ID>
+				<TabOrder>
+					<TabV>1</TabV>
+					<TabH>1</TabH>
+				</TabOrder>
+				<InputWidgetMapping>
+					<UserInput>RotarySelectReleased</UserInput>
+					<WidgetCallback>evG_Exit_APA</WidgetCallback>
+				</InputWidgetMapping>
+				  </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

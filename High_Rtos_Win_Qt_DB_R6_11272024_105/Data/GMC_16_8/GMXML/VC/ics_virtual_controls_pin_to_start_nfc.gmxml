@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6111</ScreenID>
+                <Name>ics_virtual_controls_pin_to_start_nfc</Name>
+				<ImageWidget>
+					<ID>img_pts_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL>11/img_ics_pin_to_start_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>				
+                <LabelWidget>
+                    <ID>choreography_10_0F_UseNFC_csm</ID>
+                    <Font var="var_font_nfc_sensor"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_nfc_sensor_txt"/>
+                    <Size var="var_size_nfc_sensor_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_10_0F_NFCSensorLocation_csm</ID>
+                    <Font var="var_font_nfc_location_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_nfc_location_txt"/>
+                    <Size var="var_size_nfc_location_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>group_exit_button</ID>
+					<Location var="var_loc_close_button"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_close_button">
+						<ID>image_exit_button</ID>
+					</ImageElements>
+					<LabelElements var="var_close_text">
+						<ID>choreography_20_3_close_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>				

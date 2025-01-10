@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ListWidget id = "var_list_with_single_label_image_vpm">
+            <Location>
+                <LocationX>361</LocationX>
+                <LocationY>113</LocationY>
+            </Location>
+            <Size>
+                <SizeW>839</SizeW>
+                <SizeH>904</SizeH>
+            </Size>
+            <FocusedRow>0</FocusedRow>
+            <BackgroundURL/>
+			<RowLayout>
+                <RowLayoutID>normal_layout</RowLayoutID>
+                <Size>
+                    <SizeW>839</SizeW>
+                    <SizeH>181</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL compression = "CompressionAlias3" skinid="skin_camera_normal_URL">11/img_tab_list_large_normal_bg.png</NormalURL>
+                <FocusURL compression = "CompressionAlias2" skinid="skin_camera_focused_URL">11/img_tab_list_large_focused_bg.png</FocusURL>
+            </RowLayout>
+            <ZOrder>4</ZOrder>
+            <ElementData>
+                <LabelElements>
+                    <ID>primary</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>43</LocationX>
+                        <LocationY>53</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>571</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                     <Font var="var_font_btn_tab_one_front_normal"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>secondary</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>109</LocationX>
+                        <LocationY>53</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>527</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_btn_tab_one_front_normal"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>secondary_disabled</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>109</LocationX>
+                        <LocationY>53</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>527</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_btn_tab_one_front_disabled"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>primary_disabled</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>43</LocationX>
+                        <LocationY>53</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>571</SizeW>
+                        <SizeH>75</SizeH>
+                    </Size>
+                    <Font var="var_font_btn_tab_one_front_disabled"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <ImageElements>
+                    <ID>img_tab_normal</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size>
+                        <SizeW>839</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+					<NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/img_tab_list_large_normal_bg.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/img_tab_list_large_normal_bg.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/img_tab_list_large_selected_bg.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_disabled_URL">11/img_tab_list_large_disabled_bg.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/img_tab_list_large_pressed_bg.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_focusonselected_URL">11/img_tab_list_large_focusonselected_bg.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>toggleBtnSelect</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchOutOfWidgetRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+				<ImageElements>
+                    <ID>img_toggle_btn</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size>
+                        <SizeW>839</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2">11/btn_camera_toggle_tab_deselected.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_pressed_deselected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_deselected_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_selected_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_pressed_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_camera_toggle_tab_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>toggleBtnSelect</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchOutOfWidgetRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+				<ImageElements>
+                    <ID>img_radio_btn</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size>
+                        <SizeW>839</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_deselected.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_pressed_deselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_deselected_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_selected_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_pressed_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_camera_radio_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>toggleBtnSelect</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchOutOfWidgetRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+            </ElementData>
+			<TabOrder>
+                <TabV>1</TabV>
+                <TabH>1</TabH>
+            </TabOrder>
+			<ListInputWidgetMapping>
+				<UserInput>RotaryCW</UserInput>
+				<WidgetInput>0</WidgetInput>
+				<EventCallbackString>evG_MFC_CW_Rotation</EventCallbackString>
+			</ListInputWidgetMapping>
+			<ListInputWidgetMapping>
+				<UserInput>RotaryCCW</UserInput>
+				<WidgetInput>1</WidgetInput>
+				<EventCallbackString>evG_MFC_CCW_Rotation</EventCallbackString>
+			</ListInputWidgetMapping>
+        </ListWidget>
+    </Variables>
+</GMXML>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6500</ScreenID>
+				<Name>ics_virtual_controls_scroll_first_page</Name>
+				<GroupWidget>
+					<ID>home_icon_0</ID>
+					<Location>
+						<LocationX>17</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_0</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<!-- These SelectorState to copy images in target -->
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="NONE">11/btn_icn_universal_remote_normal.png</NormalURL>
+							<FocusURL compression="NONE">11/btn_icn_universal_remote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="NONE">11/btn_icn_universal_remote_selected.png</NormalURL>
+							<FocusURL compression="NONE">11/btn_icn_universal_remote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL compression="CompressionAlias7">11/btn_icn_camera_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_camera_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_camera_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_camera_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>6</DataValue>
+							<NormalURL compression="CompressionAlias4">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_dome_lights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>7</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_lights_dome_lights_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_dome_lights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>8</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_hud_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_hud_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>9</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_hud_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_hud_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>10</DataValue>
+							<NormalURL compression="CompressionAlias7">11/btn_icn_gloves_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_gloves_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>11</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_gloves_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_gloves_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>12</DataValue>
+							<NormalURL compression="CompressionAlias4">11/btn_icn_power_window_lockout_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_power_window_lockout_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>13</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_power_window_lockout_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_power_window_lockout_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>14</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_drive_park_hill_descent_control_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_hill_descent_control_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>15</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_drive_park_hill_descent_control_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_hill_descent_control_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>16</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_drive_park_auto_park_assist_on_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_auto_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>17</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_drive_park_auto_park_assist_on_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_auto_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>18</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_lights_headlights_auto_high_beams_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_headlights_auto_high_beams_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>19</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_lights_headlights_auto_high_beams_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_headlights_auto_high_beams_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>20</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_lights_fog_lights_front_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_front_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>21</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_front_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_front_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>22</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_lights_fog_lights_rear_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_rear_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>23</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_rear_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_lights_fog_lights_rear_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>24</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_motion_sensor_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>25</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_motion_sensor_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_doors_and_windows_motion_sensor_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>26</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_opd_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_opd_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>27</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_opd_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_opd_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>28</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_drive_park_park_assist_on_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>29</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_drive_park_park_assist_on_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_drive_park_park_assist_on_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>30</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_icn_energy_out_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_energy_out_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>31</DataValue>
+							<NormalURL compression="CompressionAlias2">11/btn_icn_energy_out_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias2">11/btn_icn_energy_out_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>32</DataValue>
+							<NormalURL>11/btn_icn_traction_normal.png</NormalURL>
+							<FocusURL>11/btn_icn_traction_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>33</DataValue>
+							<NormalURL>11/btn_icn_traction_selected.png</NormalURL>
+							<FocusURL>11/btn_icn_traction_pressed.png</FocusURL>
+						</SelectorState>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_0</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(0)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_1</ID>
+					<Location>
+						<LocationX>336</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_1</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_1</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback> evG_HomeControl(1)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_2</ID>
+					<Location>
+						<LocationX>655</LocationX>
+						<LocationY>128</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_2</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_2</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(2)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_3</ID>
+					<Location>
+						<LocationX>973</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_3</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_3</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(3)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_4</ID>
+					<Location>
+						<LocationX>1292</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_4</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_4</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>100</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(4)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_5</ID>
+					<Location>
+						<LocationX>17</LocationX>
+						<LocationY>313</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_5</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_5</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(5)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_6</ID>
+					<Location>
+						<LocationX>336</LocationX>
+						<LocationY>313</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_6</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_6</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(6)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_7</ID>
+					<Location>
+						<LocationX>655</LocationX>
+						<LocationY>313</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_7</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_7</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>300</SizeW>
+							<SizeH>100</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(7)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_8</ID>
+					<Location>
+						<LocationX>973</LocationX>
+						<LocationY>313</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_8</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_8</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>109</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(8)</WidgetCallback>
+					</InputWidgetMapping>
+					<ZOrder>2</ZOrder>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_icon_9</ID>
+					<Location>
+						<LocationX>1292</LocationX>
+						<LocationY>313</LocationY>
+					</Location>
+					<Size>
+						<SizeW>288</SizeW>
+						<SizeH>313</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_icon_9</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>288</SizeW>
+							<SizeH>313</SizeH>
+						</Size>
+						<NormalURL>11/dummy_313.png</NormalURL>
+						<FocusURL>11/dummy_313.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_txt_9</ID>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>177</LocationY>
+						</Location>
+						<Size>
+							<SizeW>300</SizeW>
+							<SizeH>100</SizeH>
+						</Size>
+						<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_Quick_Controls_label_txt_selected"/>
+					</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<Draggable>
+						<Enabled>1</Enabled>
+						<ActivationLag>1000</ActivationLag>
+					</Draggable>
+					<InputWidgetMapping>
+						<UserInput>89</UserInput>
+						<WidgetCallback>evG_Drag_Begin</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>90</UserInput>
+						<WidgetCallback>evG_Drag</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>91</UserInput>
+						<WidgetCallback>evG_Drag_End</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(9)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

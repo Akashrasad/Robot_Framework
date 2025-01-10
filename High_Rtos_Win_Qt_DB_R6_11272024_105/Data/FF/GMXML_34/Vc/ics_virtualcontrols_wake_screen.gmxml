@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_wake_screen</ScreenID>
+                <Name>ics_virtualcontrols_wake_screen</Name>
+                <ImageWidget>
+                    <ID>img_home_card_doors_windows</ID>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias5">11/img_home_card_doorswindows_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias4">11/img_home_card_doorswindows_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/img_home_card_doorswindows_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_doorswindows_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_doorswindows_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_doorswindows_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_DoorsWindowsCard_csm</ID>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_lbl"/>
+                    <Size var="var_size_card_door_window_placeholder_lbl"/>
+                    <Font var="var_font_description_align_center"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_card_lights</ID>
+                    <Location var="var_loc_card_controls_drive_park_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias4">11/img_home_card_lights_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias4">11/img_home_card_lights_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_lights_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_lights_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_lights_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_LightsCard_csm</ID>
+                    <Font var="var_font_description_align_center"/>
+                    <Location var="var_loc_card_controls_drive_park_placeholder_lbl"/>
+                    <Size var="var_size_card_door_window_placeholder_lbl"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_card_drivepark_placeholder</ID>
+                    <Location var="var_loc_card_controls_lights_placeholder"/>
+                    <Size var="var_size_card_door_window_placeholder"/>
+                    <NormalURL compression = "CompressionAlias5">11/img_home_card_drivepark_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias4">11/img_home_card_drivepark_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/img_home_card_drivepark_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_drivepark_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/img_home_card_drivepark_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/img_home_card_drivepark_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_DriveParkCard_csm</ID>
+                    <Font var="var_font_description_align_center"/>
+                    <Location var="var_loc_card_controls_lights_placeholder_lbl"/>
+                    <Size var="var_size_card_door_window_placeholder_lbl"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_gloves</ID>
+                    <Location var="var_loc_card_controls_remote_icon"/>
+                    <Size var="var_size_control_remote_icon"/>
+                    <NormalURL compression = "CompressionAlias2">11/btn_icn_gloves_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias3">11/btn_icn_gloves_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/btn_icn_gloves_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_gloves_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickGloveLabel_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>1709</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_remote</ID>
+                    <Location>
+                        <LocationX>2232</LocationX>
+                        <LocationY>158</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>433</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2">11/btn_icn_universal_remote_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2">11/btn_icn_universal_remote_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_universal_remote_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_universal_remote_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>2231</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_dome_lights</ID>
+                    <Location>
+                        <LocationX>2755</LocationX>
+                        <LocationY>158</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>433</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickDomeLabel_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>2755</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>control_child_saftey_icon</ID>
+                    <Location>
+                        <LocationX>1709</LocationX>
+                        <LocationY>625</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>433</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_doors_and_windows_child_safety_locked_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_QuickChildLabel_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>1709</LocationX>
+                        <LocationY>846</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_power_window_lockout</ID>
+                    <Location>
+                        <LocationX>2232</LocationX>
+                        <LocationY>625</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>433</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_power_window_lockout_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_0_0_powerWindowLockout_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>2232</LocationX>
+                        <LocationY>846</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_motion_sensor</ID>
+                    <Location>
+                        <LocationX>2755</LocationX>
+                        <LocationY>625</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>433</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/btn_icn_doors_and_windows_motion_sensor_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_doors_and_windows_motion_sensor_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_doors_and_windows_motion_sensor_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_2_card_motion_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>59</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Location>
+                        <LocationX>2755</LocationX>
+                        <LocationY>846</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>497</SizeW>
+                        <SizeH>158</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

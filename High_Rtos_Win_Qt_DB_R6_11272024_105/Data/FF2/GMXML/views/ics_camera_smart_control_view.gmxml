@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_camera_smart_control_view</ViewID>
+            <Size>
+                <SizeW>692</SizeW>
+                <SizeH>142</SizeH>
+            </Size>
+            <Location>
+                <LocationX>4866</LocationX>
+                <LocationY>939</LocationY>
+            </Location>
+			<ZOrder>2</ZOrder>
+            <Screen load="ics_camera_smart_control_main_screen"/>
+            <Screen load="ics_camera_smart_control_scroll_first_page"/>
+            <Screen load="ics_camera_smart_control_scroll_second_page"/>
+            <Screen load="ics_camera_smart_control_scroll_third_page"/>
+            <Screen load="ics_camera_smart_control_scroll_fourth_page"/>
+        </View>
+    </Display>
+</GMXML>

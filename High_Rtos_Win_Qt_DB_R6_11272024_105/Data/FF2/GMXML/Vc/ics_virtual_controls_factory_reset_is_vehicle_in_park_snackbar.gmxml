@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6069</ScreenID>
+                <Name>ics_virtual_controls_factory_reset_is_vehicle_in_park_snackbar</Name>
+                <ImageWidget var="var_snackbar_2line_bg">
+                    <ID>img_notification_bg</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2line_txt">
+                    <ID>virtualcontrols_1_0_RecoveryMode_csm</ID>
+                </LabelWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotarySelectReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

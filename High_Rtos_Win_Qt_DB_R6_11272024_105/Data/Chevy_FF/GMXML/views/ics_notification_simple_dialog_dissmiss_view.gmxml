@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_notification_simple_dialog_dissmiss_view</ViewID>
+            <Size>
+                <SizeW>1578</SizeW>
+                <SizeH>392</SizeH>
+            </Size>
+            <Location>
+                <LocationX>651</LocationX>
+                <LocationY>688</LocationY>
+            </Location>
+            <ZOrder var="var_zorder_notification_view"/>
+            <Screen load="ics_virtualcontrols_lights_headlights_dialog"/>
+            <Screen load="ics_virtualcontrols_start_screen_vehicle_conditions_not_met_fault"/>
+            <Screen load="ics_virtualcontrols_rear_steering_crabwalk_dialog"/>
+			<Screen load="ics_virtualcontrols_lane_change_alert_notification"/>
+			<Screen load="ics_virtualcontrols_pab_change_notification"/>
+        </View>
+    </Display>
+</GMXML>

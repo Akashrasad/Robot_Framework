@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6225</ScreenID>
+				<Name>ics_virtualcontrols_start_screen_tdl_set_thinking</Name>
+				<ImageWidget>
+					<ID>img_bg_black</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_bg_11_3inch"/>
+					<NormalURL>11/img_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ActivityIndicatorWidget>
+					<ID>img_progress_activity</ID>
+					<Location>
+						<LocationX>929</LocationX>
+						<LocationY>417</LocationY>
+					</Location>
+					<Size>
+						<SizeW>139</SizeW>
+						<SizeH>139</SizeH>
+					</Size>
+					<Spinner>
+						<SpinnerLocation>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</SpinnerLocation>
+						<SpinnerSize>
+							<SizeW>139</SizeW>
+							<SizeH>139</SizeH>
+						</SpinnerSize>
+						<SpinnerURL compression="CompressionAlias10">11/icn_loading_medium_1.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias9">11/icn_loading_medium_2.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias10">11/icn_loading_medium_3.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias10">11/icn_loading_medium_4.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_5.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_6.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_7.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_8.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_9.png</SpinnerURL>
+						<SpinnerURL compression="CompressionAlias11">11/icn_loading_medium_10.png</SpinnerURL>
+					</Spinner>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ActivityIndicatorWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

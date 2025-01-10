@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8001</ScreenID>
+                <Name>ics_camera_rvc_standard_view</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL compression="NONE">11/img_background.png</NormalURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="NONE">11/img_background.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <RVCGuideLinesWidget>
+                    <ID>img_rvc_widget</ID>
+                    <Location>
+                        <LocationX>1140</LocationX>
+                        <LocationY>297</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1302</SizeW>
+                        <SizeH>538</SizeH>
+                    </Size>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </RVCGuideLinesWidget>
+                <ImageWidget>
+                    <ID>img_guideliness_view</ID>
+                    <Location>
+                        <LocationX>81</LocationX>
+                        <LocationY>87</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>183</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+                    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_guides_normal.png</NormalURL>
+                    <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_guides_normal.png</NormalURL>
+                        <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_rvc_guides_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_guides_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_guideliness_view_mfc</ID>
+                    <Location>
+                        <LocationX>81</LocationX>
+                        <LocationY>87</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>183</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_guides_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				    <InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping> 
+				</ImageWidget>
+				<GroupWidget var="grp_exit_camera">
+					<ID>grp_img_exit</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget var="var_img_exit_btn_apptray_bg">
+					<ID>img_exit_btn_apptray_bg</ID>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

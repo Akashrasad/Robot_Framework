@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_fly_out_temperature_controls_right_view</ViewID>
+            <Location>
+                <LocationX>1228</LocationX>
+                <LocationY>1436</LocationY>
+            </Location>
+            <Size>
+                <SizeW>361</SizeW>
+                <SizeH>333</SizeH> 
+            </Size>
+            <ZOrder>7</ZOrder>
+            <Screen load="ics_hvac_bottom_bar_right_temp_flyout"/>
+        </View>
+    </Display>
+</GMXML>

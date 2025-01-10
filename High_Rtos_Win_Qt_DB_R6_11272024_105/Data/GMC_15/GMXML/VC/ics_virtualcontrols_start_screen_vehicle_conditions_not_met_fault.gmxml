@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6122</ScreenID>
+                <Name>ics_virtualcontrols_start_screen_vehicle_conditions_not_met_fault</Name>
+                <DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+                <ImageWidget var="img_notification_body_content_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_lbl_simple_regular_primar_text">
+                    <ID>virtualcontrols_1_14_1_10_dialogHeader_csm</ID>
+                </LabelWidget>
+				<GroupWidget var="grp_img_simple_dialog_primary_btn">
+					<ID>grp_btn_bg1</ID>
+					<Location var="var_loc_dialog_btn"/>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

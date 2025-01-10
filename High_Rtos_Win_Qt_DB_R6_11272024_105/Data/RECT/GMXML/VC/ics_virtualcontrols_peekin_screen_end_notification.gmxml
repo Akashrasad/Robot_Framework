@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6127</ScreenID>
+                <Name>ics_virtualcontrols_peekin_screen_end_notification</Name>
+				<DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+                <ImageWidget var="var_img_dialogue_bg">
+					<ID>img_notification_bg_large</ID>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_14_4_3_dialogHeader_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text"/>
+                   <Size var="var_size_dialog_text_1line"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+					<ID>virtualcontrols_1_14_4_3_DialogBody_csm</ID>
+					<Font var="var_font_head_up_display_desc_normal"/>
+					<Location var="var_loc_notification_dialog_secondary_txt"/>
+					<Size var="var_size_notification_dialog_secondary_txt_2lines"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+                <GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button_1"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+                        <FocusURL compression="CompressionAlias1">11/btn_primary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>4</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_4_2_dialogHeadlightsPrimary_csm</ID>
+                    <Font var="var_font_primary_button_txt"/>
+					<FocusFont var="var_font_yes_button_focused"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evg_Peekin_Turn_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button_1"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg2</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/btn_secondary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>4</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_14_4_3_dialogSecondaryButton_csm</ID>
+                    <Font var="var_font_secondary_button_txt"/>
+					<FocusFont var="var_font_keep_looking_button_focused"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

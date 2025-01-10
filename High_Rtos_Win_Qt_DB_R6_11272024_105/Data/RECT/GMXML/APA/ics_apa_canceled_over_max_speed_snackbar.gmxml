@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7020</ScreenID>
+                <Name>ics_apa_canceled_over_max_speed_snackbar</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_snackbar_2lines"/>
+                    <NormalURL compression = "NONE">11/img_notification_2lines_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_6_2_OverSpeed_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+                    <Location var="var_loc_2lines_snack_bar_text"/>
+                    <Size var="var_size_snackbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

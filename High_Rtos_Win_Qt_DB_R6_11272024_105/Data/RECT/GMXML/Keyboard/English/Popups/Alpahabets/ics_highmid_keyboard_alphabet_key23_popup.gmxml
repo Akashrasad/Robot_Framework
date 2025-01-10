@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>2008</ScreenID>
+				<Name>ics_highmid_keyboard_alphabet_key23_popup</Name>
+				<ImageWidget var="var_keyboard_popup_tarnsperent_image"/>
+				<GroupWidget>
+					<ID>group_popup_key_1</ID>
+					<Location>
+						<LocationX>657</LocationX>
+						<LocationY>122</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_1</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>group_img_popup_key_1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_popup_key_1</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

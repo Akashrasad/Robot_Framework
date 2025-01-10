@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7012</ScreenID>
+                <Name>ics_apa_in_vehicle_park_hand_off</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_bg_11_3inch"/>
+                    <NormalURL>11/img_apa_handoff_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_close_icn</ID>
+                    <Location var="var_loc_icn_close"/>
+                    <Size var="var_size_icn_close_117"/>
+                    <NormalURL>11/icn_close_normal_small.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+                    <BehaviorState var="var_behavior_animation_interpolation"/>
+                    <BehaviorState var="var_behavior_state_value_1"/>
+                    <BehaviorState var="var_behavior_state_value_2"/>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_4_9_InVehicleHandoff_csm</ID>
+                    <Font var="var_font_perp_right_instr_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_popup_body_txt"/>
+                    <Size var="var_size_popup_body_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

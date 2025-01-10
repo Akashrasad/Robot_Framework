@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7040</ScreenID>
+                <Name>ics_apa_maneuvermessaging</Name>
+                <ImageWidget> 
+                    <ID>img_apa_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL compression = "NONE">11/img_full_screen_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>apa_5_1_maneuvermessaging5_1_csm</ID>
+                    <Font var="var_font_radio_btn_off_focused"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_unableToconnect_txt"/>
+                    <Size>
+                        <SizeW>1676</SizeW>
+                        <SizeH>200</SizeH>
+                    </Size>
+                    <SelectorState>
+                        <DataValue>45</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_1_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>34</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_2_csm</StaticValue>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>35</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_2_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>36</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>37</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging6_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>41</DataValue>
+                        <StaticValue>apa_6_4_OverSpeed2_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>42</DataValue>
+                        <StaticValue>apa_6_5_DriverInterference_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>39</DataValue>
+                        <StaticValue>apa_6_6_OwnersManual_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>40</DataValue>
+                        <StaticValue>apa_6_7_TakingTooLong_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>66</DataValue>
+                        <StaticValue>apa_7_1_CanceledObstruction_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>55</DataValue>
+                        <StaticValue>apa_7_3_CanceledNoSupervisor_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>54</DataValue>
+                        <StaticValue>apa_7_5_CanceledTooFar_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>60</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_3_csm</StaticValue>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

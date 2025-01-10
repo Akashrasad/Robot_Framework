@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>1003</ScreenID>
+                <Name>ics_black_screen</Name>
+                <ImageWidget>
+                    <ID>img_startup</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>3950</SizeW>
+                        <SizeH>1320</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/img_full_screen_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

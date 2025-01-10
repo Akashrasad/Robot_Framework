@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6044</ScreenID>
+                <Name>ics_virtualcontrols_options_delete_all_dialog</Name>
+				<DialogDismiss callback = "evI_VC_Discard_Notification" zorder="1"/>
+                <ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>                  
+                </ImageWidget>
+				<LabelWidget var="var_notification_primary_txt">
+                    <ID>virtualcontrols_1_5_3_1_UGDOClear_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_primary_btn">
+					    <ID>img_btn_bg1</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_5_3_5_btnUGDODeleteAll_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Erase_All_Remotes</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_secondary_btn">
+					    <ID>img_btn_bg2</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_secondary_btn_txt">
+                        <ID>virtualcontrols_1_5_3_4_btnUGDOCancel_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remotes_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<LabelWidget var="var_notification_secondary_txt">
+                    <ID>virtualcontrols_1_5_3_1_UGDOClear1_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

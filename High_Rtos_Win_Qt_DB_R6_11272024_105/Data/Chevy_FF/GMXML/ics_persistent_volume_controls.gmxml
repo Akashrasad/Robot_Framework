@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>85000</ScreenID>
+                <Name>ics_persistent_volume_controls</Name>
+                <A3dWidget>
+                    <ID>my24_chevy_audio_knob</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>389</SizeW>
+                        <SizeH>386</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <URL>3D/my24_chevy_audio_knob.a3d</URL>
+                    <AnimationName>audio_progress</AnimationName>
+                    <AnimationName>startup_shutdown</AnimationName>
+                    <AnimationName>mute_animation</AnimationName>
+                    <AnimationName>select_mute</AnimationName>
+                    <AnimationName>unmute_animation</AnimationName>
+                    <AnimationName>select_unmute</AnimationName>
+                    <AnimationName>SetMaxLimit</AnimationName>
+                    <AnimationName>SetMinLimit</AnimationName>
+                    <AnimationName>select_dailer</AnimationName>
+                    <AnimationName>Dialer_Swap</AnimationName>
+                    <AnimationName>select_nav</AnimationName>
+                    <AnimationName>Navigation_Swap</AnimationName>
+                    <AnimationName>select_voice</AnimationName>
+                    <AnimationName>Voice_Swap</AnimationName>
+                </A3dWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

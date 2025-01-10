@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6002</ScreenID>
+				<Name>ics_virtual_controls_home_cards</Name>
+                <ImageWidget>
+                    <ID>img_btn_back</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_actionbar_back_img"/>
+                    <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL compression = "NONE">11/btn_icn_left_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_ControlsSafety_csm</ID>
+                    <Font var="var_font_title_vc"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_actionbar_text"/>
+                    <Size var="var_size_actionbar_text"/> 
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_controls_home_cards_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>home_card_0</ID>
+					<Location var="var_loc_card_controls_doors_windows_placeholder"/>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_0</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<FocusURL/>
+						<!-- These SelectorState to copy images in target -->
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/img_home_card_doorswindows_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_doorswindows_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/img_home_card_lights_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_lights_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/img_home_card_drive_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_drive_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/img_home_card_park_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_park_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/img_home_card_universal_remote_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_universal_remote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL>11/img_home_card_aux_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_aux_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>6</DataValue>
+							<NormalURL>11/img_home_card_universal_remote_disabled.png</NormalURL>
+                        </SelectorState>
+						<SelectorState>
+							<DataValue>7</DataValue>
+							<NormalURL>11/img_home_card_drivepark_normal.png</NormalURL>
+							<FocusURL>11/img_home_card_drivepark_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+				        	<DataValue>8</DataValue>
+				        	<NormalURL>11/img_home_card_drivepark_suv_normal.png</NormalURL>
+				        	<FocusURL>11/img_home_card_drivepark_suv_pressed.png</FocusURL>
+				        </SelectorState>
+				        <SelectorState>
+				        	<DataValue>9</DataValue>
+				        	<NormalURL>11/img_home_card_drivepark_crossover_normal.png</NormalURL>
+				        	<FocusURL>11/img_home_card_drivepark_crossover_pressed.png</FocusURL>
+				        </SelectorState>
+				        <Alpha>100</Alpha>
+				        <ZOrder>1</ZOrder>
+				    </ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_0</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(0)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_card_1</ID>
+					<Location var="var_loc_card_controls_lights_placeholder"/>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_1</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(1)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_card_2</ID>
+					<Location var="var_loc_card_controls_drive_park_placeholder"/>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_2</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_2</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(2)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_card_3</ID>
+					<Location var="var_loc_card_controls_universal_remotes_placeholder"/>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_3</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_3</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(3)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_card_4</ID>
+					<Location>
+						<LocationX>197</LocationX>
+						<LocationY>558</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_4</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_4</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(4)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>home_card_5</ID>
+					<Location>
+						<LocationX>575</LocationX>
+						<LocationY>558</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>10</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+						<ID>img_home_card_5</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<TabOrder>
+							<TabV>1</TabV>
+							<TabH>1</TabH>
+						</TabOrder>
+						<NormalURL/>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>lbl_home_card_txt_5</ID>
+						<Font var="var_font_card_controls_normal"/>
+						<FocusFont var="var_font_card_controls_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+						<Size var="var_size_card_remotes_settings_placeholder_txt"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_card_controls_normal"/>
+							<FocusFont var="var_font_card_controls_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_card_controls_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HomeControl(5)</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <DisplayID>35</DisplayID>
+        <IncludeXML>../qnx_config/</IncludeXML>
+        <TouchDeadband>16</TouchDeadband>
+        <Touch>1</Touch>
+		<Hybrid>1</Hybrid>
+		<IntialFocusTags enabled ="true"/>
+		<NativeZOrder var="var_native_native_zorder_rtos_camera_icons"/>
+        <CompressionDefault layer="OpenGL" format="ASTC_4x4" quality="ASTC_EXHAUSTIVE"/>
+        <FontOverride>
+            <LanguageList>
+                <Language>Language_fr_CA</Language>
+                <Language>Language_es_MX</Language>
+                <Language>Language_es_AR</Language>
+                <Language>Language_de_DE</Language>
+                <Language>Language_it_IT</Language>
+                <Language>Language_zh_CN</Language>
+                <Language>Language_nl_NL</Language>
+                <Language>Language_pt_BR</Language>
+                <Language>Language_ko_KR</Language>
+                <Language>Language_ar_SA</Language>
+                <Language>Language_sv_SE</Language>
+                <Language>Language_no_NO</Language>
+                <Language>Language_th_TH</Language>
+                <Language>Language_ja_JP</Language>
+                <Language>Language_ru_RU</Language>
+                <Language>Language_he_IL</Language>
+                <Language>Language_uk_UA</Language>
+            </LanguageList>
+            <GlobalOverride>
+                <CurrentValue>GMSUICadillacGlobal-Regular</CurrentValue>
+                <OverrideValue>GMSUICadillacGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUICadillacGlobal-Medium</CurrentValue>
+                <OverrideValue>GMSUICadillacGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUICadillacGlobal-Light</CurrentValue>
+                <OverrideValue>GMSUICadillacGlobal-CondLight</OverrideValue>
+            </GlobalOverride>           
+        </FontOverride>
+        <Size>
+            <SizeW>7322</SizeW>
+            <SizeH>1130</SizeH>
+        </Size>
+        <View load="ics_apa_park_view"/>
+        <View load="ics_apa_park_view_bg"/>
+		<View load="ics_camera_main_view"/>
+		<View load="ics_dimming_view"/>
+		<View load="ics_aos_calibration_view"/>	
+		<View load="virtual_controls_view"/>	
+		<View load="ics_camera_single_image_vpm_view"/>	
+		<View load="ics_camera_smart_control_view"/>
+		<View load="ics_ppm_smart_controls_camera_view"/>
+		<View load="ics_snackbar_2line_view"/>
+		<View load="ics_notification_view_1651_503"/>
+		<View load="ics_notification_view"/>
+		<View load="virtual_controls_full_notification_view"/>
+		<View load="ics_snackbar_camera_view" merge="auto"/>
+		<View load="ics_ppm_smart_controls_view"/>
+		<View load="virtual_controls_view_bg_2880_1130"/>
+		<View load="animation_view"/>
+		<View load="ics_vc_statusbar_notification_view"/>
+		<View load="ics_camera_snackbar_view"/>
+		<View load="ics_snackbar_3line_view"/>
+		<View load="ics_camera_ctt_trailer_snackbars"/>
+		<View load="virtual_controls_full_notification_emergency_view"/>
+		<View load="ics_touch_disabled_screen_view"/>
+		<View load="ics_touch_disable_snackbar_view"/>
+		<View load="ics_camera_upa_symbols_view" merge="auto"/>
+		<View load="ics_jackknife_snackbar_view"/>
+    </Display>
+</GMXML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_notification_view_1578_542</ViewID>
+            <Size>
+                <SizeW>1578</SizeW>
+                <SizeH>542</SizeH>
+            </Size>
+            <Location>
+                <LocationX>651</LocationX>
+                <LocationY>537</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder>
+            <Screen load="ics_virtualcontrols_passive_power_mode_snackbar_remaining"/>
+        </View>
+    </Display>
+</GMXML>

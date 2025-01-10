@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>9006</ScreenID>
+				<Name>ics_hvac_bottom_bar_left_temp_flyout</Name>
+				<ImageWidget>
+					<ID>img_flyout_sync_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size>
+						<SizeW>361</SizeW>
+						<SizeH>333</SizeH>
+					</Size>
+					<NormalURL>11/img_temp_l_fly_out_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_lbl_lefttemp</ID>
+					<Value>
+                        <Encoding/>
+                        <Text></Text>
+                    </Value>
+					<Font var="var_font_dyn_lbl_lefttemp"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>19</LocationX>
+						<LocationY>100</LocationY>
+					</Location>
+					<Size>
+						<SizeW>183</SizeW>
+						<SizeH>114</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_temp_up_Left</ID>
+					<Location>
+						<LocationX>203</LocationX>
+						<LocationY>19</LocationY>
+					</Location>
+					<Size>
+						<SizeW>139</SizeW>
+						<SizeH>139</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/btn_climate_up_arrow_normal.png</NormalURL>
+					<FocusURL compression="NONE">11/btn_climate_up_arrow_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_LeftTempPressUp</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_temp_down_Left</ID>
+					<Location>
+						<LocationX>203</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size>
+						<SizeW>139</SizeW>
+						<SizeH>139</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/btn_climate_down_arrow_normal.png</NormalURL>
+					<FocusURL compression="NONE">11/btn_climate_down_arrow_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Hvac_LeftTempPressDown</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

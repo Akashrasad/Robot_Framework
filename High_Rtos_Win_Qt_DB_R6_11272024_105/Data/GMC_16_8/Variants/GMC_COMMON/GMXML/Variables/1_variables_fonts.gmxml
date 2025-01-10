@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <Font id="var_font_snackbar_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-4</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font> 
+		<Font id="var_font_perp_right_instr_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_title">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_camera_view_dynamic_messaging">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+			<LineSpacing>-4</LineSpacing>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_left_perp_label_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_left_perp_label_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_left_perp_label_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_left_perp_label_disabled">
+			<Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_title_apa">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_exit_space_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>
+            <TextAlignV>1</TextAlignV>
+			<TextAlignH>2</TextAlignH>
+			</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_park_exit_space_txt_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>201,226,245</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keep_looking_button_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keep_looking_button">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keep_looking_button_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keep_looking_button_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_vc">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_radio_btn_off_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_radio_btn_off_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_radio_btn_off_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+			<LineSpacing>-8</LineSpacing>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>52,52,52</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_universal_remotes_desc">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_dialog_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-4</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_primary_button_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_secondary_button_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_notification_dialog_secondary_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+			<LineSpacing>-8</LineSpacing>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_notification_dialog_checkbox_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_dialog_text_d_mode">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>73</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-4</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_learn_success_test_body_content">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>73</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_learn_success_test_body_content_1">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+			<LineSpacing>-4</LineSpacing>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_test_btn_txt_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_test_btn_txt_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_options_name">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_call_assistance">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+			<LineSpacing>-4</LineSpacing>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_primary_text_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_primary_text_warning">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>243,69,70</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_secondary_text_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_secondary_text_warning">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>243,69,70</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_label_a_text_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_label_a_text_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_secondary_text_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_secondary_text_warning_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>237,33,35</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_subtitle">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_vc_dyn_list_center_label">
+		<Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_notification_dialog_text_secondary">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+			<Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_quick_control_grp_label">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_hud_txt_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+		<Font id="var_font_hud_txt_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>66,66,66</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_head_up_display_desc_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_head_up_display_desc_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>66,66,66</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_options_auto_range">
+			<Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>52,52,52</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_options_listelement">
+			<Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>210,180,140</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_learn_success_test_body_content_UniRemote">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>62</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_card_controls_doors_windows_placeholder_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_Quick_Controls_label_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_camera_alert_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font> 
+		<Font id="var_font_aux_switches">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>49</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_dyn_climate_ac_heat">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_primary_font">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_svr_sd_card_required_body_content">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_home_card_lbl_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_perp_left_instr_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_aux_edit">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_hud_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>52,52,52</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		 <Font id="var_font_primary_button_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_snackbar_2line_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+			</Font> 
+		<Font id="var_font_title_emergency_text">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>87</Size>
+			<Decoration>0</Decoration>
+			<TextAlignV>2</TextAlignV>
+			<TextAlignH>0</TextAlignH>
+			<Color>237,33,35</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_notification_dialog_text_secondary1">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>48</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_snackbar_2lines_txt">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>61</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+		</Font>
+		<Font id="var_font_geolocation_primary">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>61</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_geolocation_secondary">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>49</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_learn_success_test">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>73</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_geolocation_txt">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>61</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_universal_remotes_desc_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_outlets_body_desc">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+       <Font id="var_font_primary_button_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_timer_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>  
+		<Font id="var_font_list_hours_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>210,180,140</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_diabled_focused_hours">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font> 
+		<Font id="var_font_summary_option_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_rangeReserve_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>243,69,70</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_rangeUsedNumber_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>243,69,70</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>  
+		<Font id="var_font_powerbase_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_timer_ending_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>  
+		<Font id="var_font_peek_in_screen_circle_body_secondary_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_peek_in_screen_circle_progressbar_oulets_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_peek_in_screen_circle_progressbar_powerlimit_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_time_running_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+			<Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_time_running_header">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+			<Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_power_limit_number">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>98</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_program_body_content">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_snackbar_2lines_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>                 
+		<Font id="var_font_teritary_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>38,185,249</Color>
+			<TextDirection>1</TextDirection>
+		</Font>   
+		<Font id="var_font_rear_climate">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>42</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>    
+		<Font id="var_font_dyn_lbl_temp">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>62</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>   
+		<Font id="var_font_dyn_lbl_lefttemp">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>98</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>       
+		<Font var="var_font_rearauto_csm">
+			<Name>GMSUIGMCGlobal-Light</Name>
+			<Size>30</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>210,180,140</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_radio_button_off_focused">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>73</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_disable">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_enterpasscode_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_toomanyattempts">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>225,225,225</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_primary_button_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_nfc_sensor">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>73</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_nfc_location_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>225,225,225</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_recovery_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_park_exit_space_txt1">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>38,185,249</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_card_controls_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_card_controls_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_card_controls_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>52,52,52</Color>
+            <TextDirection>1</TextDirection>
+        </Font>   
+		<Font id="var_font_sync_lbl_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_sync_lbl_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_secondary_button_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_primary_button_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_secondary_button_selected">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_secondary_button_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_see_more_control_button_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>48</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+			<LineSpacing>-12</LineSpacing>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_see_more_control_button_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>48</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+			<LineSpacing>-12</LineSpacing>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_i_will_let">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_Quick_Controls_label_txt_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+	    <Font id="var_font_vc_options_name_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>52,52,52</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_edit_txt_normal">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-4</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_edit_txt_disabled">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>61</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>52,52,52</Color>
+			<LineSpacing>-4</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_change_selection_text">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_change_selection_text_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_teritary_pressed">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_Controls_and_safety_page_label_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_Controls_and_safety_page_label_pressed_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_Controls_and_safety_page_label_selected_txt">
+            <Name>GMSUIGMCGlobal-Light</Name>
+            <Size>42</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+    </Variables>
+</GMXML>

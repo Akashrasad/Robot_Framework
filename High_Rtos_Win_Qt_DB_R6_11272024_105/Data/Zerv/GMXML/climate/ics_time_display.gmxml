@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>9011</ScreenID>
+				<Name>ics_time_display</Name>
+				<LabelWidget>
+					<ID>dyn_lbl_time</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size>
+						<SizeW>213</SizeW>
+						<SizeH>147</SizeH>
+					</Size>
+					<Font var="var_font_time_lbl"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

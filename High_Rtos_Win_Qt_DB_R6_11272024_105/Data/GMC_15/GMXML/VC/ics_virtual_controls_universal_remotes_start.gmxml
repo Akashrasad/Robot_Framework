@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6028</ScreenID>
+                <Name>ics_virtual_controls_universal_remotes_start</Name>
+				<ImageWidget var="img_wakescreen_exit_btn">
+					<ID>img_place_holder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_F_UGDOTitle_csm</ID>
+                    <Font var="var_font_title_vc"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_actionbar_text"/>
+                    <Size var="var_size_actionbar_text"/> 
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_universal_remote_close</ID>
+                    <Location var="var_loc_actionbar_close_img"/>
+                    <Size var="var_size_actionbar_close_img"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/btn_icn_close_focused_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_close_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ListWidget>
+                    <ListID>ics_vc_remotestart_list</ListID>
+                    <Location>
+                        <LocationX>197</LocationX>
+                        <LocationY>192</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>692</SizeW>
+                        <SizeH>1568</SizeH>
+                    </Size>
+                    <FocusedRow>0</FocusedRow>
+                    <BackgroundURL/>
+                    <RowLayout>
+                        <RowLayoutID>normal_layout</RowLayoutID>
+                        <Size>
+                            <SizeW>692</SizeW>
+                            <SizeH>274</SizeH>
+                        </Size>
+                        <RowSpacing>31</RowSpacing>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <NormalURL/>
+                        <RowSeparatorImageURL/>
+                    </RowLayout>
+                    <ZOrder>2</ZOrder>
+                    <ElementData>
+                        <ImageElements>
+                            <ID>img_icn_bg_white_small</ID>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>692</SizeW>
+                                <SizeH>274</SizeH>
+                            </Size>
+                            <NormalURL>11/img_remotes_container_bg.png</NormalURL>
+							<FocusURL>11/img_remotes_container_bg_pressed.png</FocusURL>
+							<SelectorState>
+                                <DataValue>0</DataValue>
+                                <NormalURL>11/img_remotes_container_bg.png</NormalURL>
+                                <FocusURL>11/img_remotes_container_bg_pressed.png</FocusURL>
+                            </SelectorState>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>Actuate</WidgetCallback>
+                            </InputWidgetMapping>
+                            <Alpha>100</Alpha>
+                            <ZOrder>3</ZOrder>
+                        </ImageElements>
+                        <LabelElements>
+                            <ID>primary</ID>
+                            <Font var="var_font_list_primary_txt"/>
+                            <TextWrap>1</TextWrap>
+                            <Location>
+                                <LocationX>51</LocationX>
+                                <LocationY>65</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>406</SizeW>
+                                <SizeH>144</SizeH>
+                            </Size>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                        <LabelElements>
+                            <ID>secondary</ID>
+                            <Font var="var_font_list_secondary_txt"/>
+                            <TextWrap>1</TextWrap>
+                            <Location>
+                                <LocationX>54</LocationX>
+                                <LocationY>172</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>403</SizeW>
+                                <SizeH>58</SizeH>
+                            </Size>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                        <ImageElements>
+                            <ID>img_controls_ugdo_edit_normal</ID>
+                            <Location var="var_loc_ugdo_edit_normal"/>
+                            <Size var="var_size_title_bar_up_arrow"/>
+                            <NormalURL compression = "CompressionAlias5">11/btn_remotes_edit_bg.png</NormalURL>
+							<FocusURL compression = "CompressionAlias1">11/btn_remotes_edit_bg_pressed.png</FocusURL>
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>EditRemote</WidgetCallback>
+                            </InputWidgetMapping>
+                            <ZOrder>4</ZOrder>
+                        </ImageElements>
+                        <ImageElements>
+                            <ID>img_AddRemote_btn</ID>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+								<SizeW>692</SizeW>
+								<SizeH>119</SizeH>
+							</Size>
+                            <NormalURL>11/btn_addremote_normal.png</NormalURL>
+                            <FocusURL>11/btn_addremote_pressed.png</FocusURL>
+                            <SelectorState>
+                                <DataValue>0</DataValue>
+                                <NormalURL>11/btn_addremote_normal.png</NormalURL>
+                                <FocusURL>11/btn_addremote_pressed.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <NormalURL>11/btn_addremote_normal.png</NormalURL>
+                                <FocusURL>11/btn_addremote_focused.png</FocusURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>2</DataValue>
+                                <NormalURL>11/btn_addremote_disabled.png</NormalURL>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>3</DataValue>
+                                <NormalURL>11/btn_addremote_pressed.png</NormalURL>
+                            </SelectorState>
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput>TouchPressRelease</UserInput>
+                                <WidgetCallback>AddRemote</WidgetCallback>
+                            </InputWidgetMapping>
+                            <ZOrder>3</ZOrder>
+                        </ImageElements>
+                        <LabelElements>
+                            <ID>centerLabel</ID>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                           <Size>
+								<SizeW>692</SizeW>
+								<SizeH>119</SizeH>
+							</Size>
+                            <Font var="var_font_test_btn_txt_normal"/>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_test_btn_txt_normal"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>2</DataValue>
+                                <StaticValue>centerLabel</StaticValue>
+                                <Font var="var_font_test_btn_txt_focused"/>
+                            </SelectorState>
+                            <Alpha>100</Alpha>
+                            <ZOrder>4</ZOrder>
+                        </LabelElements>
+                    </ElementData>
+                </ListWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_UGDO_csm</ID>
+                    <Location var="var_loc_universal_remotes_desc"/>
+                    <Size var="var_size_universal_remotes_start"/>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                    <Location var="var_loc_universal_remotes_desc"/>
+                    <Size var="var_size_universal_remotes_start"/>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ScrollBarWidget>
+					<ID>Scrollbar_small</ID>
+					<ListID>ics_vc_remotestart_list</ListID>
+					<Location>
+						<LocationX>17</LocationX>
+						<LocationY>181</LocationY>
+					</Location>
+					<Size>
+						<SizeW>150</SizeW>
+						<SizeH>1620</SizeH>
+					</Size>
+					<Track>
+						<TrackHousing>
+							<ID>img_scrollbar_bg_small</ID>
+							<ImageWidgetID>img_scrollbar_bg_small</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>150</SizeW>
+								<SizeH>1328</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV>0</TabV>
+								<TabH>0</TabH>
+							</TabOrder>
+							<NormalURL>11/img_scroll_track_normal.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>2</ZOrder>
+						</TrackHousing>
+						<ThumbHousing>
+							<ID>img_scrollbar_indicator_short</ID>
+							<ImageWidgetID>img_scrollbar_indicator_short</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>150</SizeW>
+								<SizeH>1328</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV>0</TabV>
+								<TabH>0</TabH>
+							</TabOrder>
+							<NormalURL>11/btn_scroll_thumb.png</NormalURL>
+							<Alpha>100</Alpha>
+							<ZOrder>3</ZOrder>
+						</ThumbHousing>
+					</Track>
+					<IncrementArrow>
+						<ID>img_scroll_up_selector</ID>
+						<ImageWidgetID>img_scroll_up_selector</ImageWidgetID>
+						<Location>
+							<LocationX>17</LocationX>
+							<LocationY>1358</LocationY>
+						</Location>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV>0</TabV>
+							<TabH>0</TabH>
+						</TabOrder>
+						<NormalURL compression = "CompressionAlias2">11/btn_general_up_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias3">11/btn_general_up_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</IncrementArrow>
+					<DecrementArrow>
+						<ID>img_scroll_down_selector</ID>
+						<ImageWidgetID>img_scroll_down_selector</ImageWidgetID>
+						<Location>
+							<LocationX>17</LocationX>
+							<LocationY>1478</LocationY>
+						</Location>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV>0</TabV>
+							<TabH>0</TabH>
+						</TabOrder>
+						<NormalURL compression = "CompressionAlias4">11/btn_general_down_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias4">11/btn_general_down_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</DecrementArrow>
+					<ZOrder>4</ZOrder>					
+				</ScrollBarWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

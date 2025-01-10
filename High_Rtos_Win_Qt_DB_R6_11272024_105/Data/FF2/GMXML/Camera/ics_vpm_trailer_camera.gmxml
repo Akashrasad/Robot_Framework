@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8027</ScreenID>
+				<Name>ics_vpm_trailer_camera</Name>
+				<ImageWidget>
+					<ID>img_bg_black</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2880</SizeW>
+						<SizeH>1130</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/img_background.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				 <GroupWidget var="grp_exit_camera">
+					<ID>grp_img_exit_trailer</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget var="var_img_exit_btn_apptray_bg">
+					<ID>img_exit_btn_apptray_bg</ID>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget var="var_front_txt">
+					<ID>safetysystems_2_1_1_Trailer_f_csm</ID>
+			    </LabelWidget>
+				<ListWidget var="var_list_with_single_label_vpm">
+					<ListID>vpm_rear_view_list</ListID>
+				</ListWidget>
+				<ImageWidget>
+					<ID>img_transparentview_bg</ID>
+					<Location>
+						<LocationX>985</LocationX>
+						<LocationY>664</LocationY>
+					</Location>
+					<Size>
+						<SizeW>491</SizeW>
+						<SizeH>169</SizeH>
+					</Size>
+					<NormalURL>11/img_transparentview_card.png</NormalURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_btn_hide</ID>
+					<Location>
+						<LocationX>1003</LocationX>
+						<LocationY>683</LocationY>
+					</Location>
+					<Size>
+						<SizeW>134</SizeW>
+						<SizeH>134</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/btn_hide_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/btn_hide_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL">11/btn_hide_normal.png</NormalURL>
+						<FocusURL skinid="skin_pressed_URL">11/btn_hide_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_selected_URL">11/btn_hide_selected.png</NormalURL>
+						<FocusURL skinid="skin_pressed_URL">11/btn_hide_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_focused_URL">11/btn_hide_focused.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_disabled_URL">11/btn_hide_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_btn_hide_mfc</ID>
+                    <Location>
+                        <LocationX>1003</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>134</SizeW>
+                        <SizeH>134</SizeH>
+                    </Size>
+					<TabOrder>
+						<TabV>3</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_hide_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_zoom_in</ID>
+					<Location>
+						<LocationX>1174</LocationX>
+						<LocationY>683</LocationY>
+					</Location>
+					<Size>
+						<SizeW>134</SizeW>
+						<SizeH>134</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/icn_zoom_in_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_zoom_in_mfc</ID>
+                    <Location>
+                        <LocationX>1174</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>134</SizeW>
+                        <SizeH>134</SizeH>
+                    </Size>
+					<TabOrder>
+						<TabV>3</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/icn_zoom_in_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_zoom_out</ID>
+					<Location>
+						<LocationX>1326</LocationX>
+						<LocationY>683</LocationY>
+					</Location>
+					<Size>
+						<SizeW>134</SizeW>
+						<SizeH>134</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL">11/icn_zoom_out_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_zoom_out_mfc</ID>
+                    <Location>
+                        <LocationX>1326</LocationX>
+                        <LocationY>683</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>134</SizeW>
+                        <SizeH>134</SizeH>
+                    </Size>
+					<TabOrder>
+						<TabV>3</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/icn_zoom_out_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+				</ImageWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>0</FocusInput>
+					<FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>1</FocusInput>
+					<FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

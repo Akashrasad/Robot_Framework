@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtual_controls_wake_screen_doors_and_windows</ScreenID>
+                <Name>ics_virtual_controls_wake_screen_doors_and_windows</Name>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_0_4_1_DoorWindowTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_wake_screen_doors_and_windows_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_settings_selector</ID>
+                    <Location var="var_loc_settings_icon"/>
+                    <Size var="var_size_icn_close"/>
+                    <NormalURL>11/btn_icn_settings_normal_medium.png</NormalURL>
+                    <FocusURL>11/btn_icn_settings_focused_medium.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_icn_settings_normal_medium.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_settings_focused_medium.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_settings_pressed_medium.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_icn_settings_selected_medium.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/btn_icn_settings_disabled_medium.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ListWidget var ="var_list_with_multi_row_buttons">
+                    <ListID>virtual_child_safety_list</ListID>
+                </ListWidget>
+                <ListWidget var ="var_three_rows_list">
+                    <ListID>virtual_list_liftgate</ListID>
+                </ListWidget>
+                <!--<LabelWidget var="wakescreen_exit_btn_txt">
+                    <ID>virtualcontrols_1_1_exitBtn_csm</ID>
+                </LabelWidget>-->
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

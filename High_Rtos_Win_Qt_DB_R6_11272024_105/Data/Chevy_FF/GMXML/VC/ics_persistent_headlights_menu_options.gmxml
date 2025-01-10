@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6226</ScreenID>
+				<Name>ics_persistent_headlights_menu_options</Name>
+				<ImageWidget>
+					<ID>img_persistent_controls_lights_headlights_bg</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>392</SizeW>
+						<SizeH>481</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/img_statusbar_notification_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_off</ID>
+					<Location>
+						<LocationX>256</LocationX>
+						<LocationY>14</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_image"/>
+					<NormalURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</NormalURL>
+					<FocusURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</NormalURL>
+						<FocusURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression="NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_off_transparent</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>3</LocationY>
+					</Location>
+					<Size>
+						<SizeW>250</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/headlights_menu_transparent.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_u_PersHeadlightsOff_csm</ID>
+					<Location>
+						<LocationX>28</LocationX>
+						<LocationY>14</LocationY>
+					</Location>
+					<Size>
+						<SizeW>194</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+					<Font var="var_font_headlight_pop_up_focused"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_headlight_pop_up_focused"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<Textwrap>1</Textwrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_auto</ID>
+					<Location>
+						<LocationX>256</LocationX>
+						<LocationY>133</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_image"/>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</NormalURL>
+						<FocusURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_auto_transparent</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>122</LocationY>
+					</Location>
+					<Size>
+						<SizeW>250</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/headlights_menu_transparent.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_u_PersHeadlightsAuto_csm</ID>
+					<Location>
+						<LocationX>28</LocationX>
+						<LocationY>133</LocationY>
+					</Location>
+					<Size>
+						<SizeW>194</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+					<Font var="var_font_headlight_pop_up_normal"/>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<Font var="var_font_headlight_pop_up_focused"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>
+					</SelectorState>
+					<Textwrap>1</Textwrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_parking</ID>
+					<Location>
+						<LocationX>256</LocationX>
+						<LocationY>256</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_image"/>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</NormalURL>
+						<FocusURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_headlight_parking</ID>
+					<Location>
+						<LocationX>128</LocationX>
+						<LocationY>256</LocationY>
+					</Location>
+					<Size>
+						<SizeW>94</SizeW>
+						<SizeH>94</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_normal.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_on</ID>
+					<Location>
+						<LocationX>256</LocationX>
+						<LocationY>375</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_image"/>
+					<NormalURL skinid="skin_normal_URL" compression="NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+					<FocusURL skinid="skin_selected_URL" compression="NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL  skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</NormalURL>
+						<FocusURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "NONE">11/icn_radio_button_normal_94_94.png</NormalURL>
+						<FocusURL skinid="skin_selected_URL" compression = "NONE">11/icn_radio_button_selected_94_94.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_headlight_on</ID>
+					<Location>
+						<LocationX>128</LocationX>
+						<LocationY>375</LocationY>
+					</Location>
+					<Size>
+						<SizeW>94</SizeW>
+						<SizeH>94</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/btn_icn_static_icon_lights_headlights_on_op_1_low_beam_selected.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_divider_parking</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>242</LocationY>
+					</Location>
+					<Size>
+						<SizeW>386</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/img_small_list_normal_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_divider_headlight</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>361</LocationY>
+					</Location>
+					<Size>
+						<SizeW>386</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/img_small_list_normal_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_On</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_divider_off</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>3</LocationY>
+					</Location>
+					<Size>
+						<SizeW>386</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/img_small_list_normal_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_divider_auto</ID>
+					<Location>
+						<LocationX>3</LocationX>
+						<LocationY>122</LocationY>
+					</Location>
+					<Size>
+						<SizeW>386</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL skinid="skin_normal_URL" compression = "NONE">11/img_small_list_normal_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

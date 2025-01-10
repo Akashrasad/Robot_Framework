@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6226</ScreenID>
+				<Name>ics_persistent_headlights_menu_options</Name>
+				<ImageWidget>
+					<ID>img_persistent_controls_lights_headlights_bg</ID>
+					<Location>
+						<LocationX>174</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1074</SizeW>
+						<SizeH>93</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/img_statusbar_notification_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_persistent_controls_lights_headlights</ID>
+                    <Location>
+                        <LocationX>177</LocationX>
+                        <LocationY>11</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH> 
+                    </Size>
+                    <NormalURL>11/btn_icn_sb_lights_headlights_normal.png</NormalURL>
+					<FocusURL>11/btn_icn_sb_lights_headlights_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Headlight_Bar_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_off</ID>
+					<Location>
+						<LocationX>272</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_off_transparent</ID>
+					<Location>
+						<LocationX>389</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+                        <SizeW>125</SizeW>
+                        <SizeH>117</SizeH>
+					</Size>
+					<NormalURL>11/headlights_menu_transparent.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_u_PersHeadlightsOff_csm</ID>
+					<Location>
+						<LocationX>389</LocationX>
+						<LocationY>34</LocationY>
+					</Location>
+					<Size>
+						<SizeW>125</SizeW>
+						<SizeH>49</SizeH>
+					</Size>
+					<Font var="var_font_headlight_pop_up_focused"/>				
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+						<Font var="var_font_headlight_pop_up_focused"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+					<Textwrap>1</Textwrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_auto</ID>
+					<Location>
+						<LocationX>514</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_auto_transparent</ID>
+					<Location>
+						<LocationX>631</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+                        <SizeW>125</SizeW>
+                        <SizeH>117</SizeH>
+					</Size>
+					<NormalURL>11/headlights_menu_transparent.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Auto</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_0_u_PersHeadlightsAuto_csm</ID>
+					<Location>
+						<LocationX>628</LocationX>
+						<LocationY>34</LocationY>
+					</Location>
+					<Size>
+						<SizeW>125</SizeW>
+						<SizeH>49</SizeH>
+					</Size>
+					<Font var="var_font_headlight_pop_up_normal"/>				
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<Font var="var_font_headlight_pop_up_focused"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+						<Font var="var_font_headlight_pop_up_normal"/>				
+                    </SelectorState>
+					<Textwrap>1</Textwrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_parking</ID>
+					<Location>
+						<LocationX>756</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_headlight_parking</ID>
+					<Location>
+						<LocationX>873</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+					<Size>
+						<SizeW>95</SizeW>
+						<SizeH>95</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_popup_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_popup_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_popup_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_poup_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_lights_headlights_parking_lights_popup_normal.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_Parking</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_headlight_on</ID>
+					<Location>
+						<LocationX>968</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_headlight_on</ID>
+					<Location>
+						<LocationX>1085</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+					<Size>
+						<SizeW>95</SizeW>
+						<SizeH>95</SizeH>
+					</Size>
+					<NormalURL compression = "CompressionAlias1">11/btn_lights_headlights_on_op_1_low_beam_popup_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_lights_headlights_on_op_1_low_beam_popup_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_lights_headlights_on_op_1_low_beam_popup_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_lights_headlights_on_op_1_low_beam_popup_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_lights_headlights_on_op_1_low_beam_popup_selected.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6156</ScreenID>
+                <Name>ics_camera_drive_forward_snackbar</Name>
+                <ImageWidget var="var_snackbar_feed_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <ImageWidget>                 
+                    <ID>img_camera_alert</ID>
+					<Location>
+                        <LocationX>57</LocationX>
+                        <LocationY>37</LocationY>
+                    </Location>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL>11/icn_alert_base.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>                
+                    <ID>safetysystems_4_1_2_DriveForward_csm</ID>
+                    <Font var="var_font_snackbar_txt"/>
+                    <Location var="var_loc_img_snackbar_txt"/>
+                    <Size var="var_size_snackbar_camera_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,9 @@
+{
+    "ConfigParameters": [
+    {
+        "OffScreenFlag":1,
+        "FPSFlag":0,
+        "VSync":0,
+        "DisplayAnimationsInfo":0
+    }]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8014</ScreenID>
+                <Name>ics_exit_button</Name>
+                <ImageWidget>
+                    <ID>img_exit</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>962</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>303</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <!-- <NormalURL compression="NONE">11/btn_vc_exit_bg_normal.png</NormalURL> -->
+                    <!-- <FocusURL compression="NONE">11/btn_vc_exit_bg_focused.png</FocusURL> -->
+                    <!-- <SelectorState> -->
+                        <!-- <DataValue>0</DataValue> -->
+                        <!-- <NormalURL compression="NONE">11/btn_vc_exit_bg_normal.png</NormalURL> -->
+                    <!-- </SelectorState> -->
+                    <!-- <SelectorState> -->
+                        <!-- <DataValue>1</DataValue> -->
+                        <!-- <NormalURL compression="NONE">11/btn_vc_exit_bg_focused.png</NormalURL> -->
+                    <!-- </SelectorState> -->
+                    <!-- <SelectorState> -->
+                        <!-- <DataValue>2</DataValue> -->
+                        <!-- <NormalURL compression="NONE">11/btn_vc_exit_bg_pressed.png</NormalURL> -->
+                    <!-- </SelectorState> -->
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_3_0_Exit_f_csm</ID>
+                    <Font var="var_font_exit"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>970</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>303</SizeW>
+                        <SizeH>65</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

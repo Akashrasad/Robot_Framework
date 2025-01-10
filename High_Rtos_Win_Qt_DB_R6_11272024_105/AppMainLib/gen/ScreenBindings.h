@@ -1,0 +1,342 @@
+// Copyright (C) GM Global Technology Operations LLC 2024.
+// All Rights Reserved.
+// GM Confidential Restricted.
+// 
+// Designed and Developed by Rampgroup, © 2024 People Tech Group all rights reserved.
+
+#ifndef SCREENBINDINGS_H
+#define SCREENBINDINGS_H
+
+#include "Screen_6001.h"
+#include "Screen_600101.h"
+#include "Screen_6002.h"
+#include "Screen_6004.h"
+#include "Screen_6005.h"
+#include "Screen_6006.h"
+#include "Screen_6007.h"
+#include "Screen_6008.h"
+#include "Screen_6009.h"
+#include "Screen_6010.h"
+#include "Screen_6012.h"
+#include "Screen_6013.h"
+#include "Screen_6014.h"
+#include "Screen_6015.h"
+#include "Screen_6016.h"
+#include "Screen_6017.h"
+#include "Screen_6019.h"
+#include "Screen_6020.h"
+#include "Screen_6021.h"
+#include "Screen_6022.h"
+#include "Screen_6023.h"
+#include "Screen_6024.h"
+#include "Screen_6025.h"
+#include "Screen_6026.h"
+#include "Screen_6027.h"
+#include "Screen_6028.h"
+#include "Screen_6029.h"
+#include "Screen_6030.h"
+#include "Screen_6031.h"
+#include "Screen_6032.h"
+#include "Screen_6033.h"
+#include "Screen_6034.h"
+#include "Screen_6035.h"
+#include "Screen_6041.h"
+#include "Screen_6042.h"
+#include "Screen_6059.h"
+#include "Screen_6074.h"
+#include "Screen_6076.h"
+#include "Screen_6077.h"
+#include "Screen_6078.h"
+#include "Screen_6085.h"
+#include "Screen_6086.h"
+#include "Screen_6087.h"
+#include "Screen_6089.h"
+#include "Screen_6090.h"
+#include "Screen_6091.h"
+#include "Screen_6092.h"
+#include "Screen_6094.h"
+#include "Screen_6097.h"
+#include "Screen_6099.h"
+#include "Screen_6100.h"
+#include "Screen_6101.h"
+#include "Screen_6110.h"
+#include "Screen_6112.h"
+#include "Screen_6113.h"
+#include "Screen_6114.h"
+#include "Screen_6115.h"
+#include "Screen_6116.h"
+#include "Screen_6119.h"
+#include "Screen_6120.h"
+#include "Screen_6121.h"
+#include "Screen_6122.h"
+#include "Screen_6124.h"
+#include "Screen_6126.h"
+#include "Screen_6127.h"
+#include "Screen_6128.h"
+#include "Screen_6129.h"
+#include "Screen_6130.h"
+#include "Screen_6132.h"
+#include "Screen_6133.h"
+#include "Screen_6134.h"
+#include "Screen_6136.h"
+#include "Screen_6137.h"
+#include "Screen_6138.h"
+#include "Screen_6141.h"
+#include "Screen_6150.h"
+#include "Screen_6159.h"
+#include "Screen_6160.h"
+#include "Screen_6161.h"
+#include "Screen_6162.h"
+#include "Screen_6163.h"
+#include "Screen_6165.h"
+#include "Screen_6166.h"
+#include "Screen_6170.h"
+#include "Screen_6226.h"
+#include "Screen_7001.h"
+#include "Screen_7002.h"
+#include "Screen_7003.h"
+#include "Screen_7004.h"
+#include "Screen_7005.h"
+#include "Screen_7006.h"
+#include "Screen_7007.h"
+#include "Screen_7008.h"
+#include "Screen_7009.h"
+#include "Screen_7010.h"
+#include "Screen_7011.h"
+#include "Screen_7012.h"
+#include "Screen_7013.h"
+#include "Screen_7014.h"
+#include "Screen_7015.h"
+#include "Screen_7022.h"
+#include "Screen_7024.h"
+#include "Screen_7025.h"
+#include "Screen_7026.h"
+#include "Screen_7027.h"
+#include "Screen_7028.h"
+#include "Screen_7029.h"
+#include "Screen_7030.h"
+#include "Screen_7031.h"
+#include "Screen_7032.h"
+#include "Screen_7033.h"
+#include "Screen_7034.h"
+#include "Screen_7035.h"
+#include "Screen_7036.h"
+#include "Screen_7037.h"
+#include "Screen_7038.h"
+#include "Screen_7039.h"
+#include "Screen_7040.h"
+#include "Screen_7050.h"
+#include "Screen_7072.h"
+#include "Screen_8001.h"
+#include "Screen_8002.h"
+#include "Screen_8003.h"
+#include "Screen_8004.h"
+#include "Screen_8005.h"
+#include "Screen_8008.h"
+#include "Screen_8009.h"
+#include "Screen_8010.h"
+#include "Screen_8012.h"
+#include "Screen_8013.h"
+#include "Screen_8014.h"
+#include "Screen_8015.h"
+#include "Screen_8016.h"
+#include "Screen_8017.h"
+#include "Screen_8027.h"
+#include "Screen_8029.h"
+#include "Screen_8030.h"
+#include "Screen_8031.h"
+#include "Screen_8032.h"
+#include "Screen_8034.h"
+#include "Screen_9001.h"
+#include "Screen_9002.h"
+#include "Screen_9005.h"
+#include "Screen_9011.h"
+#include "Screen_9025.h"
+#include "Screen_9026.h"
+#include "Screen_9027.h"
+#include "Screen_9028.h"
+#include "Screen_9029.h"
+#include "Screen_9030.h"
+#include "Screen_9031.h"
+#include "Screen_9032.h"
+#include "Screen_9073.h"
+
+// parasoft-begin-suppress AUTOSAR-M0_1_3-c "Member Variable Constructor has a self registration mechanism and destructor has un-registration mechanism".
+namespace gm
+{
+namespace csm
+{
+
+
+class ScreenBindings final
+{
+    public:
+    ScreenBindings() noexcept;
+    private:
+    	 Screen_6001 mScreen_6001{"6001"};
+    	 Screen_9025 mScreen_9033{"9033"};
+    	 Screen_9026 mScreen_9034{"9034"};
+    	 Screen_9027 mScreen_9035{"9035"};
+    	 Screen_9028 mScreen_9036{"9036"};
+    	 Screen_9029 mScreen_9037{"9037"};
+    	 Screen_9030 mScreen_9038{"9038"};
+    	 Screen_9031 mScreen_9039{"9039"};
+    	 Screen_9032 mScreen_9040{"9040"};
+    	Screen_600101 mScreen_600101{"600101"};
+    	Screen_6002 mScreen_6002{"6002"};
+    	Screen_6004 mScreen_6004{"6004"};
+    	Screen_6005 mScreen_6005{"6005"};
+    	Screen_6006 mScreen_6006{"6006"};
+    	Screen_6007 mScreen_6007{"6007"};
+    	Screen_6008 mScreen_6008{"6008"};
+    	Screen_6009 mScreen_6009{"6009"};
+    	Screen_6010 mScreen_6010{"6010"};
+    	Screen_6012 mScreen_6012{"6012"};
+    	Screen_6013 mScreen_6013{"6013"};
+    	Screen_6014 mScreen_6014{"6014"};
+    	Screen_6015 mScreen_6015{"6015"};
+    	Screen_6016 mScreen_6016{"6016"};
+    	Screen_6017 mScreen_6017{"6017"};
+    	Screen_6019 mScreen_6019{"6019"};
+    	Screen_6020 mScreen_6020{"6020"};
+    	Screen_6021 mScreen_6021{"6021"};
+    	Screen_6022 mScreen_6022{"6022"};
+    	Screen_6023 mScreen_6023{"6023"};
+    	Screen_6024 mScreen_6024{"6024"};
+    	Screen_6025 mScreen_6025{"6025"};
+    	Screen_6026 mScreen_6026{"6026"};
+    	Screen_6027 mScreen_6027{"6027"};
+    	Screen_6028 mScreen_6028{"6028"};
+    	Screen_6029 mScreen_6029{"6029"};
+    	Screen_6030 mScreen_6030{"6030"};
+    	Screen_6031 mScreen_6031{"6031"};
+    	Screen_6032 mScreen_6032{"6032"};
+    	Screen_6033 mScreen_6033{"6033"};
+    	Screen_6034 mScreen_6034{"6034"};
+    	Screen_6035 mScreen_6035{"6035"};
+    	Screen_6041 mScreen_6041{"6041"};
+    	Screen_6042 mScreen_6042{"6042"};
+    	Screen_6059 mScreen_6059{"6059"};
+    	Screen_6074 mScreen_6074{"6074"};
+    	Screen_6076 mScreen_6076{"6076"};
+    	Screen_6077 mScreen_6077{"6077"};
+    	Screen_6078 mScreen_6078{"6078"};
+    	Screen_6085 mScreen_6085{"6085"};
+    	Screen_6086 mScreen_6086{"6086"};
+    	Screen_6087 mScreen_6087{"6087"};
+    	Screen_6089 mScreen_6089{"6089"};
+    	Screen_6090 mScreen_6090{"6090"};
+    	Screen_6091 mScreen_6091{"6091"};
+    	Screen_6092 mScreen_6092{"6092"};
+    	Screen_6094 mScreen_6094{"6094"};
+    	Screen_6097 mScreen_6097{"6097"};
+    	Screen_6099 mScreen_6099{"6099"};
+    	Screen_6100 mScreen_6100{"6100"};
+    	Screen_6101 mScreen_6101{"6101"};
+    	Screen_6110 mScreen_6110{"6110"};
+    	Screen_6112 mScreen_6112{"6112"};
+    	Screen_6113 mScreen_6113{"6113"};
+    	Screen_6114 mScreen_6114{"6114"};
+    	Screen_6115 mScreen_6115{"6115"};
+    	Screen_6116 mScreen_6116{"6116"};
+    	Screen_6119 mScreen_6119{"6119"};
+    	Screen_6120 mScreen_6120{"6120"};
+    	Screen_6121 mScreen_6121{"6121"};
+    	Screen_6122 mScreen_6122{"6122"};
+    	Screen_6124 mScreen_6124{"6124"};
+    	Screen_6126 mScreen_6126{"6126"};
+    	Screen_6127 mScreen_6127{"6127"};
+    	Screen_6128 mScreen_6128{"6128"};
+    	Screen_6129 mScreen_6129{"6129"};
+    	Screen_6130 mScreen_6130{"6130"};
+    	Screen_6132 mScreen_6132{"6132"};
+    	Screen_6133 mScreen_6133{"6133"};
+    	Screen_6134 mScreen_6134{"6134"};
+    	Screen_6136 mScreen_6136{"6136"};
+    	Screen_6137 mScreen_6137{"6137"};
+    	Screen_6138 mScreen_6138{"6138"};
+    	Screen_6141 mScreen_6141{"6141"};
+    	Screen_6150 mScreen_6150{"6150"};
+    	Screen_6159 mScreen_6159{"6159"};
+    	Screen_6160 mScreen_6160{"6160"};
+    	Screen_6161 mScreen_6161{"6161"};
+    	Screen_6162 mScreen_6162{"6162"};
+    	Screen_6163 mScreen_6163{"6163"};
+    	Screen_6165 mScreen_6165{"6165"};
+    	Screen_6166 mScreen_6166{"6166"};
+    	Screen_6170 mScreen_6170{"6170"};
+    	Screen_6226 mScreen_6226{"6226"};
+    	Screen_7001 mScreen_7001{"7001"};
+    	Screen_7002 mScreen_7002{"7002"};
+    	Screen_7003 mScreen_7003{"7003"};
+    	Screen_7004 mScreen_7004{"7004"};
+    	Screen_7005 mScreen_7005{"7005"};
+    	Screen_7006 mScreen_7006{"7006"};
+    	Screen_7007 mScreen_7007{"7007"};
+    	Screen_7008 mScreen_7008{"7008"};
+    	Screen_7009 mScreen_7009{"7009"};
+    	Screen_7010 mScreen_7010{"7010"};
+    	Screen_7011 mScreen_7011{"7011"};
+    	Screen_7012 mScreen_7012{"7012"};
+    	Screen_7013 mScreen_7013{"7013"};
+    	Screen_7014 mScreen_7014{"7014"};
+    	Screen_7015 mScreen_7015{"7015"};
+    	Screen_7022 mScreen_7022{"7022"};
+    	Screen_7024 mScreen_7024{"7024"};
+    	Screen_7025 mScreen_7025{"7025"};
+    	Screen_7026 mScreen_7026{"7026"};
+    	Screen_7027 mScreen_7027{"7027"};
+    	Screen_7028 mScreen_7028{"7028"};
+    	Screen_7029 mScreen_7029{"7029"};
+    	Screen_7030 mScreen_7030{"7030"};
+    	Screen_7031 mScreen_7031{"7031"};
+    	Screen_7032 mScreen_7032{"7032"};
+    	Screen_7033 mScreen_7033{"7033"};
+    	Screen_7034 mScreen_7034{"7034"};
+    	Screen_7035 mScreen_7035{"7035"};
+    	Screen_7036 mScreen_7036{"7036"};
+    	Screen_7037 mScreen_7037{"7037"};
+    	Screen_7038 mScreen_7038{"7038"};
+    	Screen_7039 mScreen_7039{"7039"};
+    	Screen_7040 mScreen_7040{"7040"};
+    	Screen_7050 mScreen_7050{"7050"};
+    	Screen_7072 mScreen_7072{"7072"};
+    	Screen_8001 mScreen_8001{"8001"};
+    	Screen_8002 mScreen_8002{"8002"};
+    	Screen_8003 mScreen_8003{"8003"};
+    	Screen_8004 mScreen_8004{"8004"};
+    	Screen_8005 mScreen_8005{"8005"};
+    	Screen_8008 mScreen_8008{"8008"};
+    	Screen_8009 mScreen_8009{"8009"};
+    	Screen_8010 mScreen_8010{"8010"};
+    	Screen_8012 mScreen_8012{"8012"};
+    	Screen_8013 mScreen_8013{"8013"};
+    	Screen_8014 mScreen_8014{"8014"};
+    	Screen_8015 mScreen_8015{"8015"};
+    	Screen_8016 mScreen_8016{"8016"};
+    	Screen_8017 mScreen_8017{"8017"};
+    	Screen_8027 mScreen_8027{"8027"};
+    	Screen_8029 mScreen_8029{"8029"};
+    	Screen_8030 mScreen_8030{"8030"};
+    	Screen_8031 mScreen_8031{"8031"};
+    	Screen_8032 mScreen_8032{"8032"};
+    	Screen_8034 mScreen_8034{"8034"};
+    	Screen_9001 mScreen_9001{"9001"};
+    	Screen_9002 mScreen_9002{"9002"};
+    	Screen_9005 mScreen_9005{"9005"};
+    	Screen_9011 mScreen_9011{"9011"};
+    	Screen_9025 mScreen_9025{"9025"};
+    	Screen_9026 mScreen_9026{"9026"};
+    	Screen_9027 mScreen_9027{"9027"};
+    	Screen_9028 mScreen_9028{"9028"};
+    	Screen_9029 mScreen_9029{"9029"};
+    	Screen_9030 mScreen_9030{"9030"};
+    	Screen_9031 mScreen_9031{"9031"};
+    	Screen_9032 mScreen_9032{"9032"};
+    	Screen_9073 mScreen_9073{"9073"};
+};
+} // namespace csm
+} // namespace gm
+// parasoft-end-suppress AUTOSAR-M0_1_3-c
+
+#endif // SCREENBINDINGS_H

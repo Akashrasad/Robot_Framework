@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6098</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget>
+					<ID>img_notification_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size>
+						<SizeW>1578</SizeW>
+						<SizeH>317</SizeH>
+					</Size>
+					<NormalURL>11/img_notification_3lines_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_7_V_ExtendSnackbar_csm</ID>
+					<Location>
+						<LocationX>50</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1128</SizeW>
+						<SizeH>317</SizeH>
+					</Size>
+					<Font var="var_font_snackbar_txt"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+				<GroupWidget>
+					<ID>grp_dismiss_btn</ID>
+					<Location>
+						<LocationX>1228</LocationX>
+						<LocationY>100</LocationY>
+					</Location>
+					<Size>
+						<SizeW>300</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_dismiss_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_settings_button"/>
+						<ZOrder>3</ZOrder>
+						<NormalURL skinid="skin_primary_btn_normal_URL">11/btn_teritary_bg_normal.png</NormalURL>
+						<FocusURL skinid="skin_primary_btn_pressed_URL">11/btn_teritary_bg_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL skinid="skin_primary_btn_normal_URL">11/btn_teritary_bg_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL skinid="skin_primary_btn_pressed_URL">11/btn_teritary_bg_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL skinid="skin_primary_btn_selected_URL">11/btn_teritary_bg_selected.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_7_V_ExtendSnackbarDismiss_csm</ID>
+						<Font var="var_font_set_level_txt_normal"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>300</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1200</LocationX>
+						<LocationY>83</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>151</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias">11/img_vertical_large_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

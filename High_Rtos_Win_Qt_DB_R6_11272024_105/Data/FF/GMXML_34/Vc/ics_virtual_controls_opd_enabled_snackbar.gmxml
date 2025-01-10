@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6089</ScreenID>
+                <Name>ics_virtual_controls_opd_enabled_snackbar</Name>
+				<ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2lines_txt">
+					<ID>virtualcontrols_0_0_1_f_snackbar_csm</ID>
+					<Size>
+					    <SizeW>1460</SizeW>
+					</Size>
+				</LabelWidget>
+				<ImageWidget>
+                 <ID>img_setlevel_mfc</ID>
+                 <TabOrder>
+                  <TabV>1</TabV>
+                  <TabH>1</TabH>
+                 </TabOrder>
+               <Location>
+                 <LocationX>1605</LocationX>
+                 <LocationY>51</LocationY>
+               </Location>
+               <Size>
+                  <SizeW>523</SizeW>
+                  <SizeH>184</SizeH>
+                </Size>
+               <Alpha>100</Alpha>
+               <ZOrder>2</ZOrder>
+               <FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_bg_tertiary_focused.png</FocusURL>
+			   <InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_OnePedalSetting</WidgetCallback>
+					</InputWidgetMapping>
+               </ImageWidget>
+				<GroupWidget>
+					<ID>grp_settings_button</ID>
+					<Location>
+						<LocationX>1605</LocationX>
+						<LocationY>51</LocationY>
+					</Location>
+					<Size var="var_size_settings_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_settings_button</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_settings_button"/>
+						<NormalURL compression="NONE" skinid="skin_primary_btn_normal_URL">11/btn_bg_tertiary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_bg_tertiary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_0_0_1F_SetLevel_csm</ID>
+						<Font var="var_font_btn_txt_secondary_normal"/>
+						<FocusFont var="var_font_btn_txt_secondary_pressed">
+							<Size>59</Size>
+						</FocusFont>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_settings_button"/>
+						<ZOrder>3</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_OnePedalSetting</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1600</LocationX>
+						<LocationY>75</LocationY>
+					</Location>
+					<Size>
+						<SizeW>4</SizeW>
+						<SizeH>132</SizeH>
+					</Size>
+					<NormalURL skinid="skin_list_normal_URL">11/img_vertical_small_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>	
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

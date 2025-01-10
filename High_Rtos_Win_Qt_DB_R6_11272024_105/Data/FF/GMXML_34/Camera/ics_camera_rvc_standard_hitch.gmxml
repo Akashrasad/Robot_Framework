@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8005</ScreenID>
+                <Name>ics_camera_rvc_standard_hitch</Name>
+				<ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+			   <ImageWidget var="img_icn_cameraerror">
+                    <ID>img_icn_cameraerror</ID>
+               </ImageWidget>
+			   <ImageWidget var="img_camera_error_icon">
+                    <ID>img_icn_camera_error</ID>
+               </ImageWidget>
+                <RVCGuideLinesWidget>
+                    <ID>img_rvc_widget</ID>
+					<Location var="var_loc_img_rvc_widget_icon"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+                    <Location>
+							<LocationX>1855</LocationX>
+							<LocationY>399</LocationY>
+                    </Location>
+					</LayoutOverride>
+					<Size var="var_size_img_rvc_widget_img"/>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </RVCGuideLinesWidget>
+				<ImageWidget var="img_guideliness_view">
+                    <ID>img_guideliness_view</ID>
+					<LayoutOverride>
+						<ID>RHD</ID>
+                    <Location>
+							<LocationX>820</LocationX>
+							<LocationY>192</LocationY>
+                    </Location>
+					</LayoutOverride>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_guideliness_view_mfc</ID>
+					<Location>
+						<LocationX>444</LocationX>
+						<LocationY>94</LocationY>
+					</Location>
+					<Size>
+						<SizeW>320</SizeW>
+						<SizeH>181</SizeH>
+					</Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+					<LayoutOverride>
+						<ID>RHD</ID>
+                    <Location>
+						<LocationX>820</LocationX>
+						<LocationY>192</LocationY>
+                    </Location>
+					</LayoutOverride>
+					<FocusURL skinid="skin_camera_focused_URL">11/icn_guideline_view_small_focused.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping>					
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_hitch_zoom</ID>
+                    <Location>
+                        <LocationX>444</LocationX>
+                        <LocationY>275</LocationY>
+                    </Location>
+					<LayoutOverride>
+					<ID>RHD</ID>
+					  <Location>
+						<LocationX>820</LocationX>
+						<LocationY>373</LocationY>
+					  </Location>
+					</LayoutOverride>
+                    <Size>
+                        <SizeW>320</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/icn_hitch_view_small_normal.png</NormalURL> 
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/icn_hitch_view_small_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HitchZoom</WidgetCallback>
+                    </InputWidgetMapping>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/icn_hitch_view_small_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/icn_hitch_view_small_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_selected_URL">11/icn_hitch_view_small_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/icn_hitch_view_small_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/icn_hitch_view_small_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/icn_hitch_view_small_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/icn_hitch_view_small_latched_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_hitch_zoom_mfc</ID>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>3</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>444</LocationX>
+                        <LocationY>275</LocationY>
+                    </Location>
+					<LayoutOverride>
+					<ID>RHD</ID>
+					  <Location>
+						<LocationX>820</LocationX>
+						<LocationY>373</LocationY>
+					  </Location>
+					</LayoutOverride>
+                    <Size>
+                        <SizeW>320</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                     <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/icn_hitch_view_small_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_HitchZoom</WidgetCallback> 
+					</InputWidgetMapping> 
+                </ImageWidget>
+				<ImageWidget var="img_exit_btn_camera_apa">
+					<ID>img_exit_camera</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				 <LabelWidget var="exit_btn_txt_apa_cam">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+			    </LabelWidget>
+				<ImageWidget var="img_exit_btn_camera_apa_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

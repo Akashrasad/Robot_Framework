@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_camera_ctt_trailer_snackbars</ViewID>
+			<Size>
+				<SizeW>1462</SizeW>
+				<SizeH>279</SizeH>
+			</Size>
+			<Location>
+				<LocationX>146</LocationX>
+				<LocationY>486</LocationY>
+			</Location>
+			<ZOrder var="var_zorder_notification_view"/>
+			<camera>
+				<Screen load="ics_camera_transparent_trailer_unable"/>
+				<Screen load="ics_camera_transparent_trailer_driveforward"/>
+				<Screen load="ics_camera_transparent_trailer_highspeed"/>
+				<Screen load="ics_camera_transparent_trailer_no_straight"/>		
+			</camera>
+		</View>
+	</Display>
+</GMXML>

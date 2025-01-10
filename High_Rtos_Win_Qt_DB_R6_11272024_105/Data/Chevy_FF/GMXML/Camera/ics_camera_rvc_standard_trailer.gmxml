@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8002</ScreenID>
+                <Name>ics_camera_rvc_standard_trailer</Name>
+                <ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+                <RVCGuideLinesWidget>
+                    <ID>img_rvc_widget</ID>
+                    <Location>
+                        <LocationX>1052</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1421</SizeW>
+                        <SizeH>574</SizeH>
+                    </Size>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </RVCGuideLinesWidget>
+                <ImageWidget>
+                    <ID>img_guideliness_view</ID>
+                    <Location>
+                        <LocationX>33</LocationX>
+                        <LocationY>197</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>156</SizeW>
+                        <SizeH>142</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+                    <NormalURL compression = "CompressionAlias5" skinid="skin_camera_normal_URL">11/icn_guideline_view_small_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias12" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping> 
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias5" skinid="skin_camera_normal_URL">11/icn_guideline_view_small_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias12" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_selected_URL">11/icn_guideline_view_small_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias12" skinid="skin_camera_disabled_URL">11/icn_guideline_view_small_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias12" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_trailer_assist</ID>
+                    <Location>
+                        <LocationX>33</LocationX>
+                        <LocationY>339</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>156</SizeW>
+                        <SizeH>142</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>2</TabH>
+                    </TabOrder>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/icn_trailer_view_small_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_TrailerGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_TrailerGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping> 
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/icn_trailer_view_small_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_selected_URL">11/icn_trailer_view_small_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL skinid="skin_camera_disabled_URL">11/icn_trailer_view_small_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <GroupWidget>
+					<ID>grp_img_exit</ID>
+					<Location>
+                        <LocationX>47</LocationX>
+                        <LocationY>44</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_exit_btn">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

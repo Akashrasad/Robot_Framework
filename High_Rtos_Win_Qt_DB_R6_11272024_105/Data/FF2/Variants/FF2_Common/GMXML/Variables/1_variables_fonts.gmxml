@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+    <Font id="var_font_title" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_park_left_perp_label" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_btn_tab_one_normal" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_tab_one_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_btn_tab_one_focused" skinid="skin_font_selected_35">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>1,212,250</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_perp_right_instr_txt1" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_perp_right_instr_txt" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>171,171,171</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_focused" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>252,252,252</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>171,171,171</Color> 
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_focused" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>252,252,252</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_camera_view_dynamic_messaging" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_snackbar_txt" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_smart_controls" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_smart_controls_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_normal" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_secondary_button_normal" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>171,171,171</Color>
+             <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_emergency_txt">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>92</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,85,79</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_power_button_normal" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>252,252,252</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_pin" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>68</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_keypad_normal" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_toomanyattempts" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+		<Font id="var_font_keypad_disable" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_facotry_txt" skinid="skin_font_pressed">
+			<Name>GMSUICadillacGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+		</Font>
+		<Font id="var_font_front_txt" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>40</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>171,171,171</Color>
+			<TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+		 </Font>
+		 <!-- Variables cleanup -->
+		 <Font id="var_font_snackbar_2line_txt" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_normal" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_focused" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_change_selection_txt" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_settings_txt" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>58</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_yes_button_selected" skinid="skin_font_selected_35">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>1,212,250</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keep_looking_button_selected" skinid="skin_font_selected_35">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>1,212,250</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_secondary_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_btn_tab_one_disabled" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_settings_txt_disabled" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_change_selection_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_exit_btn_normal" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_exit_btn_pressed" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_aos_teltale" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-CondLight</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>1</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_aos_teltale_off">
+            <Name>GMSUICadillacGlobal-CondRegular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>251,175,33</Color>
+            <TextDirection/>
+        </Font>
+		<Font id="var_font_aos_teltale_on">
+            <Name>GMSUICadillacGlobal-CondRegular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>0,0,0</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_exit">
+            <Name>GMSansUI-Regular</Name>
+            <Size>49</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>0,0,0</Color>
+            <TextDirection />
+        </Font>
+		<Font id="var_font_high_temp" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_hmi_factory" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>50</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_recoverymode_txt" skinid="skin_font_pressed">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>36</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_tabs_selected_txt" skinid="skin_font_selected_35">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>1,212,250</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_tabs_pressed_txt" skinid="skin_pressed_URL">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_tabs_normal_txt" skinid="skin_font_normal">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>171,171,171</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_tabs_disabled_txt" skinid="skin_font_disabled">
+            <Name>GMSUICadillacGlobal-Light</Name>
+            <Size>46</Size>
+			<Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>100,100,100</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+    </Variables>
+</GMXML>

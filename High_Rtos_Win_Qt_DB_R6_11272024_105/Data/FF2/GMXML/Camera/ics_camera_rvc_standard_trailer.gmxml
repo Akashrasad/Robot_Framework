@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8002</ScreenID>
+                <Name>ics_camera_rvc_standard_trailer</Name>
+				<ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL compression="NONE">11/img_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                 <RVCGuideLinesWidget>
+                    <ID>img_rvc_widget</ID>
+                    <Location>
+                        <LocationX>1461</LocationX>
+                        <LocationY>352</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1088</SizeW>
+                        <SizeH>469</SizeH>
+                    </Size>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </RVCGuideLinesWidget> 
+                <ImageWidget>
+                    <ID>img_guideliness_view</ID>
+                     <Location>
+                        <LocationX>288</LocationX>
+                        <LocationY>128</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>247</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+                    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_guides_normal.png</NormalURL>
+                    <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_guides_normal.png</NormalURL>
+                        <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_rvc_guides_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_guides_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_guides_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                  <ID>img_guideliness_view_mfc</ID>
+					  <Location>
+                        <LocationX>288</LocationX>
+                        <LocationY>128</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>247</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+					<FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_guides_focused.png</FocusURL>
+					<InputWidgetMapping> 
+					<UserInput>RotarySelectReleased</UserInput> 
+					<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				 </ImageWidget>
+                <ImageWidget>
+                    <ID>img_trailer_assist</ID>
+                    <Location>
+                        <LocationX>284</LocationX>
+                        <LocationY>264</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>244</SizeW>
+                        <SizeH>138</SizeH>
+                    </Size>
+                    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_trailer_normal.png</NormalURL>
+                    <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_trailer_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_trailer_normal.png</NormalURL>
+                        <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_trailer_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_rvc_trailer_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_trailer_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_trailer_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_TrailerGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_trailer_assist_mfc</ID>
+                    <Location>
+                        <LocationX>284</LocationX>
+                        <LocationY>264</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>244</SizeW>
+                        <SizeH>138</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>2</TabH>
+                    </TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_trailer_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_TrailerGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping> 
+				</ImageWidget>
+                <ImageWidget>
+                    <ID>img_rvc_park_assist</ID>
+                    <Location>
+                        <LocationX>284</LocationX>
+                        <LocationY>402</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>247</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+                    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_parkassist_normal.png</NormalURL> 
+                    <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_parkassist_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_rvc_parkassist_normal.png</NormalURL>
+                        <FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_parkassist_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_rvc_parkassist_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_parkassist_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_rvc_parkassist_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_RVC_ParkAssist_ToggleButton</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_rvc_park_assist_mfc</ID>
+                    <Location>
+                        <LocationX>284</LocationX>
+                        <LocationY>402</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>247</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>3</TabH>
+                    </TabOrder>
+                    <FocusURL compression="NONE" skinid="skin_focused_URL">11/btn_rvc_parkassist_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_RVC_ParkAssist_ToggleButton</WidgetCallback> 
+					</InputWidgetMapping> 
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>dyn_safetysystems_7_3_ParkAssistOff_f_csm</ID>
+                    <Font var="var_font_yes_button"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>971</LocationX>
+                        <LocationY>850</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1584</SizeW>
+                        <SizeH>60</SizeH>
+                    </Size>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>safetysystems_7_3_ParkAssistOff_f_csm</StaticValue>
+                        <Font var="var_font_yes_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>safetysystems_7_3_ParkAssistOn_f_csm</StaticValue>
+                        <Font var="var_font_yes_button"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

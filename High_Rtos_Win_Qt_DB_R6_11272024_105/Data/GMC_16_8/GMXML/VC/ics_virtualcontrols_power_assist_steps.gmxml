@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6163</ScreenID>
+				<Name>ics_virtualcontrols_power_assist_steps</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+					<ID>img_btn_back</ID>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>                    
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_0_h_powerAssistSteps_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_power_assist_close</ID>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_1strow_radio_btn">
+					<ID>img_radio_btn_power_assist_off</ID>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_Off</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="1strow_radio_btn_txt">
+					<ID>virtualcontrols_1_9_g_stepsOff_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_1strow_radio_btn_divider">
+					<ID>img_power_assist_off_divider</ID>
+					 <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_Off</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_2ndrow_radio_btn">
+					<ID>img_radio_btn_power_assist_on</ID>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_radio_button_normal_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+						<FocusURL>11/icn_radio_button_normal_large.png</FocusURL>
+					</SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_On</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="2ndrow_radio_btn_txt">
+					<ID>virtualcontrols_1_9_g_stepsOn_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_2ndrow_radio_btn_divider">
+					<ID>img_power_assist_on_divider</ID>
+					 <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_On</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_power_assist</ID>
+					<Location var="var_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression="CompressionAlias3">11/controls_icn_power_assist_steps_normal.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/controls_icn_power_assist_steps_suv_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/controls_icn_power_assist_steps_truck_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/controls_icn_power_assist_steps_crossover_normal.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_radio_button_description_text_vc">
+					<ID>virtualcontrols_1_9h_powerAssistSteps_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_deploy_btn</ID>
+					<Location var="var_loc_test_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_deploy_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_primary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_9_h_stepsDeploy_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_primary_button_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_Deploy</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_stow_btn</ID>
+					<Location var="var_loc_it_didnot_work_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_stow_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_primary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_9_h_stepsStow_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_primary_button_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PowerAssist_Stow</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

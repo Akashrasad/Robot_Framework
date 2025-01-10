@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>70000</ScreenID>
+                <Name>ics_development_home</Name>
+                <ImageWidget>
+                    <ID>img_dev_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                    <NormalURL>11/ics_dev_bg_2000_974.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_dev_status_bg</ID>
+                    <Location>
+						<LocationX>185</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>1815</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <NormalURL>11/ics_dev_status_bg.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_bell_red_dot</ID>
+                    <Location>
+						<LocationX>185</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <NormalURL>11/btn_notification_bell_red_dot_normal.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_bell_red_dot2</ID>
+                    <Location>
+						<LocationX>385</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <NormalURL>11/btn_icn_voc_opd_normal.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_bell_red_dot3</ID>
+                    <Location>
+						<LocationX>485</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <NormalURL>11/btn_icn_vehicle_off_normal.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_bell_red_dot4</ID>
+                    <Location>
+						<LocationX>585</LocationX>
+						<LocationY>11</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <NormalURL>11/icn_right_normal_small.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>audio_4_1_3_1_soundMode_driver_csm</ID>
+                    <Location>
+                        <LocationX>685</LocationX>
+                        <LocationY>32</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>143</SizeW>
+                        <SizeH>55</SizeH>
+                    </Size>
+                   <Font>
+                     <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+                     <Size>44</Size>
+                     <TextAlign>0</TextAlign>
+                  <Color>255,255,255</Color>
+                  </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_apptray_vertical</ID>
+                    <Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+                    <Size>
+                        <SizeW>185</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <FocusURL/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <NormalURL>11/apptary_vertical_bg.png</NormalURL>
+                    <FocusURL/>
+                </ImageWidget>
+                <GroupWidget>
+					<ID>dev_home_icon_1</ID>
+					<Location>
+						<LocationX>248</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_1_1_APA_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_2</ID>
+					<Location>
+						<LocationX>589</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_2</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_0_Camera_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_Camera</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_3</ID>
+					<Location>
+						<LocationX>929</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_3</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_0_0_home_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_4</ID>
+					<Location>
+						<LocationX>1270</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_4</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_Climate_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_5</ID>
+					<Location>
+						<LocationX>1610</LocationX>
+						<LocationY>158</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_5</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_AndroidAuto_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_6</ID>
+					<Location>
+						<LocationX>248</LocationX>
+						<LocationY>512</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_6</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_AppleCarPlay_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_7</ID>
+					<Location>
+						<LocationX>589</LocationX>
+						<LocationY>512</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<ImageElements>
+					<ID>img_home_icon_7</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_GoogleAssistant_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_8</ID>
+					<Location>
+						<LocationX>929</LocationX>
+						<LocationY>512</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_8</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_VideoPlayer_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_9</ID>
+					<Location>
+						<LocationX>1270</LocationX>
+						<LocationY>512</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_9</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_1_Energy_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>dev_home_icon_10</ID>
+					<Location>
+						<LocationX>1610</LocationX>
+						<LocationY>512</LocationY>
+					</Location>
+					<Size var="var_size_card_door_window_placeholder"/>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+				<ImageElements>
+					<ID>img_home_icon_10</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_card_door_window_placeholder"/>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias3">11/img_home_card_vehiclesettings_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias11">11/img_home_card_vehiclesettings_disabled.png</NormalURL>
+					</SelectorState>
+						<ZOrder>10</ZOrder>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>home_1_0_Settings_csm</ID>
+                    <Font var="var_font_card_controls_doors_windows_placeholder_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_card_controls_doors_windows_placeholder_txt"/>
+                    <Size var="var_size_home_card_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home_VirtCtrl</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

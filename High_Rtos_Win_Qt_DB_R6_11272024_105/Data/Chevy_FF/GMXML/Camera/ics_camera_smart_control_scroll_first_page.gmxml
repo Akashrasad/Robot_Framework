@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8020</ScreenID>
+				<Name>ics_camera_smart_control_scroll_first_page</Name>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_2</ID>
+					<Location var="var_loc_ugdo_icon_0"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="NONE" >11/dummy_119.png</NormalURL>
+					<FocusURL compression="NONE" >11/dummy_119.png</FocusURL>
+					<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_sc_parkassist_normal.png</NormalURL>
+					<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_sc_parkassist_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_universalremote_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_icn_universalremote_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_icn_vehicle_off_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/btn_icn_vehicle_off_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_auto_reverse_braking_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_icn_auto_reverse_braking_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo1_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo1_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo2_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo2_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>6</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo3_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo3_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>7</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo4_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo4_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>8</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo5_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo5_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>9</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo6_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo6_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>10</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo7_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo7_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>11</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_camera_ugdo8_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_camera_ugdo8_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>12</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_icn_traction_control_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_icn_traction_control_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>13</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_traction_control_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_icn_traction_control_pressed.png</FocusURL>
+					    </SelectorState>
+						<SelectorState>
+							<DataValue>14</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_icn_auto_reverse_braking_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_icn_auto_reverse_braking_pressed.png</FocusURL>
+					    </SelectorState>
+						<SelectorState>
+							<DataValue>15</DataValue>
+							<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_sc_parkassist_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_sc_parkassist_selected.png</FocusURL>
+					    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_SmartControl(2)</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_3</ID>
+					<Location var="var_loc_ugdo_icon1"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="NONE">11/dummy_119.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_SmartControl(3)</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_4</ID>
+					<Location var="var_loc_ugdo_icon2"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="NONE">11/dummy_119.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_SmartControl(4)</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_5</ID>
+					<Location var="var_loc_ugdo_icon3"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression="NONE">11/dummy_119.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Camera_SmartControl(5)</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

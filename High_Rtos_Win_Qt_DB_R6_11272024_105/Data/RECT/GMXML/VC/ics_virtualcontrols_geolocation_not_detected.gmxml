@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6056</ScreenID>
+                <Name>ics_virtualcontrols_geolocation_not_detected</Name>
+                <DialogDismiss callback = "evI_VC_Discard_Notification" zorder="1"/>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_notification_bg_1545_640"/>
+                    <NormalURL compression = "NONE">11/img_notification_simple_dialog_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_5__3UGDONoLocation_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text_1"/>
+                    <Size var="var_size_dialog_text_1"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_5_3F_GeolocationBody_csm</ID>
+                    <Font var="var_font_notification_dialog_text_secondary"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_notification_dialog_text_secondary"/>
+                    <Size var="var_size_notification_dialog_text_secondary"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<Location var="var_loc_notification_dialog_primary_button_small"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_5_5_3btnTryAgain_csm</ID>
+                    <Font var="var_font_primary_button_normal"/>
+					<FocusFont var="var_font_primary_button_pressed"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Try_Location_Again</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<Location var="var_loc_notification_dialog_secondary_button_small"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg2</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_5_3_4_btnUGDOCancel_csm</ID>
+					<Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Font var="var_font_btn_txt_secondary_normal"/>
+					<FocusFont var="var_font_btn_txt_secondary_pressed"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Location_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6153</ScreenID>
+                <Name>ics_virtual_controls_lane_assistance_unavailable_snackbar</Name>
+                <ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2lines_txt">
+                    <ID>virtualcontrols_1_3_2_1_h_lka_snackbar_csm</ID>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

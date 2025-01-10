@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6136</ScreenID>
+				<Name>ics_virtual_controls_aux_name</Name>
+				<ImageWidget>
+					<ID>img_top_bar</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_top_bar_2000_117"/>
+					<NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_aux_name_csm</ID>
+					<Font var="var_font_title_vc"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_txt"/>
+					<Size var="var_size_actionbar_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget var="img_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Aux_Name_Back</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_text_box</ID>
+					<Location>
+						<LocationX>188</LocationX>
+						<LocationY>172</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1703</SizeW>
+						<SizeH>109</SizeH>
+					</Size>
+					<NormalURL>11/img_text_field_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_8_2G_EnterSwitchName_csm</ID>
+					<Font var="var_font_aux_edit"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>188</LocationX>
+						<LocationY>300</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1610</SizeW>
+						<SizeH>98</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<EditTextWidget>
+					<ID>dyn_lbl_aux_edit1</ID>
+					<Location>
+						<LocationX>218</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1640</SizeW>
+						<SizeH>55</SizeH>
+					</Size>
+					<Font var="var_font_vc_dyn_list_secondary_text_selected"/>
+					<Cursor>
+					<CursorURL>11/cursor_transparent.png</CursorURL>
+                    <Size>
+						<SizeW>3</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					</Cursor>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</EditTextWidget>
+				<ImageWidget>
+                    <ID>img_text_transparent_box</ID>
+                    <Location>
+						<LocationX>188</LocationX>
+						<LocationY>172</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1703</SizeW>
+						<SizeH>109</SizeH>
+					</Size>
+                    <NormalURL>11/img_bg_transparent1.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_EditText</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

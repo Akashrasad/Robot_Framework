@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+	<GroupWidget id="grp_img_simple_dialog_primary_btn">
+	    <Location var="var_loc_notification_dialog_primary_button_1"/>
+		<Size var="var_size_vc_notification_cancel_off_btn"/>
+		<Alpha>100</Alpha>
+		<ZOrder>2</ZOrder>
+        <ImageElements var="img_notification_primary_btn">
+            <ID>img_btn_bg1</ID>
+		</ImageElements>
+        <LabelElements var="var_notification_primary_btn_txt">
+            <ID>virtualcontrols_1_14_1_10_dialogPrimaryButton_csm</ID>
+		</LabelElements>				
+	</GroupWidget>
+	<GroupWidget id="grp_img_simple_dialog_secondary_btn">
+	    <Location var="var_loc_secondary_primary_btn_large"/>
+		<Size var="var_size_vc_notification_cancel_off_btn"/>
+		<Alpha>100</Alpha>
+		<ZOrder>2</ZOrder>
+        <ImageElements var="img_notification_secondary_btn">
+            <ID>img_btn_bg2</ID>
+		</ImageElements>
+        <LabelElements var="var_notification_secondary_btn_txt">
+            <ID>virtualcontrols_1_14_1_9_dialogPrimaryButton_csm</ID>
+		</LabelElements>				
+	</GroupWidget>
+	<GroupWidget id="var_change_selection">
+		<Location>
+			<LocationX>614</LocationX>
+			<LocationY>153</LocationY>
+		</Location>
+		<Size>
+			<SizeW>611</SizeW>
+			<SizeH>119</SizeH>
+		</Size>
+		<TabOrder>
+			<TabV>2</TabV>
+			<TabH>1</TabH>
+		</TabOrder>
+		<Alpha>100</Alpha>
+		<ZOrder>3</ZOrder>
+		<ImageElements>
+			<ID>img_change_selection</ID>
+			<Location>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>611</SizeW>
+				<SizeH>119</SizeH>
+			</Size>
+			<NormalURL compression = "CompressionAlias1">11/btn_apa_selector_up_normal.png</NormalURL>
+			<FocusURL compression = "CompressionAlias1">11/btn_apa_selector_up_focused.png</FocusURL>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_apa_selector_up_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_apa_selector_up_focused.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_apa_selector_up_focused.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_apa_selector_up_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_apa_selector_up_pressed.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_apa_selector_up_normal.png</FocusURL>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</ImageElements>
+		<LabelElements>
+			<ID>apa_4_0F_ChangeSelection_csm</ID>
+			<Font var="var_font_change_selection_down_txt"/>
+			<FocusFont var="var_font_park_exit_space_txt_pressed"/>
+			<TextWrap>1</TextWrap>
+			<Location>
+				<LocationX>134</LocationX>
+				<LocationY>31</LocationY>
+			</Location>
+			<Size var="var_size_park_instr_title"/>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>apa_4_1_selectedbuttonParaRight_csm</StaticValue>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>apa_4_1_selectedbuttonParaLeft_csm</StaticValue>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<StaticValue>apa_4_1_selectedbuttonPerpLeft_csm</StaticValue>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<StaticValue>apa_4_1_selectedbuttonPerpRight_csm</StaticValue>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelElements>
+	</GroupWidget>
+	<GroupWidget id="var_change_selection_down">
+		<Location var="var_loc_titilebar_up_arrow"/>
+		<Size var="var_size_title_bar_down_btn"/>
+		<LabelElements var="var_change_selection_text">
+			<ID>apa_4_0F_ChangeSelection_csm</ID>
+		</LabelElements>
+		<ImageElements var="img_down_arrow_btn">
+			<ID>img_down_btn</ID>
+		</ImageElements>
+		<Alpha>100</Alpha>
+		<ZOrder>2</ZOrder>
+	</GroupWidget>
+	</Variables>
+</GMXML>

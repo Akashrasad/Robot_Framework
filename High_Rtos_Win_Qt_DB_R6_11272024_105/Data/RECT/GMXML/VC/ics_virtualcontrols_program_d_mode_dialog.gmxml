@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6086</ScreenID>
+                <Name>ics_virtualcontrols_program_d_mode_dialog</Name>
+				<ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_bg_11_3inch"/>                   
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<GroupWidget>
+                    <ID>grp_placeholder_WakeScreen</ID>
+                    <TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>3</TabH>
+                    </TabOrder>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>880</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>272</SizeW>
+                        <SizeH>92</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <ImageElements var="img_wakescreen_exit_btn">
+                        <ID>img_placeholder_WakeScreen</ID>
+                        <Location var="var_loc_orgin_0_0"/>
+                    </ImageElements>
+                    <LabelElements var="wakescreen_exit_btn_txt">
+                        <ID>virtualcontrols_1_0_4_wakeScreenExit_csm</ID>
+                        <Location var="var_loc_orgin_0_0"/>
+                    </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="img_back_btn">
+					<ID>img_btn_back</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Handheld_Mode</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+                </LabelWidget>
+                <LabelWidget>
+					<ID>virtualcontrols_1_5_1_2_ugdo_dmode_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content"/>
+					<Size var="var_size_d_mode_primary_txt"/>
+					<Font var="var_font_dialog_text_d_mode"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_1_2_ugdo_dmode_info_csm</ID>
+                    <Location var="var_loc_notification_dialog_secondary_text"/>
+					<Size var="var_size_notification_dialog_secondary_text"/>
+					<Font var="var_font_program_body_content_1"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_UGDO_checkbox</ID>
+                    <Location var="var_loc_notification_dialog_check_box"/>
+                    <Size var="var_size_notification_dialog_check_box"/>
+                    <NormalURL compression = "CompressionAlias3">11/img_checkbox_unselected.png</NormalURL>
+                    <FocusURL>11/img_checkbox_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/img_checkbox_unselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/img_checkbox_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Learn</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_0_2_G_DmodeCheckBox_csm</ID>
+                    <Font var="var_font_notification_dialog_checkbox_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_notification_dialog_check_box_txt"/>
+                    <Size var="var_size_notification_dialog_check_box_txt"/> 
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

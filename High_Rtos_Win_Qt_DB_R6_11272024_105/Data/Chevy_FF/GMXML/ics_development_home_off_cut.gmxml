@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>70001</ScreenID>
+                <Name>ics_development_home_off_cut</Name>
+                <ImageWidget>
+                    <ID>img_dev_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size>
+                        <SizeW>3400</SizeW>
+                        <SizeH>1300</SizeH>
+                    </Size>
+                    <NormalURL compression="NONE">11/ics_dev_bg_off_cut.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+					<Layer touch="false">80</Layer>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

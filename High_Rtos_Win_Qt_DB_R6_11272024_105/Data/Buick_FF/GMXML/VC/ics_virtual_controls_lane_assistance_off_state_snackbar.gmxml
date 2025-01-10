@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6152</ScreenID>
+                <Name>ics_virtual_controls_lane_assistance_off_state_snackbar</Name>
+                <ImageWidget var="var_snackbar_2line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2line_txt">
+                    <ID>virtualcontrols_1_3_2_4_h_laneSnackbar_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

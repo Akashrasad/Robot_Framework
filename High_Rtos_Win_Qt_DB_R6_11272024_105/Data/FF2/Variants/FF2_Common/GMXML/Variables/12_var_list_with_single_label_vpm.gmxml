@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ListWidget id = "var_list_with_single_label_vpm">
+            <Location>
+                <LocationX>288</LocationX>
+                <LocationY>87</LocationY>
+            </Location>
+            <Size>
+                <SizeW>480</SizeW>
+                <SizeH>890</SizeH>
+            </Size>
+            <FocusedRow>0</FocusedRow>
+            <BackgroundURL/>
+			<RowLayout>
+                <RowLayoutID>normal_layout</RowLayoutID>
+                <Size>
+                    <SizeW>480</SizeW>
+                    <SizeH>140</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/btn_list_camera_verysmall_bg_normal.png</NormalURL>
+				<FocusURL skinid="skin_focused_URL">11/btn_list_camera_verysmall_bg_focused.png</FocusURL>
+            </RowLayout>
+            <ZOrder>4</ZOrder>
+            <ElementData>
+                <LabelElements>
+                    <ID>primary_toggle</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>24</LocationX>
+                        <LocationY>40</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>422</SizeW>
+                        <SizeH>61</SizeH>
+                    </Size>
+                    <Font var="var_font_tabs_selected_txt"/>
+                    <FocusFont var="var_font_tabs_pressed_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>primary</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                   <Location>
+                        <LocationX>24</LocationX>
+                        <LocationY>40</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>422</SizeW>
+                        <SizeH>61</SizeH>
+                    </Size>
+                    <Font var="var_font_tabs_normal_txt"/>
+					<FocusFont var="var_font_tabs_pressed_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>primary_disabled</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>24</LocationX>
+                        <LocationY>40</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>422</SizeW>
+                        <SizeH>61</SizeH>
+                    </Size>
+                    <Font var="var_font_tabs_disabled_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <ImageElements>
+                    <ID>img_tabs_normal</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>480</SizeW>
+                        <SizeH>140</SizeH>
+                    </Size>
+					<NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/btn_list_camera_verysmall_bg_normal.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_normal_URL">11/btn_list_camera_verysmall_bg_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_selected_URL">11/btn_list_camera_verysmall_bg_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_disabled_URL">11/btn_list_camera_verysmall_bg_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_pressed_URL">11/btn_list_camera_verysmall_bg_pressed.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_focusonselected_URL">11/btn_list_camera_verysmall_bg_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>primarytransparent</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchOutOfWidgetRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+            </ElementData>
+			<TabOrder>
+                <TabV>1</TabV>
+                <TabH>1</TabH>
+            </TabOrder>
+			<ListInputWidgetMapping>
+				<UserInput>RotaryCW</UserInput>
+				<WidgetInput>0</WidgetInput>
+				<EventCallbackString>evG_MFC_CW_Rotation</EventCallbackString>
+			</ListInputWidgetMapping>
+			<ListInputWidgetMapping>
+				<UserInput>RotaryCCW</UserInput>
+				<WidgetInput>1</WidgetInput>
+				<EventCallbackString>evG_MFC_CCW_Rotation</EventCallbackString>
+			</ListInputWidgetMapping>
+        </ListWidget>
+    </Variables>
+</GMXML>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<LabelWidget id="exit_btn_txt">
+			<Font var="var_font_exit_btn_txt"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_exit_btn_txt"/>
+			<Size var="var_size_exit_btn_txt"/>
+			<Alpha>0</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="wakescreen_exit_btn_txt">
+			<Font var="var_font_exit_btn_txt"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_exit_btn_txt"/>
+			<Size var="var_size_exit_btn_txt"/>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<StaticValue>ics_virtual_controls_wake_screen_lights</StaticValue>
+				<Font var="var_font_exit_btn_txt"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<StaticValue>ics_virtual_controls_wake_screen_lights</StaticValue>
+				<Font var="var_font_wake_exit_btn_txt"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<StaticValue>ics_virtual_controls_wake_screen_lights</StaticValue>
+				<Font var="var_font_exit_btn_txt"/>
+			</SelectorState>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_snackbar_1line_txt">
+			<Location var="var_loc_snackbar_txt"/>
+			<Size var="var_size_snackbar_txt"/>
+			<Font var="var_font_snackbar_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_snackbar_2lines_txt">
+			<Location var="var_loc_2line_snackbar_txt"/>
+			<Size var="var_size_snackbar_2lines_txt"/>
+			<Font var="var_font_snackbar_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_action_bar_text_vc">
+			<Location var="var_loc_actionbar_text"/>
+			<Size var="var_size_actionbar_text"/>
+			<Font var="var_font_call_assistance"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_vc">
+			<Location var="var_loc_radio_btn_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_call_assistance"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_radio_button_description_text_details_unavailable_vc">
+			<Location var="var_loc_radio_btn_desc_txt"/>
+			<Size var="var_size_radio_btn_desc_txt"/>
+			<Font var="var_font_call_assistance"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="1strow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_off_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="2ndrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_on_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="3rdrow_radio_btn_txt">
+			<Location var="var_loc_radio_btn_grp_3rdrow_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="4throw_radio_btn_txt">
+			<Location var="var_loc_radio_btn_grp_4throw_txt"/>
+			<Size var="var_size_radio_btn_text"/>
+			<Font var="var_font_radio_btn_off_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_notification_primary_txt">
+			<Location var="var_loc_dialog_text_1"/>
+			<Size var="var_size_dialog_text_1"/>
+			<Font var="var_font_body_text"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_notification_primary_btn_txt">
+			<Location var="var_loc_notification_dialog_primary_button"/>
+			<Size var="var_size_test_btn"/>
+			<Font var="var_font_test_btn_txt_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_notification_secondary_btn_txt">
+			<Location var="var_loc_notification_dialog_secondary_button"/>
+			<Size var="var_size_test_btn"/>
+			<Font var="var_font_btn_txt_secondary_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_notification_body_content_txt">
+			<Location var="var_loc_dialog_text_1"/>
+			<Size var="var_size_simple_dialogue_regular_primary"/>
+			<Font var="var_font_body_text"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="notification_ivi_2lines_txt">
+			<Font skinid="skin_font_normal">
+				<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+				<Size>55</Size>
+				<Decoration>0</Decoration>
+				<TextAlign>4</TextAlign>
+				<Color>255,255,255</Color>
+				<TextDirection>1</TextDirection>
+			</Font>
+			<Location>
+				<LocationX>50</LocationX>
+				<LocationY>2</LocationY>
+			</Location>
+			<Size>
+				<SizeW>1478</SizeW>
+				<SizeH>240</SizeH>
+			</Size>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_action_1line_snackbar">
+			<Font var="var_font_body_text"/>
+			<Location var="var_loc_camera_alert_text"/>
+			<Size var="var_size_drive_forward_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_action_1line_knife_snackbar">
+			<Font var="var_font_body_text"/>
+			<Location var="var_loc_jackknife_text"/>
+			<Size var="var_size_jack_knife_amber_text"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_simple_regular_primar_text">
+			<Font var="var_font_body_text"/>
+			<Location var="var_loc_dialog_text_1"/>
+			<Size var="var_size_simple_dialogue_regular_primary"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_simple_regular_secondary_text">
+			<Font var="var_font_call_assistance"/>
+			<Location var="var_loc_simple_dialogue_regular_secondary"/>
+			<Size var="var_size_simple_dialogue_regular_secondary"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_notification_primary_btn_large">
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_btn_large"/>
+			<Font var="var_font_primary_button_normal"/>
+			<FocusFont var="var_font_primary_button_normal"/>
+			<TextWrap>1</TextWrap>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<Font var="var_font_primary_button_normal"/>
+				<FocusFont var="var_font_primary_button_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<Font var="var_font_primary_button_normal"/>
+				<FocusFont var="var_font_primary_button_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<Font var="var_font_primary_button_disabled"/>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_notification_secondary_btn_large">
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_btn_large"/>
+			<Font var="var_font_primary_button_normal"/>
+			<FocusFont var="var_font_primary_button_normal"/>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<Font var="var_font_primary_button_normal"/>
+				<FocusFont var="var_font_primary_button_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<Font var="var_font_primary_button_normal"/>
+				<FocusFont var="var_font_primary_button_normal"/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<Font var="var_font_primary_button_disabled"/>
+			</SelectorState>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_lbl_hun_appname">
+			<Location var="var_loc_univRemote_1"/>
+			<Size var="var_size_power_primary"/>
+			<Font var="var_font_call_assistance"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_close_text">
+			<Location>
+			    <LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>389</SizeW>
+				<SizeH>119</SizeH>
+			</Size>
+			<Font var="var_font_test_btn_txt_normal"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>4</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_front_txt">
+			<Location var="var_loc_front_txt"/>
+			<Size var="var_size_front_txt"/>
+			<Font var="var_font_front_txt"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		 <LabelWidget id="var_ctt_trailer_unable_txt">
+			<Font var="var_font_body_text"/>
+			<Location var="var_loc_camera_alert_text"/>
+			<Size var="var_size_calibration_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+        <LabelWidget id="var_ctt_trailer_driveforward_txt">
+			<Font var="var_font_body_text">
+				<TextAlign>4</TextAlign>
+			</Font>
+			<Location var="var_loc_cct_snackbar_txt"/>
+			<Size var="var_size_dialog_text_1"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>
+        <LabelWidget id="var_ctt_trailer_calibrating_txt">
+			<Font var="var_font_trailer_calibrating_txt"/>
+			<Location var="var_loc_cct_snackbar_txt2"/>
+			<Size var="var_size_drive_calibration_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>				
+	</Variables>
+</GMXML>

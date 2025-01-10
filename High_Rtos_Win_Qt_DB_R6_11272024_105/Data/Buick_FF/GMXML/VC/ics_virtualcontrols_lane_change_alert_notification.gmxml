@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>7073</ScreenID>
+				<Name>ics_virtualcontrols_lane_change_alert_notification</Name>
+				<DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+				<ImageWidget var="var_img_notification_simple_dialog_no_content_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_lbl_notification_simple_dialog_no_content_text">
+					<ID>virtualcontrols_1_3_a_1_v_LCASnackbar_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_turn_on</ID>
+					<Location var="var_loc_notification_simple_dialog_primary_btn"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="var_img_grp_primary_btn">
+						<ID>img_btn_turn_on</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_primary_btn">
+						<ID>virtualcontrols_1_3_a_1_v_LCAOn_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_LCA_TurnOn</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_cancel</ID>
+					<Location var="var_loc_notification_simple_dialog_secondary_btn"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="var_img_grp_secondary_btn">
+						<ID>img_btn_cancel</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_secondary_btn">
+						<ID>virtualcontrols_1_3_v_a_1_LCACancel_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

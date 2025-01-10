@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7013</ScreenID>
+                <Name>ics_apa_connecting_to_mybrand_app</Name>
+                <ImageWidget>
+                    <ID>img_close_icn</ID>
+                    <Location var="var_loc_icn_close"/>
+                    <Size var="var_size_icn_close_117"/>
+                    <NormalURL>11/icn_close_normal_small.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+                    <BehaviorState var="var_behavior_animation_interpolation"/>
+                    <BehaviorState var="var_behavior_state_value_1"/>
+                    <BehaviorState var="var_behavior_state_value_2"/>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_title_bar_bg"/>
+                    <Size var="var_size_title_bar_bg"/>
+                    <NormalURL>11/img_navigation_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget> 
+                    <ID>apa_4_1_selectedbuttonPerpRight_csm</ID>
+                    <Font var="var_font_title"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title"/>
+                    <Size var="var_size_title"/>
+                    <Alpha>100</Alpha>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonParaRight_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonParaLeft_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonPerpLeft_csm</StaticValue> 
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>apa_4_1_selectedbuttonPerpRight_csm</StaticValue> 
+                    </SelectorState>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+                <ActivityIndicatorWidget>
+                    <ID>img_progress_activity</ID>
+                    <Location>
+                        <LocationX>1031</LocationX>
+                        <LocationY>439</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>155</SizeW>
+                        <SizeH>155</SizeH>
+                    </Size>
+                    <Spinner>
+                        <SpinnerLocation>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </SpinnerLocation>
+                        <SpinnerSize>
+                            <SizeW>155</SizeW>
+                            <SizeH>155</SizeH>
+                        </SpinnerSize>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_1.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_2.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_3.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_4.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_5.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_6.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_7.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_8.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_9.png</SpinnerURL>
+                        <SpinnerURL compression = "CompressionAlias14">11/img_progress_circle_10.png</SpinnerURL>
+                    </Spinner>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ActivityIndicatorWidget>
+                <LabelWidget>
+                    <ID>apa_4_12_Connecting_csm</ID>
+                    <Location>
+                        <LocationX>525</LocationX>
+                        <LocationY>702</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1128</SizeW>
+                        <SizeH>69</SizeH> 
+                    </Size>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>53</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>181,181,181</Color>
+                        <TextDirection/>
+                    </Font>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

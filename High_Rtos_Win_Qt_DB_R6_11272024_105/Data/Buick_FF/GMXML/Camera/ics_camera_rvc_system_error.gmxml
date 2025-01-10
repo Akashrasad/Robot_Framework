@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8008</ScreenID>
+                <Name>ics_camera_rvc_system_error</Name>
+                <ImageWidget var="img_camera_bg">
+					<ID>img_bg_black</ID>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_icn_cameraerror</ID>
+					<Location>
+						<LocationX>2569</LocationX>
+						<LocationY>528</LocationY>
+					</Location>
+					<Size>
+						<SizeW>142</SizeW>
+						<SizeH>142</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias1">11/icn_camera_error.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_exit</ID>
+					<Location>
+                        <LocationX>356</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="btn_general_close_normal">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>	
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

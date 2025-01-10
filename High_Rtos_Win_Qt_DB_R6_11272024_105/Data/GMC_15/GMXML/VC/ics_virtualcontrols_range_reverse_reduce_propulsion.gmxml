@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6125</ScreenID>
+				<Name>ics_virtualcontrols_range_reverse_reduce_propulsion</Name>
+				<DialogDismiss callback = "dummy_event" zorder="1"/>
+				<ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg_large</ID>                  
+                </ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_3_dialogHeader_csm</ID>
+					<Font var="var_font_dialog_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_dialog_text"/>
+					<Size var="var_size_dialog_text_1line"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_3_dialogBody_csm</ID>
+					<Font var="var_font_notification_dialog_text_secondary"/>
+					<Location>
+						<LocationX>56</LocationX>
+						<LocationY>200</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_secondary_txt"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_primary_btn">
+					    <ID>img_btn_bg1</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_14_2_3_dialogPrimaryButton_csm</ID>
+					    <SelectorState>
+					    	<DataValue>0</DataValue>
+					    	<StaticValue>virtualcontrols_1_14_2_3_dialogPrimaryButton_csm</StaticValue>
+					    	<Font var="var_font_test_btn_txt_normal"/>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>1</DataValue>
+					    	<StaticValue>virtualcontrols_1_14_2_3_dialogPrimaryButton_csm</StaticValue>
+					    	<Font var="var_font_test_btn_txt_focused"/>
+					    </SelectorState>
+                    </LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_SetTo_5_Percent</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_secondary_btn">
+					    <ID>img_btn_bg2</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_secondary_btn_txt">
+                        <ID>virtualcontrols_1_14_2_3_dialogSecondaryButton_csm</ID>
+					    <SelectorState>
+					    	<DataValue>0</DataValue>
+					    	<StaticValue>virtualcontrols_1_14_2_3_dialogSecondaryButton_csm</StaticValue>
+					    	<Font var="var_font_test_btn_txt_normal"/>
+					    </SelectorState>
+					    <SelectorState>
+					    	<DataValue>1</DataValue>
+					    	<StaticValue>virtualcontrols_1_14_2_3_dialogSecondaryButton_csm</StaticValue>
+					    	<Font var="var_font_test_btn_txt_focused"/>
+					    </SelectorState>
+                    </LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_ChangeTo_10_Percent</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

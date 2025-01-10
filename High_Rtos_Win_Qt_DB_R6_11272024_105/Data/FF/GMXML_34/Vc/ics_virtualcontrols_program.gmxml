@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6029</ScreenID>
+                <Name>ics_virtualcontrols_program</Name>
+				<GroupWidget var="var_grp_exit_wake">
+					<ID>grp_placeholder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget var="grp_placeholder_WakeScreen_mfc">
+					<ID>grp_placeholder_WakeScreen_mfc</ID>
+				</GroupWidget>
+                <ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+			  </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+					<Location>
+                        <LocationX>260</LocationX>
+                        <LocationY>1189</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <Size>
+                        <SizeW>410</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                </LabelWidget>
+                <ImageWidget var="img_btn_back">
+					<ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+                <LabelWidget var="var_lbl_actionbar_text_without_icon">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_0_1_Universal_Remote_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_0_1_Universal_Remote_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_1_1_f_desc_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content">
+                        <LocationY>422</LocationY>
+                    </Location>
+					<LayoutOverride>
+						<ID>RHD</ID>
+						<Location>
+							<LocationX>629</LocationX>
+							<LocationY>406</LocationY>
+						</Location>
+					</LayoutOverride>
+                    <Size var="var_size_learn_success_test_body_content"/>
+                    <Font var="var_font_call_assistance"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <!-- <ImageWidget>
+                    <ID>img_placeholder</ID>
+                    <Location>
+                        <LocationX>44</LocationX>
+                        <LocationY>167</LocationY>
+                    </Location>
+                    <Size var="var_size_radio_btn"/>
+                    <NormalURL>11/img_placeholder.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget> -->
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_0_1_ugdo_waiting_csm</ID>
+                    <Location var="var_loc_learn_success_test_body_content"/>
+					<LayoutOverride var = "var_layout_img_launch_btn"/>
+                    <Size var="var_size_learn_success_test_body_content_1line"/>
+                    <Font var="var_font_learn_success_test_body_content">
+                        <TextAlign>0</TextAlign>
+                    </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>0</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>1</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

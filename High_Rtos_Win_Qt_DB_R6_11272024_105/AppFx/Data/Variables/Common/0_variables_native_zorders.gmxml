@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<NativeZOrder id="var_native_native_zorder_ipc_app">1059</NativeZOrder>
+		<NativeZOrder id="var_native_native_zorder_rtos_camera_icons">1104</NativeZOrder>
+		<NativeZOrder id="var_native_native_zorder_dimming_app">1059</NativeZOrder>
+		<NativeZOrder id="var_native_native_zorder_safety_telltales_app">1059</NativeZOrder>
+		<NativeZOrder id="var_native_native_zorder_safety_icon">1500</NativeZOrder>
+	</Variables>
+</GMXML>

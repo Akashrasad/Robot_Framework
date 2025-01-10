@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSpy v2020 (http://www.altova.com) by Altia (Altia) -->
+<GMXML>
+    <Qnx>
+        <Target>snapdragon_8155_FFD</Target>
+        <CompressionSupportedFormats layer="AltiaGL">RLE</CompressionSupportedFormats>
+        <CompressionSupportedFormats layer="OpenGL">
+            ASTC_4X4, 
+            ASTC_5X4,
+            ASTC_5X5,
+            ASTC_6X5,
+            ASTC_6X6,
+            ASTC_8X5,
+            ASTC_8X6,
+            ASTC_8X8,
+            ASTC_10X5,
+            ASTC_10X6,
+            ASTC_10X8,
+            ASTC_10X10,
+            ASTC_12X10,
+            ASTC_12X12,
+            ETC1, 
+            DXT1, 
+            DXT3, 
+            DXT5, 
+            PVRTC_1_4BPP, 
+            PVRTC_1_2BPP, 
+            PVRTC_2_4BPP, 
+            PVRTC_2_2BPP
+        </CompressionSupportedFormats>
+        <LayerSupportedFormats>
+            RGB888,
+            ARGB32
+        </LayerSupportedFormats>
+        <QnxWindowContext>SCREEN_APPLICATION_CONTEXT</QnxWindowContext>
+        <QnxWindowType>SCREEN_APPLICATION_WINDOW</QnxWindowType>
+        <QnxDisplayID>1U</QnxDisplayID>
+        <QnxFormat>SCREEN_FORMAT_RGBA8888</QnxFormat>
+        <QnxTransparency>SCREEN_TRANSPARENCY_SOURCE_OVER</QnxTransparency>
+        <QnxZOrder>1100U</QnxZOrder>
+        <QnxPipelineID>-1</QnxPipelineID>
+        <QnxSensitivity>SCREEN_SENSITIVITY_NO_FOCUS</QnxSensitivity>
+        <Location>
+            <LocationX>0</LocationX>
+            <LocationY>0</LocationY>
+        </Location>
+        <TouchLayer id="0" pipeline="AltiaGL" />
+        <LayerConfig>
+            <ID>0</ID>
+            <LayerFormat>ARGB32</LayerFormat>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>8960</SizeW>
+                <SizeH>1320</SizeH>
+            </Size>
+        </LayerConfig>
+        <LayerConfig>
+            <ID>32</ID>
+            <LayerFormat>ARGB32</LayerFormat>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>1290</SizeW>
+                <SizeH>1320</SizeH>
+            </Size>
+        </LayerConfig>
+    </Qnx>
+</GMXML>

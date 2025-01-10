@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>7040</ScreenID>
+                <Name>ics_apa_maneuvermessaging</Name>
+				<ImageWidget>
+                    <ID>img_bg_black</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL  compression = "NONE">11/img_ics_astral_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<LabelWidget>
+					<ID>apa_5_1_maneuvermessaging5_1_csm</ID>
+					<Font var="var_font_title">
+					</Font>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>119</LocationX>
+						<LocationY>174</LocationY>
+					</Location>
+					<Size>
+                        <SizeW>1163</SizeW>
+                        <SizeH>157</SizeH>
+                    </Size>
+                     <SelectorState>
+                        <DataValue>45</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_1_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>34</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_2_csm</StaticValue>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>35</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_2_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>36</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>37</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging6_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>41</DataValue>
+                        <StaticValue>apa_6_4_OverSpeed2_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>42</DataValue>
+                        <StaticValue>apa_6_5_DriverInterference_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>39</DataValue>
+                        <StaticValue>apa_6_6_OwnersManual_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>40</DataValue>
+                        <StaticValue>apa_6_7_TakingTooLong_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>66</DataValue>
+                        <StaticValue>apa_7_1_CanceledObstruction_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>55</DataValue>
+                        <StaticValue>apa_7_3_CanceledNoSupervisor_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>54</DataValue>
+                        <StaticValue>apa_7_5_CanceledTooFar_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>60</DataValue>
+                        <StaticValue>apa_5_1_maneuvermessaging5_3_csm</StaticValue>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget var="grp_exit_apa">
+					<ID>grp_exit_apa_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget var="var_img_exit_btn_apptray_bg">
+					<ID>img_exit_btn_apptray_bg</ID>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+					<ID>grp_exit_apa_btn_mfc</ID>
+					<TabOrder>
+					  <TabV>1</TabV>
+					  <TabH>1</TabH>
+					</TabOrder>
+		          <InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+				 </InputWidgetMapping>
+			   </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

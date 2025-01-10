@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8021</ScreenID>
+				<Name>ics_camera_smart_control_scroll_second_page</Name>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_4</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression = "NONE">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(4)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_5</ID>
+					<Location var="var_loc_ugdo_icon1"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression = "NONE">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(5)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_6</ID>
+					<Location var="var_loc_ugdo_icon2"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression = "NONE">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(6)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ugdo_smart_control_7</ID>
+					<Location var="var_loc_ugdo_icon3"/>
+					<Size var="var_size_ugdo_icon"/>
+					<NormalURL compression = "NONE">11/dummy_95.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(7)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_mfc_camera_smart_control_4</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_ugdo_icon"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+                    <FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(4)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_mfc_camera_smart_control_5</ID>
+					<Location var="var_loc_ugdo_icon1"/>
+					<Size var="var_size_ugdo_icon"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+                    <FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(5)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_mfc_camera_smart_control_6</ID>
+					<Location var="var_loc_ugdo_icon2"/>
+					<Size var="var_size_ugdo_icon"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+                    <FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(6)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_mfc_camera_smart_control_7</ID>
+					<Location var="var_loc_ugdo_icon3"/>
+					<Size var="var_size_ugdo_icon"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>4</TabH>
+					</TabOrder>
+                    <FocusURL/>
+					<Alpha>0</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Camera_SmartControl(7)</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

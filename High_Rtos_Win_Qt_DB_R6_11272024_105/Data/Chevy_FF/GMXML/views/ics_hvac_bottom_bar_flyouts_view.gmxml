@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_flyouts_view</ViewID>
+            <Size>
+                <SizeW>2000</SizeW>
+                <SizeH>800</SizeH>
+            </Size>
+            <Location>
+                <LocationX>967</LocationX>
+                <LocationY>328</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder>
+            <!-- <Screen load="ics_hvac_bottom_bar_left_seats_flyout"/> -->
+            <!-- <Screen load="ics_hvac_bottom_bar_right_seats_flyout"/> -->
+            <Screen load="ics_hvac_bottom_bar_air_direction_flyout"/>
+            <Screen load="ics_hvac_menu_left_four_options_flyout"/>
+            <Screen load="ics_hvac_menu_right_four_options_flyout"/>
+            <Screen load="ics_hvac_menu_left_three_options_flyout"/>
+            <Screen load="ics_hvac_menu_right_three_options_flyout"/>
+            <Screen load="ics_hvac_menu_left_three_options_sz_flyout"/>
+            <Screen load="ics_hvac_menu_right_three_options_sz_flyout"/>
+            <Screen load="ics_hvac_menu_left_four_options_sz_flyout"/>
+            <Screen load="ics_hvac_menu_right_four_options_sz_flyout"/>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8004</ScreenID>
+				<Name>ics_camera_rvc_fullviewcamera</Name>
+				<ImageWidget var="img_camera_bg">
+					<ID>img_bg_black</ID>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_btn_close_active</ID>
+					<Location>
+						<LocationX>357</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size var="var_size_exit_close_img"/>
+					<NormalURL compression="NONE">11/btn_general_close_normal.png</NormalURL>
+					<FocusURL compression="NONE">11/btn_general_close_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="NONE">11/btn_general_close_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="NONE">11/btn_general_close_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="NONE">11/btn_general_close_pressed.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

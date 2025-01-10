@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6001</ScreenID>
+                <Name>ics_virtual_controls_controls_home</Name>
+				<GroupWidget var="var_grp_exit_wake">
+					<ID>grp_placeholder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget var="grp_placeholder_WakeScreen_mfc">
+					<ID>grp_exit_button_mfc</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+					<ImageWidget var="img_exit_btn">
+						<ID>img_close</ID>
+						<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					</ImageWidget>
+					<LabelWidget var="exit_btn_txt">
+						<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+						<Location>
+                            <LocationX>260</LocationX>
+                            <LocationY>1189</LocationY>
+                        </Location>
+						<LayoutOverride var = "var_layout_override_exit_vc"/>
+                        <Size>
+                            <SizeW>410</SizeW>
+                            <SizeH>128</SizeH>
+                        </Size>
+					</LabelWidget>
+                    <ImageWidget var="img_wakescreen_pintostart_btn">
+                    <ID>img_pintostart</ID>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+                    <InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ScrollPageWidget>
+                    <ScrollPageID>VC_HomeScroll</ScrollPageID>
+                    <InitialPage>1</InitialPage>
+                    <MinPageCount>1</MinPageCount>
+                    <MaxPageCount>3</MaxPageCount>
+                    <Location>
+                        <LocationX>241</LocationX> 
+                        <LocationY>139</LocationY>
+                    </Location>
+					<!--LayoutOverride>
+                      <ID>RHD</ID>
+                      <RTL>1</RTL>
+                         <Location>
+				            <LocationX>629</LocationX>
+				            <LocationY>245</LocationY>
+			            </Location>
+                    </LayoutOverride--> 
+                    <Size>
+                        <SizeW>2909</SizeW>
+                        <SizeH>866</SizeH>
+                    </Size>
+                    <ZOrder>1</ZOrder>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_first_page</ID>
+                        <IncludeScreen>6500</IncludeScreen> 
+                        <PageIndex>1</PageIndex>
+                    </PageWidget> 
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_second_page</ID>
+                        <IncludeScreen>6501</IncludeScreen> 
+                        <PageIndex>2</PageIndex>
+                    </PageWidget>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_third_page</ID>
+                        <IncludeScreen>6502</IncludeScreen> 
+                        <PageIndex>3</PageIndex>
+                    </PageWidget>
+                </ScrollPageWidget>
+                <ImageWidget>
+                    <ID>img_control_progress_bar_pointer</ID>
+                    <Location>
+                        <LocationX>1724</LocationX>
+                        <LocationY>1250</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_progress_bar_pointer1"/>
+                    <Size>
+                        <SizeW>65</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                    <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                        <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_selected_URL">11/img_pancake_selected.png</NormalURL>
+                        <FocusURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_control_progress_bar_pointer2</ID>
+                    <Location>
+                        <LocationX>1799</LocationX>
+                        <LocationY>1250</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_progress_bar_pointer2"/>
+                    <Size>
+                        <SizeW>65</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                    <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                        <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_selected_URL">11/img_pancake_selected.png</NormalURL>
+                        <FocusURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_control_progress_bar_pointer3</ID>
+                    <Location>
+                        <LocationX>1874</LocationX>
+                        <LocationY>1250</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_progress_bar_pointer3"/>
+                    <Size>
+                        <SizeW>65</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                    <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</NormalURL>
+                        <FocusURL skinid="skin_selected_URL">11/img_pancake_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_selected_URL">11/img_pancake_selected.png</NormalURL>
+                        <FocusURL skinid="skin_cards_normal_URL">11/img_pancake_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>grp_More_controls_btn</ID>
+                    <Location>
+                        <LocationX>241</LocationX>
+                        <LocationY>1016</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_img_see_more_control"/>
+                    <Size var="var_size_see_more_control_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_see_more_control</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_see_more_control_btn"/>					
+                    <NormalURL compression = "NONE" skinid="skin_cards_normal_URL">11/btn_see_more_controls_normal.png</NormalURL>
+                    <FocusURL compression = "NONE" skinid="skin_cards_pressed_URL">11/btn_see_more_controls_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_cards_normal_URL">11/btn_see_more_controls_normal.png</NormalURL>
+						 <FocusURL compression = "NONE" skinid="skin_cards_focused_URL">11/btn_see_more_controls_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_disabled_URL">11/btn_see_more_controls_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_cards_normal_URL">11/btn_see_more_controls_normal.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_cards_pressed_URL">11/btn_see_more_controls_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_cards_focused_URL">11/btn_see_more_controls_focused.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_cards_normal_URL">11/btn_see_more_controls_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_cards_focused_URL">11/btn_see_more_controls_focused.png</FocusURL>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_categories_csm</ID>
+                    <Font var="var_font_smart_controls"/>
+					<FocusFont var="var_font_smart_controls_pressed"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+					  <LocationX>62</LocationX>
+					  <LocationY>0</LocationY>
+					</Location>
+                    <Size var="var_size_see_more_control_btn"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+				</LabelElements>
+				<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_SeeMore_Controls</WidgetCallback>
+				</InputWidgetMapping>
+				</GroupWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_0_ControlsSafety_csm</ID>
+                    <Font var="var_font_title_VC"/>
+                    <TextWrap>1</TextWrap>
+                   	<Location>
+						<LocationX>260</LocationX>
+						<LocationY>45</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_actionbar_text"/>
+                    <Size var="var_size_actionbar_text_without_icon"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_0_ControlsSafety_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_0_ControlsSafety_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+				<ImageWidget var="img_wakescreen_pintostart_icon">
+                    <ID>img_pintostart_icon</ID>
+					<Alpha>0</Alpha>
+					<ZOrder>4</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_pintostart_mfc</ID>
+                    <Location>
+						<LocationX>690</LocationX>
+						<LocationY>1189</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_override_img_car_btn"/>
+					<Size>
+						<SizeW>410</SizeW>
+						<SizeH>128</SizeH>
+					</Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>3</TabH>
+                    </TabOrder>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_apptray_focused_URL">11/btn_vc_wakescreen_pintostart_focused.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_VC_PinToStart</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_see_more_control_mfc</ID>
+                    <Location>
+						<LocationX>241</LocationX>
+						<LocationY>1016</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_img_see_more_control"/>
+					<Size>
+						<SizeW>738</SizeW>
+						<SizeH>162</SizeH>
+					</Size>
+					<TabOrder>
+                      <TabV>1</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+					 <FocusURL skinid="skin_cards_focused_URL">11/btn_see_more_controls_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_SeeMore_Controls</WidgetCallback>
+				</InputWidgetMapping>					
+				<InputWidgetMapping>
+					<UserInput>RotarySelectReleased</UserInput>
+					<WidgetCallback>evG_SeeMore_Controls</WidgetCallback>
+				</InputWidgetMapping>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7030</ScreenID>
+                <Name>ics_apa_park_instructions_selection_drawer</Name>
+                <ImageWidget>
+                    <ID>img_img_apa_handoff_background_blue</ID>
+                    <Location var="var_loc_title_bar_bg"/>
+                    <Size var="var_size_popup_body_txt_bg"/>
+                    <NormalURL>11/img_apa_handoff_background_blue_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<ImageWidget var="img_exit_apa">
+                    <ID>img_apa_exit_btn</ID>                    
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget var="var_topbar_apa">
+                    <ID>img_top_bar</ID>
+                </ImageWidget>
+				<LabelWidget var="var_topbar_changeselection_label">
+                    <ID>apa_4_0F_ChangeSelection_csm</ID>
+                </LabelWidget>
+				<GroupWidget var="var_change_selection">
+				<ID>grp_change_selection</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Change_Selection</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+                    <ID>apa_3_0F_HowtoPark_csm</ID>
+                    <Font var="var_font_selection_drawer_label_2"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title1"/>
+                    <Size var="var_size_title"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>apa_3_0F_HowtoPark_csm</StaticValue> 
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_park_left_perp</ID>
+                    <Location var="var_loc_img_perp_left"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_park_leftperp_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "CompressionAlias12">11/icn_park_leftperp_car_disabled.png</NormalURL>
+						<FocusURL compression = "CompressionAlias12">11/icn_park_leftperp_car_disabled.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_leftperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_leftperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Perp_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <ImageWidget>
+                    <ID>img_park_right_perp</ID>
+                    <Location var="var_loc_img_perp_right"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/icn_park_rightperp_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias12">11/icn_park_rightperp_car_disabled.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias12">11/icn_park_rightperp_car_disabled.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_park_rightperp_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_park_rightperp_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Perp_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <ImageWidget>
+                    <ID>img_park_left_parallel</ID>
+                    <Location var="var_loc_img_para_left"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/icn_park_leftpar_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL>11/icn_park_leftpar_car_disabled.png</NormalURL>
+                        <FocusURL>11/icn_park_leftpar_car_disabled.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_park_leftpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias3">11/icn_park_leftpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Parallel_Left_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>				
+                <ImageWidget>
+                    <ID>img_park_right_parallel</ID>
+                    <Location var="var_loc_img_para_right"/>
+                    <Size var="var_size_perp_img"/>
+                    <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>11/icn_park_rightpar_car_disabled.png</NormalURL>
+                        <FocusURL>11/icn_park_rightpar_car_disabled.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "CompressionAlias4">11/icn_park_rightpar_car_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias4">11/icn_park_rightpar_car_pressed.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Parallel_Right_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

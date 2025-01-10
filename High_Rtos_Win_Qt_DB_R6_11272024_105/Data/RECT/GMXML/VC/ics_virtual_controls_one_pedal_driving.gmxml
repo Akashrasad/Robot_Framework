@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6015</ScreenID>
+                <Name>ics_virtual_controls_one_pedal_driving</Name>
+                <ImageWidget>
+                    <ID>img_bg_opd_black</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_bg_11_3inch"/>
+                    <NormalURL compression = "NONE">11/img_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evg_unused_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_back_opd</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_actionbar_back_img"/>
+                    <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL compression = "NONE">11/btn_icn_left_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_cardOPD_csm</ID>
+                    <Font var="var_font_title"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_actionbar_text"/>
+                    <Size var="var_size_actionbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_close</ID>
+                    <Location var="var_loc_actionbar_close_img"/>
+                    <Size var="var_size_actionbar_close_img"/>
+                    <NormalURL compression = "NONE">11/btn_icn_close_normal_small.png</NormalURL>
+                    <FocusURL compression = "NONE">11/btn_icn_close_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_close_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_close_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_close_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_close_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/btn_icn_close_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Opd_Exit</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_radio_button_off</ID>
+                    <Location var="var_loc_radio_btn_off"/>
+                    <Size var="var_size_radio_btn_large"/>
+					<NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_OPDOff_csm</ID>
+                    <Location var="var_loc_radio_btn_off_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_focused"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_headlightsOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_2_headlightsOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_radio_button_on</ID>
+                    <Location var="var_loc_radio_btn_on"/>
+                    <Size var="var_size_radio_btn_large"/>
+                    <ZOrder>4</ZOrder>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_OPDNormal_csm</ID>
+                    <Location var="var_loc_radio_btn_on_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDNormal_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_radio_button_high</ID>
+                    <Location var="var_loc_radio_btn_grp_3rdrow"/>
+                    <Size var="var_size_radio_btn_large"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_High</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_OPDHigh_csm</ID>
+                    <Location var="var_loc_radio_btn_grp_3rdrow_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHigh_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_radio_button_enhanced</ID>
+                    <Location var="var_loc_radio_btn_grp_3rdrow"/>
+                    <Size var="var_size_radio_btn_large"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Enhanced</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget var="img_1strow_radio_btn_transparent">
+					<ID>img_off_transparent</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Off</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_2ndrow_radio_btn_transparent">
+					<ID>img_on_transparent</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_On</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_3rdrow_radio_btn_transparent">
+					<ID>img_High_transparent</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_High</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_3rdrow_radio_btn_transparent">
+					<ID>img_Enhanced_transparent</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedalDriving_Enhanced</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_transparent">
+					<ID>img_checkbox_transparent</ID>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedal_ShowInAppTray</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_OPDHighplus_csm</ID>
+                    <Location var="var_loc_radio_btn_grp_3rdrow_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <StaticValue>virtualcontrols_1_3_OPDHighplus_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>img_checkbox</ID>
+                    <Location var="var_loc_radio_btn_grp_4throw"/>
+                    <Size var="var_size_radio_btn_large"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_OnePedal_ShowInAppTray</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_3_4F_HomeScreen_csm</ID>
+                    <Location var="var_loc_radio_btn_grp_4throw_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+					<ID>img_driving_pedal</ID>
+					<Location var="var_loc_icon"/>
+					<Size>
+						<SizeW>63</SizeW>
+						<SizeH>63</SizeH>
+					</Size>
+                    <NormalURL compression = "CompressionAlias1">11/controls_icn_opd.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_3_0_5_opd_csm</ID>
+					<Location var="var_loc_radio_btn_desc_txt"/>
+					<Size var="var_size_radio_btn_desc_txt">
+					    <SizeW>638</SizeW>
+					</Size>
+					<Font var="var_font_universal_remotes_desc"/>
+                    <TextWrap>1</TextWrap>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opd_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opdAWD_csm</StaticValue>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_5_opdRWD_csm</StaticValue>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                    <Location var="var_loc_radio_btn_desc_txt_FF"/>
+                    <Size var="var_size_radio_btn_desc_txt"/>
+                    <Font var="var_font_universal_remotes_desc"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget var="img_1strow_radio_btn_divider">
+                    <ID>img_one_pedal_driving_off_divider</ID>
+                </ImageWidget>
+                <ImageWidget var="img_2ndrow_radio_btn_divider">
+                    <ID>img_one_pedal_driving_auto_divider</ID>
+                </ImageWidget>
+                <ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_High_transparent</ID>
+                </ImageWidget>
+				<ImageWidget var="img_3rdrow_radio_btn_divider">
+                    <ID>img_Enhanced_transparent</ID>
+                </ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_divider">
+                    <ID>img_one_pedal_driving_show_in_apptray_divider</ID>
+                </ImageWidget>					
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

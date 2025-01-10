@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6055</ScreenID>
+                <Name>ics_virtualcontrols_headlights_smart_controls</Name>
+				<DialogDismiss callback = "evG_HeadLightsDialog_DSA" zorder="1"/>
+				<ImageWidget var="img_notification_body_content_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<LabelWidget var="var_notification_body_content_txt">
+                    <ID>virtualcontrols_1_6_4_headlights_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_notification_simple_dialog_body_content_primary_btn"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_notification_primary_btn_large">
+						<ID>img_btn_bg1</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_primary_btn_large">
+						<ID>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Turn_On</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Turn_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<Location var="var_loc_notification_simple_dialog_body_content_secondary_btn"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="var_img_notification_secondary_btn_large">
+						<ID>img_btn_bg2</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_secondary_btn_large">
+						<ID>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_DSA</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_DSA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

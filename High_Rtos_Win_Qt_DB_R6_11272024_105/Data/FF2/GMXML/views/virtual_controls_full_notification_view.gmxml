@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_full_notification_view</ViewID>
+            <ZOrder>3</ZOrder>
+            <Location>
+                <LocationX>4442</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2880</SizeW>
+                <SizeH>1130</SizeH>
+            </Size>
+            <Screen load="ics_virtual_controls_controls_home"/>
+         </View>
+    </Display>
+</GMXML>

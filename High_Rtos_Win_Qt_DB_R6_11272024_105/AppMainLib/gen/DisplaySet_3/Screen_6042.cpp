@@ -1,0 +1,82 @@
+#include "Screen_6042.h"
+
+#include "RTOS_InternalData.h"
+#include "StringData.h"
+#include "WidgetData.h"
+#include <cstdlib>
+
+namespace gm
+{
+namespace csm
+{
+
+
+void Screen_6042::Widget_Logic_Visibility_img_placeholder_WakeScreen()
+{
+    const auto var_002 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_001 = !(var_002);
+    
+    Image_img_placeholder_WakeScreen.Visibility = var_001;
+}
+
+void Screen_6042::Widget_Logic_Visibility_virtualcontrols_1_0_4_wakeScreenExit_csm()
+{
+    const auto var_007 = gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE.data();
+    const auto var_006 = !(var_007);
+    
+    const auto var_004 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_005 = var_006;
+    const auto var_003 = var_004 && var_005;
+    
+    Label_virtualcontrols_1_0_4_wakeScreenExit_csm.Visibility = var_003;
+}
+
+void Screen_6042::Widget_Logic_Visibility_img_close()
+{
+    const auto var_012 = gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE.data();
+    const auto var_011 = !(var_012);
+    
+    const auto var_009 = gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY.data();
+    const auto var_010 = var_011;
+    const auto var_008 = var_009 && var_010;
+    
+    Image_img_close.Visibility = var_008;
+}
+
+void Screen_6042::Label_virtualcontrols_1_5_6_2_RemoteAutoTitle_csm_bindings()
+{
+    std::string text = Label_virtualcontrols_1_5_6_2_RemoteAutoTitle_csm.Text.getLanguageText();
+
+    FindReplaceString(text,"%1$s",ramp::to_string(gm::csm::VIRTUALCONTROLS_REMOTENAME_AUTO));
+    Label_virtualcontrols_1_5_6_2_RemoteAutoTitle_csm = text.c_str();
+}
+
+void Screen_6042::onScreenHide()
+{
+    Image_img_check_box_auto_close.State.unBind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_CLOSE, mBindingsIds[0]);
+    Image_img_check_box_auto_open.State.unBind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_OPEN, mBindingsIds[1]);
+    Label_virtualcontrols_1_5_6_3_UGDOAutoClose_csm.State.unBind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_CLOSE, mBindingsIds[2]);
+    List_6042_ics_vc_options_auto_selected_list.Visibility.unBind(gm::csm::VIRTUALCONTROLS_UGDO_DISTANCE_FEET_LIST_VISIBILITY, mBindingsIds[4]);
+    Label_virtualcontrols_1_5_6_3_UGDOAutoOpen_csm.State.unBind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_OPEN, mBindingsIds[5]);
+    Label_virtualcontrols_1_5_3_2_UGDORange_csm.Visibility.unBind(gm::csm::VIRTUALCONTROLS_UGDO_DISTANCE_FEET_LIST_VISIBILITY, mBindingsIds[6]);
+}
+
+void Screen_6042::onScreenShow()
+{
+    mBindingsIds[0] = Image_img_check_box_auto_close.State.bind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_CLOSE);
+    mBindingsIds[1] = Image_img_check_box_auto_open.State.bind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_OPEN);
+    mBindingsIds[2] = Label_virtualcontrols_1_5_6_3_UGDOAutoClose_csm.State.bind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_CLOSE);
+    addDependency(this, &Screen_6042::Label_virtualcontrols_1_5_6_2_RemoteAutoTitle_csm_bindings,gm::csm::VIRTUALCONTROLS_REMOTENAME_AUTO);
+    mBindingsIds[4] = List_6042_ics_vc_options_auto_selected_list.Visibility.bind(gm::csm::VIRTUALCONTROLS_UGDO_DISTANCE_FEET_LIST_VISIBILITY);
+    addDependency(this, &Screen_6042::Widget_Logic_Visibility_img_placeholder_WakeScreen, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6042::Widget_Logic_Visibility_virtualcontrols_1_0_4_wakeScreenExit_csm, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6042::Widget_Logic_Visibility_virtualcontrols_1_0_4_wakeScreenExit_csm, gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE);
+    mBindingsIds[5] = Label_virtualcontrols_1_5_6_3_UGDOAutoOpen_csm.State.bind(gm::csm::VIRTUALCONTROLS_UGDO_OPTIONS_AUTO_OPEN);
+    mBindingsIds[6] = Label_virtualcontrols_1_5_3_2_UGDORange_csm.Visibility.bind(gm::csm::VIRTUALCONTROLS_UGDO_DISTANCE_FEET_LIST_VISIBILITY);
+    addDependency(this, &Screen_6042::Widget_Logic_Visibility_img_close, gm::csm::VIRTUALCONTROLS_ANDROID_LAUNCH_VISIBILITY);
+    addDependency(this, &Screen_6042::Widget_Logic_Visibility_img_close, gm::csm::VIRTUALCONTROLS_ANDROID_NOIVI_STATE);
+}
+
+
+}//namespace csm
+}//namespace gm

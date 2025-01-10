@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6078</ScreenID>
+				<Name>ics_persistent_smart_controls</Name>
+				<ImageWidget>
+					<ID>img_bg</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>486</SizeW>
+						<SizeH>1134</SizeH>
+					</Size>
+					<NormalURL compression="NONE">11/img_persistent_smart_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_persistent_controls_lights_headlights</ID>
+					<Location>
+						<LocationX>314</LocationX>
+						<LocationY>669</LocationY>
+					</Location>
+					<Size var="var_size_Settings_img"/>
+					<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_sb_lights_headlights_normal.png</NormalURL>
+					<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_sb_lights_headlights_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Head_lights_open</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_persistent_controls_voc_lane_keep_assist</ID>
+					<Location>
+						<LocationX>178</LocationX>
+						<LocationY>669</LocationY>
+					</Location>
+					<Size var="var_size_Settings_img"/>
+					<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_lane_keep_assist_normal.png</NormalURL>
+					<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_lane_keep_assist_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_lane_keep_assist_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_lane_keep_assist_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_lane_keep_assist_active.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_lane_keep_assist_pressed.png</FocusURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Lane_Keep_Assist</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchLongPress</UserInput>
+                        <WidgetCallback>evG_Lane_Keep_Assist_Long</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ListWidget>
+					<ListID>ics_persistent_smart_controls_list</ListID>
+					<Location>
+						<LocationX>42</LocationX>
+						<LocationY>533</LocationY>
+					</Location>
+					<Size>
+						<SizeW>408</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Orientation>1</Orientation>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<ZOrder>3</ZOrder>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<RowSpacing>17</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+					</RowLayout>
+					<ElementData>
+						<ImageElements>
+							<ID>img_ppm_icon</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>119</SizeW>
+								<SizeH>119</SizeH>
+							</Size>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+							<InputWidgetMapping>
+								<UserInput>TouchPressRelease</UserInput>
+								<WidgetCallback>evG_PPM_SmartControl_Selection</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+                    		    <UserInput>TouchLongPress</UserInput>
+                    		    <WidgetCallback>evG_PPM_SmartControl_LP_Selection</WidgetCallback>
+                    		</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchDragLeft</UserInput>
+								<WidgetCallback>evG_PPM_SmartControl_Drag_Left</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchDragRight</UserInput>
+								<WidgetCallback>evG_PPM_SmartControl_Drag_Right</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchDragUp</UserInput>
+								<WidgetCallback>evG_PPM_SmartControl_Drag_Up</WidgetCallback>
+							</InputWidgetMapping>
+							<InputWidgetMapping>
+								<UserInput>TouchDragDown</UserInput>
+								<WidgetCallback>evG_PPM_SmartControl_Drag_Down</WidgetCallback>
+							</InputWidgetMapping>
+						</ImageElements>
+						<ImageElements>
+							<ID>img_icon</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>119</SizeW>
+								<SizeH>119</SizeH>
+							</Size>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_notification_lights_headlights_auto_high_beams_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_notification_lights_headlights_auto_high_beams_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_notification_lights_headlights_auto_high_beams_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_notification_dome_lights_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>4</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_notification_dome_lights_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>5</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_notification_dome_lights_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>6</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_universal_remote_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>7</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_universal_remote_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>8</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_universal_remote_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>9</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_normal_URL">11/btn_icn_motion_sensor_truck_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>10</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_pressed_URL">11/btn_icn_motion_sensor_truck_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>11</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_selected_URL">11/btn_icn_motion_sensor_truck_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>12</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_gloves_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>13</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_gloves_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>14</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_gloves_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>15</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_opd_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>16</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_opd_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>17</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_opd_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>18</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_outlets_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>19</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_outlets_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>20</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_outlets_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>21</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_power_window_lockout_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>22</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_power_window_lockout_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>23</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_power_window_lockout_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>24</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_power_extended_mode_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>25</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_power_extended_mode_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>26</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_power_extended_mode_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>27</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_notification_power_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>28</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_notification_power_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>29</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_notification_power_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>30</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn__energy_out_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>31</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn__energy_out_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>32</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn__energy_out_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+							    <DataValue>33</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_auto_vehicle_hold_normal.png</NormalURL>
+                            </SelectorState>
+                             <SelectorState>
+							    <DataValue>34</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_auto_vehicle_hold_pressed.png</NormalURL>
+							 </SelectorState>
+							<!-- <SelectorState>
+								<DataValue>33</DataValue>
+								<NormalURL>11/btn_icn_voc_brb_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>34</DataValue>
+								<NormalURL>11/btn_icn_voc_brb_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>35</DataValue>
+								<NormalURL>11/btn_icn_voc_brb_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>36</DataValue>
+								<NormalURL>11/btn_icn_voc_brb_disabled.png</NormalURL>
+							</SelectorState> --><!-- These selector state images are not needed at present -->
+							<SelectorState>
+								<DataValue>37</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo1_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>38</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo1_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>39</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo1_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>40</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo2_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>41</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo2_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>42</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo2_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>43</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo3_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>44</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo3_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>45</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo3_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>46</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo4_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>47</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo4_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>48</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo4_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>49</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo5_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>50</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo5_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>51</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo5_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>52</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo6_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>53</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo6_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>54</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo6_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>55</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo7_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>56</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo7_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>57</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo7_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>58</DataValue>
+								<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_voc_ugdo8_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>59</DataValue>
+								<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_icn_voc_ugdo8_active.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>60</DataValue>
+								<NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_voc_ugdo8_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+							    <DataValue>61</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_vc_crabwalk_normal.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>62</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_vc_crabwalk_pressed.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>63</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_vc_crabwalk_selected.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>64</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_icn_traction_control_normal.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>65</DataValue>
+							    <NormalURL compression="NONE" skinid="skin_pressed_URL">11/btn_icn_traction_control_pressed.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+					        	<DataValue>66</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_suv_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_suv_pressed.png</FocusURL>
+					        </SelectorState>
+					        <SelectorState>
+					        	<DataValue>67</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_truck1_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_truck1_pressed.png</FocusURL>
+					        </SelectorState>
+					        <SelectorState>
+					        	<DataValue>68</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_crossover_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_crossover_pressed.png</FocusURL>
+					        </SelectorState>
+							<SelectorState>
+							    <DataValue>69</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_suv_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>70</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_truck1_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>71</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_motion_sensor_crossover_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+					        	<DataValue>72</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_suv_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_suv_pressed.png</FocusURL>
+					        </SelectorState>
+					        <SelectorState>
+					        	<DataValue>73</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_truck_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_truck_pressed.png</FocusURL>
+					        </SelectorState>
+					        <SelectorState>
+					        	<DataValue>74</DataValue>
+					        	<NormalURL skinid="skin_normal_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_crossover_normal.png</NormalURL>
+					        	<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_crossover_pressed.png</FocusURL>
+					        </SelectorState>
+							<SelectorState>
+							    <DataValue>75</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_suv_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>76</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_truck_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+							    <DataValue>77</DataValue>
+							    <NormalURL skinid="skin_selected_URL" compression="CompressionAlias2">11/btn_icn_voc_lane_keep_assist_crossover_active.png</NormalURL>
+							 </SelectorState>
+							 <SelectorState>
+					         	<DataValue>78</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_suv_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_suv_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>79</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_suv_active.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_suv_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>80</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_truck_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_truck_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>82</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_truck_active.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_truck_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>81</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_crossover_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_crossover_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>82</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_crossover_active.png</NormalURL>
+					         	<FocusURL  skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_voc_power_extended_mode_crossover_pressed.png</FocusURL>
+					         </SelectorState>
+							 <SelectorState>
+					         	<DataValue>83</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_suv_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_suv_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>84</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_suv_selected.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_suv_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>85</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_truck_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_truck_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>86</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_truck_selected.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_truck_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>87</DataValue>
+					         	<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_crossover_normal.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_crossover_pressed.png</FocusURL>
+					         </SelectorState>
+					         <SelectorState>
+					         	<DataValue>88</DataValue>
+					         	<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_crossover_selected.png</NormalURL>
+					         	<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias2">11/btn_icn_vehicle_off_crossover_pressed.png</FocusURL>
+					         </SelectorState>
+							 <SelectorState>
+								<DataValue>89</DataValue>
+								<NormalURL skinid="skin_disabled_URL" compression="NONE">11/btn_icn_vehicle_off_disabled.png</NormalURL>
+								<FocusURL skinid="skin_disabled_URL" compression="NONE">11/btn_icn_vehicle_off_suv_disabled.png</FocusURL>
+							 </SelectorState>
+							 <SelectorState>
+								<DataValue>90</DataValue>
+								<NormalURL skinid="skin_disabled_URL" compression="NONE">11/btn_icn_vehicle_off_crossover_disabled.png</NormalURL>
+								<FocusURL skinid="skin_disabled_URL" compression="NONE">11/btn_icn_vehicle_off_truck_disabled.png</FocusURL>
+							 </SelectorState>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+						</ImageElements>
+					</ElementData>
+				</ListWidget>
+				<ImageWidget>
+					<ID>img_expanded_arrow</ID>
+					<Location>
+						<LocationX>314</LocationX>
+						<LocationY>533</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_more_normal.png</NormalURL>
+					<FocusURL compression="NONE" skinid="skin_selected_URL">11/btn_more_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>5</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_more_disabled.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_more_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_selected_URL">11/btn_more_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression="NONE" skinid="skin_normal_URL">11/btn_more_down_selected.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_selected_URL">11/btn_more_down_pressed.png</FocusURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SmartControl_Selected</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

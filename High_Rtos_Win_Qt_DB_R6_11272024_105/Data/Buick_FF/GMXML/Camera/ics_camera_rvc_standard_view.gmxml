@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8001</ScreenID>
+                <Name>ics_camera_rvc_standard_view</Name>
+                <ImageWidget var="img_camera_bg">
+					<ID>img_bg_black</ID>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_exit</ID>
+					<Location>
+                        <LocationX>356</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>119</SizeW>
+                        <SizeH>119</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="btn_general_close_normal">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>	
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+				<ImageWidget>
+                    <ID>img_guideliness_view</ID>
+                    <Location>
+                        <LocationX>475</LocationX>
+                        <LocationY>14</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>175</SizeW>
+                        <SizeH>133</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/icn_guideline_view_small_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_guideline_view_small_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback> 
+					</InputWidgetMapping> 
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_guideline_view_small_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_guideline_view_small_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_guideline_view_small_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_guideline_view_small_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_guideline_view_small_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget>
+					<ID>img_background_guideline_view</ID>
+					<Location>
+						<LocationX>475</LocationX>
+						<LocationY>14</LocationY>
+					</Location>
+					<Size>
+						<SizeW>175</SizeW>
+						<SizeH>800</SizeH>
+					</Size>
+					<NormalURL compression = "NONE">11/img_guideline_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

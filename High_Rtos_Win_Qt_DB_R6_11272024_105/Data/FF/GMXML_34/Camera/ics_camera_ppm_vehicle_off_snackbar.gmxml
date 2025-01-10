@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6147</ScreenID>
+				<Name>ics_camera_ppm_vehicle_off_snackbar</Name>
+				<ImageWidget>
+					<ID>img_ppm_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_ppm_bg"/>
+					<NormalURL compression = "NONE">11/img_ppm_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_Confirm_cancel_btn</ID>
+					<Location var="var_loc_notification_cancel_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>					
+					<ImageElements>
+						<ID>img_cancel</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression="NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_1_f_passiveCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_confirm_vehicle_off</ID>
+					<Location var="var_loc_notification_vehicle_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_vehicle_off</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression="NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_11_H_SmartVehicleOff_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_VehicleOff</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_VehicleOff</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>				
+				<ImageWidget>
+                    <ID>img_mfc_vehicle_off_cancel_btn</ID>
+					<Location var="var_loc_notification_cancel_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<FocusURL>11/btn_secondary_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_mfc_confirm_vehicle_off</ID>
+					<Location var="var_loc_notification_vehicle_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<FocusURL>11/btn_primary_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_VehicleOff</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_VehicleOff</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

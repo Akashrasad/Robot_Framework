@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6088</ScreenID>
+                <Name>ics_virtual_controls_controls_home_aux</Name>	
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_controls_controls_home_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ScrollPageWidget>
+                    <ScrollPageID>VC_HomeScroll</ScrollPageID>
+                    <InitialPage>1</InitialPage>
+                    <MinPageCount>1</MinPageCount>
+                    <MaxPageCount>2</MaxPageCount>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1803</SizeW>
+                        <SizeH>1631</SizeH>
+                    </Size>
+                    <ZOrder>2</ZOrder>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_first_page_aux</ID>
+                        <IncludeScreen>6503</IncludeScreen> 
+                        <PageIndex>1</PageIndex>
+                    </PageWidget>
+                    <PageWidget>
+                        <ID>ics_virtual_controls_scroll_second_page_aux</ID>
+                        <IncludeScreen>6504</IncludeScreen>
+                        <PageIndex>2</PageIndex>
+                    </PageWidget>
+					<!-- <PageWidget>
+                        <ID>ics_virtual_controls_scroll_third_page</ID>
+                        <IncludeScreen>6502</IncludeScreen>
+                        <PageIndex>3</PageIndex>
+                    </PageWidget> -->
+                </ScrollPageWidget>
+				<ImageWidget>
+                    <ID>img_control_progress_bar_pointer</ID>
+                    <Location>
+                        <LocationX>836</LocationX>
+                        <LocationY>1722</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>56</SizeW>
+                        <SizeH>4</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_selected.png</NormalURL>
+                    <FocusURL>11/btn_page_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_control_progress_bar_pointer2</ID>
+                    <Location>
+                        <LocationX>947</LocationX>
+                        <LocationY>1722</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>56</SizeW>
+                        <SizeH>4</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_normal.png</NormalURL>
+                    <FocusURL>11/btn_page_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<!-- <ImageWidget>
+                    <ID>img_control_progress_bar_pointer3</ID>
+                    <Location>
+                        <LocationX>1063</LocationX>
+                        <LocationY>924</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>79</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_page_normal.png</NormalURL>
+                    <FocusURL>11/btn_page_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_page_normal.png</NormalURL>
+                        <FocusURL>11/btn_page_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_page_selected.png</NormalURL>
+                        <FocusURL>11/btn_page_normal.png</FocusURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget> -->
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

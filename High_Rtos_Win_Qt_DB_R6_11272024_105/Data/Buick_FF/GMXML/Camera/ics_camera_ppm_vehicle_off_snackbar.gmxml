@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6147</ScreenID>
+				<Name>ics_camera_ppm_vehicle_off_snackbar</Name>
+				<ImageWidget>
+					<ID>img_ppm_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_ppm_bg"/>
+					<NormalURL compression = "NONE">11/img_ppm_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_Confirm_cancel_btn</ID>
+					<Location var="var_loc_ppm_btn_1"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_cancel</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_medium"/>
+						<NormalURL compression="CompressionAlias1">11/btn_secondary_vechicle_off_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_secondary_vechicle_off_pressed.png</FocusURL>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_1_f_passiveCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_medium"/>
+						<Font var="var_font_primary_normal"/>
+						<FocusFont var="var_font_primary_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_confirm_vehicle_off</ID>
+					<Location var="var_loc_ppm_btn_2"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_vehicle_off</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_medium"/>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_vechicle_off_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_vechicle_off_pressed.png</FocusURL>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_11_H_SmartVehicleOff_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_medium"/>
+						<Font var="var_font_primary_normal"/>
+						<FocusFont var="var_font_primary_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_VehicleOff</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

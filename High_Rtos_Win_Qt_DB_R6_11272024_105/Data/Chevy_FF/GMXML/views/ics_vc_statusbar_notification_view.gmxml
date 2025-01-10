@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+           <ViewID>ics_vc_statusbar_notification_view</ViewID>
+            <Size>
+                <SizeW>2914</SizeW>
+                <SizeH>244</SizeH>
+            </Size>
+            <Location>
+                <LocationX>486</LocationX>
+                <LocationY>880</LocationY>
+            </Location>
+            <ZOrder>7</ZOrder>
+            <Screen load="ics_virtualcontrols_hmi_factory_reset"/>
+			<Screen load="ics_virtualcontrols_hmi_recovery_mode_confirmation"/>
+			<Screen load="ics_virtualcontrols_hmi_factory_reset_confirmation"/>
+            <Screen load="ics_virtualcontrols_high_temp"/>
+            <Screen load="ics_virtualcontrols_no_invehicle_infotainment"/>
+            <Screen load="ics_virtualcontrols_facotry_reset_in_progress"/>
+		</View>
+    </Display>
+</GMXML>

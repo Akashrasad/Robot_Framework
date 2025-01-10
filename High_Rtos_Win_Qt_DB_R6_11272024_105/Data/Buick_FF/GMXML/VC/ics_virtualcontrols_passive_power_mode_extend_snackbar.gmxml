@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6098</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget var="var_snackbar_3line_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_7_V_ExtendSnackbar_csm</ID>
+					<Location>
+						<LocationX>33</LocationX>
+						<LocationY>38</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1031</SizeW>
+						<SizeH>217</SizeH>
+					</Size>
+					<Font var="var_font_snackbar_txt"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1086</LocationX>
+						<LocationY>97</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias1">11/img_vertical_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_dismiss_btn</ID>
+					<Location>
+						<LocationX>1097</LocationX>
+						<LocationY>89</LocationY>
+					</Location>
+					<Size>
+						<SizeW>467</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_dismiss_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>467</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<ZOrder>3</ZOrder>
+						<NormalURL>11/btn_bg_tertiary_normal.png</NormalURL>
+						<FocusURL>11/btn_bg_tertiary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_7_V_ExtendSnackbarDismiss_csm</ID>
+						<Font var="var_font_radio_btn_txt_noraml"/>
+						<FocusFont var="var_font_primary_pressed"/>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>467</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

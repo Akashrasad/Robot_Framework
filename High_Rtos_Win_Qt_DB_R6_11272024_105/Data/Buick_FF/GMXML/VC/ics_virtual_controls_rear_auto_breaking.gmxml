@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6165</ScreenID>
+                <Name>ics_virtual_controls_rear_auto_breaking</Name>
+				<ImageWidget var="img_general_back_btn">
+                    <ID>img_controls_rear_breaking_back_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_7_F_RABTitle_csm</ID>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_controls_rear_breaking_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_rab_btn</ID>
+                    <Location var="var_loc_launch_btn"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_rab_btn</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+			        <FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+			        <SelectorState>
+			        	<DataValue>0</DataValue>
+			        	<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+			        	<FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+			        </SelectorState>
+			        <SelectorState>
+			        	<DataValue>1</DataValue>
+			        	<NormalURL compression="CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+			        	<FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+			        </SelectorState>
+					<SelectorState>
+			        	<DataValue>2</DataValue>
+			        	<NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+			        	<FocusURL/>
+			        </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>dyn_rear_auto_status</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <Font var="var_font_primary_normal"/>
+					<FocusFont var="var_font_primary_pressed"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_primary_normal"/>
+						<FocusFont var="var_font_primary_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_primary_selected"/>
+						<FocusFont var="var_font_primary_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_primary_disabled"/>
+						<FocusFont var="var_font_primary_disabled"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_RearAutoBraking_Selection</WidgetCallback>
+				</InputWidgetMapping>
+				</GroupWidget>
+                <ImageWidget>
+                    <ID>img_rear_auto_breaking</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias1">11/controls_icn_rear_auto_breaking_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_7_F_RAB_csm</ID>
+                </LabelWidget>
+                <LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6059</ScreenID>
+				<Name>ics_virtual_controls_head_up_display</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_AppHome_back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_1_hudTitle_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>grp_img_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_controls_icn_HUD_power</ID>
+					<Location>
+						<LocationX>124</LocationX>
+						<LocationY>620</LocationY>
+					</Location>
+					<Size>
+						<SizeW>186</SizeW>
+						<SizeH>186</SizeH>
+					</Size>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE">11/btn_icn_power_selected.png</NormalURL>
+						<FocusURL  compression = "NONE">11/btn_icn_power_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE">11/btn_icn_power_normal.png</NormalURL>
+						<FocusURL  compression = "NONE">11/btn_icn_power_pressed.png</FocusURL>
+					</SelectorState> 
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_power_on_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_brightness_increment</ID>
+					<Location>
+						<LocationX>361</LocationX>
+						<LocationY>282</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_settings_add_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_settings_add_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Brightness_Increment</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ProgressBarWidget>
+					<ID>img_brightness_pogressbar</ID>
+					<Value>55</Value>
+					<Location>
+						<LocationX>356</LocationX>
+						<LocationY>434</LocationY>
+					</Location>
+					<Size>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</Size>
+					<ProgressBarTouch>1</ProgressBarTouch>
+					<ProgressBarURL compression = "CompressionAlias1">11/dyn_progress_bar_filled.png</ProgressBarURL>
+					<ProgressBarURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL compression = "CompressionAlias1">11/dyn_progress_bar_empty.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</HousingURLSize>
+					<ThumbURL compression = "CompressionAlias1">11/img_slider_handler.png</ThumbURL>
+					<IsThumbLimited>1</IsThumbLimited>
+					<ThumbURLLocation>
+						<LocationX>-2</LocationX>
+						<LocationY>81</LocationY>
+					</ThumbURLLocation>
+					<ThumbURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>155</SizeH>
+					</ThumbURLSize>
+					<ThumbURLOffset>
+					    <Top>0</Top>
+                        <Bottom>60</Bottom>
+                    </ThumbURLOffset>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+					<Orientation>2</Orientation>
+				</ProgressBarWidget>
+				<ImageWidget>
+					<ID>img_brightness_decrement</ID>
+					<Location>
+						<LocationX>367</LocationX>
+						<LocationY>1007</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_settings_minus_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_settings_minus_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Brightness_Decrement</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_1_HUDbrightness_csm</ID>
+					<Font var="var_font_hud_txt_normal">
+					<TextAlign>2</TextAlign>
+					</Font>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>313</LocationX>
+						<LocationY>1211</LocationY>
+					</Location>
+					<Size>
+						<SizeW>239</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_height_increment</ID>
+					<Location>
+						<LocationX>671</LocationX>
+						<LocationY>282</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_general_up_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_general_up_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Height_Increment</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ProgressBarWidget>
+					<ID>img_height_pogressbar</ID>
+					<Value>55</Value>
+					<Location>
+						<LocationX>660</LocationX>
+						<LocationY>434</LocationY>
+					</Location>
+					<Size>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</Size>
+					<ProgressBarTouch>1</ProgressBarTouch>
+					<ProgressBarURL>11/dyn_progress_bar_filled.png</ProgressBarURL>
+					<ProgressBarURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL>11/dyn_progress_bar_empty.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</HousingURLSize>
+					<ThumbURL>11/img_slider_handler.png</ThumbURL>
+					<IsThumbLimited>1</IsThumbLimited>
+					<ThumbURLLocation>
+						<LocationX>-2</LocationX>
+						<LocationY>81</LocationY>
+					</ThumbURLLocation>
+					<ThumbURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>155</SizeH>
+					</ThumbURLSize>
+					<ThumbURLOffset>
+					    <Top>0</Top>
+                        <Bottom>60</Bottom>
+                    </ThumbURLOffset>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+					<Orientation>2</Orientation>
+				</ProgressBarWidget>
+				<ImageWidget>
+					<ID>img_height_decrement</ID>
+					<Location>
+						<LocationX>671</LocationX>
+						<LocationY>1007</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_general_down_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_general_down_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Height_Decrement</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_1_HUDheight_csm</ID>
+					<Font var="var_font_hud_txt_normal">
+					<TextAlign>2</TextAlign>
+					</Font>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>618</LocationX>
+						<LocationY>1211</LocationY>
+					</Location>
+					<Size>
+						<SizeW>239</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_rotation_right</ID>
+					<Location>
+						<LocationX>956</LocationX>
+						<LocationY>282</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_general_rotateright_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_general_rotateright_pressed.png</FocusURL>               
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Rotation_Right</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ProgressBarWidget>
+					<ID>img_rotation_pogressbar</ID>
+					<Value>55</Value>
+					<Location>
+						<LocationX>945</LocationX>
+						<LocationY>434</LocationY>
+					</Location>
+					<Size>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</Size>
+					<ProgressBarTouch>1</ProgressBarTouch>
+					<ProgressBarURL>11/dyn_progress_bar_filled.png</ProgressBarURL>
+					<ProgressBarURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL>11/dyn_progress_bar_empty.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>556</SizeH>
+					</HousingURLSize>
+					<ThumbURL>11/img_slider_handler.png</ThumbURL>
+					<IsThumbLimited>1</IsThumbLimited>
+					<ThumbURLLocation>
+						<LocationX>-2</LocationX>
+						<LocationY>81</LocationY>
+					</ThumbURLLocation>
+					<ThumbURLSize>
+						<SizeW>155</SizeW>
+						<SizeH>155</SizeH>
+					</ThumbURLSize>
+					<ThumbURLOffset>
+					    <Top>0</Top>
+                        <Bottom>60</Bottom>
+                    </ThumbURLOffset>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+					<Orientation>2</Orientation>
+				</ProgressBarWidget>
+				<ImageWidget>
+					<ID>img_rotation_left</ID>
+					<Location>
+						<LocationX>956</LocationX>
+						<LocationY>1007</LocationY>
+					</Location>
+					<Size var="var_size_title_bar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_general_rotateleft_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_general_rotateleft_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Rotation_Left</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_1_rotation_csm</ID>
+					<Font var="var_font_hud_txt_normal">
+					<TextAlign>2</TextAlign>
+					</Font>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>901</LocationX>
+						<LocationY>1211</LocationY>
+					</Location>
+					<Size>
+						<SizeW>239</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_hud_txt_normal">
+						<TextAlign>2</TextAlign>
+					</Font>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_hud_disabled">
+						<TextAlign>2</TextAlign>
+					</Font>
+					</SelectorState>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_1_hud_csm</ID>
+					<Font var="var_font_head_up_display_desc_normal"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_hud_label"/>
+					<Size var="var_size_hud_label"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_head_up_display_desc_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_universal_remotes_desc_disabled"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+					<Location var="var_loc_hud_label"/>
+					<Size var="var_size_hud_label"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_universal_remotes_desc"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_universal_remotes_desc_disabled"/>
+					</SelectorState>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_1_1_hudDisabled_csm</ID>
+					<Font var="var_font_hud_disabled"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>344</LocationX>
+						<LocationY>620</LocationY>
+					</Location>
+					<Size>
+						<SizeW>830</SizeW>
+						<SizeH>185</SizeH>
+					</Size>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

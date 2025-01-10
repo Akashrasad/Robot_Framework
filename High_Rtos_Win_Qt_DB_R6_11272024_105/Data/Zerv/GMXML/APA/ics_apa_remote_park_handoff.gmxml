@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7024</ScreenID>
+                <Name>ics_apa_remote_park_handoff</Name>
+                <ImageWidget>
+                    <ID>img_close_icn</ID>
+                    <Location var="var_loc_icn_close"/>
+                    <Size var="var_size_icn_close_117"/>
+                    <NormalURL>11/icn_close_normal_small.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>apa_4_10_RemoteParkHandoff_1_csm</ID>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_unableToconnect_txt"/>
+                    <Size var="var_size_unabletoconnect_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_10_UseTheMyBrandApp_csm</ID>
+                    <Font var="var_font_toomanyattempts"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_handoff_txt"/>
+                    <Size var="var_size_handoff_one_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6039</ScreenID>
+				<Name>ics_virtualcontrols_lights_headlights_dialog</Name>
+                <DialogDismiss callback = "evG_HeadLightsDialog_Cancel" zorder="1"/>
+				<ImageWidget var="var_img_notification_simple_dialog_no_content_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<LabelWidget var="var_lbl_notification_simple_dialog_no_content_text">
+					<ID>virtualcontrols_1_4_2_dialog_headlights_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_notification_simple_dialog_primary_btn"/>
+					<Size var="var_size_btn_medium"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="var_img_grp_primary_btn">
+						<ID>img_btn_bg1</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_grp_primary_btn">
+						<ID>virtualcontrols_1_4_2_dialogHeadlightsPrimary_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_TurnOff</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_TurnOff</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+               <GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<Location var="var_loc_notification_simple_dialog_secondary_btn"/>
+					<Size var="var_size_btn_medium"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<ImageElements var="var_img_grp_secondary_btn">
+							<ID>img_btn_bg2</ID>
+						</ImageElements>
+						<LabelElements var="var_lbl_grp_secondary_btn">
+							<ID>virtualcontrols_1_4_2_dialogHeadlightsSecondary_csm</ID>
+						</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

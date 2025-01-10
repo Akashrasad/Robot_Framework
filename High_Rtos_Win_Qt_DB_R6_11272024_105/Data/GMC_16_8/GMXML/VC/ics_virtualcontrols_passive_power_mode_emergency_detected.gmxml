@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6097</ScreenID>
+                <Name>ics_virtualcontrols_passive_power_mode_emergency_detected</Name>
+                <ImageWidget>
+					<ID>img_bg_emrgncy_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression = "NONE">11/img_main_bg_home.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_icon</ID>
+					<Location var="var_loc_error_icon"/>
+					<Size var="var_size_traction_control_icon"/>
+					<NormalURL>11/icn_emergency_detected.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_6_6_5_f_emergency_csm</ID>
+                    <Font var="var_font_title_emergency_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title_emergency_text"/>
+                    <Size var="var_size_emergency_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_off</ID>
+                    <Location var="var_loc_powerOff_btn"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                        <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_selected.png</NormalURL>
+                        <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_6_6_5_f_powerOff_csm</ID>
+                    <Font var="var_font_primary_button_normal"/>
+					<FocusFont var="var_font_primary_button_pressed"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PPM_Emergency_Detected_Turnoff</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

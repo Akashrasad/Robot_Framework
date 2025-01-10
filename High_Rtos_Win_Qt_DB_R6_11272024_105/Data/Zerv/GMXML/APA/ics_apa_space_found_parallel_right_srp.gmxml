@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7026</ScreenID>
+                <Name>ics_apa_space_found_parallel_right_srp</Name>
+                <ImageWidget>
+                    <ID>img_close_icn</ID>
+                    <Location var="var_loc_icn_close"/>
+                    <Size var="var_size_icn_close_117"/>
+                    <NormalURL>11/icn_close_normal_small.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_title_bar_bg"/>
+                    <Size var="var_size_title_bar_bg"/>
+                    <NormalURL>11/img_navigation_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget> 
+                    <ID>apa_4_1_selectedbuttonParaRight_csm</ID>
+                    <Font var="var_font_title"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_title"/>
+                    <Size var="var_size_title"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget> 
+                    <ID>img_up_arrow</ID>
+                    <Location var="var_loc_titilebar_up_arrow"/>
+                    <Size var="var_size_title_bar_up_arrow"/>
+                    <NormalURL>11/icn_up_normal_small.png</NormalURL>
+					<FocusURL>11/icn_up_focused_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_up_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_up_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_up_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/icn_up_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias6">11/icn_up_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_perp_left_space</ID>
+                    <Location var="var_loc_perp_right_instr_1"/>
+                    <Size var="var_size_perp_right_instr_1"/>
+                    <NormalURL compression = "CompressionAlias2">11/icn_confirmparright_car_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_4_4_DoYouWantToPark_csm</ID>
+                    <Font var="var_font_perp_right_instr_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_perp_right_instr_txt"/>
+                    <Size var="var_size_perp_right_instr_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_park_in_vehicle_btn</ID>
+                    <Location var="var_loc_yes_button_img"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_park_in_vehicle_btn</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL>11/btn_primary_normal.png</NormalURL>
+						<FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias13">11/btn_primary_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_primary_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_4_ParkInVehicle_csm</ID>
+                    <Font var="var_font_yes_button"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_yes_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_yes_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_yes_button_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <Font var="var_font_yes_button_selected"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <Font var="var_font_yes_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Yes_Park</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_supervise_remotely_btn</ID>
+                    <Location var="var_loc_keep_looking_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_supervise_remotely_btn</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL>11/btn_secondary_normal.png</NormalURL>
+						<FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_secondary_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias13">11/btn_secondary_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_8_btn2_f_csm</ID>
+                    <Font var="var_font_keep_looking_button"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_keep_looking_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_keep_looking_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_keep_looking_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <Font var="var_font_keep_looking_button_selected"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <Font var="var_font_keep_looking_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements> 
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Srp_Remote_Parking</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_keep_looking_btn</ID>
+                    <Location var="var_loc_park_in_vehicle"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_keep_looking_btn</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                       <NormalURL>11/btn_secondary_normal.png</NormalURL>
+						<FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_secondary_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_4_KeepLooking_csm</ID>
+                    <Font var="var_font_keep_looking_button"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Keep_Looking_Button</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

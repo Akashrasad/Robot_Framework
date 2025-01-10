@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <Location id="var_loc_orgin_0_0">
+            <LocationX>0</LocationX>
+            <LocationY>0</LocationY>
+        </Location>
+        <Location id="var_loc_icn_close">
+            <LocationX>49</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_titilebar_up_arrow">
+            <LocationX>185</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_perp_right_instr">
+            <LocationX>1426</LocationX>
+            <LocationY>283</LocationY>
+        </Location>
+        <Location id="var_loc_perp_right_instr_txt">
+            <LocationX>240</LocationX>
+            <LocationY>316</LocationY>
+        </Location>
+        <Location id="var_loc_title_bar_bg">
+            <LocationX>188</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_title">
+            <LocationX>401</LocationX>
+            <LocationY>140</LocationY>
+        </Location>
+        <Location id="var_loc_park_left_perp_img">
+            <LocationX>1120</LocationX>
+            <LocationY>362</LocationY>
+        </Location>
+        <Location id="var_loc_park_left_perp_label">
+            <LocationX>69</LocationX>
+            <LocationY>326</LocationY>
+        </Location>
+        <Location id="var_loc_perp_right_instr_1">
+            <LocationX>1426</LocationX>
+            <LocationY>283</LocationY>
+        </Location>
+        <Location id="var_loc_yes_button_img">
+            <LocationX>240</LocationX>
+            <LocationY>800</LocationY>
+        </Location>
+        <Location id="var_loc_yes_button_txt">
+            <LocationX>261</LocationX>
+            <LocationY>800</LocationY>
+        </Location>
+        <Location id="var_loc_keep_looking_button">
+            <LocationX>719</LocationX>
+            <LocationY>800</LocationY>
+        </Location>
+        <Location id="var_loc_keep_looking_button_txt">
+            <LocationX>748</LocationX>
+            <LocationY>800</LocationY>
+        </Location>
+        <Location id="var_loc_popup_body_txt_bg">
+            <LocationX>185</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_popup_body_txt">
+            <LocationX>240</LocationX>
+            <LocationY>218</LocationY>
+        </Location>
+        <Location id="var_loc_snack_bar_text">
+            <LocationX>57</LocationX>
+            <LocationY>42</LocationY>
+        </Location>
+        <!-- VC -->
+        <Location id="var_loc_actionbar_back_img">
+            <LocationX>25</LocationX>
+            <LocationY>0</LocationY>
+        </Location>
+        <Location id="var_loc_actionbar_text">
+            <LocationX>523</LocationX>
+            <LocationY>24</LocationY>
+        </Location>
+        <Location id="var_loc_dialog_btn">
+            <LocationX>55</LocationX>
+            <LocationY>262</LocationY>
+        </Location>
+        <Location id="var_loc_dialog_text">
+            <LocationX>55</LocationX>
+            <LocationY>55</LocationY>
+        </Location>
+        <Location id = "var_loc_dialog_btn_text">
+            <LocationX>79</LocationX>
+            <LocationY>324</LocationY>
+        </Location>
+        <Location id = "var_loc_actionbar_close_img">
+            <LocationX>1826</LocationX>
+            <LocationY>0</LocationY>
+        </Location>
+        <Location id = "var_loc_ugdo_edit_normal">
+            <LocationX>403</LocationX>
+            <LocationY>100</LocationY>
+        </Location>
+        <Location id = "var_loc_learn_success_test_body_content">
+            <LocationX>257</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id = "var_loc_ugdo_learn">
+            <LocationX>471</LocationX>
+            <LocationY>356</LocationY>
+        </Location>
+        <Location id = "var_loc_call_assistance">
+            <LocationX>944</LocationX>
+            <LocationY>427</LocationY>
+        </Location>
+        <Location id = "var_loc_test_btn">
+            <LocationX>257</LocationX>
+            <LocationY>708</LocationY>
+        </Location>
+        <Location id = "var_loc_itworked_btn">
+            <LocationX>737</LocationX>
+            <LocationY>708</LocationY>
+        </Location>
+        <Location id = "var_loc_it_didnot_work_btn">
+            <LocationX>1217</LocationX>
+            <LocationY>708</LocationY>
+        </Location>
+        <Location id = "var_loc_test_btn_txt">
+            <LocationX>197</LocationX>
+            <LocationY>795</LocationY>
+        </Location>
+        <Location id = "var_loc_itworked_btn_txt">
+            <LocationX>756</LocationX>
+            <LocationY>795</LocationY>
+        </Location>
+        <Location id = "var_loc_it_didnot_work_btn_txt">
+            <LocationX>1314</LocationX>
+            <LocationY>795</LocationY>
+        </Location>
+        <Location id = "var_loc_universal_remotes_desc">
+            <LocationX>1142</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id = "var_loc_universal_remotes_placeholder">
+            <LocationX>1170</LocationX>
+            <LocationY>751</LocationY>
+        </Location>
+        <Location id = "var_loc_add_remote_btn">
+            <LocationX>257</LocationX>
+            <LocationY>183</LocationY>
+        </Location>
+        <Location id = "var_loc_add_remote_btn_txt">
+            <LocationX>1195</LocationX>
+            <LocationY>182</LocationY>
+        </Location>
+        <Location id = "var_loc_options_desc">
+            <LocationX>1342</LocationX>
+            <LocationY>682</LocationY>
+        </Location>
+        <Location id="var_loc_img_checkbox">
+            <LocationX>185</LocationX>
+            <LocationY>226</LocationY>
+        </Location>
+        <Location id="var_loc_checkbox_text">
+            <LocationX>340</LocationX>
+            <LocationY>248</LocationY>
+        </Location>
+        <Location id = "var_loc_test_btn_479">
+            <LocationX>185</LocationX>
+            <LocationY>781</LocationY>
+        </Location>
+        <Location id = "var_loc_itworked_btn_479">
+            <LocationX>697</LocationX>
+            <LocationY>781</LocationY>
+        </Location>
+        <Location id = "var_loc_test_btn_txt_479">
+            <LocationX>200</LocationX>
+            <LocationY>795</LocationY>
+        </Location>
+        <Location id = "var_loc_itworked_btn_txt_479">
+            <LocationX>712</LocationX>
+            <LocationY>795</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_off">
+            <LocationX>183</LocationX>
+            <LocationY>219</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_off_txt">
+            <LocationX>335</LocationX>
+            <LocationY>249</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_on">
+            <LocationX>183</LocationX>
+            <LocationY>350</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_on_txt">
+            <LocationX>335</LocationX>
+            <LocationY>380</LocationY>
+        </Location>
+        <Location id = "var_loc_icon">
+            <LocationX>1174</LocationX>
+            <LocationY>219</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_desc_txt">
+            <LocationX>1253</LocationX>
+            <LocationY>219</LocationY>
+        </Location>
+		<Location id = "var_loc_radio_btn_desc_txt_FF">
+            <LocationX>1253</LocationX>
+            <LocationY>219</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_placeholder">
+            <LocationX>1170</LocationX>
+            <LocationY>226</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_1strow">
+            <LocationX>185</LocationX>
+            <LocationY>226</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_1strow_txt">
+            <LocationX>340</LocationX>
+            <LocationY>248</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_2ndrow">
+            <LocationX>185</LocationX>
+            <LocationY>356</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_2ndrow_txt">
+            <LocationX>340</LocationX>
+            <LocationY>378</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_3rdrow">
+            <LocationX>185</LocationX>
+            <LocationY>487</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_3rdrow_txt">
+            <LocationX>340</LocationX>
+            <LocationY>509</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_4throw">
+            <LocationX>185</LocationX>
+            <LocationY>612</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_4rows_4throw_txt">
+            <LocationX>340</LocationX>
+            <LocationY>634</LocationY>
+        </Location>
+        <Location id = "var_loc_off_divider">
+            <LocationX>183</LocationX>
+            <LocationY>345</LocationY>
+        </Location>
+        <Location id = "var_loc_on_divider">
+            <LocationX>183</LocationX>
+            <LocationY>476</LocationY>
+        </Location>
+        <Location id = "var_loc_off_divider_3rdrow">
+            <LocationX>183</LocationX>
+            <LocationY>606</LocationY>
+        </Location>
+        <Location id = "var_loc_off_divider_4throw">
+            <LocationX>183</LocationX>
+            <LocationY>737</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_3rdrow">
+            <LocationX>183</LocationX>
+            <LocationY>481</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_3rdrow_txt">
+            <LocationX>335</LocationX>
+            <LocationY>511</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_4throw">
+            <LocationX>183</LocationX>
+            <LocationY>608</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_4throw_txt">
+            <LocationX>335</LocationX>
+            <LocationY>642</LocationY>
+        </Location>
+        <Location id = "var_loc_img_gloves">
+            <LocationX>898</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id = "var_loc_img_universal_remote">
+            <LocationX>1216</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id = "var_loc_img_dome_lights">
+            <LocationX>1535</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_desc_txt_1">
+            <LocationX>1257</LocationX>
+            <LocationY>580</LocationY>
+        </Location>
+        <Location id = "var_loc_icon_1">
+            <LocationX>1176</LocationX>
+            <LocationY>580</LocationY>
+        </Location>
+        <Location id="var_loc_snackbar_txt_2lines">
+            <LocationX>55</LocationX>
+            <LocationY>12</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_doors_windows_placeholder">
+            <LocationX>0</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_doors_windows_placeholder_txt">
+            <LocationX>18</LocationX>
+            <LocationY>143</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_lights_placeholder">
+            <LocationX>351</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_lights_placeholder_txt">
+            <LocationX>368</LocationX>
+            <LocationY>263</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_drive_park_placeholder">
+            <LocationX>0</LocationX>
+            <LocationY>439</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_drive_park_placeholder_txt">
+            <LocationX>18</LocationX>
+            <LocationY>585</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_universal_remotes_placeholder">
+            <LocationX>351</LocationX>
+            <LocationY>439</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_universal_remotes_placeholder_txt">
+            <LocationX>368</LocationX>
+            <LocationY>585</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_1st_row_1st_col">
+            <LocationX>898</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_1st_row_1st_col">
+            <LocationX>899</LocationX>
+            <LocationY>338</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_1st_row_2nd_col">
+            <LocationX>1216</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_1st_row_2nd_col">
+            <LocationX>1218</LocationX>
+            <LocationY>338</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_1st_row_3rd_col">
+            <LocationX>1535</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_1st_row_3rd_col">
+            <LocationX>1536</LocationX>
+            <LocationY>338</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_2nd_row_1st_col">
+            <LocationX>898</LocationX>
+            <LocationY>508</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_2nd_row_1st_col">
+            <LocationX>899</LocationX>
+            <LocationY>688</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_2nd_row_2nd_col">
+            <LocationX>1216</LocationX>
+            <LocationY>508</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_2nd_row_2nd_col">
+            <LocationX>1218</LocationX>
+            <LocationY>688</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_2nd_row_3rd_col">
+            <LocationX>1535</LocationX>
+            <LocationY>508</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_2nd_row_3rd_col">
+            <LocationX>1536</LocationX>
+            <LocationY>688</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_icons_pg2_row1">
+            <LocationX>207</LocationX>
+            <LocationY>158</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_pg2_1row">
+            <LocationX>208</LocationX>
+            <LocationY>338</LocationY>
+        </Location>
+        <Location id="var_loc_card_controls_icons_pg2_row2">
+            <LocationX>207</LocationX>
+            <LocationY>508</LocationY>
+        </Location>
+        <Location id="var_loc_home_screen_icon_txt_pg2_2row">
+            <LocationX>208</LocationX>
+            <LocationY>688</LocationY>
+        </Location>
+        <Location id="var_loc_settings_icon">
+            <LocationX>1826</LocationX>
+            <LocationY>173</LocationY>
+        </Location>
+        <Location id="var_loc_close">
+            <LocationX>35</LocationX>
+            <LocationY>35</LocationY>
+        </Location>
+        <Location id="var_loc_camera_warning">
+            <LocationX>865</LocationX>
+            <LocationY>204</LocationY>
+        </Location>
+        <Location id="var_loc_guideline_view_medium">
+            <LocationX>185</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_trailer_view_medium">
+            <LocationX>935</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_guideline_view_small">
+            <LocationX>185</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_trailer_view_small">
+            <LocationX>685</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_hitch_view_small">
+            <LocationX>1185</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_guideline_view_large">
+            <LocationX>185</LocationX>
+            <LocationY>834</LocationY>
+        </Location>
+        <Location id="var_loc_upa_warning">
+            <LocationX>724</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id="var_loc_camera_error">
+            <LocationX>893</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id="var_loc_caution_left">
+            <LocationX>215</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id="var_loc_caution_right">
+            <LocationX>1459</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+        <Location id="var_loc_upa_symbol">
+            <LocationX>835</LocationX>
+            <LocationY>631</LocationY>
+        </Location>
+        <Location id="var_loc_upa_symbol_3">
+            <LocationX>860</LocationX>
+            <LocationY>539</LocationY>
+        </Location>
+        <Location id="var_loc_upa_symbol_2">
+            <LocationX>860</LocationX>
+            <LocationY>446</LocationY>
+        </Location>
+        <Location id="var_loc_upa_symbol_1">
+            <LocationX>860</LocationX>
+            <LocationY>354</LocationY>
+        </Location>
+        <Location id="var_loc_list_vpm_rear_view1">
+            <LocationX>185</LocationX>
+            <LocationY>833</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_button">
+            <LocationX>534</LocationX>
+            <LocationY>465</LocationY>
+        </Location>
+		<Location id = "var_loc_notification_dialog_secondary_button_text">
+            <LocationX>534</LocationX>
+            <LocationY>488</LocationY>
+        </Location>
+		<Location id = "var_loc_notification_dialog_primary_button_text">
+            <LocationX>55</LocationX>
+            <LocationY>488</LocationY>
+        </Location>
+		<Location id="var_loc_dialog_text_1">
+            <LocationX>55</LocationX>
+            <LocationY>55</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_text_secondary">
+            <LocationX>55</LocationX>
+            <LocationY>215</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_primary_button">
+            <LocationX>55</LocationX>
+            <LocationY>465</LocationY>
+        </Location>
+		<Location id="var_loc_img_single_line_text_snackbar">
+            <LocationX>120</LocationX>
+            <LocationY>30</LocationY>
+        </Location>
+        <Location id="var_loc_vertical_divider_1169_222">
+            <LocationX>1169</LocationX>
+            <LocationY>222</LocationY>
+        </Location>
+        <Location id="var_loc_park_in_vehicle">
+            <LocationX>1199</LocationX>
+            <LocationY>800</LocationY>
+        </Location>
+        <Location id="var_loc_park_in_vehicle_txt">
+            <LocationX>1226</LocationX>
+            <LocationY>804</LocationY>
+        </Location>
+        <Location id="var_loc_exit_btn_txt">
+            <LocationX>25</LocationX>
+            <LocationY>880</LocationY>
+        </Location>
+        <Location id="var_loc_dialog_btn_secondary">
+            <LocationX>534</LocationX>
+            <LocationY>262</LocationY>
+        </Location>
+        <Location id="var_loc_dialog_btn_secondary_text">
+            <LocationX>518</LocationX>
+            <LocationY>324</LocationY>
+        </Location>
+		<Location id="var_loc_body_text">
+            <LocationX>260</LocationX>
+            <LocationY>193</LocationY>
+        </Location>
+		<Location id="var_loc_keep_on_button">
+            <LocationX>260</LocationX>
+            <LocationY>801</LocationY>
+        </Location>
+		<Location id="var_loc_time_bg">
+            <LocationX>1292</LocationX>
+            <LocationY>202</LocationY>
+        </Location>
+		<Location id="var_loc_timer_btn">
+            <LocationX>1340</LocationX>
+            <LocationY>257</LocationY>
+        </Location>
+		<Location id="var_loc_timer_text">
+            <LocationX>1539</LocationX>
+            <LocationY>261</LocationY>
+        </Location>
+		<Location id="var_loc_divider">
+            <LocationX>1312</LocationX>
+            <LocationY>350</LocationY>
+        </Location>
+		<Location id="var_loc_hours_text">
+            <LocationX>1540</LocationX>
+            <LocationY>496</LocationY>
+        </Location>
+		<Location id="var_loc_red_btn">
+            <LocationX>1292</LocationX>
+            <LocationY>812</LocationY>
+        </Location>
+		<Location id="var_loc_rangereserve_text">
+            <LocationX>1417</LocationX>
+            <LocationY>790</LocationY>
+        </Location>
+		<Location id="var_loc_dynamic_text">
+            <LocationX>1417</LocationX>
+            <LocationY>867</LocationY>
+        </Location>
+		<Location id="var_loc_arrow_btn">
+            <LocationX>1842</LocationX>
+            <LocationY>796</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_txt">
+            <LocationX>55</LocationX>
+            <LocationY>164</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_primary_button_1">
+            <LocationX>55</LocationX>
+            <LocationY>346</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_primary_button_1_txt">
+            <LocationX>78</LocationX>
+            <LocationY>346</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_button_1">
+            <LocationX>534</LocationX>
+            <LocationY>346</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_button_1_txt">
+            <LocationX>557</LocationX>
+            <LocationY>346</LocationY>
+        </Location>
+		<Location id="var_loc_snack_bar_2lines_text">
+            <LocationX>55</LocationX>
+            <LocationY>34</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_circle_alt_icon">
+            <LocationX>262</LocationX>
+            <LocationY>392</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_circle_body_text">
+            <LocationX>398</LocationX>
+            <LocationY>376</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_circle_body_secondary_text">
+            <LocationX>398</LocationX>
+            <LocationY>533</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_circle_body_secondary_button_grp">
+            <LocationX>740</LocationX>
+            <LocationY>802</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_circle_outlets_icon">
+            <LocationX>1371</LocationX>
+            <LocationY>327</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_peek_in_screen_circle_progressbar_oulets_text">
+            <LocationX>1248</LocationX>
+            <LocationY>528</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_peek_in_screen_circle_progressbar_powerlimit_text">
+            <LocationX>1248</LocationX>
+            <LocationY>726</LocationY>
+        </Location>
+		<Location id="var_loc_peek_in_screen_peek_in_screen_circle_progressbar_turned_on_text">
+            <LocationX>1248</LocationX>
+            <LocationY>835</LocationY>
+		</Location>
+		<Location id="var_loc_2lines_snack_bar_text">
+            <LocationX>55</LocationX>
+            <LocationY>34</LocationY>
+        </Location>
+		<Location id="var_loc_simple_dialog_body_content_primary_button">
+            <LocationX>55</LocationX>
+            <LocationY>191</LocationY>
+        </Location>
+		<Location id="var_loc_simple_dialog_body_content_secondary_button">
+            <LocationX>534</LocationX>
+            <LocationY>191</LocationY>
+        </Location>
+		<Location id="var_loc_multiple_smart_controls_txt">
+            <LocationX>1</LocationX>
+            <LocationY>177</LocationY>
+        </Location>
+		<Location id = "var_loc_radio_btn_on_esc">
+            <LocationX>183</LocationX>
+            <LocationY>350</LocationY>
+        </Location>
+		<Location id = "var_loc_on_divider_esc">
+            <LocationX>183</LocationX>
+            <LocationY>552</LocationY>
+        </Location>
+		<Location id = "var_loc_off_divider_esc_3rdrow">
+            <LocationX>183</LocationX>
+            <LocationY>748</LocationY>
+        </Location>
+		 <Location id = "var_loc_off_divider_esc_4throw">
+            <LocationX>183</LocationX>
+            <LocationY>879</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_esc_3rdrow">
+            <LocationX>183</LocationX>
+            <LocationY>552</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_esc_3rdrow_txt">
+            <LocationX>335</LocationX>
+            <LocationY>582</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_esc_4throw">
+            <LocationX>183</LocationX>
+            <LocationY>753</LocationY>
+        </Location>
+        <Location id = "var_loc_radio_btn_grp_esc_4throw_txt">
+            <LocationX>335</LocationX>
+            <LocationY>783</LocationY>
+        </Location>
+		<Location id = "var_loc_icon_esc_off">
+            <LocationX>1033</LocationX>
+            <LocationY>403</LocationY>
+        </Location>
+		 <Location id = "var_loc_icon_esc_on">
+            <LocationX>1033</LocationX>
+            <LocationY>605</LocationY>
+        </Location>
+		<Location id = "var_loc_peekin_status">
+            <LocationX>1248</LocationX>
+            <LocationY>836</LocationY>
+        </Location>
+		<Location id = "var_loc_actionbar_txt">
+            <LocationX>491</LocationX>
+            <LocationY>25</LocationY>
+        </Location>
+		<Location id="var_loc_aux1_txt">
+            <LocationX>213</LocationX>
+            <LocationY>203</LocationY>
+        </Location>
+		<Location id="var_loc_aux2_txt">
+            <LocationX>213</LocationX>
+            <LocationY>459</LocationY>
+        </Location>
+		<Location id="var_loc_aux3_txt">
+            <LocationX>213</LocationX>
+            <LocationY>715</LocationY>
+        </Location>
+		<Location id="var_loc_aux4_txt">
+            <LocationX>1046</LocationX>
+            <LocationY>203</LocationY>
+        </Location>
+		<Location id="var_loc_aux5_txt">
+            <LocationX>1046</LocationX>
+            <LocationY>459</LocationY>
+        </Location>
+		<Location id="var_loc_aux6_txt">
+            <LocationX>1046</LocationX>
+            <LocationY>715</LocationY>
+        </Location>
+		<Location id="var_loc_keyboard_char">
+            <LocationX>5</LocationX>
+			<LocationY>22</LocationY>
+        </Location>
+		<Location id="var_loc_keyboard_num">
+            <LocationX>74</LocationX>
+			<LocationY>2</LocationY>
+        </Location>
+		<Location id="var_loc_vc_notification_cancel_btn">
+            <LocationX>572</LocationX>
+            <LocationY>8</LocationY>
+        </Location>
+		<Location id="var_loc_vc_notification_vehicle_btn">
+            <LocationX>943</LocationX>
+            <LocationY>8</LocationY>
+        </Location>
+		<Location id="var_loc_2lines_dialog_text">
+            <LocationX>54</LocationX>
+            <LocationY>163</LocationY>
+        </Location>
+		<Location id="var_loc_2lines_dialog1_text">
+            <LocationX>54</LocationX>
+            <LocationY>54</LocationY>
+        </Location>
+		<Location id="var_loc_launch_btn">
+            <LocationX>181</LocationX>
+            <LocationY>217</LocationY>
+        </Location>
+		<Location id="var_loc_enterpasscode_text">
+            <LocationX>139</LocationX>
+            <LocationY>92</LocationY>
+        </Location>
+		<Location id="var_loc_keypad_bg1">
+            <LocationX>139</LocationX>
+            <LocationY>240</LocationY>
+        </Location>
+		<Location id="var_loc_keypad_bg2">
+            <LocationX>357</LocationX>
+            <LocationY>240</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg3">
+            <LocationX>575</LocationX>
+            <LocationY>240</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg4">
+            <LocationX>139</LocationX>
+            <LocationY>365</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg5">
+            <LocationX>357</LocationX>
+            <LocationY>365</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg6">
+            <LocationX>575</LocationX>
+            <LocationY>365</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg7">
+            <LocationX>139</LocationX>
+            <LocationY>490</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg8">
+            <LocationX>357</LocationX>
+            <LocationY>490</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg9">
+            <LocationX>575</LocationX>
+            <LocationY>490</LocationY>
+        </Location>
+        <Location id = "var_loc_keypad_bg0">
+            <LocationX>357</LocationX>
+            <LocationY>615</LocationY>
+        </Location>
+		<Location id = "var_loc_actionbar_car_img">
+            <LocationX>0</LocationX>
+            <LocationY>856</LocationY>
+        </Location>
+		<Location id = "var_loc_error_img">
+            <LocationX>877</LocationX>
+            <LocationY>349</LocationY>
+        </Location>
+		<Location id = "var_loc_keypad_delete_btn">
+            <LocationX>139</LocationX>
+            <LocationY>616</LocationY>
+        </Location>
+		<Location id="var_loc_enterpasscode_txt">
+            <LocationX>877</LocationX>
+            <LocationY>229</LocationY>
+        </Location>
+		<Location id="var_loc_keypad_txt">
+            <LocationX>35</LocationX>
+            <LocationY>23</LocationY>
+        </Location>
+		<Location id="var_loc_toomanyattempts_text">
+            <LocationX>877</LocationX>
+            <LocationY>437</LocationY>
+        </Location>
+		<Location id="var_loc_close_button">
+            <LocationX>300</LocationX>
+            <LocationY>856</LocationY>
+        </Location>
+		<Location id="var_loc_nfc_sensor_txt">
+            <LocationX>139</LocationX>
+            <LocationY>155</LocationY>
+        </Location>
+		<Location id="var_loc_nfc_location_txt">
+            <LocationX>139</LocationX>
+            <LocationY>379</LocationY>
+        </Location>
+		<Location id="var_loc_start_stop">
+            <LocationX>139</LocationX>
+            <LocationY>93</LocationY>
+        </Location>
+		<Location id="var_loc_perp_right_instr_txt_2line">
+            <LocationX>240</LocationX>
+            <LocationY>433</LocationY>
+        </Location>
+		<Location id="var_loc_unableToconnect_txt">
+            <LocationX>240</LocationX>
+            <LocationY>218</LocationY>
+        </Location>
+		<Location id="var_loc_handoff_txt">
+            <LocationX>240</LocationX>
+            <LocationY>349</LocationY>
+	    </Location>
+		<Location id="var_loc_program_body_content">
+            <LocationX>257</LocationX>
+            <LocationY>308</LocationY>
+	    </Location>
+		<Location id="var_loc_handheld_call_assistance">
+            <LocationX>257</LocationX>
+            <LocationY>774</LocationY>
+	    </Location>
+		<Location id="var_loc_notification_dialog_check_box_txt">
+            <LocationX>410</LocationX>
+            <LocationY>548</LocationY>
+	    </Location>
+		<Location id="var_loc_notification_dialog_secondary_text">
+            <LocationX>258</LocationX>
+            <LocationY>308</LocationY>
+	    </Location>
+		<Location id="var_loc_notification_dialog_check_box">
+            <LocationX>275</LocationX>
+            <LocationY>525</LocationY>
+	    </Location>
+		<Location id="var_loc_handheld_content">
+            <LocationX>257</LocationX>
+            <LocationY>414</LocationY>
+	    </Location>
+		<Location id="var_progress_bar_pointer1">
+            <LocationX>861</LocationX>
+            <LocationY>924</LocationY>
+        </Location>
+		<Location id="var_progress_bar_pointer2">
+            <LocationX>962</LocationX>
+            <LocationY>924</LocationY>
+        </Location>
+		<Location id="var_progress_bar_pointer3">
+            <LocationX>1063</LocationX>
+            <LocationY>924</LocationY>
+        </Location>
+		<Location id="var_power_icon">
+            <LocationX>155</LocationX>
+            <LocationY>394</LocationY>
+        </Location>
+	    <Location id="var_loc_notification_dialog_primary_button_small">
+            <LocationX>55</LocationX>
+            <LocationY>469</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_button_small">
+            <LocationX>534</LocationX>
+            <LocationY>469</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_primary_button_small_txt">
+            <LocationX>79</LocationX>
+            <LocationY>376</LocationY>
+        </Location>
+		<Location id="var_loc_notification_dialog_secondary_button_small_txt">
+            <LocationX>518</LocationX>
+            <LocationY>376</LocationY>
+        </Location>
+		<Location id="var_loc_txt2">
+            <LocationX>240</LocationX>
+            <LocationY>447</LocationY>
+		</Location>
+        <Location id="var_loc_park_right_perp_img">
+            <LocationX>1559</LocationX>
+            <LocationY>362</LocationY>
+        </Location>
+		<Location id="var_loc_park_right_para_img">
+            <LocationX>681</LocationX>
+            <LocationY>362</LocationY>
+        </Location>
+		<Location id="var_loc_park_left_para_img">
+            <LocationX>242</LocationX>
+            <LocationY>362</LocationY>
+        </Location>
+		<Location id="var_loc_img_para_right">
+            <LocationX>681</LocationX>
+            <LocationY>436</LocationY>
+        </Location>
+        <Location id="var_loc_img_para_left">
+            <LocationX>242</LocationX>
+            <LocationY>436</LocationY>
+        </Location>
+        <Location id="var_loc_img_perp_right">
+            <LocationX>1556</LocationX>
+            <LocationY>436</LocationY>
+        </Location>
+        <Location id="var_loc_img_perp_left">
+            <LocationX>1120</LocationX>
+            <LocationY>436</LocationY>
+        </Location>
+		<Location id="var_loc_title1">
+            <LocationX>401</LocationX>
+            <LocationY>288</LocationY>
+        </Location>
+		<Location id="var_loc_park_instructions_text_1">
+            <LocationX>240</LocationX>
+            <LocationY>316</LocationY>
+        </Location>
+		<Location id="var_loc_heading">
+            <LocationX>399</LocationX>
+            <LocationY>143</LocationY>
+        </Location>
+		<Location id="var_loc_popup_body_txt1">
+            <LocationX>240</LocationX>
+            <LocationY>381</LocationY>
+        </Location>
+		<Location id="var_loc_small_bg">
+            <LocationX>188</LocationX>
+            <LocationY>117</LocationY>
+        </Location>
+		<Location id="var_loc_shift_reverse">
+            <LocationX>240</LocationX>
+            <LocationY>422</LocationY>
+        </Location>
+		<Location id="var_loc_shift_reverse_to_park">
+            <LocationX>240</LocationX>
+            <LocationY>553</LocationY>
+        </Location>
+		<Location id="var_loc_unable_connect">
+            <LocationX>240</LocationX>
+            <LocationY>256</LocationY>
+        </Location>
+		<Location id="var_loc_unable_connect2">
+            <LocationX>240</LocationX>
+            <LocationY>420</LocationY>
+        </Location>
+		<Location id="var_loc_error_icon">
+            <LocationX>951</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+		<Location id="var_loc_caution_icon">
+            <LocationX>782</LocationX>
+            <LocationY>147</LocationY>
+        </Location>
+		<Location id="var_loc_shift_park">
+            <LocationX>240</LocationX>
+            <LocationY>597</LocationY>
+        </Location>
+		<Location id="var_loc_snackbar_1line_smallicon">
+            <LocationX>55</LocationX>
+            <LocationY>30</LocationY>
+        </Location>
+		<Location id="var_loc_snackbar_text_1line_smallicon">
+            <LocationX>172</LocationX>
+            <LocationY>34</LocationY>
+        </Location>
+		<Location id="var_loc_2line_2btn_dialog">
+            <LocationX>55</LocationX>
+            <LocationY>292</LocationY>
+        </Location>
+		<Location id="var_loc_2line_2btn_dialog_2nd_btn">
+            <LocationX>534</LocationX>
+            <LocationY>292</LocationY>
+        </Location>
+		<Location id="var_loc_spotfound_label_1">
+            <LocationX>240</LocationX>
+            <LocationY>480</LocationY>
+        </Location>
+		<Location id="var_loc_spot_label_2">
+            <LocationX>240</LocationX>
+            <LocationY>643</LocationY>
+        </Location>
+		<Location id="var_loc_change_selection_arrow">
+            <LocationX>1670</LocationX>
+            <LocationY>0</LocationY>
+        </Location>
+    </Variables>
+</GMXML>

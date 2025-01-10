@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                 <ScreenID>6041</ScreenID>
+               <Name>ics_virtual_controls_options_name</Name>
+               <ImageWidget var="img_exit_btn">
+                    <ID>img_placeholder_WakeScreen</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_6_1_OptionNameTitle_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Options_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_text_box</ID>
+                    <Location>
+                        <LocationX>95</LocationX>
+                        <LocationY>147</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1703</SizeW>
+                        <SizeH>109</SizeH>
+                    </Size>
+                    <NormalURL>11/img_input_text_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_text_transparent_box</ID>
+                    <Location>
+                        <LocationX>95</LocationX>
+                        <LocationY>147</LocationY>
+                    </Location>
+					<Size>
+						<SizeW>1703</SizeW>
+						<SizeH>109</SizeH>
+					</Size>
+                    <NormalURL>11/img_bg_transparent1.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_EditText</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageWidget>
+				<EditTextWidget>
+                    <ID>dyn_lbl_ugdo_edit1</ID>
+                    <Location>
+                        <LocationX>136</LocationX>
+                        <LocationY>163</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1500</SizeW>
+                        <SizeH>65</SizeH>
+                    </Size>
+                    <Font var="var_font_title">
+					<TextAlign>0</TextAlign>
+					</Font>
+					<Cursor>
+					<CursorURL>11/cursor_transparent.png</CursorURL>
+                    <Size>
+						<SizeW>3</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					</Cursor>
+                    <ZOrder>3</ZOrder>
+                </EditTextWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_6_1_OptionCharCount_csm</ID>
+                    <Location>
+                        <LocationX>95</LocationX>
+                        <LocationY>286</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1500</SizeW>
+                        <SizeH>52</SizeH>
+                    </Size>
+                    <Font var="var_font_vc_options_name_characters_left"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>0</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>1</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

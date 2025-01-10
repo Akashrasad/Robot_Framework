@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6067</ScreenID>
+				<Name>ics_virtualcontrols_hmi_recovery_mode_confirmation</Name>
+				<ImageWidget var="img_notification_ivi_2lines_bg">
+						<ID>img_notification_ivi_bg</ID>
+                </ImageWidget>
+				<LabelWidget var="power_mode_snackbar_lbl">
+					<ID>virtualcontrols_0_2_desc_csm</ID>
+					<Font var="var_font_recoverymode_txt"/>
+					<Location>
+						<LocationX>50</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1000</SizeW>
+						<SizeH>151</SizeH>
+					</Size>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_recovery_mode_cancel_btn</ID>
+					<Location var="var_loc_ivi_btn1"/>
+					<Size var="var_size_primary__btn_ivi"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_recovery_mode_cancel_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_primary__btn_ivi"/>
+						<NormalURL>11/btn_tertiary_ivi_normal.png</NormalURL>
+						<FocusURL skinid="skin_primary_btn_pressed_URL">11/btn_tertiary_ivi_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_tertiary_ivi_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL skinid="skin_primary_btn_focused_URL">11/btn_tertiary_ivi_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL skinid="skin_primary_btn_pressed_URL">11/btn_tertiary_ivi_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_tertiary_ivi_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_4_2_dialogHeadlightsSecondary_csm</ID>
+						<Font var="var_font_yes_button_focused"/>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_primary__btn_ivi"/>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HMI_Factory_Reset</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_recovery_btn</ID>
+					<Location var="var_loc_ivi_btn2"/>
+					<Size var="var_size_primary__btn_ivi"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_no_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_primary__btn_ivi"/>
+						<NormalURL skinid="skin_normal_URL">11/btn_tertiary_ivi_normal.png</NormalURL>
+						<FocusURL skinid="skin_pressed_URL">11/btn_tertiary_ivi_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL skinid="skin_normal_URL">11/btn_tertiary_ivi_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL skinid="skin_focused_URL">11/btn_tertiary_ivi_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL skinid="skin_pressed_URL">11/btn_tertiary_ivi_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL skinid="skin_disabled_URL">11/btn_tertiary_ivi_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_0_0_btn_csm</ID>
+						<Font var="var_font_yes_button_focused"/>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size var="var_size_primary__btn_ivi"/>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Recovery_Inprogress</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+                    <ID>img_mfc_recovery_mode_cancel_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_ivi_btn1"/>
+					<Size var="var_size_primary__btn_ivi"/>
+					<FocusURL skinid="skin_focused_URL">11/btn_tertiary_ivi_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_HMI_Factory_Reset</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_mfc_recovery_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<Location var="var_loc_ivi_btn2"/>
+					<Size var="var_size_primary__btn_ivi"/>
+					<FocusURL skinid="skin_focused_URL">11/btn_tertiary_ivi_focused.png</FocusURL>
+                    <Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_Recovery_Inprogress</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

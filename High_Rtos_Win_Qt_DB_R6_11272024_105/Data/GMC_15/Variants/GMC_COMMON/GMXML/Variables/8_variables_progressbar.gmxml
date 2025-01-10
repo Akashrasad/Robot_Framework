@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<ProgressBarWidget id="apa_camera_view_progressbar_blue">
+			<Value>10</Value>
+			<Location var="var_loc_apa_camera_view_progressbar"/>
+			<Size var="var_size_apa_camera_view_progressbar"/>
+			<ProgressBarURL>11/progress_fill_blue.png</ProgressBarURL>
+			<ProgressBarURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</ProgressBarURLLocation>
+			<ProgressBarURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</ProgressBarURLSize>
+			<HousingURL>11/progressbar_bg.png</HousingURL>
+			<HousingURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</HousingURLLocation>
+			<HousingURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</HousingURLSize>
+			<Alpha>100</Alpha>
+			<OnFocusCallback/>
+			<ZOrder>2</ZOrder>
+			<Orientation>0</Orientation>
+		</ProgressBarWidget>
+		<ProgressBarWidget id="apa_camera_view_progressbar_green">
+			<Value>10</Value>
+			<Location var="var_loc_apa_camera_view_progressbar"/>
+			<Size var="var_size_apa_camera_view_progressbar"/>
+			<ProgressBarURL>11/progress_fill_green.png</ProgressBarURL>
+			<ProgressBarURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</ProgressBarURLLocation>
+			<ProgressBarURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</ProgressBarURLSize>
+			<HousingURL>11/progressbar_bg.png</HousingURL>
+			<HousingURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</HousingURLLocation>
+			<HousingURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</HousingURLSize>
+			<Alpha>100</Alpha>
+			<OnFocusCallback/>
+			<ZOrder>2</ZOrder>
+			<Orientation>0</Orientation>
+		</ProgressBarWidget>
+		<ProgressBarWidget id="apa_camera_view_progressbar_amber">
+			<Value>10</Value>
+			<Location var="var_loc_apa_camera_view_progressbar"/>
+			<Size var="var_size_apa_camera_view_progressbar"/>
+			<ProgressBarURL>11/progress_fill_amber.png</ProgressBarURL>
+			<ProgressBarURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</ProgressBarURLLocation>
+			<ProgressBarURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</ProgressBarURLSize>
+			<HousingURL>11/progressbar_bg.png</HousingURL>
+			<HousingURLLocation>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</HousingURLLocation>
+			<HousingURLSize>
+				<SizeW>1739</SizeW>
+				<SizeH>144</SizeH>
+			</HousingURLSize>
+			<Alpha>100</Alpha>
+			<OnFocusCallback/>
+			<ZOrder>2</ZOrder>
+			<Orientation>0</Orientation>
+		</ProgressBarWidget>
+	</Variables>
+</GMXML>

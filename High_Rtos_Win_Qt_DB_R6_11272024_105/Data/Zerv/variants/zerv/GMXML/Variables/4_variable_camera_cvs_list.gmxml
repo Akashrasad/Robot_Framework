@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ListWidget id = "var_list_cvs_screen">
+            <Location>
+                <LocationX>433</LocationX>
+                <LocationY>238</LocationY>
+            </Location>
+            <Size>
+                <SizeW>191</SizeW>
+                <SizeH>724</SizeH>
+            </Size>
+            <Orientation>0</Orientation>
+            <FocusedRow>1</FocusedRow>
+            <BackgroundURL/>
+            <RowLayout>
+                <RowLayoutID>normal_layout</RowLayoutID>
+                <Size>
+                    <SizeW>191</SizeW>
+                    <SizeH>161</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL/>
+            </RowLayout>
+			<RowLayout>
+                <RowLayoutID>arrow_layout</RowLayoutID>
+                <Size>
+                    <SizeW>191</SizeW>
+                    <SizeH>80</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                 <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+            </RowLayout>
+            <ZOrder>4</ZOrder>
+            <ElementData>
+                <ImageElements>
+                    <ID>img_standard_button</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>191</SizeW>
+                        <SizeH>161</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/icn_camera_combo_view_normal.png</NormalURL>
+                    <FocusURL compression = "NONE">11/icn_camera_combo_view_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_selected.png</NormalURL>
+                    </SelectorState>
+					 <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>9</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>10</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>11</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>12</DataValue>
+                        <NormalURL compression = "NONE">11/icn_guideline_view_large_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>13</DataValue>
+                        <NormalURL compression = "NONE">11/icn_guideline_view_large_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>14</DataValue>
+                        <NormalURL compression = "NONE">11/icn_guideline_view_large_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>15</DataValue>
+                        <NormalURL compression = "NONE">11/icn_guideline_view_large_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>16</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_performance_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>17</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_performance_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>18</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_performance_pressed.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>19</DataValue>
+                        <NormalURL compression = "NONE">11/btn_half_overhead_performance_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>20</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_performance_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>21</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_performance_pressed.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>22</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_performance_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>23</DataValue>
+                        <NormalURL compression = "NONE">11/icn_camera_combo_view_performance_disabled.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>24</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_performance_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>25</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_performance_pressed.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>26</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_performance_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>27</DataValue>
+                        <NormalURL compression = "NONE">11/icn_svr_view_rear_performance_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>primarytransparent</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageElements>
+            	<ImageElements>
+                    <ID>img_divider</ID>
+                    <Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>191</SizeW>
+						<SizeH>80</SizeH>
+					</Size>
+					<RowSpacing>0</RowSpacing>
+					<Location var="var_loc_orgin_0_0"/>
+					<NormalURL>11/divider_padding.png</NormalURL>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+				</ImageElements>
+			</ElementData>
+        </ListWidget>
+    </Variables>
+</GMXML>

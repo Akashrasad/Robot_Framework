@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6098</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget var="var_snackbar_3lines_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_7_V_ExtendSnackbar_csm</ID>
+					<Font var="var_font_snackbar_3lines_text"/>
+					<Location var="var_loc_snack_bar_3line_text"/>
+					<Size>
+						<SizeW>1108</SizeW>
+						<SizeH>217</SizeH>
+					</Size>
+					<Textwrap>1</Textwrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_dismiss_btn</ID>
+					<Location>
+						<LocationX>1206</LocationX>
+						<LocationY>42</LocationY>
+					</Location>
+					<Size var="var_size_teritary_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_dismiss_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_teritary_btn"/>
+						<ZOrder>3</ZOrder>
+						<NormalURL>11/btn_teritary_bg_normal.png</NormalURL>
+						<FocusURL>11/btn_teritary_bg_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_teritary_bg_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_teritary_bg_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_teritary_bg_selected.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_7_V_ExtendSnackbarDismiss_csm</ID>
+						<Font var="var_font_teritary_normal"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_teritary_btn"/>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+					</InputWidgetMapping>
+						<ScaleAnchor>Center</ScaleAnchor>
+						<BehaviorState var="var_behavior_animation_interpolation"/>
+						<BehaviorState var="var_behavior_state_value_1"/>
+						<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>47</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>111</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias">11/img_vertical_large_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

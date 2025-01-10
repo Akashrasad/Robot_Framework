@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_options_update_location</ScreenID>
+                <Name>ics_virtualcontrols_options_update_location</Name>
+               <ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>                  
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_6_2_2UGDOLocationDetected_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_text_1"/>
+                    <Size var="var_size_dialog_locate_vehicle_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_6_2_2UGDOWhyLocation_csm</ID>
+                    <Font var="var_font_geolocation_secondary"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_dialog_btn_option"/>
+                    <Size var="var_size_notification_dialog_text_secondary"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_test_btn"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                        <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_selected.png</NormalURL>
+                        <FocusURL>11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Location_Save</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_6_2_2btnLocationSave_csm</ID>
+                    <Font var="var_font_primary_button_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_notification_dialog_primary_button_text"/>
+                    <Size var="var_size_test_btn_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button"/>
+                    <Size var="var_size_test_btn"/>
+                    <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_secondary_normal.png</NormalURL>
+                        <FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_secondary_selected.png</NormalURL>
+                        <FocusURL>11/btn_secondary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_secondary_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Location_Save_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</ID>
+                    <Font var="var_font_secondary_button_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var = "var_loc_notification_dialog_secondary_button_text"/>
+                    <Size var="var_size_test_btn_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

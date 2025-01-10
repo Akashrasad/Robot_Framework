@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <NativeZOrder id = "var_native_zorder">1100</NativeZOrder>
+    </Variables>
+</GMXML>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6098</ScreenID>
+                <Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_2line_snackbar_bg"/>
+                    <NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_6_6_4F_PowermodeSnackbar_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+                    <Location var="var_loc_2lines_snack_bar_text"/>
+                    <Size var="var_size_2lines_snackbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

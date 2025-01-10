@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6036</ScreenID>
+                <Name>ics_virtualcontrols_doors_windows_door_mismatch_error_snackbar</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_notification_bg_1543_139"/>
+                    <NormalURL>11/icn_notification_bg_1543.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_2_2_childMismatch_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+                    <Location var="var_loc_snackbar_txt_2lines"/>
+                    <Size var="var_size_snackbar_txt_2lines_Err"/>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

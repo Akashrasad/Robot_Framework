@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6087</ScreenID>
+				<Name>ics_virtualcontrols_program_ur_mode_dialog</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_program_ur_mode_dialog_close</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="img_general_back_btn">
+					<ID>img_btn_back</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Handheld_Mode</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_Handheld_Mode</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_3_ugdo_urmode_csm</ID>
+					<Location var="var_loc_learn_success_test_body_content"/>
+					<Size var="var_size_d_mode_primary_txt"/>
+					<Font var="var_font_remote_dialog_primary"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_3_ugdo_dmode_info_csm</ID>
+					<Location var="var_loc_notification_dialog_secondary_text"/>
+					<Size var="var_size_notification_dialog_secondary_text"/>
+					<Font var="var_font_description_align_center"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_0_3_G_URModeCheckBox_csm</ID>
+					<Location var="var_loc_URModeCheckBox_text"/>
+					<Size var="var_size_URModeCheckBox_text"/>
+					<Font var="var_font_remote_dialog_primary"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget var="var_img_checkbox">
+					<ID>img_UGDO_checkbox</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Learn</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

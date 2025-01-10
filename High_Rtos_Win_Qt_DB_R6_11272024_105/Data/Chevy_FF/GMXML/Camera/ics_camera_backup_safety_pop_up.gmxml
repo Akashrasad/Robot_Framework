@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>ics_camera_backup_safety_pop_up</ScreenID>
+				<Name>ics_camera_backup_safety_pop_up</Name>
+				<ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

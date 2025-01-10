@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_pts_view</ViewID>
+			<Location>
+				<LocationX>3005</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>3003</SizeW>
+				<SizeH>934</SizeH>
+			</Size>
+				<Screen load="ics_virtual_controls_pin_to_start"/>
+				<Screen load="ics_virtual_controls_pin_to_start_nfc"/>
+				<Screen load="ics_virtual_controls_pin_to_start_successful_start_stop_button"/>
+				<Screen load="ics_virtual_controls_pin_to_start_passcode_system_unavailable"/>
+				<Screen load="ics_virtual_controls_pin_to_start_successful_start_brake_only"/>
+			<ZOrder>10</ZOrder> 
+		</View>
+	</Display>
+</GMXML>

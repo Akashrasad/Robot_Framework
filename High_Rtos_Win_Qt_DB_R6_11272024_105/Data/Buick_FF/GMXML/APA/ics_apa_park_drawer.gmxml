@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>7001</ScreenID>
+				<Name>ics_apa_park_drawer</Name>
+				<LabelWidget>
+					<ID>apa_3_0F_HowtoPark_csm</ID>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_title"/>
+					<Size var="var_size_title"/>
+					<Font var="var_font_title"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_park_left_perp</ID>
+					<Location var="var_loc_park_left_perp_left"/>
+					<Size var="var_size_park_3D_img"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Perp_Left_Park</WidgetCallback>
+					</InputWidgetMapping>
+					<NormalURL>11/perp_left/apa_spot_select_perp_left_508.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/perp_left/apa_spot_select_perp_left_508.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias6">11/perp_left/apa_spot_select_perp_left_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias6">11/apa_spot_perp_left_park_pressed.png</FocusURL>
+						<StateAnimation>
+							<FrameCount>64</FrameCount>
+							<FrameBasename>11/perp_left/apa_spot_select_perp_left_508.png</FrameBasename>
+						</StateAnimation>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL compression="CompressionAlias6">11/perp_left/apa_spot_select_perp_left_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias6">11/apa_spot_perp_left_park_pressed.png</FocusURL>
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_park_right_perp</ID>
+					<Location var="var_loc_park_right_perp_right"/>
+					<Size var="var_size_park_3D_img"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Perp_Right_Park</WidgetCallback>
+					</InputWidgetMapping>
+					<NormalURL>11/perp_right/apa_spot_select_perp_right_508.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/perp_right/apa_spot_select_perp_right_508.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias7">11/perp_right/apa_spot_select_perp_right_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_perp_right_park_pressed.png</FocusURL>
+						<StateAnimation>
+							<FrameCount>64</FrameCount>
+							<FrameBasename>11/perp_right/apa_spot_select_perp_right_508.png</FrameBasename>
+						</StateAnimation>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression="CompressionAlias7">11/perp_right/apa_spot_select_perp_right_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_perp_right_park_pressed.png</FocusURL>
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_park_left_parallel</ID>
+					<Location var="var_loc_park_left_parallel_img"/>	
+					<Size var="var_size_park_3D_img"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Parallel_Left_Park</WidgetCallback>
+					</InputWidgetMapping>
+					<NormalURL>11/paral_left/apa_spot_select_paral_left_508.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/paral_left/apa_spot_select_paral_left_508.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias7">11/paral_left/apa_spot_select_paral_left_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_parallel_left_park_pressed.png</FocusURL>
+						<StateAnimation>
+							<FrameCount>64</FrameCount>
+							<FrameBasename>11/paral_left/apa_spot_select_paral_left_508.png</FrameBasename>
+						</StateAnimation>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL compression="CompressionAlias7">11/paral_left/apa_spot_select_paral_left_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_parallel_left_park_pressed.png</FocusURL>
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_park_right_parallel</ID>
+					<Location var="var_loc_park_right_parallel_img"/>
+					<Size var="var_size_park_3D_img"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_Parallel_Right_Park</WidgetCallback>
+					</InputWidgetMapping>
+					<NormalURL>11/paral_right/apa_spot_select_paral_right_508.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/paral_right/apa_spot_select_paral_right_508.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias7">11/paral_right/apa_spot_select_paral_right_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_parallel_right_park_pressed.png</FocusURL>
+						<StateAnimation>
+							<FrameCount>64</FrameCount>
+							<FrameBasename>11/paral_right/apa_spot_select_paral_right_508.png</FrameBasename>
+						</StateAnimation>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL compression="CompressionAlias7">11/paral_right/apa_spot_select_paral_right_508_64.png</NormalURL>
+						<FocusURL compression="CompressionAlias7">11/apa_spot_parallel_right_park_pressed.png</FocusURL>
+					</SelectorState>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_tab_one</ID>
+					<Location var="var_loc_btn_tab_one"/>
+					<Size var="var_size_btn_tab_one"/>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>btn_tab_one</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_tab_one"/>
+						<NormalURL compression = "NONE">11/btn_list_verysmalll_bg_selected.png</NormalURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>apa_3_0_Park_f_csm</ID>
+						<Location var="var_loc_btn_tab_one_txt"/>
+						<Size var="var_size_btn_tab_one_txt"/>
+						<Font var="var_font_btn_tab_one_focused"/>
+						<TextWrap>1</TextWrap>
+						<ZOrder>3</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_APA_ParkDrawer</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_APA_ParkDrawer</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<OnFocusCallback>evG_APA_ParkDrawer</OnFocusCallback>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_tab_two</ID>
+					<Location var="var_loc_btn_tab_two"/>
+					<Size var="var_size_btn_tab_one"/>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>btn_tab_two</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_btn_tab_one"/>
+						<NormalURL compression = "NONE">11/btn_list_verysmalll_bg_normal.png</NormalURL>
+						<FocusURL compression = "NONE">11/btn_list_verysmalll_bg_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression = "NONE">11/btn_list_verysmalll_bg_normal.png</NormalURL>
+							<FocusURL compression = "NONE">11/btn_list_verysmalll_bg_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression = "NONE">11/btn_list_verysmalll_bg_pressed.png</NormalURL>
+							<FocusURL compression = "NONE">11/btn_list_verysmalll_bg_selected.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression = "NONE">11/btn_list_verysmalll_bg_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>apa_3_0_Exit_f_csm</ID>
+						<Location var="var_loc_btn_tab_one_txt"/>
+						<Size var="var_size_btn_tab_one_txt"/>
+						<Font var="var_font_btn_tab_one_normal"/>
+						<FocusFont var="var_font_btn_tab_one_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Apa_ExitParkDrawer</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Apa_ExitParkDrawer</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<OnFocusCallback>evG_Apa_ExitParkDrawer</OnFocusCallback>
+				</GroupWidget>
+				<ImageWidget var="btn_general_close_normal">
+					<ID>img_apa_exit_btn</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Exit_APA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>3</FocusInput>
+					<FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>2</FocusInput>
+					<FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+				</InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

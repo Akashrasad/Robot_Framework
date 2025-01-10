@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6097</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_emergency_detected</Name>
+				<ImageWidget>
+					<ID>img_bg_emergency_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL compression = "NONE">11/img_ics_emergency_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_icon</ID>
+					<Location var="var_loc_error_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_camera_error_URL">11/icn_error.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_6_5_f_emergency_csm</ID>
+					<Location var="var_loc_title_emergency_text"/>
+					<Size var="var_size_title_emergency_text"/>
+					<Font var="var_font_title_emergency_text"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_off</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_powerOff_btn"/>
+					<Size var="var_size_notification_simple_dialog_body_content_primary_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_simple_dialog_body_content_primary_btn"/>
+						<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</NormalURL>
+							<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_selected_URL">11/btn_primary_selected.png</NormalURL>
+						</SelectorState>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_5_f_powerOff_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_simple_dialog_body_content_primary_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Emergency_Detected_Turnoff</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_PPM_Emergency_Detected_Turnoff</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

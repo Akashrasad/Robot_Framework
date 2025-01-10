@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_camera_view</ViewID>
+            <Size>
+                <SizeW>1836</SizeW>
+                <SizeH>1800</SizeH>
+            </Size>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+			<ZOrder>1</ZOrder>
+            <screen load="ics_camera_vpm_rearview_topdown_multipart_buttons"/>
+            <screen load="ics_camera_rvc_standard_view"/>
+            <screen load="ics_camera_rvc_standard_trailer"/>
+			<screen load="ics_camera_rvc_standard_trailer_hitch"/>
+			<screen load="ics_camera_rvc_fullviewcamera"/>
+		<!--	<screen load="ics_camera_cargo_bed_view"/> -->
+			<screen load="ics_camera_rvc_system_error"/>
+			<screen load="ics_camera_rvc_standard_hitch"/>
+        </View>
+    </Display>
+</GMXML>

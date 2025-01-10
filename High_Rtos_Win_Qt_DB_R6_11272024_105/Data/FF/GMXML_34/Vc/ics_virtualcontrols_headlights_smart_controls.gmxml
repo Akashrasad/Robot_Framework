@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6055</ScreenID>
+                <Name>ics_virtualcontrols_headlights_smart_controls</Name>
+                <DialogDismiss callback = "evG_HeadLightsDialog_DSA" zorder="1"/>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_notification_bg_2138_602"/>
+                    <NormalURL>11/img_notification_simple_dialog_bg_2138_602.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_6_4_headlights_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <Location var="var_loc_dialog_text_1"/>
+                    <Size var="var_size_dialog_text_1"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<Location var="var_loc_dialog_btn_1"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression = "NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression = "NONE"  skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression = "NONE"  skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<FocusURL compression = "NONE"  skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression = "NONE"  skinid="skin_primary_btn_selected_URL">11/btn_primary_selected.png</NormalURL>
+							<FocusURL compression = "NONE"  skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression = "NONE"  skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</ID>
+						<Location>
+							<LocationX>23</LocationX>
+							<LocationY>41</LocationY>
+						</Location>
+						<Size var="var_size_test_btn_txt"/>
+						<Font var="var_font_test_btn_txt_normal"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_normal"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_focused"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<StaticValue>virtualcontrols_1_6_4_btnSmartHeadlightsPrimary_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Turn_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+				  <ID>img_btn_bg1_mfc</ID>
+				  <TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_dialog_btn_1"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<FocusURL compression = "NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Turn_On</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+               <GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<Location var="var_loc_dialog_btn_1">
+						<LocationX>749</LocationX>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg2</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+                         <FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+                       <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+                       </SelectorState>
+                      <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_secondary_btn_selected_URL">11/btn_secondary_selected.png</NormalURL>
+                        <FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+                      </SelectorState>
+                      <SelectorState>
+                        <DataValue>2</DataValue>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+                      </SelectorState>
+                      <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+                    </SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>42</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</ID>
+						<Location>
+							<LocationX>23</LocationX>
+							<LocationY>41</LocationY>
+						</Location>
+						<Size var="var_size_test_btn_txt"/>
+						<Font var="var_font_btn_txt_secondary_normal"/>
+						<FocusFont var="var_font_secondary_button_pressed"/>
+						<TextWrap>1</TextWrap>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_normal"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_focused"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<StaticValue>virtualcontrols_1_6_6_btnSmartHeadlightsSecondary_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>5</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_DSA</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+				  <ID>img_btn_bg2_mfc</ID>
+				  <TabOrder>
+						<TabV>1</TabV>
+						<TabH>2</TabH>
+					</TabOrder>
+					<Location var="var_loc_dialog_btn_1">
+						<LocationX>749</LocationX>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<FocusURL   compression="NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_DSA</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evI_VC_Discard_Notification</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

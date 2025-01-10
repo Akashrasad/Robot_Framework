@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtual_controls_wake_screen_lights</ScreenID>
+                <Name>ics_virtual_controls_wake_screen_lights</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_AppHome_back</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_4_title_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_wake_screen_lights_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ListWidget var="var_list_with_multi_row_buttons">
+                    <ListID>virtual_controls_wake_screen_lights_list_view</ListID>
+                </ListWidget>
+                <ListWidget var ="var_four_rows_list">
+                    <ListID>virtual_controls_wake_screen_lights_list2_view</ListID>
+                </ListWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

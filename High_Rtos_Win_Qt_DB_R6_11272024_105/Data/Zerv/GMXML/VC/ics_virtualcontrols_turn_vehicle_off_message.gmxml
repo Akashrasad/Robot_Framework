@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6126</ScreenID>
+                <Name>ics_virtualcontrols_turn_vehicle_off_message</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_2line_snackbar_bg"/>
+                    <NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_14_3V_snackbar_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+                    <Location var="var_loc_snack_bar_text"/>
+                    <Size>
+						<SizeW>900</SizeW>
+						<SizeH>110</SizeH>
+					</Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_cancle_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location>
+						<LocationX>1050</LocationX>
+						<LocationY>29</LocationY>
+					</Location>
+					<Size>
+						<SizeW>450</SizeW>
+						<SizeH>117</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>450</SizeW>
+							<SizeH>117</SizeH>
+						</Size>
+						<NormalURL>11/btn_transparent.png</NormalURL>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_14_3_primaryButtonCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>450</SizeW>
+							<SizeH>117</SizeH>
+						</Size>
+						<Font var="var_font_cancel_btn"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1000</LocationX>
+						<LocationY>29</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL>11/img_vertical_divider.png</NormalURL>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

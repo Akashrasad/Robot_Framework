@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_options_auto_location_not_detected</ScreenID>
+                <Name>ics_virtualcontrols_options_auto_location_not_detected</Name>
+				<ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<LabelWidget var="var_notification_primary_txt">
+                    <ID>virtualcontrols_1_5_5__3UGDONoLocation_csm</ID>
+                </LabelWidget>
+                <LabelWidget var="var_notification_secondary_txt">
+                    <ID>virtualcontrols_1_5_5_3F_GeolocationBody_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+				    <ID>grp_btn_bg1</ID>
+				    <Location var="var_loc_notification_dialog_primary_button"/>
+			        <Size var="var_size_yes_button"/>
+				    <Alpha>100</Alpha>
+				    <ZOrder>2</ZOrder>
+				    <ImageElements var="var_img_primary_btn">
+				    	<ID>img_btn_bg1</ID>
+				    </ImageElements>
+				    <LabelElements var="var_primary_btn_txt">
+				    	<ID>virtualcontrols_1_5_5_3btnTryAgain_csm</ID>
+				    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Try_Location_Again</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+				    <ID>grp_btn_bg2</ID>
+				    <Location var="var_loc_notification_dialog_secondary_button"/>
+			        <Size var="var_size_yes_button"/>
+				    <Alpha>100</Alpha>
+				    <ZOrder>2</ZOrder>
+				    <ImageElements var="var_img_secondary_btn">
+				    	<ID>img_btn_bg2</ID>
+				    </ImageElements>
+				    <LabelElements var="var_secondary_btn_txt">
+				    	<ID>virtualcontrols_1_5_3_4_btnUGDOCancel_csm</ID>
+				    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_Location_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

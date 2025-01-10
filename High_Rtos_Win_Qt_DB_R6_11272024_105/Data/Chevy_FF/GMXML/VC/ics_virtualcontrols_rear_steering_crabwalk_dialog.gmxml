@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6160</ScreenID>
+				<Name>ics_virtualcontrols_rear_steering_crabwalk_dialog</Name>
+				<DialogDismiss callback = "evG_CrabWalk_Cancel" zorder="1"/>
+				<ImageWidget var="img_notification_body_content_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_notification_body_content_txt">
+					<ID>virtualcontrols_1_3_10_2_V_SidewinderDialog_csm</ID>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_crabwalk_enable</ID>
+					<Location var="var_loc_notification_simple_dialog_body_content_primary_btn"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_notification_primary_btn_large">
+						<ID>img_btn_bg1</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_primary_btn_large">
+						<ID>virtualcontrols_1_3_10V_Sidewinder_csm</ID>	
+					</LabelElements>
+				<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_CrabWalk_Enable</WidgetCallback>
+				</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_crab_cancel</ID>
+					<Location var="var_loc_notification_simple_dialog_body_content_secondary_btn"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_notification_secondary_btn_large">
+						<ID>img_btn_crab_cancel</ID>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_secondary_btn_large">
+						<ID>virtualcontrols_1_3_10_2_G_CrabWalkDialogCancel_csm</ID>
+					</LabelElements>
+				<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_CrabWalk_Cancel</WidgetCallback>
+				</InputWidgetMapping>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

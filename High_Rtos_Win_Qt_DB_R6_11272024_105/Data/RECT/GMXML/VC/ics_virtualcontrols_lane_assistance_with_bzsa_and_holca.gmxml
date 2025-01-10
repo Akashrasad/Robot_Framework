@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6150</ScreenID>
+				<Name>ics_virtualcontrols_lane_assistance_with_bzsa_and_holca</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_placeholder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+                <ImageWidget>
+                    <ID>img_top_bar</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<ImageWidget var="img_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_3_h_cardLKA_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+                    <ID>img_radio_button_lane_off</ID>
+					<Location var="var_loc_radio_btn_off"/>
+			        <Size var="var_size_radio_btn_large"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+					 <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_LaneAssist_Off</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="1strow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_1_DomeOff_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_radio_button_lane_on</ID>
+                    <Location var="var_loc_radio_btn_on"/>
+                     <Size var="var_size_radio_btn_large"/>
+					 <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_LaneAssist_On</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="2ndrow_radio_btn_txt">
+                    <ID>virtualcontrols_1_4_0_1_DomeOn_csm</ID>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_4_0_1_DomeOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_checkbox_bzsa</ID>
+                    <Location var="var_loc_radio_btn_grp_3rdrow"/>
+			        <Size var="var_size_radio_btn_large"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_sqaure_disabled_large.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+                    <ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Lane_Bzsa_Enable</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="3rdrow_radio_btn_txt">
+                    <ID>dyn_bzsa_lable</ID>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_radio_btn_off_disabled"/>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_checkbox_lca</ID>
+                    <Location var="var_loc_radio_btn_grp_4throw"/>
+                    <Size var="var_size_radio_btn_large"/>
+                    <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_sqaure_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_tick_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_tick_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_sqaure_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_sqaure_disabled_large.png</NormalURL>
+                    </SelectorState>
+					<Alpha>0</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Lane_Lca_Enable</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="4throw_radio_btn_txt">
+                    <ID>virtualcontrols_1_3_7_u_centering_csm</ID>
+					<Location var="var_loc_radio_btn_grp_4throw_txt"/>
+                    <Size var="var_size_radio_btn_text"/>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>virtualcontrols_1_3_7_u_centering_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_7_u_centering_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_focused"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_7_u_centering_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_disabled"/>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+					<ID>img_control_lka_bzsa_and_holca</ID>
+					<Location var="var_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression = "CompressionAlias4">11/icn_voc_lane_keep_assist_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_radio_button_description_text_vc">
+					<ID>virtualcontrols_1_3_7_u_desc_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+				 <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+				<ImageWidget var="img_1strow_radio_btn_divider">
+					<ID>img_off_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_2ndrow_radio_btn_divider">
+					<ID>img_on_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_3rdrow_radio_btn_divider">
+					<ID>img_bzsa_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_divider">
+					<ID>img_lca_divider</ID>
+	            </ImageWidget>
+				<ImageWidget var="img_1strow_radio_btn_transparent">
+					<ID>img_off_transparent</ID>
+				</ImageWidget>
+				<ImageWidget var="img_2ndrow_radio_btn_transparent">
+					<ID>img_on_transparent</ID>
+				</ImageWidget>
+				<ImageWidget var="img_3rdrow_radio_btn_transparent">
+					<ID>img_bzsa_transparent</ID>
+				</ImageWidget>
+				<ImageWidget var="img_4throw_radio_btn_transparent">
+					<ID>img_lca_transparent</ID>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

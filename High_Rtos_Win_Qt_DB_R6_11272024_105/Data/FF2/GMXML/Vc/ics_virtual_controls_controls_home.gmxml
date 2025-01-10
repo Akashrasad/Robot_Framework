@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6001</ScreenID>
+				<Name>ics_virtual_controls_controls_home</Name>
+				<!--ImageWidget>
+					<ID>img_bg_vc_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL>11/img_ics_astral_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget-->
+				<GroupWidget>
+					<ID>grp_placeholder_WakeScreen</ID>
+					<Location>
+						<LocationX>500</LocationX>
+						<LocationY>985</LocationY>
+					</Location>
+					<Size>
+						<SizeW>488</SizeW>
+						<SizeH>125</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_placeholder_WakeScreen</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size var="var_size_test_btn"/>
+						<NormalURL skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias2" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+							<FocusURL skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+							<FocusURL skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias2" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>rse_1_9_home_h_csm</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size var="var_size_test_btn"/>
+						<Font var="var_font_power_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_mfc_home_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location>
+						<LocationX>500</LocationX>
+						<LocationY>1000</LocationY>
+					</Location>
+					<Size>
+						<SizeW>488</SizeW>
+						<SizeH>125</SizeH>
+					</Size>
+					<FocusURL compression="NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

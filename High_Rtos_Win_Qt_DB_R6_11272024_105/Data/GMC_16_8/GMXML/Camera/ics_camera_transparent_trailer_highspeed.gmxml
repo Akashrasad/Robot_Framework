@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8031</ScreenID>
+                <Name>ics_camera_transparent_trailer_highspeed</Name>
+                <ImageWidget var="var_snackbar_calibration_bg">
+					<ID>img_camera_calibration_bg</ID>
+				</ImageWidget>
+				<LabelWidget var="var_lbl_highspeed_txt">
+					<ID>safetysystems_2_6_2_Calibrationmessage2_KMPH_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="var_img_action_caution">
+                    <ID>img_camera_alert</ID>
+                </ImageWidget>
+				<LabelWidget var="var_lbl_calibration_txt">
+					<ID>safetysystems_2_6_2_CalibrationPercentage2_csm</ID>
+				</LabelWidget>
+				<ProgressBarWidget>
+                    <ID>img_calibration_progressbar</ID>
+                    <Value>0</Value>
+                    <Location>
+						<LocationX>65</LocationX>
+						<LocationY>130</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1329</SizeW>
+						<SizeH>6</SizeH>
+					</Size>
+                    <ProgressBarURL compression = "CompressionAlias1">11/calibration_progress_bar_filled.png</ProgressBarURL>
+                    <ProgressBarURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </ProgressBarURLLocation>
+                    <ProgressBarURLSize>
+                        <SizeW>1329</SizeW>
+                        <SizeH>6</SizeH>
+                    </ProgressBarURLSize>
+                    <HousingURL compression = "CompressionAlias1">11/calibration_progress_bar_empty.png</HousingURL>
+                    <HousingURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </HousingURLLocation>
+                    <HousingURLSize>
+                        <SizeW>1329</SizeW>
+                        <SizeH>6</SizeH>
+                    </HousingURLSize>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                    <Orientation>0</Orientation>
+					<IsScaledProgressBar>1</IsScaledProgressBar>
+                </ProgressBarWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

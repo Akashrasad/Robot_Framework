@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>7025</ScreenID>
+                <Name>ics_apa_remote_exit_handoff</Name>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_apa_exit_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Exit_APA</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>apa_4_11_RemoteExitHandoff_csm</ID>
+                    <Font var="var_font_radio_btn_off_focused"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_unableToconnect_txt"/>
+                    <Size var="var_size_unabletoconnect_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>apa_4_11_AutoSteeringBraking_csm</ID>
+                    <Font var="var_font_notification_dialog_text_secondary"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_handoff_txt"/>
+                    <Size var="var_size_handoff_one_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_one_pedal_driving_unavailable_snackbar</ScreenID>
+                <Name>ics_virtualcontrols_one_pedal_driving_unavailable_snackbar</Name>
+                <ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2lines_txt">
+                    <ID>virtualcontrols_1_3_2_snckbarOnePedal_csm</ID>
+                </LabelWidget>
+				<InputScreenMap>
+					<UserInput>RotaryUpReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryDownReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryRightReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryLeftReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotaryCCW</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+				<InputScreenMap>
+					<UserInput>RotarySelectReleased</UserInput>
+					<FocusInput>4</FocusInput>
+					<FocusCallbackStr>evI_Discard_Notification</FocusCallbackStr>
+				</InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

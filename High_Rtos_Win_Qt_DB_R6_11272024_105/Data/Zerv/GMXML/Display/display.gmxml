@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <DisplayID>14</DisplayID>
+        <IncludeXML>../qnx_config/</IncludeXML>
+        <TouchDeadband>19</TouchDeadband>
+		<Touch>1</Touch>
+		<Hybrid>1</Hybrid>
+		<NativeZOrder var="var_native_native_zorder_rtos_camera_icons"/>
+        <CompressionDefault layer="OpenGL" format="ASTC_4x4" quality="ASTC_EXHAUSTIVE"/>
+		<DisplayIndex>1</DisplayIndex>
+        <Size>
+            <SizeW>3168</SizeW>
+            <SizeH>1168</SizeH>
+        </Size>
+		<View load = "ics_hvac_bottom_bar_flyouts_view" merge="auto"/>
+		<View load = "ics_hvac_bottom_bar_view" merge="auto"/>
+		<View load = "ics_hvac_bottom_bar_time_view" merge="auto"/>
+        
+        <!--Rect xmls for other moduels-->
+        
+		<View load="ics_camera_view"/>
+		<View load="ics_camera_error_view"/>
+		<View load="ics_saftey_view"/>
+		<View load="ics_dimming_view"/>
+		<View load="ics_dev_view" merge="false"/>
+        <View load = "ics_snakbar_2line_view"/>
+		<View load="ics_camera_upa_symbols_view" merge="auto"/>
+		
+	<!--<View load="ics_apa_park_view_2000_974"/>
+		<View load="animation_view"/> MYRTO-30233
+ 		<View load="virtual_controls_view_2000_974"/>
+		<View load="ics_notification_view_1543_362"/>
+		<View load="ics_vc_snackbar_view_1543_139"/>
+        <View load="ics_snackbar_view_1543_139"/>
+		<View load="ics_vc_statusbar_notification_view"/>
+		<View load="ics_apa_park_view_bg_2000_974"/>
+		<View load="virtual_controls_view_bg_2000_974"/>
+		<View load="ics_virtual_controls_sroll_view_1740_974"/>
+		<View load="ics_notification_simple_dialog_regular"/>
+		<View load="ics_snackbar_2line_view"/>
+		<View load="virtual_controls_power_outlets_view"/>
+		<View load="ics_vc_poweroutlets_snackbar_view"/>
+		<View load="ics_poweroutlets_notification_view_simple_dialog_body_content"/>
+		<View load="ics_persistent_smart_controls_view"/>
+		<View load="ics_persistent_headlights_menu_options_view"/>
+		<View load="ics_generic_keyboard_view"/>
+        <View load = "ics_notification_simple_dialog_dissmiss_view"/>
+        <View load = "ics_notification_simple_dialog_dismiss_regular"/>
+        <View load = "ics_notification_view_1545_463"/>
+		<View load = "ics_keyboard_popup_view"/>
+	    <View load = "ics_ppm_smart_controls_view"/>
+		<View load = "ics_virtual_controls_opd_view"/>
+        <View load = "virtual_controls_full_notification_view"/>
+		<View load = "ics_notification_view_large"/>
+		<View load = "ics_notification_simple_dialog_dissmiss_view1"/>
+		<View load = "ics_persistent_smart_controls_pop_up_view"/>
+		<View load = "ics_pts_view"/> 
+		<View load = "ics_ppm_smart_controls_camera_view"/>	
+		<View load = "ics_camera_smart_control_view"/> -->
+    </Display>
+</GMXML>

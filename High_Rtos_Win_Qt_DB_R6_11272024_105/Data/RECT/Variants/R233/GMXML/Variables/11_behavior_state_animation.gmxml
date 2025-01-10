@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <BehaviorStateAnimation id="Button_Scaling_Animation">
+            <ID>Scaling_Animation</ID>
+            <BehaviorProperty>3</BehaviorProperty>
+            <BehaviorStateValueStart>0</BehaviorStateValueStart>
+            <BehaviorStateValueStop>100</BehaviorStateValueStop>
+            <ValueStep>8</ValueStep>
+            <RateMs>16</RateMs>
+        </BehaviorStateAnimation>
+    </Variables>
+</GMXML>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6110</ScreenID>
+                <Name>ics_virtual_controls_pin_to_start_successful_start_stop_button</Name>
+				<ImageWidget>
+					<ID>img_pts_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL>11/img_ics_pin_to_start_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+                <GroupWidget>
+					<ID>group_exit_button</ID>
+					<Location var="var_loc_close_button"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_close_button">
+						<ID>image_exit_button</ID>
+					</ImageElements>
+					<LabelElements var="var_close_text">
+						<ID>choreography_20_3_close_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<LabelWidget>
+                    <ID>choreography_9_3F_PressStartStopButton_csm</ID>
+                    <Font var="var_font_title_txt"/>
+                    <Location var="var_loc_start_stop"/>
+                    <Size var="var_size_start_stop_txt"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>choreography_9_4F_PressStartStopButton_csm</ID>
+                    <Font var="var_font_title_txt"/>
+                    <Location var="var_loc_start_stop"/>
+                    <Size var="var_size_start_stop_txt"/>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<ProgressBarWidget>
+                    <ID>img_progressbar</ID>
+                    <Value>60</Value>
+                    <Location>
+                        <LocationX>392</LocationX>
+                        <LocationY>1139</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1265</SizeW>
+                        <SizeH>19</SizeH>
+                    </Size>
+                    <ProgressBarURL>11/img_dyn_progress_bar_filled.png</ProgressBarURL>
+                    <ProgressBarURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </ProgressBarURLLocation>
+                    <ProgressBarURLSize>
+                        <SizeW>1265</SizeW>
+                        <SizeH>19</SizeH>
+                    </ProgressBarURLSize>
+                    <HousingURL>11/img_dyn_progress_bar_empty.png</HousingURL>
+                    <HousingURLLocation>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </HousingURLLocation>
+                    <HousingURLSize>
+                        <SizeW>1265</SizeW>
+                        <SizeH>19</SizeH>
+                    </HousingURLSize>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                    <Orientation>0</Orientation>
+					<IsScaledProgressBar>1</IsScaledProgressBar>
+                </ProgressBarWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

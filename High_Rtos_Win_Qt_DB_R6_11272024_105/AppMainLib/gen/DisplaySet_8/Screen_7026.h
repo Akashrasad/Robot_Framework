@@ -1,0 +1,29 @@
+#ifndef SCREEN_7026_H
+#define SCREEN_7026_H
+
+#include "BindableScreenLogic.h"
+#include <array>
+
+namespace gm
+{
+namespace csm
+{
+
+
+class Screen_7026 : public BindableScreenLogic
+{
+    std::array<BindingId, 7> mBindingsIds;
+    
+    public:
+    using BindableScreenLogic::BindableScreenLogic;
+    
+    protected:
+    void onScreenHide() override;
+    protected:
+    void onScreenShow() override;
+};
+
+}//namespace csm
+}//namespace gm
+
+#endif // SCREEN_7026_H

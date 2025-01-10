@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+		    <DimmingView>1</DimmingView>
+            <ViewID>ics_dimming_view</ViewID>
+			<Layer touch="false">64</Layer>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>3400</SizeW>
+                <SizeH>1300</SizeH> 
+            </Size>
+			<Alpha>0</Alpha>
+            <Screen load="ics_brightness_control_screen"/>
+        </View>
+    </Display>
+</GMXML>

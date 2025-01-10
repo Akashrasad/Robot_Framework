@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_full_notification_emergency_view</ViewID>
+            <ZOrder>10</ZOrder>
+            <Location>
+                <LocationX>4442</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2880</SizeW>
+                <SizeH>1130</SizeH>
+            </Size>
+            <Screen load="ics_virtualcontrols_passive_power_mode_emergency_detected"/>
+         </View>
+    </Display>
+</GMXML>

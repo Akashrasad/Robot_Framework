@@ -1,0 +1,7 @@
+BT1CC_Theme
+skin_font_normal,FFFFFF
+skin_font_pressed,FFFFFF
+skin_font_selected,FFFFFF
+skin_font_focused,D7DDEB
+skin_font_disabled,5A5A5A
+skin_font_dark,000000

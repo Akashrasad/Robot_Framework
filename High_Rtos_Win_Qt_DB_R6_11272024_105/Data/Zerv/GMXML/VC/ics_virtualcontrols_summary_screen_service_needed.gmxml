@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6217</ScreenID>
+				<Name>ics_virtualcontrols_summary_screen_service_needed</Name>                
+				<ImageWidget>
+					<ID>img_bg_black</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_bg_11_3inch"/>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_top_bar</ID>
+					<Location var="var_loc_orgin_0_0"/>
+					<Size var="var_size_top_bar_2000_117"/>
+					<NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_btn_back</ID>
+					<Location var="var_loc_actionbar_back_img"/>
+					<Size var="var_size_actionbar_back_img"/>
+					<NormalURL>11/btn_icn_left_normal_small.png</NormalURL>
+					<FocusURL>11/btn_icn_left_pressed_small.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/btn_icn_left_normal_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/btn_icn_left_focused_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_icn_left_pressed_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/btn_icn_left_selected_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression="CompressionAlias4">11/btn_icn_left_disabled_small.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_AppHome_back</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_header_csm</ID>
+					<Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_text"/>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_close</ID>
+					<Location var="var_loc_actionbar_close_img"/>
+					<Size var="var_size_actionbar_close_img"/>
+					<NormalURL>11/btn_icn_close_normal_small.png</NormalURL>
+					<FocusURL>11/btn_icn_close_pressed_small.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/btn_icn_close_normal_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/btn_icn_close_focused_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_icn_close_pressed_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/btn_icn_close_selected_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression="CompressionAlias7">11/btn_icn_close_disabled_small.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_1_body_csm</ID>
+					<Location>
+						<LocationX>260</LocationX>
+						<LocationY>199</LocationY>
+					</Location>
+					<Size>
+						<SizeW>856</SizeW>
+						<SizeH>463</SizeH>
+					</Size>
+					<Font var="var_font_program_body_content"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location>
+						<LocationX>260</LocationX>
+						<LocationY>801</LocationY>
+					</Location>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="CompressionAlias7">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias7">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias3">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias3">11/btn_primary_pressed.png</NormalURL>
+							<FocusURL compression="CompressionAlias13">11/btn_primary_selected.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias13">11/btn_primary_selected.png</NormalURL>
+							<FocusURL compression="CompressionAlias7">11/btn_primary_normal.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_14_5_1_primaryButton_csm</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>33</LocationY>
+						</Location>
+						<Size>
+						<SizeW>395</SizeW>
+						<SizeH>55</SizeH>
+						</Size>
+						<Font var="var_font_primary_button_txt"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_add_1hour_button</ID>
+					<Location var="var_loc_peek_in_screen_circle_body_secondary_button_grp"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_btn_bg1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_secondary_selected.png</NormalURL>
+						<FocusURL>11/btn_secondary_normal.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_secondary_selected.png</NormalURL>
+							<FocusURL>11/btn_secondary_normal.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_secondary_normal.png</NormalURL>
+							<FocusURL>11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_secondary_pressed.png</NormalURL>
+							<FocusURL>11/btn_secondary_selected.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_secondary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_14_5_1_secondaryButton_csm</ID>
+						<Font var="var_font_secondary_button_txt"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_yes_button"/>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>Dummy</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_session</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>196</LocationY>
+					</Location>
+					<Size var="var_size_summary_option_text"/>
+					<Font var="var_font_summary_option_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_this_session</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>275</LocationY>
+					</Location>
+					<Size var="var_size_rangereserve_icon"/>
+					<NormalURL>11/icn_range_reserve_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_sessionTime</ID>
+					<Location>
+						<LocationX>1316</LocationX>
+						<LocationY>286</LocationY>
+					</Location>
+					<Size>
+						<SizeW>668</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					<Font var="var_font_radio_btn_off_normal"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_rangeUsed</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>411</LocationY>
+					</Location>
+					<Size var="var_size_summary_option_text"/>
+					<Font var="var_font_summary_option_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_range_used</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>490</LocationY>
+					</Location>
+					<Size var="var_size_rangereserve_icon"/>
+					<NormalURL>11/icn_range_used_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_rangeUsedNumber_csm</ID>
+					<Location>
+						<LocationX>1316</LocationX>
+						<LocationY>501</LocationY>
+					</Location>
+					<Size>
+						<SizeW>668</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					<Font var="var_font_radio_btn_off_normal"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+				</LabelWidget>
+			<LabelWidget>
+					<ID>virtualcontrols_1_14_5_powerUsed</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>627</LocationY>
+					</Location>
+					<Size var="var_size_summary_option_text"/>
+					<Font var="var_font_summary_option_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_total_power_used</ID>
+					<Location>
+						<LocationX>1183</LocationX>
+						<LocationY>706</LocationY>
+					</Location>
+					<Size var="var_size_rangereserve_icon"/>
+					<NormalURL>11/img_placeholder_medium.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_5_powerUsedNumber</ID>
+					<Location>
+						<LocationX>1316</LocationX>
+						<LocationY>717</LocationY>
+					</Location>
+					<Size>
+						<SizeW>668</SizeW>
+						<SizeH>71</SizeH>
+					</Size>
+					<Font var="var_font_radio_btn_off_normal"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

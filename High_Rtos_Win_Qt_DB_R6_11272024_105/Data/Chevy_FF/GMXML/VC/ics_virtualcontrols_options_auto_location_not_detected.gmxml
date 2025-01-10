@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_options_auto_location_not_detected</ScreenID>
+                <Name>ics_virtualcontrols_options_auto_location_not_detected</Name>
+                <ImageWidget var="var_img_simple_dialogue_regular_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_lbl_simple_regular_primar_text">
+                    <ID>virtualcontrols_1_5_5__3UGDONoLocation_csm</ID>
+                </LabelWidget>
+                <LabelWidget var="var_lbl_simple_regular_secondary_text">
+                    <ID>virtualcontrols_1_5_5_3F_GeolocationBody_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<Location var="var_loc_simple_primary_btn_large"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_notification_primary_btn_large">
+						<ID>img_btn_bg1</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_primary_btn_large">
+						<ID>virtualcontrols_1_5_5_3btnTryAgain_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_TurnOff</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<Location var="var_loc_secondary_primary_btn_large"/>
+					<Size var="var_size_btn_large"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_notification_secondary_btn_large">
+						<ID>img_btn_bg2</ID>
+					</ImageElements>
+					<LabelElements var="var_lbl_notification_secondary_btn_large">
+						<ID>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</ID>   
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HeadLightsDialog_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

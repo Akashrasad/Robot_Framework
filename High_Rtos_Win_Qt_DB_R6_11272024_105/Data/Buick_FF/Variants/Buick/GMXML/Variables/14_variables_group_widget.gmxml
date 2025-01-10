@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<GroupWidget id="grp_img_change_selection">
+			<Location var="var_loc_titilebar_up_arrow"/>
+			<Size var="var_size_titlebar_up_arrow"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<ImageElements>
+				<ID>img_down_arrow</ID>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_titlebar_up_arrow"/>
+				<NormalURL compression="NONE">11/btn_changeselection_bg_normal.png</NormalURL>
+				<FocusURL compression="NONE">11/btn_changeselection_bg_focused.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression="NONE">11/btn_changeselection_bg_normal.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression="NONE">11/btn_changeselection_bg_focused.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression="NONE">11/btn_changeselection_bg_pressed.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_0F_ChangeSelection_csm</ID>
+				<TextWrap>1</TextWrap>
+				<Location>
+					<LocationX>97</LocationX>
+					<LocationY>19</LocationY>
+				</Location>
+				<Size var="var_size_change_selection_txt"/>
+				<Font var="var_font_change_selection_txt"/>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="grp_keep_look_btn">
+            <Location var="var_loc_keep_looking_button"/>
+            <Size var="var_size_btn_medium"/>
+		    <TabOrder>
+                <TabV>1</TabV>
+                <TabH>2</TabH>
+            </TabOrder>
+		    <Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+            <ImageElements>
+                    <ID>img_keep_looking_btn</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_btn_medium"/>					
+                    <NormalURL compression="CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL compression="CompressionAlias1">11/btn_secondary_focused.png</FocusURL>
+                <SelectorState>
+                    <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_secondary_focused.png</FocusURL>
+                </SelectorState>
+                <SelectorState>
+                    <DataValue>1</DataValue>
+                    <NormalURL compression="CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+                </SelectorState>
+                <SelectorState>
+                    <DataValue>2</DataValue>
+					<NormalURL compression="CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+                    <FocusURL compression="CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+                </SelectorState>
+                <SelectorState>
+                    <DataValue>3</DataValue>
+                    <NormalURL compression="CompressionAlias1">11/btn_secondary_selected.png</NormalURL>
+                </SelectorState>
+			    <SelectorState>
+					<DataValue>4</DataValue>
+					<NormalURL compression="CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_secondary_focused.png</FocusURL>
+				</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_4_KeepLooking_csm</ID>
+                    <Font var="var_font_smart_controls"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_btn_medium"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_yes_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button_disabled"/>
+						<FocusFont var="var_font_keep_looking_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_yes_button"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+                        <Font var="var_font_keep_looking_button_focused"/>
+						<FocusFont var="var_font_keep_looking_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+		</GroupWidget>
+		<GroupWidget id="grp_park_in_vehicle">
+                <Location var="var_loc_yes_button"/>
+                <Size var="var_size_btn_medium"/>
+				<TabOrder>
+                    <TabV>1</TabV>
+                    <TabH>2</TabH>
+                </TabOrder>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+            <ImageElements>
+                <ID>img_park_in_vehicle_btn</ID>
+                <Location var="var_loc_orgin"/>
+                <Size var="var_size_btn_medium"/>					
+                <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                <FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+                <SelectorState>
+                    <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                        <FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_4_ParkInVehicle_csm</ID>
+                    <Font var="var_font_yes_button"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_btn_medium"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_yes_button"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_yes_button_disabled"/>
+						<FocusFont var="var_font_yes_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_yes_button"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <Font var="var_font_yes_button_focused"/>
+						<FocusFont var="var_font_yes_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+		</GroupWidget>
+		<GroupWidget id="grp_yes_button">
+                <Location var="var_loc_yes_button"/>
+                <Size var="var_size_btn_medium"/>
+				<TabOrder>
+                    <TabV>1</TabV>
+                    <TabH>2</TabH>
+                </TabOrder>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+            <ImageElements>
+                <ID>img_park_in_vehicle_btn</ID>
+                <Location var="var_loc_orgin"/>
+                <Size var="var_size_btn_medium"/>					
+                <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                <FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+                <SelectorState>
+                    <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+                        <FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_primary_focused.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_primary_focused.png</FocusURL>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_4_ParkInVehicle_csm</ID>
+                    <Font var="var_font_smart_controls"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_btn_medium"/>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_smart_controls"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_keep_looking_button_disabled"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_keep_looking_button"/>
+						<FocusFont var="var_font_yes_button_pressed"/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <Font var="var_font_keep_looking_button_focused"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_change_selection">
+			<Location var="var_loc_titilebar_up_arrow"/>
+			<Size var="var_size_titlebar_up_arrow"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<ImageElements>
+				<ID>img_change_selection</ID>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_titlebar_up_arrow"/>
+				<NormalURL compression="NONE">11/icn_down_normal_small.png</NormalURL>
+				<FocusURL compression="NONE">11/icn_down_focused_small.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression="NONE">11/icn_down_normal_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression="NONE">11/icn_down_focused_small.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression="NONE">11/icn_down_pressed_small.png</NormalURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_0F_ChangeSelection_csm</ID>
+				<TextWrap>1</TextWrap>
+				<Location>
+					<LocationX>97</LocationX>
+					<LocationY>19</LocationY>
+				</Location>
+				<Size var="var_size_change_selection_txt"/>
+				<Font var="var_font_change_selection_txt"/>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_grp_park_in_vehicle_btn">
+			<Location var="var_loc_yes_button"/>
+			<Size var="var_size_srp_btn"/>
+			<TabOrder>
+				<TabV>1</TabV>
+				<TabH>1</TabH>
+			</TabOrder>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_park_in_vehicle_btn</ID>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<NormalURL compression = "NONE">11/btn_primary_bg_normal.png</NormalURL>
+				<FocusURL compression = "NONE" >11/btn_primary_bg_focused.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL compression = "NONE">11/btn_primary_bg_normal.png</NormalURL>
+					<FocusURL compression = "NONE">11/btn_primary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL compression = "NONE">11/btn_primary_bg_disabled.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL compression = "NONE">11/btn_primary_bg_normal.png</NormalURL>
+					<FocusURL compression = "NONE">11/btn_primary_bg_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL compression = "NONE">11/btn_primary_bg_selected.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>4</DataValue>
+					<NormalURL compression = "NONE">11/btn_primary_bg_normal.png</NormalURL>
+					<FocusURL compression = "NONE">11/btn_primary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_ParkInVehicle_csm</ID>
+				<Font var="var_font_yes_button"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_yes_button"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_yes_button_disabled"/>
+					<FocusFont var="var_font_yes_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_yes_button_focused"/>
+					<FocusFont var="var_font_yes_button_focused"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</LabelElements>
+			<InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>evG_Apa_Yes_Park</WidgetCallback>
+			</InputWidgetMapping>
+			<InputWidgetMapping>
+				<UserInput>RotarySelectReleased</UserInput>
+				<WidgetCallback>evG_Apa_Yes_Park</WidgetCallback>
+			</InputWidgetMapping>
+			<ScaleAnchor>Center</ScaleAnchor>
+			<BehaviorState var="var_behavior_animation_interpolation"/>
+			<BehaviorState var="var_behavior_state_value_1"/>
+			<BehaviorState var="var_behavior_state_value_2"/>
+		</GroupWidget>
+		<GroupWidget id="var_keep_looking_btn_srp">
+			<Location var="var_loc_keep_looking"/>
+			<Size var="var_size_srp_btn"/>
+			<TabOrder>
+				<TabV>1</TabV>
+				<TabH>3</TabH>
+			</TabOrder>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_keep_looking_btn</ID>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL>11/btn_secondary_bg_disabled.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL>11/btn_secondary_bg_selected.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>4</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<OnFocusCallback>evG_Apa_Keep_Looking_Button</OnFocusCallback>
+				<ZOrder>3</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_KeepLooking_csm</ID>
+				<Font var="var_font_yes_button"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+					<Font var="var_font_yes_button"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+					<Font var="var_font_keep_looking_button_disabled"/>
+					<FocusFont var="var_font_keep_looking_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<StaticValue>apa_4_4_KeepLooking_csm</StaticValue>
+					<Font var="var_font_keep_looking_button_focused"/>
+					<FocusFont var="var_font_keep_looking_button_focused"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_superior_btn">
+			<Location var="var_loc_park_remotely"/>
+			<Size var="var_size_srp_btn"/>
+			<TabOrder>
+				<TabV>1</TabV>
+				<TabH>2</TabH>
+			</TabOrder>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+			<ImageElements>
+				<ID>img_supervise_remotely_btn</ID>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+				<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<NormalURL>11/btn_secondary_bg_disabled.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_pressed.png</FocusURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<NormalURL>11/btn_secondary_bg_selected.png</NormalURL>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>4</DataValue>
+					<NormalURL>11/btn_secondary_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_secondary_bg_focused.png</FocusURL>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>3</ZOrder>
+			</ImageElements>
+			<LabelElements>
+				<ID>apa_4_4_ParkRemotely_csm</ID>
+				<Font var="var_font_yes_button"/>
+				<TextWrap>1</TextWrap>
+				<Location var="var_loc_orgin"/>
+				<Size var="var_size_srp_btn"/>
+				<SelectorState>
+					<DataValue>0</DataValue>
+					<Font var="var_font_yes_button"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>1</DataValue>
+					<Font var="var_font_keep_looking_button_disabled"/>
+					<FocusFont var="var_font_keep_looking_button_disabled"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>2</DataValue>
+					<Font var="var_font_yes_button"/>
+					<FocusFont var="var_font_yes_button_pressed"/>
+				</SelectorState>
+				<SelectorState>
+					<DataValue>3</DataValue>
+					<Font var="var_font_keep_looking_button_focused"/>
+					<FocusFont var="var_font_keep_looking_button_focused"/>
+				</SelectorState>
+				<Alpha>100</Alpha>
+				<ZOrder>4</ZOrder>
+			</LabelElements>
+		</GroupWidget>
+	</Variables>
+</GMXML>

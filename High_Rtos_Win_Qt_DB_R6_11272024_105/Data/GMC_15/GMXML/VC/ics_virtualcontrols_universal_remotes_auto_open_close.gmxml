@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_universal_remotes_auto_open_close</ScreenID>
+                <Name>ics_virtualcontrols_universal_remotes_auto_open_close</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_notification_bg_img"/>
+                    <NormalURL>11/img_simple_dialog_bg.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_0_4_3_UGDORemoteTitle_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+                    <Location var="var_loc_dialog_text"/>
+                    <Size var="var_size_dialog_title_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_6_2_2_G_desc_csm</ID>
+                    <Font var="var_font_dialog_text_secondary"/>
+                    <Location var="var_loc_dialog_transmit_text"/>
+                    <Size var="var_size_dialog_title_text">
+                        <SizeH>53</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_dialog_btn">
+					    <LocationY>293</LocationY>
+                    </Location>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                        <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_focused.png</NormalURL>
+                        <FocusURL>11/btn_primary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Erase_Remote</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_6_2_2_UGDOAutoDont_csm</ID>
+                    <Font var="var_font_primary_button_txt"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var= "var_loc_dialog_btn_text"/>
+                    <Size var="var_size_dialog_btn_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelWidget>
+				<ImageWidget>
+                    <ID>btn_img_smart_ugdo</ID>
+                    <Location>
+						<LocationX>1400</LocationX>
+						<LocationY>58</LocationY>
+					</Location>
+                    <Size var="var_size_smart_ugdo"/>
+                    <NormalURL>11/icn_universal_remote_selected.png</NormalURL>
+                    <FocusURL>11/icn_universal_remote_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_universal_remote_normal.png</NormalURL>
+                        <FocusURL>11/icn_universal_remote_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_universal_remote_selected.png</NormalURL>
+                        <FocusURL>11/icn_universal_remote_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_universal_remote_pressed.png</NormalURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Erase_Remote</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

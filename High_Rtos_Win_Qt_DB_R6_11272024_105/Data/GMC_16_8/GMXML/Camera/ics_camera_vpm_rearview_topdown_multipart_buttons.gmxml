@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8009</ScreenID>
+                <Name>ics_camera_vpm_rearview_topdown_multipart_buttons</Name>
+                <ImageWidget var="var_img_main_bg">
+					<ID>img_bg_black</ID>
+				</ImageWidget>
+				<ImageWidget var="img_Close">
+                    <ID>img_btn_close_active</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<!-- <ImageWidget>
+                    <ID>img_rightArrow</ID>
+                    <Location var="var_loc_right_arrow"/>
+                    <Size var="var_size_right_arrow"/>
+                    <NormalURL>11/btn_general_right_disabled.png</NormalURL>           
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_general_right_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_general_right_normal.png</NormalURL>
+                    </SelectorState>   
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>rightarrow</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_leftArrow</ID>
+                    <Location var="var_loc_left_arrow"/>
+                    <Size var="var_size_right_arrow"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_general_back_disabled.png</NormalURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_general_back_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_general_back_normal.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>leftarrow</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget> -->
+                <ListWidget var ="var_list_vpm_rear_view1">
+                    <ListID>ics_camera_vpm_rearview_topdown_multipart_buttons_list1</ListID>
+                </ListWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

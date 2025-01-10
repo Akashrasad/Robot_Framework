@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_notification_simple_dialog_action_buttons_view</ViewID>
+            <Size>
+                <SizeW>1575</SizeW>
+                <SizeH>633</SizeH>
+            </Size>
+            <Location>
+                <LocationX>114</LocationX>
+                <LocationY>496</LocationY>
+            </Location>
+            <ZOrder var="var_zorder_notification_view"/>
+			<vc>
+			<Screen load="ics_virtualcontrols_options_delete_dialog"/>
+			<Screen load="ics_virtualcontrols_options_delete_all_dialog"/>
+			<Screen load="ics_virtualcontrols_universal_remotes_auto_open_close"/>
+			<Screen load="ics_virtualcontrols_passive_power_mode_snackbar_remaining"/>
+			<Screen load="ics_virtualcontrols_peekin_screen_end_notification"/>
+			</vc>
+        </View>
+    </Display>
+</GMXML>

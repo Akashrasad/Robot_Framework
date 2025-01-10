@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6128</ScreenID>
+				<Name>ics_virtualcontrols_peekin_screen_time_running_out_notification</Name>
+				<DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+				<ImageWidget>
+				<ID>img_notification_bg_large</ID>
+					<Location var="var_loc_orgin"/>
+					<Size>
+						<SizeW>1575</SizeW>
+						<SizeH>594</SizeH>
+					</Size>
+					<NormalURL>11/img_notification_simple_large_dialog_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_power_base_icon</ID>
+					<Location var="var_loc_time_running_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL>11/img_powerbase_icn.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_1_2_powerbaseFeature_csm</ID>
+					<Font var="var_font_powerbase_text"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>136</LocationX>
+						<LocationY>61</LocationY>
+					</Location>
+					<Size var="var_size_time_running_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_4_4V_dialogHeader_csm</ID>
+					<Font var="var_font_dialog_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_dialog_text">
+						<LocationY>147</LocationY>
+					</Location>
+					<Size var="var_size_dialog_text_1line"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_4_4_dialogBody_csm</ID>
+					<Font var="var_font_notification_dialog_text_secondary"/>
+					<Location var="var_loc_notification_dialog_secondary_txt"/>
+					<Size var="var_size_snackbar_2lines_txt"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+					<Location var="var_loc_notification_dialog_primary_btn_1"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_notification_primary_btn">
+					    <ID>img_btn_bg1</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_14_4_4_dialogPrimaryButton_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Add_Hour</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+					<Location var="var_loc_notification_dialog_primary_btn_2"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_notification_secondary_btn">
+					    <ID>img_btn_bg2</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_secondary_btn_txt">
+                        <ID>virtualcontrols_1_14_4_4_dialogSecondaryButton_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

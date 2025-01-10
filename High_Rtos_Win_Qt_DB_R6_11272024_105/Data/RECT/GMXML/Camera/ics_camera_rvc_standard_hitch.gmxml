@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8005</ScreenID>
+                <Name>ics_camera_rvc_standard_hitch</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/img_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <GroupWidget>
+                    <ID>grp_img_exit</ID>
+                    <Location>
+                        <LocationX>35</LocationX>
+                        <LocationY>35</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>117</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements var="img_grp_Close">
+						<ID>img_btn_close_active</ID>						
+						<Location var="var_loc_orgin"/>
+					</ImageElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+				<ImageWidget var="img_caution_camera">
+					<ID>img_upa_warning</ID>
+				</ImageWidget>
+                <ImageWidget var="img_error_icon_camera">
+					<ID>img_icn_cameraerror</ID>
+				</ImageWidget>
+                <RVCGuideLinesWidget>
+                    <ID>img_rvc_widget</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1815</SizeW>
+                        <SizeH>704</SizeH>
+                    </Size>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </RVCGuideLinesWidget>
+                <ImageWidget>
+                    <ID>img_guideliness_view</ID>
+                    <Location>
+                        <LocationX>185</LocationX>
+                        <LocationY>834</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>749</SizeW>
+                        <SizeH>139</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias10">11/icn_guideline_view_medium_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias10">11/icn_guideline_view_medium_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_StandardGuidelinesOnOff</WidgetCallback>
+                    </InputWidgetMapping>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_guideline_view_medium_normal.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias10">11/icn_guideline_view_medium_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_guideline_view_medium_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_guideline_view_medium_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/icn_guideline_view_medium_focused.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/icn_guideline_view_medium_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias2">11/icn_guideline_view_medium_latched_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_hitch_zoom</ID>
+                    <Location>
+                        <LocationX>935</LocationX>
+                        <LocationY>834</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>749</SizeW>
+                        <SizeH>139</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias5">11/icn_hitch_view_large_normal.png</NormalURL>
+                    <FocusURL>11/icn_hitch_view_large_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HitchZoom</WidgetCallback>
+                    </InputWidgetMapping>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias5">11/icn_hitch_view_large_normal.png</NormalURL>
+                        <FocusURL>11/icn_hitch_view_large_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_hitch_view_large_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias12">11/icn_hitch_view_large_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/icn_hitch_view_large_selected.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/icn_hitch_view_large_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>11/icn_hitch_view_large_pressed.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

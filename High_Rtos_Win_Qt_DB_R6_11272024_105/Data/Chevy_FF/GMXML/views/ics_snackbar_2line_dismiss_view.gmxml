@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_snackbar_2line_dismiss_view</ViewID>
+            <Size>
+                <SizeW>1578</SizeW>
+                <SizeH>244</SizeH>
+            </Size>
+            <Location>
+                <LocationX>651</LocationX>
+                <LocationY>835</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder>
+            <NativeZOrder var="var_native_zorder"/>
+            <VirtualControls>
+                <Screen load="ics_virtualcontrols_drive_park_opd_unavailable_snackbar"/>
+            </VirtualControls>
+        </View>
+    </Display>
+</GMXML>

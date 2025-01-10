@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_flyouts_view_right</ViewID>
+            <Size>
+                <SizeW>339</SizeW>
+                <SizeH>554</SizeH>
+            </Size>
+            <Location>
+                <LocationX>4950</LocationX>
+                <LocationY>262</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder> 
+            <Screen load="ics_hvac_menu_right_three_heated_options_flyout"/>
+            <Screen load="ics_hvac_menu_right_two_options_flyout"/>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6113</ScreenID>
+				<Name>ics_virtualcontrols_outlets_start_screen</Name>
+				<ImageWidget var="var_img_bg_vc_black">
+					<ID>img_bg_outlet_start_black</ID>
+				</ImageWidget>
+				<!-- <ImageWidget>
+                    <ID>img_btn_back_powerbase</ID>
+                    <Location var="var_loc_actionbar_back_img"/>
+                    <Size var="var_size_temp_down"/>
+                    <NormalURL compression="CompressionAlias1">11/btn_icn_left_normal_small.png</NormalURL>
+                    <FocusURL>11/btn_icn_left_pressed_small.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression="CompressionAlias1">11/btn_icn_left_normal_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_left_focused_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_left_pressed_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_icn_left_selected_small.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_icn_left_disabled_small.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Back</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ScaleAnchor>Center</ScaleAnchor>
+                    <BehaviorState var="var_behavior_animation_interpolation"/>
+                    <BehaviorState var="var_behavior_state_value_1"/>
+                    <BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget> -->
+				<ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<TabOrder>
+						<TabV>2</TabV>
+						<TabH>3</TabH>
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_PO_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_header_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_header_text"/>
+					<Size var="var_size_header_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_body_csm</ID>
+					<Font var="var_font_call_assistance"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_body_text"/>
+					<Size>
+						<SizeW>972</SizeW>
+						<SizeH>522</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_timer_rectangle</ID>
+					<Location var="var_loc_time_bg"/>
+					<Size var="var_size_time_bg"/>
+					<NormalURL>11/img_picker_time_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_timer_toggle_btn</ID>
+					<Location var="var_loc_timer_btn"/>
+					<Size var="var_size_timer_btn"/>
+					<NormalURL skinid="skin_pressed_URL">11/btn_toggle_tab_selected.png</NormalURL>
+                    <FocusURL skinid="skin_pressed_URL">11/btn_toggle_tab_selected.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL">11/btn_toggle_tab_deselected.png</NormalURL>
+                        <FocusURL skinid="skin_normal_URL">11/btn_toggle_tab_deselected.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL">11/btn_toggle_tab_selected.png</NormalURL>
+                         <FocusURL skinid="skin_pressed_URL">11/btn_toggle_tab_selected.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_disabled_URL">11/btn_toggle_tab_deselected_disabled.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Enable_Timer</WidgetCallback>
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_transparent_bg</ID>
+					<Location>
+						<LocationX>1425</LocationX>
+						<LocationY>486</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>253</SizeH>
+					</Size>
+					<NormalURL>11/img_list_transparent.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>6</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_hours_bg</ID>
+					<Location>
+						<LocationX>1425</LocationX>
+						<LocationY>550</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<NormalURL>11/img_time_hours_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ListWidget>
+					<ListID>ics_virtualcontrols_outlets_start_screen_list</ListID>
+					<Location>
+						<LocationX>1425</LocationX>
+						<LocationY>486</LocationY>
+					</Location>
+					<Size>
+						<SizeW>119</SizeW>
+						<SizeH>253</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>65</SizeH>
+						</Size>
+						<RowSpacing>2</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+						<RowSeparatorImageURL/>
+					</RowLayout>
+					<RowLayout>
+						<RowLayoutID>default_layout</RowLayoutID>
+						<Size>
+							<SizeW>119</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<RowSpacing>2</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+						<RowSeparatorImageURL/>
+					</RowLayout>
+					<ZOrder>4</ZOrder>
+					<ElementData>
+						<LabelElements>
+                            <ID>default</ID>
+                            <Value>
+                                <Encoding/>
+                                <Text/>
+                            </Value>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>119</SizeW>
+                                <SizeH>65</SizeH>
+                            </Size>
+                            <Font var="var_font_time_default_text"/>
+                            <Alpha>100</Alpha>
+                            <ZOrder>3</ZOrder>
+                            <SelectorState>
+                                <DataValue>0</DataValue>
+                                <Font var="var_font_time_default_text"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <Font var="var_font_time_default_disabled"/>
+                            </SelectorState>
+                        </LabelElements>
+						<LabelElements>
+                            <ID>default_disabled</ID>
+                            <Value>
+                                <Encoding/>
+                                <Text/>
+                            </Value>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>119</SizeW>
+                                <SizeH>65</SizeH>
+                            </Size>
+                            <Font var="var_font_time_default_disabled"/>
+                            <Alpha>100</Alpha>
+                            <ZOrder>3</ZOrder>
+                        </LabelElements>
+                        <LabelElements>
+                            <ID>primary</ID>
+                            <Value>
+                                <Encoding/>
+                                <Text/>
+                            </Value>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>119</SizeW>
+                                <SizeH>119</SizeH>
+                            </Size>
+                            <Font var="var_font_time_primary_text"/>
+                            <Alpha>100</Alpha>
+                            <ZOrder>3</ZOrder>
+                            <SelectorState>
+                                <DataValue>0</DataValue>
+                                <Font var="var_font_time_primary_text"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <Font var="var_font_time_disabled"/>
+                            </SelectorState>
+                        </LabelElements>
+						<LabelElements>
+                            <ID>primary_disabled</ID>
+                            <Value>
+                                <Encoding/>
+                                <Text/>
+                            </Value>
+                            <Location>
+                                <LocationX>0</LocationX>
+                                <LocationY>0</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>119</SizeW>
+                                <SizeH>119</SizeH>
+                            </Size>
+                            <Font var="var_font_time_disabled"/>
+                            <Alpha>100</Alpha>
+                            <ZOrder>3</ZOrder>
+                            <SelectorState>
+                                <DataValue>0</DataValue>
+                                <Font var="var_font_time_primary_text"/>
+                            </SelectorState>
+                            <SelectorState>
+                                <DataValue>1</DataValue>
+                                <Font var="var_font_time_disabled"/>
+                            </SelectorState>
+                        </LabelElements>							
+					</ElementData>
+				</ListWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_hours_csm</ID>
+					<Font var="var_font_time_primary_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_hours_text"/>
+					<Size var="var_size_hours_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_time_disabled"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_time_primary_text"/>
+					</SelectorState>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_timerHeader_csm</ID>
+					<Font var="var_font_range_reserve_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_timer_text"/>
+					<Size var="var_size_timer_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+                    <ID>grp_keep_on_button</ID>
+                    <Location var="var_loc_try_button"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                    <ImageElements var="img_notification_primary_btn">
+                        <ID>img_keep_on_btn</ID>
+                        <Location var="var_loc_orgin"/>
+                    </ImageElements>
+                    <LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_14_primaryButton_csm</ID>
+						 <Location var="var_loc_orgin"/>
+						  <SelectorState>
+                            <DataValue>0</DataValue>
+                            <Font var="var_font_primary_button_normal"/>
+                            <FocusFont var="var_font_primary_button_pressed"/>
+                        </SelectorState>
+                        <SelectorState>
+                            <DataValue>1</DataValue>
+                            <Font var="var_font_primary_button_selected"/>
+                            <FocusFont var="var_font_primary_button_pressed"/>
+                        </SelectorState>
+                        <SelectorState>
+                            <DataValue>2</DataValue>
+                            <Font var="var_font_primary_button_disabled"/>
+							<FocusFont var="var_font_primary_button_disabled"/>
+                        </SelectorState>
+                    </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>Dummy</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Use_PowerBase</WidgetCallback>
+                    </InputWidgetMapping>
+                </GroupWidget>
+				<ImageWidget>
+					<ID>img_range_reserve_icon</ID>
+					<Location var="var_loc_red_btn"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_range_reserve_normal.png</NormalURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_range_reserve_normal.png</NormalURL>
+						</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_range_reserve_error.png</NormalURL>
+						</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_header_csm</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_rangereserve_text"/>
+					<Size var="var_size_rangereserve_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_body_text"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_avg_range_reserve"/>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_percentMile_csm</ID>
+					<Font var="var_font_range_reserve_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_dynamic_text"/>
+					<Size var="var_size_dynamic_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_range_reserve_text"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_dynamic_range"/>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_arrow_btn</ID>
+					<Location var="var_loc_arrow_btn"/>
+					<Size var="var_size_titlebar_up_arrow"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_line_divider</ID>
+					<Location var="var_loc_divider"/>
+					<Size var="var_size_divider"/>
+					<NormalURL skinid="skin_normal_URL">11/img_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_range_reserve_transparent</ID>
+					<Location>
+						<LocationX>1300</LocationX>
+						<LocationY>858</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1147</SizeW>
+						<SizeH>172</SizeH>
+					</Size>
+					<NormalURL>11/img_range_reserve_transparent.png</NormalURL>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Range_Reserve</WidgetCallback>
+					</InputWidgetMapping>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>			
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>1002</ScreenID>
+                <Name>ics_animation_shutdown</Name>
+                <ImageWidget>
+                    <ID>img_shutdown</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2880</SizeW>
+                        <SizeH>1130</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/placeholder-11icsshutdown.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

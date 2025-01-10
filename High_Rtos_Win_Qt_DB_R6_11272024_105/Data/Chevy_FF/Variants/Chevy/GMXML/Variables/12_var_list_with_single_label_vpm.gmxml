@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ListWidget id = "var_list_with_single_label_vpm">
+            <Location>
+                <LocationX>189</LocationX>
+                <LocationY>197</LocationY>
+            </Location>
+            <Size>
+                <SizeW>467</SizeW>
+                <SizeH>710</SizeH>
+            </Size>
+            <BackgroundURL/>
+			<RowLayout>
+                <RowLayoutID>normal_layout</RowLayoutID>
+                <Size>
+                    <SizeW>467</SizeW>
+                    <SizeH>142</SizeH>
+                </Size>
+                <RowSpacing>0</RowSpacing>
+                <Location>
+                    <LocationX>0</LocationX>
+                    <LocationY>0</LocationY>
+                </Location>
+                <NormalURL/>
+				<FocusURL skinid="skin_list_pressed_URL">11/img_tab_list_pressed_bg.png</FocusURL>
+            </RowLayout>
+            <ZOrder>4</ZOrder>
+            <ElementData>
+                <LabelElements>
+                    <ID>primary_toggle</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>28</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>411</SizeW>
+                        <SizeH>125</SizeH>
+                    </Size>
+                    <Font skinid="skin_font_body_content_normal">
+                        <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+                        <Size>44</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>4</TextAlign>
+                        <Color>225,225,225</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>primary</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>28</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>411</SizeW>
+                        <SizeH>125</SizeH>
+                    </Size>
+                    <Font skinid="skin_font_body_content_normal">
+                        <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+                        <Size>44</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>4</TextAlign>
+                        <Color>225,225,225</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+				<LabelElements>
+                    <ID>primary_disabled</ID>
+                    <Value>
+                        <Encoding/>
+                        <Text/>
+                    </Value>
+                    <Location>
+                        <LocationX>28</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>411</SizeW>
+                        <SizeH>125</SizeH>
+                    </Size>
+                    <Font skinid="skin_font_body_content_normal">
+                        <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+                        <Size>44</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>4</TextAlign>
+                        <Color>90,90,90</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </LabelElements>
+                <ImageElements>
+                    <ID>img_tabs_normal</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>467</SizeW>
+                        <SizeH>142</SizeH>
+                    </Size>
+					<NormalURL compression = "CompressionAlias3" skinid="skin_list_normal_URL">11/btn_list_camera_verysmall_bg_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_list_pressed_URL">11/btn_list_camera_verysmall_bg_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_list_normal_URL">11/btn_list_camera_verysmall_bg_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_list_selected_URL">11/btn_list_camera_verysmall_bg_selected.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_list_disabled_URL">11/btn_list_camera_verysmall_bg_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>primarytransparent</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageElements>
+            </ElementData>
+        </ListWidget>
+    </Variables>
+</GMXML>

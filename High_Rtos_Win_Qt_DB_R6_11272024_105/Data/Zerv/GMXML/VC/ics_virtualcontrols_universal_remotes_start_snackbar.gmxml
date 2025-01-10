@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6045</ScreenID>
+                <Name>ics_virtualcontrols_universal_remotes_start_snackbar</Name>
+                <ImageWidget var="var_snackbar_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_1line_txt">
+                    <ID>virtualcontrols_1_5_0_1_snackbarUGDO_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <DisplayID>11</DisplayID>
+		<IncludeXML>../qnx_config/</IncludeXML>
+        <Size>
+            <SizeW>2000</SizeW>
+            <SizeH>974</SizeH>
+        </Size>
+		<View load="virtual_controls_view_2000_974"/>
+		<View load="ics_notification_view_1543_362"/>
+		<View load="ics_vc_snackbar_view_1543_139"/>
+		<View load="animation_view"/>
+		<View load="main_view_11_3"/>
+		<View load="close_view_11_3"/>
+		<View load="upa_rcta_view_11_3"/>
+		<View load="error_view_11_3"/>
+    </Display>
+</GMXML>

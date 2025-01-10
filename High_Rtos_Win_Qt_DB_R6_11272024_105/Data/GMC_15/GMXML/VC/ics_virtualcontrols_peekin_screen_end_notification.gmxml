@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6127</ScreenID>
+                <Name>ics_virtualcontrols_peekin_screen_end_notification</Name>
+				<DialogDismiss callback = "evG_PO_Cancel" zorder="1"/>
+				<ImageWidget var="img_notification_bg">
+                    <ID>img_notification_bg</ID>                  
+                </ImageWidget>
+				<LabelWidget var="var_notification_primary_txt">
+                    <ID>virtualcontrols_1_14_4_3_dialogHeader_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg1</ID>
+                    <Location var="var_loc_notification_dialog_primary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_primary_btn">
+					    <ID>img_btn_bg1</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_primary_btn_txt">
+                        <ID>virtualcontrols_1_4_2_dialogHeadlightsPrimary_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evg_Peekin_Turn_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_btn_bg2</ID>
+                    <Location var="var_loc_notification_dialog_secondary_button"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				    <ImageElements var="img_notification_secondary_btn">
+					    <ID>img_btn_bg2</ID>
+				    </ImageElements>
+				    <LabelElements var="var_notification_secondary_btn_txt">
+                        <ID>virtualcontrols_1_14_4_3_dialogSecondaryButton_csm</ID>
+                    </LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_PO_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			    <LabelWidget var="var_notification_secondary_txt">
+                    <ID>virtualcontrols_1_14_4_3_DialogBody_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

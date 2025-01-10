@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6064</ScreenID>
+                <Name>ics_virtualcontrols_factory_reset_is_complete</Name>
+                <ImageWidget var="var_snackbar_2line_recovery_bg">
+                    <ID>img_notification_ivi_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2line_recovery_text">
+                    <ID>virtualcontrols_factory_reset_is_complete_csm</ID>
+                </LabelWidget>
+                <ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

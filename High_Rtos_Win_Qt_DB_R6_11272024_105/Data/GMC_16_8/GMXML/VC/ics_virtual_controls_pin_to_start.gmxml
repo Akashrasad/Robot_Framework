@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6091</ScreenID>
+				<Name>ics_virtual_controls_pin_to_start</Name>
+				<ImageWidget>
+					<ID>img_pts_bg</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<NormalURL>11/img_ics_pin_to_start_bg.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>			
+				<LabelWidget>
+					<ID>choreography_6_1F_EnterPasscode_csm</ID>
+					<Font var="var_font_title_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_enterpasscode_text"/>
+					<Size var="var_size_enterpasscode_text"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>choreography_6_1F_EnterPasscode_csm</StaticValue>
+						<Font var="var_font_title_txt"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>choreography_9_5F_ReEnterPasscode_csm</StaticValue>
+						<Font var="var_font_title_txt"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg1</ID>
+					<Location var="var_loc_keypad_bg1"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn1</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_1_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_One</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg2</ID>
+					<Location var="var_loc_keypad_bg2"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn2</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_2_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Two</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg3</ID>
+					<Location var="var_loc_keypad_bg3"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn3</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_3_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Three</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg4</ID>
+					<Location var="var_loc_keypad_bg4"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn4</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_4_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Four</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg5</ID>
+					<Location var="var_loc_keypad_bg5"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn5</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_5_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Five</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg6</ID>
+					<Location var="var_loc_keypad_bg6"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn6</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_6_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Six</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg7</ID>
+					<Location var="var_loc_keypad_bg7"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn7</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_7_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Seven</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg8</ID>
+					<Location var="var_loc_keypad_bg8"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn8</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_8_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Eight</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg9</ID>
+					<Location var="var_loc_keypad_bg9"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn9</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_9_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Nine</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>img_keypad_bg0</ID>
+					<Location var="var_loc_keypad_bg0"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="img_keypad_bg">
+						<ID>img_keypad_btn0</ID>
+					</ImageElements>
+					<LabelElements>
+						<ID>settings_keypad_0_csm</ID>
+						<Font var="var_font_keypad_normal"/>
+						<FocusFont var="var_font_keypad_pressed"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_keypad_bg"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keypad_normal"/>
+							<FocusFont var="var_font_keypad_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keypad_disable"/>
+							<FocusFont var="var_font_keypad_disable"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Zero</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_keypad_delete_btn</ID>
+					<Location var="var_loc_keypad_delete_btn"/>
+					<Size var="var_size_keypad_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<NormalURL>11/btn_keypad_delete_normal.png</NormalURL>
+					<FocusURL>11/btn_keypad_delete_focused.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/btn_keypad_delete_normal.png</NormalURL>
+						<FocusURL>11/btn_keypad_delete_focused.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/btn_keypad_delete_focused.png</NormalURL>
+						<FocusURL>11/btn_keypad_delete_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_keypad_delete_pressed.png</NormalURL>
+						<FocusURL>11/btn_keypad_delete_normal.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/btn_keypad_delete_disabled.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Ptos_Key_Delete</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>choreography_6_1F_notUsingRemoteKey_csm</ID>
+					<Font var="var_font_enterpasscode_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_enterpasscode_txt"/>
+					<Size var="var_size_passcoderequired_primary_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>choreography_9_1F_IncorrectPassCode_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_toomanyattempts_text"/>
+					<Size var="var_size_passcoderequired_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>choreography_9_2F_TooManyAttempts_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_toomanyattempts_text"/>
+					<Size var="var_size_passcoderequired_text"/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>choreography_9_5F_TimerExpired_csm</ID>
+					<Font var="var_font_toomanyattempts"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_toomanyattempts_text"/>
+					<Size var="var_size_passcoderequired_text"/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_error_btn1</ID>
+					<Location var="var_loc_error_img"/>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_off.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn2</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>984</LocationX>
+					</Location>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_off.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn3</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1052</LocationX>
+					</Location>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn4</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1120</LocationX>
+					</Location>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn5</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1188</LocationX>
+					</Location>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_error_btn6</ID>
+					<Location var="var_loc_error_img">
+						<LocationX>1256</LocationX>
+					</Location>
+					<Size var="var_size_error_img"/>
+					<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+						<FocusURL>11/icn_passcode_entry_on.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>11/icn_passcode_entry_off.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/icn_passcode_entry_on.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>11/icn_passcode_entry_error.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+                    <ID>choreography_9_1F_ForgotPINNote_csm</ID>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+				        <LocationX>916</LocationX>
+				        <LocationY>1301</LocationY>
+					</Location>
+					<Size var="var_size_passcoderequired_text"/>
+                    <Font var="var_font_toomanyattempts"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>group_exit_button</ID>
+					<Location var="var_loc_close_button"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_close_button">
+						<ID>image_exit_button</ID>
+					</ImageElements>
+					<LabelElements var="var_close_text">
+						<ID>choreography_20_3_close_csm</ID>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

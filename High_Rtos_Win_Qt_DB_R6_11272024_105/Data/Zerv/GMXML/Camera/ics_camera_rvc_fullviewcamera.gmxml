@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8004</ScreenID>
+                <Name>ics_camera_rvc_fullviewcamera</Name>
+                <ImageWidget var="var_img_main_bg"> 
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+				<ImageWidget var="img_grp_Close">
+                    <ID>img_btn_close_active</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

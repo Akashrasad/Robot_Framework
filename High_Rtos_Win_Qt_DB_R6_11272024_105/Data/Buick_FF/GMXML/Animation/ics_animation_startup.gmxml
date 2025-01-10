@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>1001</ScreenID>
+                <Name>ics_animation_startup</Name>
+                <ImageWidget>
+                    <ID>img_startup</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>3003</SizeW>
+                        <SizeH>934</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/placeholder-11icsstartup.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

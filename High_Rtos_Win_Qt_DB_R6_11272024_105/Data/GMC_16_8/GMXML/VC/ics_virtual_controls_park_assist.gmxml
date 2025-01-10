@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6016</ScreenID>
+                <Name>ics_virtual_controls_park_assist</Name>
+				<ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_controls_park_assist_back_btn</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_3_card_park_csm</ID>
+                </LabelWidget>
+				<ImageWidget var="img_exit_btn">
+                    <ID>img_controls_park_assist_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_park_btn</ID>
+                    <Location var="var_loc_park_btn"/>
+                    <Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_park_btn</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_pressed.png</FocusURL>
+			        <SelectorState>
+			        	<DataValue>0</DataValue>
+			        	<NormalURL>11/btn_primary_normal.png</NormalURL>
+			        	<FocusURL>11/btn_primary_pressed.png</FocusURL>
+		            </SelectorState>
+			        <SelectorState>
+			        	<DataValue>1</DataValue>
+			        	<NormalURL>11/btn_primary_selected.png</NormalURL>
+			        	<FocusURL>11/btn_primary_pressed.png</FocusURL>
+			        </SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>11/btn_primary_disabled.png</NormalURL>
+						<FocusURL/>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>dyn_park_assist_status</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_yes_button"/>
+                    <Font var="var_font_primary_button_text"/>
+					<FocusFont var="var_font_primary_button_pressed"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_primary_button_text"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_yes_button_selected"/>
+						<FocusFont var="var_font_primary_button_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<Font var="var_font_primary_button_disabled"/>
+						<FocusFont var="var_font_primary_button_disabled"/>
+					</SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+				<InputWidgetMapping>
+					<UserInput>TouchPressRelease</UserInput>
+					<WidgetCallback>evG_ParkAssist_On</WidgetCallback>
+				</InputWidgetMapping>
+				</GroupWidget>
+                <ImageWidget>
+                    <ID>img_park_assist</ID>
+                    <Location var="var_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "NONE">11/icn_drive_park_park_assist_on_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_radio_button_description_text_vc">
+                    <ID>virtualcontrols_1_7_F_ParkAssist_csm</ID>
+                </LabelWidget>
+                <LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+                    <ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+                </LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

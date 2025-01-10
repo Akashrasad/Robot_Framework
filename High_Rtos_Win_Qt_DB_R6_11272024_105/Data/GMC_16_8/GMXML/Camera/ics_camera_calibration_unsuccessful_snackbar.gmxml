@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6155</ScreenID>
+                <Name>ics_camera_calibration_unsuccessful_snackbar</Name>
+                 <ImageWidget var="var_snackbar_feed_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <ImageWidget var="var_img_action_1line_snackbar">
+                    <ID>img_camera_alert</ID>
+                </ImageWidget>
+                <LabelWidget var="var_lbl_action_1line_snackbar">
+                    <ID>safetysystems_4_1_3_Calibration_Unsuccessful_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

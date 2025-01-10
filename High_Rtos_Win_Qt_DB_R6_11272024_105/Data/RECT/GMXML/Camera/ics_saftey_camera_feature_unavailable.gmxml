@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6073</ScreenID>
+                <Name>ics_saftey_camera_feature_unavailable</Name>
+				<ImageWidget>
+                    <ID>img_notification_bg</ID>
+					<Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_notification_bg_139"/>
+                    <NormalURL compression = "NONE">11/icn_notification_bg_1543.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+				</ImageWidget>
+                <ImageWidget>
+                    <ID>camera_warning_icon</ID>
+					<Location var="var_loc_snackbar_1line_smallicon"/>
+                    <Size var="var_size_updater_icon_40_1"/>
+                    <NormalURL compression="CompressionAlias1">11/icn_error_small.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>safetysystems_4_1_1_FeatureUnavailable_csm</ID>
+					<Font var="var_font_snackbar_text"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_snackbar_text_1line_smallicon"/>
+                    <Size var="var_size_img_single_line_snackbar_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

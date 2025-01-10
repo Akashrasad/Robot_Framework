@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_snakbar_2line_view</ViewID>
+			<Size>
+				<SizeW>1575</SizeW>
+				<SizeH>180</SizeH>
+			</Size>
+			<Location>
+				<LocationX>131</LocationX>
+				<LocationY>1508</LocationY>
+			</Location>
+			<ZOrder>8</ZOrder>
+			<VC>
+				<Screen load="ics_virtualcontrols_doors_windows_door_mismatch_error_snackbar"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_mismatch"/>
+				<Screen load="ics_virtualcontrols_programming_successful_maximum_snackbar"/>
+				<Screen load="ics_virtualcontrols_traction_control_unavailable_snackbar"/>
+			</VC>
+			<VC>
+				<Screen load="ics_virtualcontrols_lights_fog_lights_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_drive_park_opd_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_drive_park_traction_control_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_one_pedal_driving_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_fog_lights_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_lights_auto_high_beams_snackbar"/>
+				<Screen load="ics_virtualcontrols_auto_high_beams_unavailable_snackbar"/>
+				<Screen load="ics_virtual_controls_cargo_lights_snackbar"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_start_snackbar"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_unavailable_snack_bar"/>
+				<Screen load="ics_virtualcontrols_task_lights_snackbar"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_system_error"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_edit_snackbar"/>
+				<Screen load="ics_virtual_controls_aux_not_available_snackbar"/>
+				<Screen load="ics_virtual_controls_drive_lka_unavailable_snackbar"/>
+				<Screen load="ics_virtual_controls_drive_bzsa_unavailable_snackbar"/>
+				<Screen load="ics_virtual_controls_lane_assistance_off_state_snackbar"/>
+				<Screen load="ics_virtual_controls_lane_assistance_unavailable_snackbar"/>
+				<Screen load="ics_virtual_controls_lane_assistance_bzsa_unavailable_snackbar"/>
+				<Screen load="ics_virtual_controls_passive_power_mode_off_verify_snackbar"/>
+				<Screen load="ics_virtual_controls_options_snackbar"/>
+				<Screen load="ics_virtual_controls_outlets_quick_control_snackbar"/>
+				<Screen load="ics_virtualcontrols_charge_port_door_unavailable_snackbar"/>
+				<Screen load="ics_virtualcontrols_peek_in_screen_time_added_snackbar"/>
+				<Screen load="ics_vc_aux_not_available_snackbar"/>
+				<Screen load="ics_virtualcontrols_universal_remotes_park_snackbar"/>
+				<Screen load="ics_virtual_controls_opd_enabled_snackbar"/>
+				<Screen load="ics_virtualcontrols_persistent_controls_speed_limiter_auto_active_snackbar"/>
+				<Screen load="ics_virtualcontrols_persistent_controls_lane_keep_assist_snackbar"/>
+				<Screen load="ics_virtual_controls_persistent_controls_speed_limiter_cruise_control_off_snackbar"/>
+				<Screen load="ics_virtual_controls_persistent_controls_speed_limiter_not_allowed_snackbar"/>
+			</VC>
+			<APA>
+				<Screen load="ics_apa_deactiated_speed_snack_bar"/>
+				<Screen load="ics_apa_unavailable_snack_bar"/>
+				<Screen load="ics_apa_canceled_over_max_speed_snackbar"/>
+				<Screen load="ics_apa_slowdown_appr_max_speed_snackbar"/>
+				<Screen load="ics_apa_deactivated_snack_bar"/>
+				<Screen load="ics_apa_unavailable_snack_bar_at_ultra_cruise"/>
+			</APA>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6072</ScreenID>
+                <Name>ics_apa_deactiated_speed_snack_bar</Name>
+                <ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_2lines_txt">
+                    <ID>apa_2_0_UnavailableAtSpeed_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

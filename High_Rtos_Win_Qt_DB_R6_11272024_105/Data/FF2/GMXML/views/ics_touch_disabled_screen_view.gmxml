@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_touch_disabled_screen_view</ViewID>
+            <ZOrder>8</ZOrder>
+            <Location>
+                <LocationX>4442</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2880</SizeW>
+                <SizeH>1130</SizeH>
+            </Size>
+			<Screen load="ics_disable_touch_screen"/>
+        </View>
+    </Display>
+</GMXML>

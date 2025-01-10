@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <DisplayID>11.3</DisplayID>
+		<IncludeXML>../qnx_config/</IncludeXML>
+        <TouchDeadband>14</TouchDeadband>
+		<Touch>1</Touch>
+		<NativeZOrder var="var_native_native_zorder_rtos_camera_icons"/>
+		<BehaviorStateAnimation var="Button_Scaling_Animation"/>
+		<DisplayIndex>1</DisplayIndex>
+		<FontOverride>
+            <LanguageList>
+                <Language>Language_fr_CA</Language>
+                <Language>Language_es_MX</Language>
+                <Language>Language_es_AR</Language>
+                <Language>Language_de_DE</Language>
+                <Language>Language_it_IT</Language>
+                <Language>Language_zh_CN</Language>
+                <Language>Language_nl_NL</Language>
+                <Language>Language_pt_BR</Language>
+                <Language>Language_ko_KR</Language>
+                <Language>Language_ar_SA</Language>
+                <Language>Language_sv_SE</Language>
+                <Language>Language_no_NO</Language>
+                <Language>Language_th_TH</Language>
+                <Language>Language_ja_JP</Language>
+                <Language>Language_ru_RU</Language>
+                <Language>Language_he_IL</Language>
+                <Language>Language_uk_UA</Language>
+            </LanguageList>
+            <GlobalOverride>
+                <CurrentValue>GMSUIGMCGlobal-Regular</CurrentValue>
+                <OverrideValue>GMSUIGMCGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUIGMCGlobal-Medium</CurrentValue>
+                <OverrideValue>GMSUIGMCGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUIGMCGlobal-Light</CurrentValue>
+                <OverrideValue>GMSUIGMCGlobal-CondLight</OverrideValue>
+            </GlobalOverride>   
+			<GlobalOverride>
+                <CurrentValue>GMSUIChevyCCSTGlobal-Regular</CurrentValue>
+                <OverrideValue>GMSUIChevyCCSTGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUIChevyCCSTGlobal-Medium</CurrentValue>
+                <OverrideValue>GMSUIChevyCCSTGlobal-CondRegular</OverrideValue>
+            </GlobalOverride>
+            <GlobalOverride>
+                <CurrentValue>GMSUIChevyCCSTGlobal-Light</CurrentValue>
+                <OverrideValue>GMSUIChevyCCSTGlobal-CondLight</OverrideValue>
+            </GlobalOverride> 
+			<GlobalOverride>
+                <CurrentValue>HondaGUI-Regular</CurrentValue>
+                <OverrideValue>GMSUIChevyCCSTGlobal-CondRegular</OverrideValue>
+            </GlobalOverride> 
+			<GlobalOverride>
+                <CurrentValue>HondaGUI-Light</CurrentValue>
+                <OverrideValue>GMSUIChevyCCSTGlobal-CondLight</OverrideValue>
+            </GlobalOverride> 
+        </FontOverride>
+        <Size>
+            <SizeW>2000</SizeW>
+            <SizeH>974</SizeH>
+        </Size>
+        <View load="ics_apa_park_view_2000_974"/>
+ 		<View load="virtual_controls_view_2000_974"/>
+		<View load="ics_notification_view_1543_362"/>
+        <View load="ics_snackbar_view_1543_139"/>
+		<View load="animation_view"/>
+		<View load="ics_camera_view"/>
+		<View load="ics_camera_error_view"/>
+		<View load="ics_saftey_view"/>
+		<View load="ics_dimming_view"/>
+        <View load="ics_vc_statusbar_notification_view"/>
+		<View load="ics_apa_park_view_bg_2000_974"/>
+		<View load="virtual_controls_view_bg_2000_974"/>
+		<View load="ics_virtual_controls_sroll_view_1740_974"/>
+		<View load="ics_notification_simple_dialog_regular"/>
+		<View load="ics_snackbar_2line_view"/>
+		<View load="virtual_controls_power_outlets_view"/>
+		<View load="ics_vc_poweroutlets_snackbar_view"/>
+		<View load="ics_poweroutlets_notification_view_simple_dialog_body_content"/>
+		<View load="ics_persistent_smart_controls_view"/>
+		<View load="ics_persistent_headlights_menu_options_view"/>
+		<View load="ics_dev_view" merge="false"/>
+		<View load="ics_generic_keyboard_view"/>
+        <View load = "ics_notification_simple_dialog_dissmiss_view"/>
+        <View load = "ics_notification_simple_dialog_dismiss_regular"/>
+        <View load = "ics_notification_view_1545_463"/>
+        <View load = "ics_camera_smart_control_view"/>
+        <View load = "ics_keyboard_popup_view"/>
+	    <View load = "ics_ppm_smart_controls_view"/>
+		<View load = "ics_virtual_controls_opd_view"/>
+        <View load = "virtual_controls_full_notification_view"/>
+		<View load = "ics_ppm_smart_controls_camera_view"/>
+		<View load = "ics_notification_view_large"/>
+		<View load = "ics_notification_simple_dialog_dissmiss_view1"/>
+		<View load = "ics_persistent_smart_controls_pop_up_view"/>
+		<View load = "ics_snackbar_3line_view"/>
+		<View load = "ics_camera_snackbar_view"/>
+        <View load = "ics_pts_view"/>
+		<View load = "ics_camera_upa_symbols_view" merge="auto"/>
+        <View load = "ics_notification_dismiss_simple_dialog_regular"/>
+	</Display>
+</GMXML>

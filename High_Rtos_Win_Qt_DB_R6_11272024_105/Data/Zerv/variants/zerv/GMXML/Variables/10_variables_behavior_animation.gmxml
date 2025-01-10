@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<BehaviorState id="var_behavior_animation_interpolation">
+			<BehaviorStateValue>0</BehaviorStateValue>
+			<BehaviorProperty>3</BehaviorProperty>
+			<BehaviorPropertyValue>100</BehaviorPropertyValue>
+			<BehaviorInterpolation>CubicEaseIn</BehaviorInterpolation>
+		</BehaviorState>
+		<BehaviorState id="var_behavior_state_value_1">
+			<BehaviorStateValue>50</BehaviorStateValue>
+			<BehaviorProperty>3</BehaviorProperty>
+			<BehaviorPropertyValue>90</BehaviorPropertyValue>
+		</BehaviorState>
+		<BehaviorState id="var_behavior_state_value_2">
+			<BehaviorStateValue>100</BehaviorStateValue>
+			<BehaviorProperty>3</BehaviorProperty>
+			<BehaviorPropertyValue>100</BehaviorPropertyValue>
+		</BehaviorState>
+	</Variables>
+</GMXML>

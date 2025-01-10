@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6078</ScreenID>
+				<Name>ics_persistent_smart_controls</Name>
+				<ImageWidget var="var_img_vehicle_off_icon">
+					<ID>img_vehicle_off_icon</ID>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_cancel_btn</ID>
+					<Location var="var_loc_notification_vehicle_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_cancel</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression="NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<ZOrder>2</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_1_f_passiveCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_vehicle_off</ID>
+					<Location var="var_loc_notification_cancel_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_vehicle_off</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression="NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<ZOrder>2</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_11_H_SmartVehicleOff_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_Confirm_cancel_btn</ID>
+					<Location var="var_loc_notification_cancel_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_cancel</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<ZOrder>2</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_1_f_passiveCancel_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Vehicleoff_Cancel</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_confirm_vehicle_off</ID>
+					<Location var="var_loc_notification_vehicle_btn"/>
+					<Size var="var_size_notification_cancel_off_btn"/>
+					<Alpha>0</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_confirm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<NormalURL compression="NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<ZOrder>2</ZOrder>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_6_6_1F_ConfirmOff_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_notification_cancel_off_btn"/>
+						<Font var="var_font_primary_button_normal"/>
+						<TextWrap>1</TextWrap>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>TouchLongPress</UserInput>
+                        <WidgetCallback>evG_VehicleOff_Confirm_Hold</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+				</Screen>
+		</View>
+	</Display>
+</GMXML>

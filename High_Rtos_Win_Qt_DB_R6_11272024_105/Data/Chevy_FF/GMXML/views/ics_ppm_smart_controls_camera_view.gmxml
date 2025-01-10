@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_ppm_smart_controls_camera_view</ViewID>
+			<Location>
+				<LocationX>42</LocationX>
+				<LocationY>806</LocationY>
+			</Location>
+			<Size>
+				<SizeW>444</SizeW>
+				<SizeH>267</SizeH>
+			</Size>
+			<ZOrder>6</ZOrder>
+			<Screen load="ics_camera_ppm_vehicle_off_snackbar"/>
+			<Screen load="ics_camera_ppm_confirm_off_snackbar"/>
+		</View>
+	</Display>
+</GMXML>

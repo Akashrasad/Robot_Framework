@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6089</ScreenID>
+				<Name>ics_virtual_controls_opd_enabled_snackbar</Name>
+				<ImageWidget var="var_snackbar_2line_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_0_0_1_f_snackbar_csm</ID>
+					<Font var="var_font_snackbar_txt"/>
+					<Location>
+						<LocationX>56</LocationX>
+						<LocationY>25</LocationY>
+					</Location>
+					<Size>
+						<SizeW>994</SizeW>
+						<SizeH>169</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1086</LocationX>
+						<LocationY>60</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+					<NormalURL compression="CompressionAlias1">11/img_vertical_divider.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_settings_button</ID>
+					<Location>
+						<LocationX>1097</LocationX>
+						<LocationY>49</LocationY>
+					</Location>
+					<Size var="var_size_yes_button"/> 
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_settings_button</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="NONE">11/btn_transparent_normal.png</NormalURL>
+						<FocusURL compression="NONE">11/btn_primary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_0_0_1F_SetLevel_csm</ID>
+						<Font var="var_font_radio_btn_txt_noraml"/>
+						<FocusFont var="var_font_primary_pressed"/>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_0_0_1F_SetLevel_csm</StaticValue>
+							<Font var="var_font_radio_btn_txt_noraml"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_0_0_1F_SetLevel_csm</StaticValue>
+							<Font var="var_font_primary_pressed"/>
+						</SelectorState>
+						<ZOrder>3</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+						<InputWidgetMapping>
+							<UserInput>TouchPressRelease</UserInput>
+							<WidgetCallback>evG_OnePedalSetting</WidgetCallback>
+						</InputWidgetMapping>
+						<ScaleAnchor>Center</ScaleAnchor>
+						<BehaviorState var="var_behavior_animation_interpolation"/>
+						<BehaviorState var="var_behavior_state_value_1"/>
+						<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_persistent_smart_controls_pop_up_view</ViewID>
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_bg"/>
+			<ZOrder>7</ZOrder>
+			<Screen load="ics_persistent_smart_controls_pop_up"/>
+		</View>
+	</Display>
+</GMXML>

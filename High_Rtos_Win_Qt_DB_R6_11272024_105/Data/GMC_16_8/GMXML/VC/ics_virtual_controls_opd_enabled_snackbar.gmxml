@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6089</ScreenID>
+				<Name>ics_virtual_controls_opd_enabled_snackbar</Name>
+				<ImageWidget var="var_snackbar_2lines_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_0_0_1_f_snackbar_csm</ID>
+					<Font var="var_font_snackbar_2lines_txt"/>
+					<Location var="var_loc_snack_bar_text">
+					    <LocationY>22</LocationY>
+                    </Location>
+					<Size>
+						<SizeW>1236</SizeW>
+						<SizeH>161</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_vertical_divider</ID>
+					<Location>
+						<LocationX>1320</LocationX>
+						<LocationY>55</LocationY>
+					</Location>
+					<Size>
+						<SizeW>3</SizeW>
+						<SizeH>93</SizeH>
+					</Size>
+					<NormalURL>11/img_vertical_divider_3_83.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_settings_button</ID>
+					<Location>
+						<LocationX>1345</LocationX>
+						<LocationY>34</LocationY>
+					</Location>
+					<Size var="var_size_settings_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+					<ImageElements>
+						<ID>img_settings_button</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_settings_button"/>
+						<NormalURL>11/btn_teritary_bg_normal.png</NormalURL>
+						<FocusURL>11/btn_teritary_bg_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_0_0_1F_SetLevel_csm</ID>
+						<Font var="var_font_teritary_normal"/>
+						<FocusFont var="var_font_teritary_pressed"/>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_settings_button"/>
+						<ZOrder>3</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_OnePedalSetting</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

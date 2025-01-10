@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8004</ScreenID>
+                <Name>ics_camera_rvc_fullviewcamera</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2000</SizeW>
+                        <SizeH>974</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/img_background_full.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>dummy_event</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				<ImageWidget var="img_Close">
+                    <ID>img_btn_close_active</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Close</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_camera_warning</ID>
+                    <Location>
+                        <LocationX>865</LocationX>
+                        <LocationY>204</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>373</SizeW>
+                        <SizeH>173</SizeH>
+                    </Size>
+                    <NormalURL>11/camera_warning.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

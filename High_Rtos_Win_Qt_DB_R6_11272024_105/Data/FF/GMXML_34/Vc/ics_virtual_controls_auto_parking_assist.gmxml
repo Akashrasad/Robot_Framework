@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6014</ScreenID>
+                <Name>ics_virtual_controls_auto_parking_assist</Name>
+                <ImageWidget var="img_btn_back">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+                <LabelWidget var="var_lbl_actionbar_text">
+                    <ID>virtualcontrols_1_3_card_apa_csm</ID>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_3_card_apa_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_3_card_apa_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+						<ID>img_close</ID>
+						<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+			  </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+					<Location>
+                        <LocationX>260</LocationX>
+                        <LocationY>1189</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <Size>
+                        <SizeW>410</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+				</LabelWidget>
+                <GroupWidget>
+					<ID>grp_img_launch_btn</ID>
+					<Location>
+						<LocationX>372</LocationX>
+						<LocationY>166</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_img_launch_btn"/>
+					<Size>
+						<SizeW>632</SizeW>
+						<SizeH>162</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_launch_btn</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>632</SizeW>
+							<SizeH>162</SizeH>
+						</Size>
+						<NormalURL compression = "NONE"  skinid="skin_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression = "NONE"  skinid="skin_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_3_0_4_btnAPA_csm</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>632</SizeW>
+							<SizeH>162</SizeH>
+						</Size>
+						<Font var="var_font_primary_button_normal"/>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_3_0_4_btnAPA_csm</StaticValue>
+							<Font var="var_font_primary_button_normal"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_3_0_4_btnAPA_csm</StaticValue>
+							<Font var="var_font_primary_button_focused"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<StaticValue>virtualcontrols_1_3_0_4_btnAPA_csm</StaticValue>
+							<Font var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<StaticValue>virtualcontrols_1_3_0_4_btnAPA_csm</StaticValue>
+							<Font var="var_font_primary_button_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_AutoParkAssist_Launch</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_launch_btn_mfc</ID>
+					<TabOrder>
+                        <TabV>1</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+					<Location>
+						<LocationX>372</LocationX>
+						<LocationY>166</LocationY>
+					</Location>
+					<LayoutOverride var = "var_layout_img_launch_btn"/>
+					<Size>
+						<SizeW>632</SizeW>
+						<SizeH>162</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_launch_btn_mfc</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>632</SizeW>
+							<SizeH>162</SizeH>
+						</Size>
+						<FocusURL compression = "NONE"  skinid="skin_focused_URL">11/btn_primary_focused.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_3_0_4_btnAPA_csm</ID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>632</SizeW>
+							<SizeH>162</SizeH>
+						</Size>
+						<Font var="var_font_primary_button_normal"/>
+				        <FocusFont var="var_font_primary_button_pressed"/>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+                        <UserInput>RotarySelectReleased</UserInput>
+                        <WidgetCallback>evG_AutoParkAssist_Launch</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+                <ImageWidget>
+                    <ID>img_auto_parking_assist</ID>
+                    <Location var="var_loc_icon"/>
+					<LayoutOverride var = "var_layout_loc_icon"/>
+                    <Size var="var_size_icn_image"/>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_normal_URL">11/icn_drive_park_auto_park_assist_on_normal.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_lbl_action_desc_txt">
+                    <ID>virtualcontrols_1_3_2_f_AutoParkAssist_csm</ID>
+                    <Size>
+                       <SizeW>1423</SizeW>
+                       <SizeH>1152</SizeH>
+                    </Size>
+                </LabelWidget>
+				<LabelWidget var="var_lbl_detailsUnavailable_txt">
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+				</LabelWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

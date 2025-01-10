@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>2043</ScreenID>
+                <Name>ics_highmid_spanish_keyboard_screen</Name>
+                <GroupWidget>
+					<ID>group_key_1</ID>
+					<Location>
+						<LocationX>273</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_1</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_1</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_1</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_1</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_1</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_2</ID>
+					<Location>
+						<LocationX>401</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_2</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_2</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_2</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_2</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_2</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_3</ID>
+					<Location>
+						<LocationX>529</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_3</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_3</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_3</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_3</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_3</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_4</ID>
+					<Location>
+						<LocationX>657</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_4</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_4</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_4</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_4</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_4</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_5</ID>
+					<Location>
+						<LocationX>785</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_5</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_5</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_5</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_5</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_5</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_6</ID>
+					<Location>
+						<LocationX>913</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_6</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_6</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_6</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_6</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_6</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_7</ID>
+					<Location>
+						<LocationX>1041</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_7</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_7</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_7</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_7</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_7</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_8</ID>
+					<Location>
+						<LocationX>1169</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_8</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_8</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_8</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_8</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_8</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_9</ID>
+					<Location>
+						<LocationX>1297</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_9</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_9</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_9</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_9</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_9</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_10</ID>
+					<Location>
+						<LocationX>1425</LocationX>
+						<LocationY>120</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_10</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_10</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_10</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_10</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+					<LabelElements>
+						<ID>dyn_lbl_en_tty_popup_key_10</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_num"/>
+						<FocusFont var="var_font_kb_focus_num"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_num"/>
+						<Size var="var_size_keyboard_num"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_num"/>
+							<FocusFont var="var_font_kb_focus_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_num"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_11</ID>
+					<Location>
+						<LocationX>273</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_11</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_11</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_11</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_11</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_12</ID>
+					<Location>
+						<LocationX>401</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_12</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_12</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_12</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_12</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_13</ID>
+					<Location>
+						<LocationX>529</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_13</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_13</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_13</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_13</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_14</ID>
+					<Location>
+						<LocationX>657</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_14</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_14</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_14</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_14</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_15</ID>
+					<Location>
+						<LocationX>785</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_15</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_15</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_15</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_15</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_16</ID>
+					<Location>
+						<LocationX>913</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_16</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_16</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_16</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_16</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_17</ID>
+					<Location>
+						<LocationX>1041</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_17</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_17</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_17</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_17</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_18</ID>
+					<Location>
+						<LocationX>1169</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_18</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_18</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_18</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_18</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_19</ID>
+					<Location>
+						<LocationX>1297</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_19</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_19</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_19</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_19</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_20</ID>
+					<Location>
+						<LocationX>1425</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_20</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_20</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_20</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_20</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_21</ID>
+					<Location>
+						<LocationX>273</LocationX>
+						<LocationY>357</LocationY>
+					</Location>
+					<Size>
+						<SizeW>123</SizeW>
+						<SizeH>117</SizeH>
+					</Size>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_21</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_21</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_21</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size>
+							<SizeW>123</SizeW>
+							<SizeH>117</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias8">11/btn_key_shift_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias8">11/btn_key_shift_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias8">11/btn_key_shift_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias8">11/btn_key_shift_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias8">11/btn_key_shift_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias8">11/btn_key_shift_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_21</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>0</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_22</ID>
+					<Location>
+						<LocationX>404</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_22</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_22</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_22</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_22</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_23</ID>
+					<Location>
+						<LocationX>532</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_23</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_23</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_23</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_23</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_24</ID>
+					<Location>
+						<LocationX>660</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_24</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_24</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_24</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_24</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_25</ID>
+					<Location>
+						<LocationX>788</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_25</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_25</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_25</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_25</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_26</ID>
+					<Location>
+						<LocationX>916</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_26</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_26</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_26</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_26</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_27</ID>
+					<Location>
+						<LocationX>1044</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_27</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_27</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_27</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_27</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_28</ID>
+					<Location>
+						<LocationX>1172</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size var="var_size_keyboard_key"/>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_28</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_28</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_28</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size var="var_size_keyboard_key"/>
+						<NormalURL>11/btn_key_normal.png</NormalURL>
+						<FocusURL>11/btn_key_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_normal.png</NormalURL>
+							<FocusURL>11/btn_key_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_28</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size var="var_size_keyboard_char"/>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_29</ID>
+					<Location>
+						<LocationX>1300</LocationX>
+						<LocationY>360</LocationY>
+					</Location>
+					<Size>
+						<SizeW>177</SizeW>
+						<SizeH>112</SizeH>
+					</Size>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_29</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_29</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_29</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size>
+							<SizeW>177</SizeW>
+							<SizeH>112</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias4">11/icn_kb_backspace_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias4">11/icn_kb_backspace_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias4">11/icn_kb_backspace_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias4">11/icn_kb_backspace_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias4">11/icn_kb_backspace_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias4">11/icn_kb_backspace_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_29</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size>
+							<SizeW>169</SizeW>
+							<SizeH>71</SizeH>
+						</Size>
+						<Alpha>0</Alpha>
+						<ZOrder>3</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<Font var="var_font_keyboard_char"/>
+							<FocusFont var="var_font_kb_focus_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<Font var="var_font_keyboard_char"/>
+						</SelectorState>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_30</ID>
+					<Location>
+						<LocationX>273</LocationX>
+						<LocationY>480</LocationY>
+					</Location>
+					<Size>
+						<SizeW>180</SizeW>
+						<SizeH>112</SizeH>
+					</Size>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_30</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_30</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_30</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size>
+							<SizeW>180</SizeW>
+							<SizeH>112</SizeH>
+						</Size>
+						<NormalURL>11/btn_key_123_normal.png</NormalURL>
+						<FocusURL>11/btn_key_123_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/btn_key_123_normal.png</NormalURL>
+							<FocusURL>11/btn_key_123_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/btn_key_123_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/btn_key_123_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL>11/btn_key_abc_normal.png</NormalURL>
+							<FocusURL>11/btn_key_abc_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<NormalURL>11/btn_key_abc_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>5</DataValue>
+							<NormalURL>11/btn_key_abc_disabled.png</NormalURL>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_30</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size>
+							<SizeW>169</SizeW>
+							<SizeH>71</SizeH>
+						</Size>
+						<Alpha>0</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_31</ID>
+					<Location>
+						<LocationX>464</LocationX>
+						<LocationY>480</LocationY>
+					</Location>
+					<Size>
+						<SizeW>951</SizeW>
+						<SizeH>112</SizeH>
+					</Size>
+					<ZOrder>1</ZOrder>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_31</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_31</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_31</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size>
+							<SizeW>951</SizeW>
+							<SizeH>112</SizeH>
+						</Size>
+						<NormalURL>11/icn_spacebar_normal.png</NormalURL>
+						<FocusURL>11/icn_spacebar_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL>11/icn_spacebar_normal.png</NormalURL>
+							<FocusURL>11/icn_spacebar_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL>11/icn_spacebar_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL>11/icn_spacebar_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>group_key_32</ID>
+					<Location>
+						<LocationX>1426</LocationX>
+						<LocationY>480</LocationY>
+					</Location>
+					<Size>
+						<SizeW>305</SizeW>
+						<SizeH>112</SizeH>
+					</Size>
+					<ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_32</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchLongPress</UserInput>
+						<WidgetCallback>evG_Keyboard_Key_32</WidgetCallback>
+					</InputWidgetMapping>
+					<ImageElements>
+						<ID>img_key_32</ID>
+						<Location var="var_loc_orgin_0_0"/>
+						<Size>
+							<SizeW>305</SizeW>
+							<SizeH>112</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias10">11/icn_enter_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias10">11/icn_enter_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias10">11/icn_enter_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias10">11/icn_enter_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias10">11/icn_enter_pressed.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias10">11/icn_enter_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_lbl_key_32</ID>
+						<Value>
+							<Encoding>0</Encoding>
+							<Text/>
+						</Value>
+						<Font var="var_font_keyboard_char"/>
+						<FocusFont var="var_font_kb_focus_char"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_keyboard_char"/>
+						<Size>
+							<SizeW>169</SizeW>
+							<SizeH>71</SizeH>
+						</Size>
+						<Alpha>0</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

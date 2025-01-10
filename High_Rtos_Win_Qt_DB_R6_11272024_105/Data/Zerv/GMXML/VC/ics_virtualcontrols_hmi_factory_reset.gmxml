@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6061</ScreenID>
+                <Name>ics_virtualcontrols_hmi_factory_reset</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_0_1_desc_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>37</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>0</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection/>
+                    </Font>
+                    <Location>
+                        <LocationX>50</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>950</SizeW>
+                        <SizeH>98</SizeH>
+                    </Size>
+					<TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+						<ID>grp_recovery_mode_btn</ID>
+                    <Location>
+                        <LocationX>1033</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_recovery_mode_btn</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_primary_yes_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias10">11/btn_primary_yes_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_yes_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_yes_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_yes_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/btn_primary_yes_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>11/btn_primary_yes_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_0_0_btn_csm</ID>
+                    <Font var="var_font_yes_button"/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>31</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>430</SizeW>
+                        <SizeH>55</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+		            <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Recovery_Mode_Start</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_reset_btn</ID>
+                    <Location>
+                        <LocationX>1516</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+					<Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                <ImageElements>
+                    <ID>grp_reset_btn</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>450</SizeW>
+                        <SizeH>117</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_secondary_no_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias10">11/btn_secondary_no_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_secondary_no_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/btn_secondary_no_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_secondary_no_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_secondary_no_disabled.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias10">11/btn_secondary_no_selected.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_0_1_btn_csm</ID>
+                    <Font var="var_font_yes_button"/>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>31</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>430</SizeW>
+                        <SizeH>55</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HMI_Factory_Reset_Start</WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

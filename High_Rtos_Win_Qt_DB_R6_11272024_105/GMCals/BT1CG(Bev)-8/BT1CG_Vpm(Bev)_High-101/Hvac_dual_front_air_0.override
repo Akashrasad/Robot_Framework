@@ -1,0 +1,14 @@
+Rear_Climate_Application_Available:1
+KeHVC_Cnt_CfgNumOfFrontZones:1
+Number_of_Rear_Temp_Zones:0
+True_Manual_HVAC_System:0
+Dual_Front_Air_Distribution:0
+Rear_Blower_Control_Available:1
+Maximum_FanSpeed:8
+Air_Conditioning_Compressor_Type:1
+Show_Ionizer_Status:1
+Defrost_Label_GlobalB:2
+Windshield_Symbol_GlobalB:1
+Ke_b_SZ_leftTempInd:1
+HiVoltCoolHtrPresent:1
+Climate_QuickStatusPane_Display:0

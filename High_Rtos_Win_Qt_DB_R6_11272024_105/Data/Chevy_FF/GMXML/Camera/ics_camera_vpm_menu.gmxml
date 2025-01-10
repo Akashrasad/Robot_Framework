@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>8018</ScreenID>
+				<Name>ics_camera_vpm_menu</Name>
+				<ListWidget>
+					<ID>ics_camera_single_image_vpm_list</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>156</SizeW>
+						<SizeH>710</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size>
+							<SizeW>156</SizeW>
+							<SizeH>142</SizeH>
+						</Size>
+						<RowSpacing>0</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+						<FocusURL/>
+					</RowLayout>
+					<ZOrder>4</ZOrder>
+					<ElementData>
+						<ImageElements>
+							<ID>img_vpm_tabs_normal</ID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>156</SizeW>
+								<SizeH>142</SizeH>
+							</Size>
+							<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+							<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</FocusURL>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>,
+                                <FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>4</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_pressed.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>5</DataValue>
+								<NormalURL compression="CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>6</DataValue>
+								<NormalURL compression="NONE" skinid="skin_camera_normal_URL">11/btn_tabs_camera_cargo_bed_normal.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>7</DataValue>
+								<NormalURL compression="NONE" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_pressed.png</NormalURL>
+								<FocusURL compression="NONE" skinid="skin_camera_selected_URL">11/btn_tabs_camera_cargo_bed_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>8</DataValue>
+								<NormalURL compression="NONE" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_cargo_bed_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>9</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_settings_normal.png</NormalURL>
+								<FocusURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_settings_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>10</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_settings_pressed.png</NormalURL>
+								<FocusURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_settings_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>11</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_settings_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>12</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_svr_normal.png</NormalURL>
+								<FocusURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_svr_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>13</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_svr_pressed.png</NormalURL>
+								<FocusURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_svr_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>14</DataValue>
+								<NormalURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_svr_selected.png</NormalURL>
+								<FocusURL skinid="skin_camera_pressed_URL">11/btn_tabs_camera_svr_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>15</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_svr_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>16</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/icn_trailer_view_small_normal.png</NormalURL>
+								<FocusURL skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>17</DataValue>
+								<NormalURL skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</NormalURL>
+								<FocusURL skinid="skin_camera_selected_URL">11/icn_trailer_view_small_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>18</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/icn_trailer_view_small_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>19</DataValue>
+								<NormalURL skinid="skin_camera_normal_URL">11/btn_tabs_camera_trailer_outside_normal.png</NormalURL>
+								<FocusURL skinid="skin_camera_selected_URL">11/btn_tabs_camera_trailer_outside_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>22</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_crossover_rear_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>23</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_truck_front_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_truck_front_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>24</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_truck_rear_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_truck_rear_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>25</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_crossover_front_selected.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>26</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_crossover_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>27</DataValue>
+								<NormalURL compression="CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_crossover_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>28</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_truck_front_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>29</DataValue>
+								<NormalURL compression="CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_truck_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>30</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_front_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_crossover_front_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>31</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_crossover_rear_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_crossover_rear_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>32</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_truck_front_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_truck_front_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>33</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_truck_rear_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_truck_rear_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>34</DataValue>
+								<NormalURL skinid="skin_camera_disabled_URL">11/btn_tabs_camera_trailer_outside_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>35</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_cargo_bed_suv_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>36</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_cargo_bed_suv_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>37</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_cargo_bed_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>38</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_cargo_bed_truck_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>39</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_cargo_bed_truck_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>40</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_cargo_bed_truck_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>41</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_cargo_bed_crossover_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>42</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_cargo_bed_crossover_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_cargo_bed_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>43</DataValue>
+								<NormalURL compression="CompressionAlias2" skinid="skin_disabled_URL">11/btn_tabs_camera_cargo_bed_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>44</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_suv_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>45</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_suv_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>46</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_disabled_URL">11/btn_tabs_camera_front_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>47</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_truck_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>48</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_truck_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>49</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_disabled_URL">11/btn_tabs_camera_front_truck_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>50</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_crossover_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>51</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_crossover_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>52</DataValue>
+								<NormalURL compression="CompressionAlias4" skinid="skin_disabled_URL">11/btn_tabs_camera_front_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>53</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_suv_normal.png</NormalURL>,
+                                <FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>54</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_suv_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_suv_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>55</DataValue>
+								<NormalURL compression="CompressionAlias3" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>56</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_truck_normal.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>57</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_truck_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_truck_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>58</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_truck_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>59</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_crossover_normal.png</NormalURL>
+                                <FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>60</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_crossover_selected.png</NormalURL>
+								<FocusURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_crossover_pressed.png</FocusURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>61</DataValue>
+								<NormalURL compression="CompressionAlias3" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_crossover_disabled.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>62</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_trailer_outside_pressed.png</NormalURL>
+							</SelectorState>
+							<SelectorState>
+								<DataValue>63</DataValue>
+								<NormalURL compression="CompressionAlias1" skinid="skin_disabled_URL">11/btn_tabs_camera_rear_suv_disabled.png</NormalURL>
+							</SelectorState>
+							<Alpha>100</Alpha>
+							<ZOrder>1</ZOrder>
+							<InputWidgetMapping>
+								<UserInput>TouchPressRelease</UserInput>
+								<WidgetCallback>primarytransparent</WidgetCallback>
+							</InputWidgetMapping>
+						</ImageElements>
+					</ElementData>
+				</ListWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<Font id="var_font_radio_btn_off_focused">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_radio_btn_off_normal">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_home_card_label">
+			<Name>GMSUIBuickGlobal-Regular</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>3</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_title">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_btn_tab_one_focused">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>229,181,134</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_btn_tab_one_normal">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_change_selection_txt">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+        <Font id="var_font_perp_right_instr_txt">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection/>
+        </Font>
+		<Font id="var_font_description_align_center">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>147,178,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_smart_controls">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_smart_controls_pressed">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_snackbar_txt">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+		    <LineSpacing>-8</LineSpacing>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_title_VC">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_primary_normal">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_primary_focused">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_primary_pressed">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+	   <Font id="var_font_primary_disabled">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>84,84,84</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_primary_selected">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_handheld_call_assistance">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_title_emergency_text">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>88</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,0,0</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_remote_dialog_primary">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection/>
+        </Font>
+		<Font id="var_font_univRemote">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_transmit">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection/>
+        </Font>
+		<Font id="var_font_radio_btn_txt_noraml">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>147,178,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_camera_alert_text">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_title_txt">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_keypad_normal">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_keypad_disable">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>72,72,72</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_change_selection_text">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_toomanyattempts">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_test_btn_txt_normal">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_txt_secondary">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>147,178,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_simple_dialog_txt">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_yes_button">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_yes_button_disabled">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_keep_looking_button">
+            <Name>GMSUIBuickGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_yes_button_pressed">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_keep_looking_button_focused">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_keep_looking_button_disabled">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_Vehicle_park_Handoff">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>147,178,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_yes_button_focused">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_keypad_pressed">
+            <Name>GMSUIBuickGlobal-Light</Name>   
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+        </Font>
+		<Font id="var_font_sync_lbl_normal">
+			<Name>GMSUIBuickGlobal-Regular</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_card_controls_normal">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_card_controls_pressed">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_card_controls_disabled">
+            <Name>GMSUIBuickGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_options_normal">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+	    <Font id="var_font_options_disabled">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_radio_btn_off_disabled">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_btn_tab_one_pressed">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_remote_handoff">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_space_found">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_camera_settings_disabled">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>84,84,84</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_tc_radio_btn">
+			<Name>GMSUIBuickGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection/>
+		</Font>
+	</Variables>
+</GMXML>

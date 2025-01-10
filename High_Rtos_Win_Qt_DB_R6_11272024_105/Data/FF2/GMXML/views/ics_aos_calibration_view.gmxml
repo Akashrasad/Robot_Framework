@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+		<Layer>32</Layer>
+            <ViewID>ics_aos_calibration_view</ViewID>
+            <Location>
+                <LocationX>6570</LocationX>
+                <LocationY>1050</LocationY>
+            </Location>
+            <Size>
+                <SizeW>693</SizeW>
+                <SizeH>71</SizeH> 
+            </Size>
+            <ZOrder var="var_zorder_aos_calibration_view"/>	
+			<Screen load="ics_aos_calibration_with_telltale"/>
+        </View>
+    </Display>
+</GMXML>

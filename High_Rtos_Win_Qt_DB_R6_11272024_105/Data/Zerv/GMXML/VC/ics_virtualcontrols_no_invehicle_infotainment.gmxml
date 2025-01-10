@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6058</ScreenID>
+                <Name>ics_virtualcontrols_no_invehicle_infotainment</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_top_bar_2000_117"/>
+                    <NormalURL>11/img_virtual_controls_status_bar_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_no_infotainment_notification_csm</ID>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>37</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection/>
+                    </Font>
+                    <Location>
+                        <LocationX>93</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1815</SizeW>
+                        <SizeH>98</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

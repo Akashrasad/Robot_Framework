@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6118</ScreenID>
+				<Name>ics_virtualcontrols_start_screen_circut_breaker_fault</Name>
+				<ImageWidget>
+				<ID>img_notification_bg_large</ID>
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1545</SizeW>
+						<SizeH>518</SizeH>
+					</Size>
+					<NormalURL>11/img_notification_simple_dialog_bg_large.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_1_2_dialogHeader_csm</ID>
+					<Font var="var_font_dialog_text"/>
+                    <TextWrap>1</TextWrap>
+					<Location var="var_loc_dialog_text"/>
+					<Size var="var_size_dialog_text_1line"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_1_2_UnplugdialogBody_csm</ID>
+					<Font var="var_font_head_up_display_desc_normal"/>
+					<Location var="var_loc_notification_dialog_secondary_txt"/>
+					<Size var="var_size_notification_dialog_secondary_txt_2lines"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_btn_bg1</ID>
+					<Location var="var_loc_notification_dialog_primary_button_1"/>
+					<size var="var_size_yes_button"/>
+					<NormalURL>11/btn_primary_normal.png</NormalURL>
+                    <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_primary_normal.png</NormalURL>
+                        <FocusURL>11/btn_primary_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_primary_focused.png</NormalURL>
+                        <FocusURL>11/btn_primary_normal.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_primary_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_primary_disabled.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Cancel</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_1_2_dialogPrimaryButton_csm</ID>
+					<Font var="var_font_primary_button_txt"/>
+					<Location var="var_loc_notification_dialog_primary_button_1_txt"/>
+					<size var="var_size_yes_button_txt"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>virtualcontrols_1_14_1_2_dialogPrimaryButton_csm</StaticValue>
+						<Font var="var_font_test_btn_txt_normal"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_14_1_2_dialogPrimaryButton_csm</StaticValue>
+						<Font var="var_font_test_btn_txt_focused"/>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

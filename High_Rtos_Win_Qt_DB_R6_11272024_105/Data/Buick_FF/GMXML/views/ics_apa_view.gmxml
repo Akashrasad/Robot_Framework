@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_apa_view</ViewID>
+			<Location>
+				<LocationX>3005</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+			<Size>
+				<SizeW>3003</SizeW>
+				<SizeH>934</SizeH>
+			</Size>
+			<APA>
+				<Screen load="ics_apa_park_instr_parallel_left"/>
+				<Screen load="ics_apa_park_instr_parallel_right"/>
+				<Screen load="ics_apa_park_drawer"/>
+				<Screen load="ics_apa_exit_park_drawer"/>
+				<Screen load="ics_apa_shift_to_reverse_parallel_right"/>
+				<Screen load="ics_apa_park_instr_perp_left"/>
+				<Screen load="ics_apa_park_instructions_perp_right"/>
+				<Screen load="ics_apa_connecting_to_mybrand_app"/>
+				<Screen load="ics_apa_shift_to_reverse_parallel_left"/>
+				<Screen load="ics_apa_spot_found_perp_right"/>
+				<Screen load="ics_apa_spot_found_parallel_left"/>
+				<Screen load="ics_apa_unable_to_connect"/>
+				<Screen load="ics_apa_spot_found_perp_left"/>
+				<Screen load="ics_apa_spot_found_parallel_right"/>
+				<Screen load="ics_apa_exit_selection"/>
+                <Screen load="ics_apa_space_found_perp_right"/>
+				<Screen load="ics_apa_park_instructions_selection_drawer"/>
+				<Screen load="ics_apa_camera_view"/>
+				<Screen load="ics_apa_space_found_perp_left"/>
+				<Screen load="ics_apa_in_vehicle_park_hand_off"/>
+				<Screen load="ics_apa_remote_park_handoff"/>
+				<Screen load="ics_apa_remote_exit_handoff"/>
+                <Screen load="ics_apa_space_found_parallel_right"/>
+                <Screen load="ics_apa_space_found_parallel_left"/>
+				<Screen load="ics_apa_park_selection"/>
+				<Screen load="ics_apa_space_found_perp_left_srp"/>
+				<Screen load="ics_apa_space_found_perp_right_srp"/>
+				<Screen load="ics_apa_space_found_parallel_right_srp"/>
+				<Screen load="ics_apa_space_found_parallel_left_srp"/>
+                <Screen load="ics_apa_maneuvermessaging"/>				
+			</APA>
+			<ZOrder>1</ZOrder>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6013</ScreenID>
+				<Name>ics_virtual_controls_hill_descent_control</Name>
+				<ImageWidget var="img_general_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_3_card_hill_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_Hill_Descent_Control_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_radio_button_Off</ID>
+					<Location>
+						<LocationX>153</LocationX>
+						<LocationY>137</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_large"/>
+					 <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HillDescentControl_Off</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="1strow_radio_btn_txt">
+					<ID>virtualcontrols_1_3_0_2_HillOff_csm</ID>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_2_HillOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal"/>
+					</SelectorState>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_2_HillOff_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused"/>
+					</SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_2_HillOff_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_radio_button_on</ID>
+					<Location>
+						<LocationX>153</LocationX>
+						<LocationY>304</LocationY>
+					</Location>
+					<Size var="var_size_radio_btn_large"/>
+					<ZOrder>3</ZOrder>
+                    <Alpha>100</Alpha>
+                    <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                    <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/icn_radio_button_selected_large.png</NormalURL>
+                        <FocusURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/icn_radio_button_normal_large.png</NormalURL>
+                        <FocusURL>11/icn_radio_button_selected_large.png</FocusURL>
+                    </SelectorState>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_HillDescentControl_On</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="2ndrow_radio_btn_txt">
+					<ID>virtualcontrols_1_3_0_2_HillOn_csm</ID>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_3_0_2_HillOn_csm</StaticValue>
+                        <Font var="var_font_radio_btn_off_normal"/>
+                    </SelectorState>
+                    <SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_2_HillOn_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_focused"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>virtualcontrols_1_3_0_2_HillOn_csm</StaticValue>
+						<Font var="var_font_radio_btn_off_normal"/>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_hill</ID>
+					<Location var="var_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression="CompressionAlias10">11/controls_icn_drive_park_hill_descent_control_normal.png</NormalURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/controls_icn_drive_park_hill_descent_control_suv_normal.png</NormalURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/controls_icn_drive_park_hill_descent_control_crossover_normal.png</NormalURL>
+                    </SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget var="var_radio_button_description_text_vc">
+					<ID>dyn_HillDescent_Description_csm</ID>
+				</LabelWidget>
+				<LabelWidget var="var_radio_button_description_text_details_unavailable_vc">
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+				</LabelWidget>
+				<ImageWidget var="img_1strow_radio_btn_divider">
+					<ID>img_off_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_2ndrow_radio_btn_divider">
+					<ID>img_on_divider</ID>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

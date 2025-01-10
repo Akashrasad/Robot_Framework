@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6058</ScreenID>
+                <Name>ics_virtualcontrols_no_invehicle_infotainment</Name>
+                <ImageWidget var="img_no_ivi_bg">
+				<ID>img_notification_bg</ID>
+				</ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_no_infotainment_notification_csm</ID>
+                    <Font var="var_font_park_left_perp_label_pressed"/>
+                    <Location>
+                        <LocationX>93</LocationX>
+                        <LocationY>8</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>1815</SizeW>
+                        <SizeH>98</SizeH>
+                    </Size>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

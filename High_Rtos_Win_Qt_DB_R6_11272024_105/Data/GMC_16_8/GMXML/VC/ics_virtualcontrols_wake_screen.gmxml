@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_virtualcontrols_wake_screen</ScreenID>
+                <Name>ics_virtualcontrols_wake_screen</Name>
+                <ImageWidget>
+                    <ID>img_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_bg"/>
+                    <NormalURL>11/img_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>0</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_bg_close</ID>
+                    <Location var="var_loc_icn_close">
+						<LocationX>19</LocationX>
+					</Location>
+                    <Size var="var_size_icn_close"/>
+                    <NormalURL>11/btn_vc_wakescreen_exit_bg_normal.png</NormalURL>
+					<FocusURL>11/btn_vc_wakescreen_exit_bg_focused.png</FocusURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_vc_wakescreen_exit_bg_normal.png</NormalURL>
+						<FocusURL>11/btn_vc_wakescreen_exit_bg_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_vc_wakescreen_exit_bg_focused.png</NormalURL>
+						<FocusURL>11/btn_vc_wakescreen_exit_bg_pressed.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_vc_wakescreen_exit_bg_pressed.png</NormalURL>
+						<FocusURL>11/btn_vc_wakescreen_exit_bg_selected.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>11/btn_vc_wakescreen_exit_bg_disabled.png</NormalURL>	
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<GroupWidget>
+					<ID>grp_doors_and_windows_card_1</ID>
+					<Location var="var_loc_card_grp">
+						<LocationY>134</LocationY>
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>grp_doors_and_windows_card_1</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_placeholder.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_2_CardDoors_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+					<TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_lights_card_2</ID>
+					<Location>
+						<LocationX>658</LocationX>
+						<LocationY>136</LocationY>	
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>grp_lights_card_2</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_placeholder.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_2_WakeLights_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_universal_remots_card_3</ID>
+					<Location>
+						<LocationX>1502</LocationX>
+						<LocationY>136</LocationY>	
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>grp_universal_remots_card_3</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/img_placeholder.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_2_WakeUGDO_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+					<TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_1</ID>
+                    <Location var="var_loc_card_grp"/>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_1</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_universal_remote_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_universal_remote_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_universal_remote_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_universal_remote_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_universal_remote_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_QuickRemoteLabel_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_2</ID>
+                    <Location var="var_loc_card_grp">
+						<LocationX>658</LocationX>
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_2</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_doors_and_windows_child_safety_locked_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_QuickChildLabel_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+					<TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_3</ID>
+                    <Location var="var_loc_card_grp">
+						<LocationX>1080</LocationX>
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_3</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/btn_icn_glove_box_normal.png</NormalURL>
+					<FocusURL>11/btn_icn_glove_box_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_icn_glove_box_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_glove_box_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_glove_box_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_QuickGloveLabel_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_4</ID>
+                    <Location var="var_loc_card_grp">
+						<LocationX>1502</LocationX>
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_4</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_drive_park_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_drive_park_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_drive_park_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_drive_park_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_drive_park_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_0_0_powerWindowLockout_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+					<TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_5</ID>
+                    <Location var="var_loc_card_grp">
+						<LocationY>1009</LocationY>
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_5</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+					<FocusURL  compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_icn_lights_dome_lights_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_0_QuickDomeLabel_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>				
+				<GroupWidget>
+					<ID>grp_quick_controls_card_6</ID>
+                    <Location>
+						<LocationX>658</LocationX>
+						<LocationY>1009</LocationY>	
+					</Location>
+                    <Size var="var_size_card_grp"/>
+					<Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                <ImageElements>
+                    <ID>img_quick_controls_card_6</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_card_grp"/>
+                    <NormalURL>11/btn_icn_doors_and_windows_motion_sensor_suv_normal.png</NormalURL>
+					<FocusURL>11/btn_icn_doors_and_windows_motion_sensor_suv_pressed.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>11/btn_icn_doors_and_windows_motion_sensor_suv_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>11/btn_icn_doors_and_windows_motion_sensor_suv_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>11/btn_icn_doors_and_windows_motion_sensor_suv_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_2_card_motion_csm</ID>
+                    <Location>
+                        <LocationX>19</LocationX>
+                        <LocationY>252</LocationY>
+                    </Location>
+                    <Size var="var_size_quick_control_grp_label"/>
+                    <Font var="var_font_quick_control_grp_label"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

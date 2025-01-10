@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+	<Variables>
+		<GroupWidget id="grp_img_simple_dialog_primary_btn">
+			<Location var="var_loc_notification_dialog_primary_button"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<ImageElements var="var_img_primary_btn">
+				<ID>img_btn_bg1</ID>
+			</ImageElements>
+			<LabelElements var="var_primary_btn_txt">
+				<ID>virtualcontrols_1_14_1_10_dialogPrimaryButton_csm</ID>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="grp_img_simple_dialog_secondary_btn">
+			<Location var="var_loc_notification_dialog_secondary_button"/>
+			<Size var="var_size_yes_button"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<ImageElements var="var_img_secondary_btn">
+				<ID>img_btn_bg2</ID>
+			</ImageElements>
+			<LabelElements var="var_secondary_btn_txt">
+				<ID>virtualcontrols_1_14_1_9_dialogPrimaryButton_csm</ID>
+			</LabelElements>
+		</GroupWidget>
+		<GroupWidget id="var_change_selection">
+                     <Location>
+                        <LocationX>685</LocationX>
+                        <LocationY>170</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>682</SizeW>
+                        <SizeH>133</SizeH>
+                    </Size>
+					<TabOrder>
+                        <TabV>2</TabV>
+                        <TabH>1</TabH>
+                    </TabOrder>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				<ImageElements>
+                    <ID>img_change_selection</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>682</SizeW>
+                        <SizeH>133</SizeH>
+                    </Size>
+                    <NormalURL>11/btn_apa_selector_up_normal.png</NormalURL>
+                    <FocusURL>11/btn_apa_selector_up_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>apa_4_0F_ChangeSelection_csm</ID>
+                    <Font var="var_font_change_selection_text"/>
+                    <FocusFont var="var_font_change_selection_text_pressed"/>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>155</LocationX>
+                        <LocationY>34</LocationY>
+                    </Location>
+                    <Size var="var_size_park_instr_title"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>5</ZOrder>
+                </LabelElements>
+                <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Apa_Change_Selection</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </GroupWidget>
+				<GroupWidget id="var_change_selection_down">
+		<Location var="var_loc_titilebar_up_arrow"/>
+		<Size var="var_size_title_bar_down_btn"/>
+		<LabelElements var="var_change_selection_text">
+			<ID>apa_4_0F_ChangeSelection_csm</ID>
+		</LabelElements>
+		<ImageElements var="img_down_arrow_btn">
+			<ID>img_down_btn</ID>
+		</ImageElements>
+		<Alpha>100</Alpha>
+		<ZOrder>2</ZOrder>
+	</GroupWidget>
+	</Variables>
+</GMXML>

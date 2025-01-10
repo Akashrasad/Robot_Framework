@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6031</ScreenID>
+                <Name>ics_virtual_controls_success_test</Name>
+               <GroupWidget var="var_grp_exit_wake">
+					<ID>grp_placeholder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget var="grp_placeholder_WakeScreen_mfc">
+					<ID>grp_placeholder_WakeScreen_mfc</ID>
+				</GroupWidget>
+                <ImageWidget var="img_exit_btn">
+					<ID>img_close</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_exit_btn_mfc">
+                    <ID>img_exit_btn_mfc</ID>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+				<LabelWidget var="exit_btn_txt">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+					<Location>
+                        <LocationX>260</LocationX>
+                        <LocationY>1189</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_override_exit_vc"/>
+                    <Size>
+                        <SizeW>410</SizeW>
+                        <SizeH>128</SizeH>
+                    </Size>
+                </LabelWidget>
+                <ImageWidget var="img_btn_back">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<ImageWidget var="var_img_btn_back_mfc">
+                    <ID>img_btn_back_mfc</ID>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_back</WidgetCallback>
+					</InputWidgetMapping>
+			    </ImageWidget>
+                <LabelWidget var="var_lbl_actionbar_text_without_icon">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>virtualcontrols_1_5_0_1_Universal_Remote_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>0</TextAlign>
+						</Font>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <StaticValue>virtualcontrols_1_5_0_1_Universal_Remote_csm</StaticValue>
+						<Font var="var_font_title_VC">
+                        <TextAlign>1</TextAlign>
+						</Font>
+                    </SelectorState>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_2_f_detected_title_csm</ID>
+                    <Location>
+                        <LocationX>376</LocationX>
+                        <LocationY>260</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_img_launch_btn"/>
+                    <Size>
+                        <SizeW>2420</SizeW>
+                        <SizeH>124</SizeH>
+                    </Size>
+                    <Font var="var_font_learn_success_test_body_content"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_2_f_detected_csm</ID>
+                    <Location>
+                        <LocationX>376</LocationX>
+                        <LocationY>422</LocationY>
+                    </Location>
+					<LayoutOverride var = "var_layout_signalfound_desc"/>
+                    <Size>
+                        <SizeW>2420</SizeW>
+                        <SizeH>380</SizeH>
+                    </Size>
+                    <Font var="var_font_universal_remotes_desc"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget> 
+                <!-- <LabelWidget>
+                    <ID>virtualcontrols_1_5_0_3_ugdo_detected_1_csm</ID>
+                    <Location var="var_loc_keypad_1">
+                        <LocationY>225</LocationY>
+                    </Location>
+                    <Size var="var_size_snack_bar_text"/>
+                    <Font var="var_font_lable_popup_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget> -->
+                	<GroupWidget>
+					<ID>grp_img_test_btn</ID>
+					<Location var="var_loc_test_btn"/>
+					<LayoutOverride var = "var_layout_override_grp_img_test_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_test_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression="NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="NONE" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="NONE" skinid="skin_selected_URL">11/btn_primary_selected.png</NormalURL>
+							<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="NONE"  skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_0_2_ugdo_test_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_test_btn_txt_normal"/>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_2_ugdo_test_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_normal"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_2_ugdo_test_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_focused"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_2_ugdo_test_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>4</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_2_ugdo_test_csm</StaticValue>
+							<Font var="var_font_test_btn_txt_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_test</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+                <GroupWidget>
+					<ID>grp_img_worked_btn</ID>
+					<Location var="var_loc_itworked_btn"/>
+					<LayoutOverride var = "var_layout_override_grp_img_worked_popup"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_worked_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						    <FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression = "NONE" skinid="skin_secondary_btn_selected_URL">11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+					        <NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>2</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_0_3_ugdo_worked_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+                        <Font var="var_font_secondary_button_normal"/>
+						<FocusFont var="var_font_secondary_button_pressed"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_worked_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_normal"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_worked_csm</StaticValue>
+							<Font var="var_font_secondary_button_selected"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_worked_csm</StaticValue>
+							<Font var="var_font_secondary_button_disabled"/>
+							<FocusFont var="var_font_secondary_button_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_testWorked</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+                <GroupWidget>
+					<ID>img_not_worked_btn</ID>
+					<Location var="var_loc_it_didnot_work_btn"/>
+					<LayoutOverride var = "var_layout_override_grp_img_it_didnot_work"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_not_worked_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression = "NONE" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						    <FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression = "NONE" skinid="skin_secondary_btn_selected_URL">11/btn_secondary_selected.png</NormalURL>
+							<FocusURL compression = "NONE" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</FocusURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+					        <NormalURL compression = "NONE" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+							<FocusURL/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_5_0_3_ugdo_nowork_csm</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_secondary_button_normal"/>
+						<FocusFont var="var_font_secondary_button_pressed"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_nowork_csm</StaticValue>
+							<Font var="var_font_btn_txt_secondary_normal"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_nowork_csm</StaticValue>
+							<Font var="var_font_secondary_button_selected"/>
+							<FocusFont var="var_font_secondary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_5_0_3_ugdo_nowork_csm</StaticValue>
+							<Font var="var_font_secondary_button_disabled"/>
+							<FocusFont var="var_font_secondary_button_disabled"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_testFailed</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_test_btn_mfc</ID>
+					<TabOrder>
+					    <TabV>1</TabV>
+					    <TabH>1</TabH>
+				    </TabOrder>
+					<Location var="var_loc_test_btn"/>
+				    <LayoutOverride var="var_layout_override_grp_img_test_btn"/>
+				    <Size var="var_size_yes_button"/>
+					<FocusURL compression="NONE" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_test</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>grp_img_worked_btn_mfc</ID>
+					<TabOrder>
+					    <TabV>1</TabV>
+					    <TabH>2</TabH>
+				    </TabOrder>
+					<Location var="var_loc_itworked_btn"/>
+				    <LayoutOverride var = "var_layout_override_grp_img_worked_popup"/>
+				    <Size var="var_size_yes_button"/>
+					<FocusURL compression="NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_testWorked</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_not_worked_btn_mfc</ID>
+					<TabOrder>
+					    <TabV>1</TabV>
+					    <TabH>3</TabH>
+				    </TabOrder>
+					<Location var="var_loc_it_didnot_work_btn"/>
+				    <LayoutOverride var = "var_layout_override_grp_img_it_didnot_work"/>
+				    <Size var="var_size_yes_button"/>
+					<FocusURL compression="NONE" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_Remote_testFailed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

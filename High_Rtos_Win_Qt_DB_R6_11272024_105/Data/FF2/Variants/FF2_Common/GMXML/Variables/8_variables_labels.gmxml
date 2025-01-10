@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <LabelWidget id="exit_btn_txt">
+            <Font var="var_font_exit_btn_normal"/>
+			<FocusFont var="var_font_exit_btn_pressed"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+                <LocationX>76</LocationX>
+                <LocationY>956</LocationY>
+            </Location>
+            <Size>
+                <SizeW>273</SizeW>
+                <SizeH>125</SizeH>
+            </Size>
+            <Alpha>100</Alpha>
+            <ZOrder>5</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_snackbar_1line_txt">
+			<Font var="var_font_snackbar_txt"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_snackbar_txt"/>
+			<Size var="var_size_snackbar_txt"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>	
+		<LabelWidget id="power_mode_snackbar_lbl">
+           <Font var="var_font_snackbar_txt"/>
+           <Location var="var_loc_snackbar_txt_2lines"/>
+           <Size var="var_size_snackbar_txt_2lines"/>
+	       <TextWrap>1</TextWrap>
+           <Alpha>100</Alpha>
+           <ZOrder>2</ZOrder>
+        </LabelWidget>	
+		<LabelWidget id="var_lbl_action_1line_knife_snackbar">
+			<Font var="var_font_snackbar_txt"/>
+			<Location var="var_loc_snackbar_txt1"/>
+			<Size var="var_size_snackbar_txt1"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_close_text">
+         <Font var="var_font_exit_btn_normal"/>
+		 <FocusFont var="var_font_exit_btn_pressed"/>
+            <TextWrap>1</TextWrap>
+            <Location>
+			    <LocationX>13</LocationX>
+				<LocationY>32</LocationY>
+			</Location>
+			<Size>
+				<SizeW>329</SizeW>
+				<SizeH>61</SizeH>
+			</Size>
+            <Alpha>100</Alpha>
+            <ZOrder>4</ZOrder>
+        </LabelWidget>
+		<LabelWidget id="var_front_txt">
+			<Location var="var_loc_front_txt"/>
+			<Size var="var_size_front_txt"/>
+			<Font var="var_font_front_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_change_selection_text">
+            <Font var="var_font_change_selection_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_change_selection_txt"/>			
+            <Size var="var_size_change_selection_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <LabelWidget id="var_park_instructions_text_1">
+            <Font var="var_font_perp_right_instr_txt1"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt"/>			
+            <Size var="var_size_perp_right_instr_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	    <LabelWidget id="var_park_instructions_text_2">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt1"/>
+            <Size var="var_size_perp_right_instr_txt"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+	   <!-- Variables cleanup -->
+		<LabelWidget id="var_snackbar_2line_txt">
+			<Font var="var_font_snackbar_2line_txt"/>
+			<TextWrap>1</TextWrap>
+			<Location var="var_loc_snackbar_txt_2lines"/>
+			<Size var="var_size_snackbar_txt_2lines"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		 <LabelWidget id="var_vehicle_hand_off_txt_1">
+			<Location var="var_loc_popup_body_txt"/>
+			<Size var="var_size_popup_body_txt"/>
+			<Font var="var_font_perp_right_instr_txt1"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>
+		<LabelWidget id="var_vehicle_hand_off_txt_2">
+			<Location var="var_loc_vehicle_hand_off_txt_2"/>
+			<Size var="var_size_vehicle_hand_off_txt_2"/>
+			<Font var="var_font_perp_right_instr_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>
+		<LabelWidget id="var_remote_hand_off_txt_1">
+			<Location var="var_loc_popup_body_txt"/>
+			<Size var="var_size_remote_hand_off_txt_1"/>
+			<Font var="var_font_perp_right_instr_txt1"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>
+       <LabelWidget id="var_park_instruction_txt3">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt1"/>
+            <Size var="var_size_perp_right_instr_txt1"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+       <LabelWidget id="var_shift_reverse_left">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt1"/>
+            <Size var="var_size_shift_reverse_left"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+       <LabelWidget id="var_spot_found_txt">
+            <Font var="var_font_perp_right_instr_txt"/>
+            <TextWrap>1</TextWrap>
+            <Location var="var_loc_perp_right_instr_txt1"/>
+            <Size var="var_size_shift_reverse_left"/>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+       </LabelWidget>
+        <LabelWidget id="var_ctt_trailer_unable_txt">
+			<Font var="var_font_snackbar_txt"/>
+			<Location var="var_loc_img_snackbar_txt"/>
+			<Size var="var_size_calibration_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+		</LabelWidget>	
+        <LabelWidget id="var_ctt_trailer_driveforward_txt">
+			<Font var="var_font_toomanyattempts"/>
+			<Location var="var_loc_cct_snackbar_txt"/>
+			<Size var="var_size_cct_trailer_txt"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>
+        <LabelWidget id="var_ctt_trailer_calibrating_txt">
+			<Font var="var_font_front_txt"/>
+			<Location var="var_loc_cct_snackbar_txt2"/>
+			<Size var="var_size_cct_trailer_txt2"/>
+			<TextWrap>1</TextWrap>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+	    </LabelWidget>			
+    </Variables>
+</GMXML>

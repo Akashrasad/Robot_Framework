@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <ImageWidget id="img_exit_btn">
+            <Location>
+                <LocationX>260</LocationX>
+                <LocationY>1189</LocationY>
+            </Location>
+            <Size>
+                <SizeW>410</SizeW>
+                <SizeH>128</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_vc_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_vc_exit_bg_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</FocusURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_vc_exit_bg_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</FocusURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_1strow_radio_btn_mfc">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>166</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_1strow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <FocusURL>11/btn_vc_onoff_long_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_2ndrow_radio_btn_mfc">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>331</LocationY>
+            </Location>
+		   <LayoutOverride var = "var_layout_img_2ndrow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <FocusURL>11/btn_vc_onoff_long_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_3rdrow_radio_btn_mfc">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>494</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_3rdrow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <FocusURL>11/btn_vc_onoff_long_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_4throw_radio_btn_mfc">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>658</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_4throw_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <FocusURL>11/btn_vc_onoff_long_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_5throw_radio_btn_mfc">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>828</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_5throw_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <FocusURL>11/btn_vc_onoff_long_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_1strow_radio_btn_divider">
+            <Location var="var_loc_off_divider"/>
+            <Size>
+                <SizeW>1347</SizeW>
+                <SizeH>2</SizeH>
+            </Size>
+            <NormalURL/>
+            <Alpha>0</Alpha>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_2ndrow_radio_btn_divider">
+            <Location var="var_loc_on_divider"/>
+            <Size>
+                <SizeW>1347</SizeW>
+                <SizeH>2</SizeH>
+            </Size>
+            <NormalURL/>
+            <Alpha>0</Alpha>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_3rdrow_radio_btn_divider">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>843</LocationY>
+            </Location>
+            <Size>
+                <SizeW>1347</SizeW>
+                <SizeH>2</SizeH>
+            </Size>
+            <NormalURL/>
+            <Alpha>0</Alpha>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_4throw_radio_btn_divider">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>1069</LocationY>
+            </Location>
+            <Size>
+                <SizeW>1347</SizeW>
+                <SizeH>2</SizeH>
+            </Size>
+            <NormalURL/>
+            <Alpha>0</Alpha>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_wakescreen_exit_btn">
+            <Location>
+                <LocationX>260</LocationX>
+                <LocationY>1189</LocationY>
+            </Location>
+            <Size>
+                <SizeW>410</SizeW>
+                <SizeH>128</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias4">11/btn_vc_wakescreen_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1">11/btn_vc_wakescreen_exit_bg_focused.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias4">11/btn_vc_wakescreen_exit_bg_normal.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias1">11/btn_vc_wakescreen_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias2">11/btn_vc_wakescreen_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_wakescreen_pintostart_btn">
+            <Location>
+                <LocationX>690</LocationX>
+                <LocationY>1189</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_override_img_car_btn"/>
+           <Size>
+                <SizeW>410</SizeW>
+                <SizeH>128</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_vc_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_vc_exit_bg_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</FocusURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_focused_URL">11/btn_vc_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_vc_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>1</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_wakescreen_pintostart_icon">
+            <Location>
+                <LocationX>690</LocationX>
+                <LocationY>1189</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_override_img_car_btn"/>
+            <Size>
+                <SizeW>410</SizeW>
+                <SizeH>128</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias4">11/btn_vc_pin_normal.png</NormalURL>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>4</ZOrder>
+        </ImageWidget>
+        <ImageWidget id ="var_keyboard_popup_tarnsperent_image">
+            <ID>img_transparent_bg</ID>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2164</SizeW>
+                <SizeH>821</SizeH>
+            </Size>
+            <NormalURL>11/kb_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>0</ZOrder>
+            <InputWidgetMapping>
+                <UserInput>TouchPressRelease</UserInput>
+                <WidgetCallback>evG_Keyboard_Popup_BgImage</WidgetCallback>
+            </InputWidgetMapping>
+        </ImageWidget>
+		<ImageWidget id="img_1strow_radio_btn_transparent">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>166</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_1strow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <NormalURL>11/list_transparent.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_2ndrow_radio_btn_transparent">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>330</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_2ndrow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <NormalURL>11/list_transparent.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_3rdrow_radio_btn_transparent">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>497</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_3rdrow_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <NormalURL>11/list_transparent.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+        <ImageWidget id="img_4throw_radio_btn_transparent">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>662</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_4throw_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <NormalURL>11/list_transparent.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_5throw_radio_btn_transparent">
+            <Location>
+                <LocationX>373</LocationX>
+                <LocationY>828</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_img_5throw_radio_btn_transparent"/>
+            <Size>
+                <SizeW>1167</SizeW>
+                <SizeH>166</SizeH>
+            </Size>
+            <NormalURL>11/list_transparent.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_keypad_bg">
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_keypad_bg"/>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<NormalURL compression = "CompressionAlias1">11/btn_short_keypad_bg_normal.png</NormalURL>
+			<FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_pressed.png</FocusURL>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_short_keypad_bg_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1">11/btn_short_keypad_bg_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_short_keypad_bg_disabled.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+		</ImageWidget>		
+		<ImageWidget id="img_2line_dialog_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snack_bar_2lines"/>
+            <NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>dummy_event</WidgetCallback>
+			</InputWidgetMapping>
+        </ImageWidget>
+		<ImageWidget id="var_snackbar_1line_bg">
+           <Location var="var_loc_orgin"/>
+		   <Size var="var_size_notification_bg_1543"/>
+		   <NormalURL>11/img_notification_1lines_bg.png</NormalURL>
+		   <Alpha>100</Alpha>
+		   <ZOrder>1</ZOrder>
+           <InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>dummy_event</WidgetCallback>
+			</InputWidgetMapping>
+        </ImageWidget>
+		<ImageWidget id="var_img_vehicle_off_icon">
+			<Location var="var_loc_orgin"/>
+			<Size>
+				<SizeW>192</SizeW>
+				<SizeH>162</SizeH>
+			</Size>
+			<NormalURL>11/btn_icn_vc_auto_vehicle_hold_normal.png</NormalURL>
+			<FocusURL>11/btn_icn_vc_auto_vehicle_hold_pressed.png</FocusURL>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL>11/btn_icn_vc_auto_vehicle_hold_normal.png</NormalURL>
+				<FocusURL>11/btn_icn_vc_auto_vehicle_hold_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL>11/btn_icn_vc_auto_vehicle_hold_pressed.png</NormalURL>
+				<FocusURL>11/btn_icn_vc_auto_vehicle_hold_selected.png</FocusURL>
+			</SelectorState>
+			<Alpha>0</Alpha>
+			<ZOrder>3</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="image_exit_button">
+            <Location var="var_loc_close_button"/>
+			<LayoutOverride>
+				<ID>RHD</ID>
+				<Location>
+					<LocationX>3278</LocationX>
+					<LocationY>1155</LocationY>
+				</Location>
+			</LayoutOverride>
+			<Size var="var_size_close_button"/>
+            <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_focused_URL">11/btn_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_car_btn">
+            <Location>
+                <LocationX>233</LocationX>
+                <LocationY>1155</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_override_img_car_btn"/>
+            <Size>
+                <SizeW>418</SizeW>
+                <SizeH>162</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_normal_URL">11/btn_exit_bg_normal.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_focused_URL">11/btn_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_car_btn_pressed">
+            <Location>
+                <LocationX>233</LocationX>
+                <LocationY>1155</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_override_img_car_btn"/>
+            <Size>
+                <SizeW>418</SizeW>
+                <SizeH>162</SizeH>
+            </Size>
+            <NormalURL compression = "CompressionAlias1">11/btn_apptray_vc_normal.png</NormalURL>
+			<FocusURL compression = "CompressionAlias1">11/btn_apptray_vc_pressed.png</FocusURL>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_apptray_vc_normal.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+			    <DataValue>1</DataValue>
+			    <NormalURL compression = "CompressionAlias1">11/btn_apptray_vc_focused.png</NormalURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL compression = "CompressionAlias1">11/btn_apptray_vc_pressed.png</NormalURL>
+			</SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>3</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_car_mfc_btn">
+			<TabOrder>
+				<TabV>2</TabV>
+				<TabH>1</TabH>
+			</TabOrder>
+            <Location>
+                <LocationX>233</LocationX>
+                <LocationY>1155</LocationY>
+            </Location>
+			<LayoutOverride var = "var_layout_override_img_car_btn"/>
+            <Size>
+                <SizeW>418</SizeW>
+                <SizeH>162</SizeH>
+            </Size>
+           <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_focused_URL">11/btn_apptray_virtualization_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<InputWidgetMapping>
+				<UserInput>RotarySelectReleased</UserInput>
+				<WidgetCallback>evG_Ptos_VC</WidgetCallback>
+			</InputWidgetMapping>
+        </ImageWidget>
+		<ImageWidget id="img_down_arrow_btn">
+            <Location var="var_loc_titilebar_up_arrow"/>
+			<LayoutOverride var = "var_layout_down_arrow_btn"/>
+            <Size var="var_size_titlebar_up_arrow"/>
+			<TabOrder>
+                <TabV>2</TabV>
+                <TabH>1</TabH>
+            </TabOrder>
+            <NormalURL compression = "CompressionAlias9" skinid="skin_normal_URL">11/icn_down_normal_small.png</NormalURL>
+            <FocusURL compression = "CompressionAlias9" skinid="skin_focused_URL">11/icn_down_focused_small.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias9" skinid="skin_normal_URL">11/icn_down_normal_small.png</NormalURL>
+			     <FocusURL compression = "CompressionAlias9" skinid="skin_focused_URL">11/icn_down_focused_small.png</FocusURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias9" skinid="skin_focused_URL">11/icn_down_focused_small.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias7" skinid="skin_pressed_URL">11/icn_down_pressed_small.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+	   <ImageWidget id="img_bg_black">
+			<Location>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>		
+			<Size>
+				<SizeW>3950</SizeW>
+				<SizeH>1320</SizeH>
+			</Size>
+			<NormalURL compression="NONE">11/apa_background.png</NormalURL>
+             <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression="NONE">11/apa_background.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression="NONE">11/apa_view_one_rhd_bg.png</NormalURL>
+            </SelectorState>
+			<Alpha>100</Alpha>
+			<ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>dummy_event</WidgetCallback>
+			</InputWidgetMapping>
+		</ImageWidget>
+		<ImageWidget id="img_guideliness_view">
+			<Location>
+				<LocationX>444</LocationX>
+				<LocationY>94</LocationY>
+			</Location>
+			<Size>
+				<SizeW>320</SizeW>
+				<SizeH>181</SizeH>
+			</Size>
+			<NormalURL compression="CompressionAlias5" skinid="skin_camera_normal_URL">11/icn_guideline_view_small_normal.png</NormalURL>
+			<FocusURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression="CompressionAlias5" skinid="skin_camera_normal_URL">11/icn_guideline_view_small_normal.png</NormalURL>
+				<FocusURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL compression="CompressionAlias1" skinid="skin_camera_selected_URL">11/icn_guideline_view_small_selected.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL compression="CompressionAlias12" skinid="skin_camera_disabled_URL">11/icn_guideline_view_small_disabled.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_pressed.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>5</DataValue>
+				<NormalURL compression="CompressionAlias2" skinid="skin_camera_pressed_URL">11/icn_guideline_view_small_latched_pressed.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+		</ImageWidget>
+		<ImageWidget id="img_trailer_assist">
+			<Location>
+				<LocationX>444</LocationX>
+				<LocationY>275</LocationY>
+			</Location>
+			<Size>
+				<SizeW>320</SizeW>
+				<SizeH>181</SizeH>
+			</Size>
+			<NormalURL compression="CompressionAlias3" skinid="skin_camera_normal_URL">11/icn_trailer_view_small_normal.png</NormalURL>
+			<FocusURL compression="CompressionAlias3" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</FocusURL>
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<SelectorState>
+				<DataValue>0</DataValue>
+				<NormalURL compression="CompressionAlias3" skinid="skin_camera_normal_URL">11/icn_trailer_view_small_normal.png</NormalURL>
+				<FocusURL compression="CompressionAlias3" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</FocusURL>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>1</DataValue>
+				<NormalURL compression="CompressionAlias2" skinid="skin_camera_selected_URL">11/icn_trailer_view_small_selected.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>2</DataValue>
+				<NormalURL skinid="skin_camera_disabled_URL">11/icn_trailer_view_small_disabled.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>3</DataValue>
+				<NormalURL compression="CompressionAlias3" skinid="skin_camera_focused_URL">11/icn_trailer_view_small_focused.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>4</DataValue>
+				<NormalURL compression="CompressionAlias3" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_pressed.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+			<SelectorState>
+				<DataValue>5</DataValue>
+				<NormalURL compression="CompressionAlias3" skinid="skin_camera_pressed_URL">11/icn_trailer_view_small_latched_pressed.png</NormalURL>
+				<FocusURL/>
+			</SelectorState>
+		</ImageWidget>
+		        <ImageWidget id="img_btn_back">
+					<Location var="var_loc_actionbar_back_img"/>
+					<LayoutOverride var = "var_layout_img_btn_back"/>
+					<Size var="var_size_actionbar_back_img"/>
+					<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_left_normal_small.png</NormalURL>
+					<FocusURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_left_pressed_small.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_normal_URL">11/btn_icn_left_normal_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_focused_URL" >11/btn_icn_left_focused_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_pressed_URL">11/btn_icn_left_pressed_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_selected_URL">11/btn_icn_left_selected_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "NONE" skinid="skin_disabled_URL">11/btn_icn_left_disabled_small.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="img_icn_cameraerror">
+			<Location var="var_loc_img_camera_error_icon"/>
+			<LayoutOverride var = "var_layout_override_img_camera_error_icon"/>
+			<Size var="var_size_img_camera_error_img"/>
+			<NormalURL compression = "CompressionAlias10" skinid="skin_camera_URL">11/icn_camera.png</NormalURL>
+			<Alpha>0</Alpha>
+			<ZOrder>2</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="img_camera_error_icon">
+			<Location var="var_loc_img_camera_error_icon"/>
+			<LayoutOverride var = "var_layout_override_img_camera_error_icon"/>
+			<Size var="var_size_img_camera_error_img"/>
+			<NormalURL compression = "CompressionAlias10" skinid="skin_camera_error_URL">11/icn_error_circle.png</NormalURL>
+			<Alpha>0</Alpha>
+			<ZOrder>3</ZOrder>
+		</ImageWidget>
+		<ImageWidget id="var_snackbar_2lines_bg">
+			<Location var="var_loc_orgin"/>
+			<Size var="var_size_2line_snackbar_bg"/>
+			<NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+			<Alpha>100</Alpha>
+			<ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>dummy_event</WidgetCallback>
+			</InputWidgetMapping>
+		</ImageWidget>
+		<ImageWidget id="img_3line_dialog_bg">
+            <Location var="var_loc_orgin"/>
+            <Size var="var_size_snack_bar_3lines"/>
+            <NormalURL>11/img_notification_3lines_bg.png</NormalURL>
+            <Alpha>100</Alpha>
+            <ZOrder>1</ZOrder>
+            <InputWidgetMapping>
+				<UserInput>TouchPressRelease</UserInput>
+				<WidgetCallback>dummy_event</WidgetCallback>
+			</InputWidgetMapping>
+        </ImageWidget>
+		 <ImageWidget id="var_img_exit_btn_mfc">
+			<TabOrder>
+			    <TabV>2</TabV>
+				<TabH>2</TabH>
+			</TabOrder>
+			<Location>
+				<LocationX>260</LocationX>
+			    <LocationY>1189</LocationY>
+			 </Location>
+			 <Size>
+			   <SizeW>410</SizeW>
+			   <SizeH>128</SizeH>
+			 </Size>
+			<FocusURL compression = "NONE" skinid="skin_apptray_focused_URL">11/btn_vc_exit_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+            <ZOrder>2</ZOrder>
+		 </ImageWidget>
+		 <ImageWidget id="image_exit_button_mfc">
+            <Location var="var_loc_close_button"/>
+			<LayoutOverride>
+				<ID>RHD</ID>
+				<Location>
+					<LocationX>3278</LocationX>
+					<LocationY>1155</LocationY>
+				</Location>
+			</LayoutOverride>
+			<Size var="var_size_close_button"/>
+            <FocusURL compression = "CompressionAlias1">11/btn_exit_bg_focused.png</FocusURL>
+            <Alpha>100</Alpha>
+            <OnFocusCallback/>
+            <ZOrder>2</ZOrder>
+        </ImageWidget>
+		<ImageWidget id="img_exit_btn_camera_apa">
+            <Location var="var_loc_exit_txt"/>
+			<Size var="var_size_exit_btn_txt_camera_apa"/>
+		    <LayoutOverride var= "var_layout_apa_camera_exit_btn"/>
+            <NormalURL compression = "CompressionAlias10" skinid="skin_apptray_normal_URL">11/btn_camera_exit_bg_normal.png</NormalURL>
+            <FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_camera_exit_bg_pressed.png</FocusURL>
+            <SelectorState>
+                <DataValue>0</DataValue>
+                <NormalURL compression = "CompressionAlias10" skinid="skin_apptray_normal_URL">11/btn_camera_exit_bg_normal.png</NormalURL>
+				<FocusURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_camera_exit_bg_pressed.png</FocusURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>1</DataValue>
+                <NormalURL compression = "CompressionAlias5" skinid="skin_apptray_focused_URL">11/btn_camera_exit_bg_focused.png</NormalURL>
+            </SelectorState>
+            <SelectorState>
+                <DataValue>2</DataValue>
+                <NormalURL compression = "CompressionAlias1" skinid="skin_apptray_pressed_URL">11/btn_camera_exit_bg_pressed.png</NormalURL>
+            </SelectorState>
+            <Alpha>100</Alpha>
+            <ZOrder>4</ZOrder>
+        </ImageWidget>
+		 <ImageWidget id="var_change_selection_down_mfc">
+		   <TabOrder>
+                   <TabV>2</TabV>
+                   <TabH>1</TabH>
+            </TabOrder>
+			<Location>
+                <LocationX>158</LocationX>
+                <LocationY>38</LocationY>
+            </Location>
+			<LayoutOverride var="var_layout_down_arrow_btn"/>
+            <Size>
+                <SizeW>677</SizeW>
+                <SizeH>128</SizeH>
+            </Size>
+			<FocusURL compression = "CompressionAlias1" skinid="skin_focused_URL">11/btn_apa_selector_down_focused.png</FocusURL>	
+			<Alpha>100</Alpha>
+			<ZOrder>2</ZOrder>
+			<InputWidgetMapping>
+			 <UserInput>RotarySelectReleased</UserInput>
+			 <WidgetCallback>evG_Apa_Selection_Back</WidgetCallback>
+			</InputWidgetMapping>
+		   </ImageWidget>
+		   <ImageWidget id="img_exit_btn_camera_apa_mfc">
+		    <TabOrder>
+			    <TabV>3</TabV>
+				<TabH>1</TabH>
+			</TabOrder>
+		   <LayoutOverride var= "var_layout_apa_camera_exit_btn"/>
+		    <Location var="var_loc_exit_txt"/>
+			<Size var="var_size_exit_btn_txt_camera_apa"/>
+		    <FocusURL compression = "CompressionAlias5" skinid="skin_apptray_focused_URL">11/btn_camera_exit_bg_focused.png</FocusURL>
+			<Alpha>100</Alpha>
+            <ZOrder>4</ZOrder>
+		   </ImageWidget>
+		   <ImageWidget id="var_img_btn_back_mfc">
+			<Location var="var_loc_actionbar_back_img"/>
+			<LayoutOverride var = "var_layout_img_btn_back"/>
+			<Size var="var_size_actionbar_back_img"/>
+			<TabOrder>
+			  <TabV>2</TabV>
+			  <TabH>1</TabH>
+			</TabOrder>
+			<FocusURL compression = "NONE" skinid="skin_focused_URL">11/btn_icn_left_focused_small.png</FocusURL>
+			<Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+		 </ImageWidget>
+        <ImageWidget id="var_img_home_card">
+            <ID>img_home_icon_1</ID>
+			<Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <Size>
+                <SizeW>497</SizeW>
+                <SizeH>433</SizeH>
+            </Size>
+            <NormalURL skinid="skin_normal_URL">11/dummy.png</NormalURL>
+            <FocusURL skinid="skin_pressed_URL">11/dummy.png</FocusURL>
+            <Alpha>100</Alpha>
+            <ZOrder>3</ZOrder>
+        </ImageWidget>
+    </Variables>
+</GMXML>

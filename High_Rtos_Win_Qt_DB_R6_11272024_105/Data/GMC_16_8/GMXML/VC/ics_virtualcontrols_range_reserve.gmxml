@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6114</ScreenID>
+				<Name>ics_virtualcontrols_range_reserve</Name>
+				<ImageWidget>
+					<ID>img_bg_black</ID>
+					<Location var="var_loc_orgin"/>
+					<Size var="var_size_bg"/>
+					<Alpha>100</Alpha>
+					<ZOrder>0</ZOrder>
+					<NormalURL>11/img_bg.png</NormalURL>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="var_img_top_bar_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PO_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_header_csm</ID>
+					<Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_text"/>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_close</ID>
+					<Location var="var_loc_close_img"/>
+					<Size var="var_size_actionbar_close_img"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_close_pressed_small.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_close_focused_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_close_pressed_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_close_selected_small.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_icn_close_disabled_small.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Power_Outlet_Start</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_body_csm</ID>
+					<Font var="var_font_outlets_body_desc"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>217</LocationX>
+						<LocationY>273</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1661</SizeW>
+						<SizeH>322</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_descriptor_csm</ID>
+					<Font var="var_font_program_body_content"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_program_body_content"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_rangeUsedNumber_selected"/>
+					</SelectorState>
+					<Location>
+						<LocationX>217</LocationX>
+						<LocationY>886</LocationY>
+					</Location>
+					<Size>
+						<SizeW>982</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_14_2_percentMile_csm</ID>
+					<Font var="var_font_program_body_content"/>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<Font var="var_font_program_body_content"/>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<Font var="var_font_rangeUsedNumber_selected"/>
+					</SelectorState>
+					<Location>
+						<LocationX>217</LocationX>
+						<LocationY>951</LocationY>
+					</Location>
+					<Size>
+						<SizeW>982</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<ProgressBarWidget>
+					<ID>img_battery_level_progressbar</ID>
+					<Value>10</Value>
+					<Location>
+						<LocationX>217</LocationX>
+						<LocationY>1047</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1689</SizeW>
+						<SizeH>133</SizeH>
+					</Size>
+					<ProgressBarTouch>1</ProgressBarTouch>
+					<IsScaledProgressBar>1</IsScaledProgressBar>
+					<ProgressBarURL>11/img_bar_soc_active_1.png</ProgressBarURL>
+					<ProgressBarURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>1689</SizeW>
+						<SizeH>133</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL>11/img_bar_empty_1.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>1689</SizeW>
+						<SizeH>133</SizeH>
+					</HousingURLSize>
+					<ThumbURL>11/img_progress_thumb.png</ThumbURL>
+					<IsThumbLimited>1</IsThumbLimited>
+					<ThumbURLLocation>
+						<LocationX>-67</LocationX>
+						<LocationY>0</LocationY>
+					</ThumbURLLocation>
+					<ThumbURLSize>
+						<SizeW>133</SizeW>
+						<SizeH>133</SizeH>
+					</ThumbURLSize>
+					<ThumbURLOffset>
+                        <Left>62</Left>
+                        <Right>65</Right>
+                    </ThumbURLOffset>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<Orientation>0</Orientation>
+				</ProgressBarWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_14_2V_header_csm</ID>
+                    <Font var="var_font_title"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_text"/>
+					<Size var="var_size_actionbar_text"/>
+                    <Alpha>0</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

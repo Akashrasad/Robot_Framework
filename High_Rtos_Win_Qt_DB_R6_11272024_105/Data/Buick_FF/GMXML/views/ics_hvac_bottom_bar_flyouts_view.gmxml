@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_flyouts_view</ViewID>
+            <Size>
+                <SizeW>1186</SizeW>
+                <SizeH>725</SizeH>
+            </Size>
+            <Location>
+                <LocationX>4337</LocationX>
+                <LocationY>91</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder> 
+            <Screen load="ics_hvac_bottom_bar_sz_left_seats_flyout"/>
+            <Screen load="ics_hvac_bottom_bar_left_seats_flyout"/>
+            <Screen load="ics_hvac_bottom_bar_right_seats_flyout"/>
+            <Screen load="ics_hvac_bottom_bar_sz_right_seats_flyout"/>
+			 <Screen load="ics_hvac_bottom_bar_left_temp_flyout"/>
+			 <Screen load="ics_hvac_bottom_bar_right_temp_flyout"/>
+			 <Screen load="ics_hvac_bottom_bar_sz_left_temp_flyout"/>
+			 <Screen load="ics_hvac_sz_fan_speed_flyout"/>
+        </View>
+    </Display>
+</GMXML>

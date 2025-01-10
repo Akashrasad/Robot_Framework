@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <Font id="var_font_body_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_primary_button_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_primary_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_primary_button_selected" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_primary_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_secondary_button_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_secondary_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_secondary_button_selected" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_secondary_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_radio_btn_off_focused" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_radio_btn_off_normal" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+			<LineSpacing>-8</LineSpacing>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_snackbar_txt" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_notification_dialog_checkbox_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_test_btn_txt_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_test_btn_txt_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_test_btn_txt_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+            <LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_options_desc">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_radio_btn_txt_noraml">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_radio_btn_txt_focused">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_add_remote_btn_txt_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_add_remote_btn_txt_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_add_remote_btn_txt_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_add_remote_btn_txt_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_tab_one_focused" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_btn_tab_one_normal" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_change_selection_txt" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_call_assistance" skinid="skin_font_body_title">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button_focused" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keep_looking_button" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keep_looking_button_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keep_looking_button_focused" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_camera_view_dynamic_messaging" skinid="skin_font_dark">
+            <Name>GMSUIChevyCCSTGlobal-Medium</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+			<LineSpacing>-4</LineSpacing>
+            <Color>0,0,0</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button_selected" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_timerheader" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+		</Font>
+		<Font id="var_font_climate_temperature" skinid="skin_font_body_content_normal">
+		    <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>1</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_summary_option_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_title_emergency_text" skinid="skin_font_emergency">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>87</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_radio_btn_off_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>80,80,80</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_svr_recording_desc" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>34</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_teritary_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_left_temp" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>87</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_percent_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>88</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_percent_text_red" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>88</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>237,33,35</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_range_reserve_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_peek_in_screen_circle_progressbar_oulets_text" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_powerlimit_text" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_time_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_time_primary_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_time_default_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_time_default_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_dynamic_range" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_distance_number" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_dynamic_font" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,179,0</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_emergency_text" skinid="skin_font_emergency">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection/>
+		</Font>
+		<Font id="var_font_peek_in_circle_oulets_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>1</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection/>
+		</Font>
+		<Font id="var_font_peek_in_distance_number" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>1</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection/>
+		</Font>
+		<Font id="var_font_smart_controls" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>3</TextAlign>
+			<Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_smart_controls_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>3</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_avg_range_reserve" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_aux_edit" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_headlight_pop_up_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlignV>2</TextAlignV>
+			<TextAlignH>1</TextAlignH>
+            <Color>215,221,235</Color>
+		</Font>
+		<Font id="var_font_headlight_pop_up_focused" skinid="skin_font_focused">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlignV>2</TextAlignV>
+			<TextAlignH>1</TextAlignH>
+            <Color>215,221,235</Color>
+		</Font>
+		<Font id="var_font_title_txt" skinid="skin_font_title">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>65</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Medium</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_disable" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Medium</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_change_selection_text" skinid="skin_font_title">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_power_limit_number" skinid="skin_font_snack_bar">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>88</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_desc_text" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>90,90,90</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_front_txt" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_auto_single_zone" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_RearClimate" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keypad_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Medium</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_set_level_txt_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_card_controls_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>215,221,235</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_card_controls_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_card_controls_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>90,90,90</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+			<Font id="var_font_keep_looking_button_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keep_looking_button_selected" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_yes_button_disabled_1" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>90,90,90</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_trailer_calibrating_txt">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+			<LineSpacing>-8</LineSpacing>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_options_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlignV>2</TextAlignV>
+			<TextAlignH>0</TextAlignH>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_options_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlignV>2</TextAlignV>
+			<TextAlignH>0</TextAlignH>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_edit_txt_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_edit_txt_disabled" skinid="skin_font_disabled">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_change_selection_pressed_txt" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+        <Font id="var_font_range_distance_text" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>0</TextDirection>
+		</Font>
+		<Font id="var_font_camera_settings" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_camera_settings_disabled" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>90,90,90</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_pab_btn_normal" skinid="skin_font_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+			<LineSpacing>-8</LineSpacing>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_pab_btn_pressed" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+			<LineSpacing>-8</LineSpacing>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_pab_btn_selected" skinid="skin_font_selected">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>55</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+			<LineSpacing>-8</LineSpacing>
+            <Color>255,255,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_range_reserve_text_circle" skinid="skin_font_body_content_normal">
+            <Name>GMSUIChevyCCSTGlobal-Light</Name>
+            <Size>38</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>114,148,194</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_primary_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>255,255,255</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_secondary_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>215,221,235</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_bold_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Light</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>255,255,255</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_centerlabel_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>44</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_default_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>215,221,235</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_list_default_disabled_text" skinid="skin_font_body_content_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>55</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>4</TextAlign>
+			<Color>66,66,68</Color>
+		   <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_exit_btn_txt" skinid="skin_font_exit_btn_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>59</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_wake_exit_btn_txt" skinid="skin_font_exit_btn_normal">
+			<Name>GMSUIChevyCCSTGlobal-Regular</Name>
+			<Size>59</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>181,204,220</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_see_more_controls_txt" skinid="skin_font_pressed">
+            <Name>GMSUIChevyCCSTGlobal-Regular</Name>
+            <Size>44</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+    </Variables>
+</GMXML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_vehicle_knob_view</ViewID>
+            <Location>
+                <LocationX>700</LocationX>
+                <LocationY>2000</LocationY>
+            </Location>
+            <Size>
+                <SizeW>610</SizeW>
+                <SizeH>570</SizeH> 
+            </Size>
+            <ZOrder>6</ZOrder>
+            <Screen load="ics_vehicle_knob"/>
+        </View>
+    </Display>
+</GMXML>

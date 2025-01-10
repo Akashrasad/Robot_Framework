@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6062</ScreenID>
+                <Name>ics_virtualcontrols_hmi_factory_reset_confirmation</Name>
+				<ImageWidget var="img_notification_ivi_bg">
+                    <ID>img_notification_ivi_bg</ID>
+                </ImageWidget>
+				<LabelWidget var="notification_ivi_2lines_txt">
+                    <ID>virtualcontrols_factory_reset_are_you_sure_csm</ID>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_img_yes_btn</ID>
+					<Location>
+						<LocationX>1700</LocationX>
+						<LocationY>62</LocationY>
+					</Location>
+					<Size>
+						<SizeW>458</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_yes_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>458</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_normal_URL">11/btn_primary_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_focused_URL">11/btn_primary_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_primary_btn_pressed_URL">11/btn_primary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_btn_disabled_URL">11/btn_primary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_factory_reset_yes_csm</ID>
+						<Font var="var_font_test_btn_txt_normal"/>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>31</LocationY>
+						</Location>
+						<Size>
+							<SizeW>458</SizeW>
+							<SizeH>56</SizeH>
+						</Size>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_RTOS_Inprogress</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_no_btn</ID>
+					<Location>
+						<LocationX>2300</LocationX>
+						<LocationY>62</LocationY>
+					</Location>
+					<Size>
+						<SizeW>458</SizeW>
+						<SizeH>119</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_no_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>458</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<NormalURL compression="CompressionAlias1" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_secondary_btn_normal_URL">11/btn_secondary_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_secondary_btn_focused_URL">11/btn_secondary_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_secondary_btn_pressed_URL">11/btn_secondary_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="CompressionAlias1" skinid="skin_btn_disabled_URL">11/btn_secondary_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>3</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_factory_reset_no_csm</ID>
+						<Font var="var_font_test_btn_txt_normal"/>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>31</LocationY>
+						</Location>
+						<Size>
+							<SizeW>458</SizeW>
+							<SizeH>56</SizeH>
+						</Size>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_HMI_Factory_Reset</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCW</ConsumeUserInput>
+                <ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+			</Screen>
+        </View>
+    </Display>
+</GMXML>

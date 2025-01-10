@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+           <ViewID>ics_vc_poweroutlets_snackbar_view</ViewID>
+            <Size>
+                <SizeW>1545</SizeW>
+                <SizeH>177</SizeH>
+            </Size>
+            <Location>
+                <LocationX>239</LocationX>
+                <LocationY>741</LocationY>
+            </Location>
+             <ZOrder>6</ZOrder>
+            <Screen load="ics_virtualcontrols_start_screen_tdl_set_thinking_snackbar"/>
+            <Screen load="ics_virtualcontrols_peek_in_screen_time_added_snackbar"/>
+			<Screen load="ics_virtualcontrols_outlets_dwl"/>
+			<Screen load="ics_virtualcontrols_service_needed_fault"/>
+        </View>
+    </Display>
+</GMXML>

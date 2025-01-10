@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6047</ScreenID>
+                <Name>ics_virtualcontrols_traction_control_unavailable_snackbar</Name>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin"/>
+                    <Size var="var_size_snack_bar_2lines"/>
+                    <NormalURL>11/img_notification_2lines_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evI_VC_Discard_Notification</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_3_3_selectionUnavailable_csm</ID>
+                    <Font var="var_font_snackbar_txt"/>
+                    <Location var="var_loc_snackbar_txt_2lines"/>
+                    <Size var="var_size_snackbar_txt_2lines"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6136</ScreenID>
+				<Name>ics_virtual_controls_aux_name</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_aux_name_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_divider">
+					<ID>img_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Name_Back</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_aux_name_csm</ID>
+					<Font var="var_font_call_assistance"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_txt"/>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_text_box</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>231</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1597</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+					<NormalURL>11/img_input_text_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_8_2_G_EnterSwitchName_csm</ID>
+					<Font var="var_font_aux_edit"/>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>217</LocationX>
+						<LocationY>342</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1597</SizeW>
+						<SizeH>50</SizeH>
+					</Size>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<EditTextWidget>
+					<ID>dyn_lbl_aux_edit1</ID>
+					<Location>
+						<LocationX>237</LocationX>
+						<LocationY>243</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1560</SizeW>
+						<SizeH>72</SizeH>
+					</Size>
+					<Font var="var_font_title"/>
+					<Cursor>
+						<CursorURL>11/cursor_transparent.png</CursorURL>
+						<Size>
+							<SizeW>3</SizeW>
+							<SizeH>71</SizeH>
+						</Size>
+					</Cursor>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</EditTextWidget>
+				<ImageWidget>
+                    <ID>img_text_transparent_box</ID>
+                    <Location>
+						<LocationX>215</LocationX>
+						<LocationY>231</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1597</SizeW>
+						<SizeH>97</SizeH>
+					</Size>
+                    <NormalURL>11/img_bg_transparent.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+		    <InputWidgetMapping>
+			<UserInput>TouchPressRelease</UserInput>
+		    	<WidgetCallback>evG_EditText</WidgetCallback>
+		    </InputWidgetMapping>
+                </ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

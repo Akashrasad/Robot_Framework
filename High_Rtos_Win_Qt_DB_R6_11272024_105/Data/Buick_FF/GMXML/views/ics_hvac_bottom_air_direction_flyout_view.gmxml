@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_air_direction_flyout_view</ViewID>
+            <Size>
+                <SizeW>1069</SizeW>
+                <SizeH>725</SizeH>
+            </Size>
+            <Location>
+                <LocationX>4337</LocationX>
+                <LocationY>91</LocationY>
+            </Location>
+            <ZOrder>8</ZOrder> 
+            <Screen load="ics_hvac_bottom_bar_air_direction_flyout"/>
+        </View>
+    </Display>
+</GMXML>

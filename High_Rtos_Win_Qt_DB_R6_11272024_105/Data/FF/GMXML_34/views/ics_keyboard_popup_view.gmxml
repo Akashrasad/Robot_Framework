@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_keyboard_popup_view</ViewID>
+            <Location>
+                <LocationX>418</LocationX>
+                <LocationY>457</LocationY>
+            </Location>
+            <CustomLocation>
+				<LocationX>5010</LocationX>
+				<LocationY>0</LocationY>
+			</CustomLocation>
+            <Size>
+                <SizeW>2164</SizeW>
+                <SizeH>821</SizeH>
+            </Size>
+            <ZOrder>6</ZOrder>
+            <Keyboard>
+                <Screen load="ics_highmid_keyboard_alphabet_key1_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key2_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key3_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key4_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key5_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key6_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key7_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key8_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key9_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key10_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key11_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key12_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key23_popup"/>
+                <Screen load="ics_highmid_keyboard_alphabet_key26_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key1_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key2_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key3_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key4_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key5_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key7_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key10_popup"/> 
+                <Screen load="ics_highmid_keyboard_numeric_key14_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key16_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key17_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key18_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key19_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key21_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key22_popup"/>
+                <Screen load="ics_highmid_keyboard_numeric_key27_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key2_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key4_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key6_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key9_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key13_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key15_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key16_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key17_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key24_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key25_popup"/>
+                <Screen load="ics_highmid_keyboard_symbol_key32_popup"/>
+                <Screen load="ics_keyboard_popup_screen"/>
+                <!--Spanish Screens -->
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key1_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key2_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key3_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key4_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key5_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key6_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key7_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key8_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key9_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key10_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key11_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key24_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_alphabet_key27_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key1_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key2_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key3_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key4_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key5_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key7_popup"/>
+				<Screen load="ics_highmid_spanish_keyboard_numeric_key10_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key14_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key16_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key17_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key18_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key19_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key21_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key22_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_numeric_key27_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key2_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key4_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key6_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key9_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key13_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key15_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key16_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key17_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key24_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key25_popup"/>
+                <Screen load="ics_highmid_spanish_keyboard_symbol_key32_popup"/>
+                <Screen load="ics_spanish_keyboard_popup_screen"/>
+            </Keyboard>
+        </View>
+    </Display>
+</GMXML>

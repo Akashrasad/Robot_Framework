@@ -1,0 +1,1255 @@
+{
+	"cameras": {
+		"perspective": {
+			"aspectRatio": "1.0",
+			"yfov": 45.0,
+			"zfar": 10000.0,
+			"znear": "0.1"
+		},
+		"position": [0.0, 0.0, 2.5]
+	},
+	"meshes": [
+		{
+			"name": "center knob",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.4],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "blue tick",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.1],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "yellow dial",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.2],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "needle tip",
+			"type": "rectangle",
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "outer white glow",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.39],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 1.9,
+			"height": 1.9
+		},
+		{
+			"name": "max tick",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.11],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "min tick",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.11],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 2.0,
+			"height": 2.0
+		},
+		{
+			"name": "outer blue glow",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.11],
+			"rotate": [0.0, 0.0, -45.0],
+			"width": 1.9,
+			"height": 1.9
+		},
+		{
+			"name": "icon dialer",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.5],
+			"width": 0.35,
+			"height": 0.35
+		},
+		{
+			"name": "icon mute",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.5],
+			"width": 0.35,
+			"height": 0.35
+		},
+		{
+			"name": "icon unmute",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.5],
+			"width": 0.35,
+			"height": 0.35
+		},
+		{
+			"name": "icon navigation",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.5],
+			"width": 0.35,
+			"height": 0.35
+		},
+		{
+			"name": "icon voice",
+			"type": "rectangle",
+			"translate": [0.0, 0.0, 0.5],
+			"width": 0.35,
+			"height": 0.35
+		}
+	],
+	"shaders": [{
+			"path": "shaders/knob.glsl"
+		},
+		{
+			"path": "shaders/startup_shutdown.glsl"
+		},
+		{
+			"path": "shaders/set_limit.glsl"
+		},
+		{
+			"path": "shaders/audio_progress.glsl"
+		},
+		{
+			"path": "shaders/mute.glsl"
+		},
+		{
+			"path": "shaders/swap.glsl"
+		}
+	],
+	"materials": [{
+			"shader": 0,
+			"properties": []
+		},
+		{
+			"shader": 1,
+			"properties": []
+		},
+		{
+			"shader": 2,
+			"properties": []
+		},
+		{
+			"shader": 3,
+			"properties": []
+		},
+		{
+			"shader": 4,
+			"properties": []
+		},
+		{
+			"shader": 5,
+			"properties": []
+		}
+	],
+	"materialInstances": [
+		{
+			"material": 0,
+			"mesh": 0,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/knob.png",
+					"type": "texture2d"
+				}
+			]
+		},
+		{
+			"material": 1,
+			"mesh": 1,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 1,
+			"mesh": 2,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_tip_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 1,
+			"mesh": 3,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_needle_long.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "3",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 1,
+			"mesh": 4,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/outer_white_glow.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "4",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 2,
+			"mesh": 5,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_max.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 2,
+			"mesh": 6,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_max.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 3,
+			"mesh": 1,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 3,
+			"mesh": 2,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_tip_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 3,
+			"mesh": 3,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_needle_long.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "3",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 1,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "0",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 2,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_tip_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "0",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 3,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_needle_long.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "3",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "0",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 7,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/outer_glow.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "4",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 1,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_fill_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 2,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_tip_full.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 3,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/img_knob_needle_long.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "3",
+					"type": "int"
+				},
+				{
+					"name":"u_mute",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 4,
+			"mesh": 7,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/outer_glow.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "4",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 8,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_phone_on_selected_chevy_audio_knob.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 8,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_phone_on_selected_chevy_audio_knob.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 9,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_sound_off_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 9,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_sound_off_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 10,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_sound_on_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 10,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_sound_on_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 11,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_navigation_on_selected_chevy_audio_knob.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 11,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_navigation_on_selected_chevy_audio_knob.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 12,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_voice_assistant_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "2",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"material": 5,
+			"mesh": 12,
+			"submesh": 0,
+			"properties": [
+				{
+					"name":"u_Texture",
+					"value": "textures/icn_voice_assistant_selected.png",
+					"type": "texture2d"
+				},
+				{
+					"name":"u_algo",
+					"value": "1",
+					"type": "int"
+				}
+			]
+		}
+	],
+	"buffers": [
+	{
+		"data": [0, 1000]
+	},
+	{
+		"data": [0, 1]
+	},
+	{
+		"data": [1, 1]
+	},
+	{
+		"data": [0, 140]
+	},
+	{
+		"data": [0, 20]
+	},
+	{
+		"data": [270, 0]
+	},
+	{
+		"data": [0, 270]
+	}
+	],
+	"bufferViews": [
+	{
+		"buffer": 0,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 1,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 2,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 3,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 4,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 5,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	},
+	{
+		"buffer": 6,
+		"offset": 0,
+		"length": 2,
+		"stride": 1
+	}
+	],
+	"accessors": [
+	{
+		"bufferView": 0,
+		"componentType": "int",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 1,
+		"componentType": "float",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 2,
+		"componentType": "float",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 3,
+		"componentType": "int",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 4,
+		"componentType": "int",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 5,
+		"componentType": "float",
+		"size": 2,
+		"type": "scalar"
+	},
+	{
+		"bufferView": 6,
+		"componentType": "float",
+		"size": 2,
+		"type": "scalar"
+	}
+	],
+	"animations": [{
+		"name": "startup_shutdown",
+		"samplers": [{
+				"input": 3,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [{
+						"materialInstance": 1,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 2,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 3,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 4,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "audio_progress",
+		"samplers": [{
+				"input": 0,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 7,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 8,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 9,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "mute_animation",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 10,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 11,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 12,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 13,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "unmute_animation",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 14,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 15,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 16,
+						"property": "u_needleAngle"
+					},
+					{
+						"materialInstance": 17,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Dialer_Swap_Off",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 18,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Dialer_Swap_On",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 19,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mute_Swap_Off",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 20,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mute_Swap_On",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 21,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Unmute_Swap_Off",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 22,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Unmute_Swap_On",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 23,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Navigation_Swap_Off",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 24,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Navigation_Swap_On",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 25,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Voice_Swap_Off",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 26,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Voice_Swap_On",
+		"samplers": [{
+				"input": 4,
+				"interpolation": "LINEAR",
+				"output": 1
+			}
+		],
+		"channels": [{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 27,
+						"property": "u_swapScale"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "SetMaxLimit",
+		"samplers": [{
+				"input": 0,
+				"interpolation": "LINEAR",
+				"output": 1
+			},
+			{
+				"input": 0,
+				"interpolation": "LINEAR",
+				"output": 6
+			}
+		],
+		"channels": [{
+				"sampler": 1,
+				"targets": [{
+						"materialInstance": 1,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 2,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 3,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 4,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 7,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 8,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 9,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 10,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 11,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 12,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 13,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 14,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 15,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 16,
+						"property": "u_endAngle"
+					},
+					{
+						"materialInstance": 17,
+						"property": "u_endAngle"
+					}
+				]
+			},
+			{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 5,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "SetMinLimit",
+		"samplers": [{
+				"input": 0,
+				"interpolation": "LINEAR",
+				"output": 1
+			},
+			{
+				"input": 0,
+				"interpolation": "LINEAR",
+				"output": 5
+			}
+		],
+		"channels": [{
+			"sampler": 1,
+			"targets": [
+					{
+						"materialInstance": 1,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 2,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 3,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 4,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 7,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 8,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 9,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 10,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 11,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 12,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 13,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 14,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 15,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 16,
+						"property": "u_startAngle"
+					},
+					{
+						"materialInstance": 17,
+						"property": "u_startAngle"
+					}
+				]
+			},
+			{
+				"sampler": 0,
+				"targets": [
+					{
+						"materialInstance": 6,
+						"property": "u_needleAngle"
+					}
+				]
+			}
+		]
+	}
+	]
+}

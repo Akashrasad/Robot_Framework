@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6098</ScreenID>
+				<Name>ics_virtualcontrols_passive_power_mode_extend_snackbar</Name>
+				<ImageWidget var="img_3line_dialog_bg">
+					<ID>img_notification_bg</ID>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_7_V_ExtendSnackbar_csm</ID>
+					<Font var="var_font_snackbar_txt">
+					<TextAlign>4</TextAlign>
+					</Font>
+					<Location>
+						<LocationX>58</LocationX>
+						<LocationY>50</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1128</SizeW>
+						<SizeH>233</SizeH>
+					</Size>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<GroupWidget>
+					<ID>grp_dismiss_btn</ID>
+					<Location>
+						<LocationX>1215</LocationX>
+						<LocationY>94</LocationY>
+					</Location>
+					<Size>
+						<SizeW>427</SizeW>
+						<SizeH>125</SizeH>
+					</Size>
+					<ZOrder>2</ZOrder>
+					<ImageElements>
+						<ID>img_dismiss_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>427</SizeW>
+							<SizeH>125</SizeH>
+						</Size>
+						<ZOrder>3</ZOrder>
+						<NormalURL compression="NONE">11/btn_tertiary_bg_normal.png</NormalURL>
+						<FocusURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_tertiary_bg_pressed.png</FocusURL>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<NormalURL compression="NONE">11/btn_tertiary_bg_normal.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<NormalURL compression="NONE" skinid="skin_primary_btn_focused_URL">11/btn_tertiary_bg_focused.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<NormalURL compression="NONE" skinid="skin_primary_btn_pressed_URL">11/btn_tertiary_bg_pressed.png</NormalURL>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>3</DataValue>
+							<NormalURL compression="NONE">11/btn_tertiary_bg_disabled.png</NormalURL>
+						</SelectorState>
+						<Alpha>100</Alpha>
+					</ImageElements>
+					<LabelElements>
+						<ID>virtualcontrols_1_7_V_ExtendSnackbarDismiss_csm</ID>
+						<Font var="var_font_park_left_perp_label"/>
+						<FocusFont var="var_font_btn_txt_focused"/>
+						<TextWrap>1</TextWrap>
+						<Location var="var_loc_orgin"/>
+						<Size>
+							<SizeW>427</SizeW>
+							<SizeH>125</SizeH>
+						</Size>
+						<ZOrder>4</ZOrder>
+						<Alpha>100</Alpha>
+					</LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+                  <ID>img_dismiss_mfc</ID>
+                 <TabOrder>
+                  <TabV>1</TabV>
+                  <TabH>1</TabH>
+                 </TabOrder>
+               	   <Location>
+				     <LocationX>1215</LocationX>
+					 <LocationY>94</LocationY>
+					</Location>
+					<Size>
+						<SizeW>427</SizeW>
+						<SizeH>125</SizeH>
+					</Size>
+                   <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                   <FocusURL compression="NONE" skinid="skin_primary_btn_focused_URL">11/btn_tertiary_bg_focused.png</FocusURL>
+			       <InputWidgetMapping>
+						<UserInput>RotarySelectReleased</UserInput>
+						<WidgetCallback>evG_PPM_Extended_Dismiss_Button</WidgetCallback>
+				  </InputWidgetMapping>
+              </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotarySelectReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Enter_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

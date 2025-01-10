@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Variables>
+        <Font id="var_font_title">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>204,204,204</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_perp_right_instr_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+            <Color>255,255,255</Color>
+        </Font>
+        <Font id="var_font_park_left_perp_label_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_park_left_perp_label_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_park_left_perp_label_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_park_left_perp_label_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>56,56,56</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_snackbar_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_yes_button_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>127,127,127</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_keep_looking_button_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>127,127,127</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_camera_view_dynamic_messaging">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>56,56,56</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<!-- VC -->
+	<Font id="var_font_dailg_yes_button">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_dialog_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_learn_success_test_body_content">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_call_assistance">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_universal_remotes_desc">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+		<Font id="var_font_see_more_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_checkbox_text">
+            <Name>HondaGUI-Light</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+	<Font id="var_font_checkbox_text_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_options_desc">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>			
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>175,180,191</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_off_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_off_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_txt_noraml">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_txt_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_card_controls_doors_windows_placeholder_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+        <Font id="var_font_home_screen_icon_txt_noraml">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_home_screen_icon_txt_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_test_btn_txt_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_test_btn_txt_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+	<Font id="var_font_notification_dialog_text_secondary">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_single_line_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>28</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>0</TextDirection>
+        </Font>
+        <Font id="var_font_head_up_display_desc_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_head_up_display_desc_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>127,127,127</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_home_screen_icon_txt_disabled">
+            <Name>HondaGUI-Light</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>56,56,56</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_btn_tab_one_normal">
+            <Name>HondaGUI-Light</Name>
+            <Size>59</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>143,161,174</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_home_screen_icons_txt">
+            <Name>HondaGUI-Light</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_primary_text_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_primary_text_warning">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,55</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_secondary_text_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_secondary_text_warning">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,55</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_secondary_text_warning_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,55</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_secondary_text_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_label_a_text_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_label_a_text_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_subtitle">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_dyn_list_center_label">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_options_name">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_vc_options_name_characters_left">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_park_exit_space_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <TextDirection>1</TextDirection>
+            <Color>255,255,255</Color>
+        </Font>
+		<Font id="var_font_park_exit_space_txt_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>1</TextAlign>
+            <Color>56,56,56</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_exit_btn_txt_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_exit_btn_txt_focused">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_exit_btn_txt_pressed">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_primary_button_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_secondary_button_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_secondary_label_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_Quick_Controls_label_txt_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_timer_txt">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>114,148,194</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_timerheader">
+            <Name>HondaGUI-Regular</Name>
+            <Size>64</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_program_body_content">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_summary_option_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>116,140,197</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_peek_in_screen_circle_body_secondary_text">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>116,140,197</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_peek_in_screen_circle_progressbar_oulets_text">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>114,148,194</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_peek_in_screen_circle_progressbar_powerlimit_text">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>215,221,235</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_smart_controls">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>204,204,204</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_smart_controls_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_diabled_default_hours">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_diabled_focused_hours">
+            <Name>HondaGUI-Light</Name>
+            <Size>64</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>80,80,80</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_rangeReserve_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_rangeUsedNumber_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>237,33,35</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_cancel_btn">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_list_hours_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>64</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>127,127,127</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_disabled_hours">
+            <Name>HondaGUI-Regular</Name>
+            <Size>64</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>80,80,80</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_timer_ending_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>175,180,191</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_headlight_pop_up_normal">
+            <Name>HondaGUI-Light</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_headlight_pop_up_focused">
+            <Name>HondaGUI-Light</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_radio_btn_off_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>80,80,80</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_vc">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_aux_switches">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>175,180,191</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_aux_edit">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>175,180,191</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keyboard_char">
+            <Name>HondaGUI-Light</Name>
+			<Size>54</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>175,180,191</Color>
+		    <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_keyboard_num">
+            <Name>HondaGUI-Regular</Name>
+			<Size>37</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+			<Color>116,140,197</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_primary_button_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_title_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>64</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_exit_btn_txt">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>175,180,191</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_change_selection_txt">
+            <Name>HondaGUI-Light</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>204,204,204</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_keypad_disable">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>0,0,0</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_change_selection_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>204,204,204</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_toomanyattempts">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_head_up_display_body">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>127,127,127</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_notification_dialog_checkbox_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_dialog_text_d_mode">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_test_btn_txt_pressed">
+            <Name>HondaGUI-Regular</Name>
+             <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		 <Font id="var_font_test_btn_txt_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>127,127,127</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_focused">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_btn_txt_secondary_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>127,127,127</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_list_primary_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_Quick_Controls_label_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>204,204,204</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_power_limit_number">
+            <Name>HondaGUI-Light</Name>
+            <Size>86</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>175,180,191</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_off_normal_align">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+        <Font id="var_font_radio_btn_off_focused_align">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_para_right">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-4</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_progress_activity_text">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+			<TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_factory_reset_progress">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_factory_recovery_mode">
+            <Name>HondaGUI-Regular</Name>
+            <Size>31</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>4</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_emergency_detected_txt">
+            <Name>HondaGUI-Regular</Name>
+			<Size>86</Size>
+			<Decoration>0</Decoration>
+			<TextAlign>0</TextAlign>
+			<Color>237,33,35</Color>
+			<TextDirection>1</TextDirection>
+		</Font>
+		<Font id="var_font_hud_control_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>37</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>181,181,181</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+	    <Font id="var_font_head_up_display_desc_txt_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_perp_instr_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+            <Color>255,255,255</Color>
+        </Font>
+		<Font id="var_font_keypad_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_selection_drawer_label_2">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>204,204,204</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_card_controls_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+		<Font id="var_font_card_controls_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>204,204,204</Color>
+            <TextDirection>1</TextDirection>
+			<LineSpacing>-8</LineSpacing>
+        </Font>
+		<Font id="var_font_card_controls_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>3</TextAlign>
+            <Color>127,127,127</Color>
+			<LineSpacing>-12</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_teritary_button_normal">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_teritary_button_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_primary_button_selected">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_dyn_list_secondary_text_warning">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_vc_options_name_disabled">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>34,34,34</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_close_btn_txt">
+            <Name>HondaGUI-Light</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>2</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_apa_secondary_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_vc_options_name_pressed">
+            <Name>HondaGUI-Regular</Name>
+            <Size>53</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_apa_primary_txt">
+            <Name>HondaGUI-Regular</Name>
+            <Size>54</Size>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+            <TextDirection>1</TextDirection>
+        </Font>
+		<Font id="var_font_program_body_content_1">
+            <Name>HondaGUI-Regular</Name>
+            <Size>43</Size>
+            <Decoration>0</Decoration>
+            <TextAlign>0</TextAlign>
+            <Color>255,255,255</Color>
+			<LineSpacing>-8</LineSpacing>
+            <TextDirection>1</TextDirection>
+        </Font>
+    </Variables>
+</GMXML>

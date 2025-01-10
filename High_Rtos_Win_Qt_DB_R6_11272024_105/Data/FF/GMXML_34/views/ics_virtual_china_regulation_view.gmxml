@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_virtual_china_regulation_view</ViewID>
+            <Size>
+                <SizeW>192</SizeW>
+                <SizeH>162</SizeH>
+            </Size>
+            <CustomLocation>
+                <LocationX>4537</LocationX>
+                <LocationY>1137</LocationY>
+            </CustomLocation>
+			<Location>
+				<LocationX>1951</LocationX>
+				<LocationY>1137</LocationY>
+			</Location>
+			<ZOrder>3</ZOrder>
+            <Screen load="ics_virtualoff_china_regulation"/>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_dev_bottom_view</ViewID>
+            <Size>
+                <SizeW>6008</SizeW>
+                <SizeH>934</SizeH>
+            </Size>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>0</LocationY>
+            </Location>
+            <ZOrder>-1</ZOrder>
+            <Screen load="ics_development_home"/>
+        </View>
+    </Display>
+</GMXML>

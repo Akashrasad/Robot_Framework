@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6087</ScreenID>
+                <Name>ics_virtualcontrols_program_ur_mode_dialog</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_program_ur_mode_dialog_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<ImageWidget var="var_img_top_bar_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Handheld_Mode</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget var="var_action_bar_text_vc">
+					<ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_3_ugdo_urmode_csm</ID>
+					<Font var="var_font_dialog_text_d_mode"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_learn_success_test_body_content"/>
+                    <Size var="var_size_d_mode_primary_txt"/> 
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_5_1_3_ugdo_dmode_info_csm</ID>
+					<Font var="var_font_notification_dialog_secondary_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_notification_dialog_secondary_text"/>
+					<Size var="var_size_notification_dialog_secondary_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+                    <ID>img_UGDO_checkbox</ID>
+                    <Location var="var_loc_notification_dialog_check_box"/>
+                    <Size var="var_size_icn_close"/>
+                    <NormalURL compression = "CompressionAlias3">11/icn_sqaure.png</NormalURL>
+                    <FocusURL>11/icn_tick.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/icn_sqaure.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3">11/icn_tick.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Remote_Learn</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+                </ImageWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_0_3_G_URModeCheckBox_csm</ID>
+                    <Font var="var_font_radio_btn_off_normal"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_notification_dialog_check_box_txt"/>
+                    <Size var="var_size_notification_dialog_check_box_txt"/> 
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

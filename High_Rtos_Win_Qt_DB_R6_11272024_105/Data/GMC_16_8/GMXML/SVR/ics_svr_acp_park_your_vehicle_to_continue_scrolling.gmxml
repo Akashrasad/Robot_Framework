@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_svr_acp_park_your_vehicle_to_continue_scrolling</ScreenID>
+                <Name>ics_svr_acp_park_your_vehicle_to_continue_scrolling</Name>
+                <ImageWidget var="var_snackbar_1line_bg">
+                    <ID>img_notification_bg</ID>
+                </ImageWidget>
+                <LabelWidget var="var_snackbar_1line_txt">
+                    <ID>svr_5_1M_ParkFullList_csm</ID>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6137</ScreenID>
+				<Name>ics_virtual_controls_speed_limiter</Name>
+				<ImageWidget var="img_wakescreen_exit_btn">
+					<ID>img_place_holder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_speedlimiter_btn_back</ID>
+					<Location var="var_loc_actionbar_back_img"/>
+					<Size var="var_size_actionbar_back_img"/>
+					<NormalURL compression = "NONE">11/btn_icn_left_normal_small.png</NormalURL>
+					<FocusURL compression = "NONE">11/btn_icn_left_pressed_small.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Drive_Park_Back</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_3_9_f_cardSpeedLimiter_csm</ID>
+					<Font var="var_font_title_vc"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_text"/>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_close</ID>
+					<Location var="var_loc_actionbar_close_img"/>
+					<Size var="var_size_actionbar_close_img"/>
+					<NormalURL compression = "CompressionAlias1">11/btn_icn_close_normal_small.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1">11/btn_icn_close_pressed_small.png</FocusURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				<GroupWidget>
+					<ID>grp_img_launch_btn</ID>
+					<TabOrder>
+						<TabV>1</TabV>
+						<TabH>1</TabH>
+					</TabOrder>
+					<Location var="var_loc_launch_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+					<ImageElements>
+						<ID>img_launch_btn</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<NormalURL>11/btn_primary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias3">11/btn_primary_pressed.png</FocusURL>
+						<Alpha>100</Alpha>
+						<ZOrder>1</ZOrder>
+					</ImageElements>
+					<LabelElements>
+						<ID>dyn_speed_limiter_status</ID>
+						<Location var="var_loc_orgin"/>
+						<Size var="var_size_yes_button"/>
+						<Font var="var_font_primary_button_text"/>
+					    <FocusFont var="var_font_primary_button_pressed"/>
+						<SelectorState>
+							<DataValue>0</DataValue>
+							<StaticValue>virtualcontrols_1_3_0_3_ParkOff_csm</StaticValue>
+							<Font var="var_font_primary_button_text"/>
+				         	<FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>1</DataValue>
+							<StaticValue>virtualcontrols_1_3_speedLimiterManual_csm</StaticValue>
+							<Font var="var_font_primary_button_text"/>
+					        <FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<SelectorState>
+							<DataValue>2</DataValue>
+							<StaticValue>virtualcontrols_1_4_0_1_dome_auto_csm</StaticValue>
+							<Font var="var_font_primary_button_text"/>
+					        <FocusFont var="var_font_primary_button_pressed"/>
+						</SelectorState>
+						<Alpha>100</Alpha>
+						<ZOrder>4</ZOrder>
+					</LabelElements>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_SpeedLimiter_Open</WidgetCallback>
+					</InputWidgetMapping>
+				</GroupWidget>
+				<ImageWidget>
+					<ID>img_controls_icn_speed_limiter</ID>
+					<Location var="var_loc_icon"/>
+					<Size var="var_size_icn_image"/>
+					<NormalURL compression="CompressionAlias3">11/icn_speed_limiter_normal.png</NormalURL>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_3_speedLimiterSelectManual_csm</ID>
+					<Location var="var_loc_radio_btn_desc_txt"/>
+					<Size var="var_size_radio_btn_desc_txt"/>
+					<Font var="var_font_universal_remotes_desc"/>
+					<TextWrap>1</TextWrap>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_0_0_detailsUnavailable_csm</ID>
+					<Location var="var_loc_radio_btn_desc_txt_FF"/>
+					<Size var="var_size_radio_btn_desc_txt"/>
+					<Font var="var_font_universal_remotes_desc"/>
+					<Alpha>0</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

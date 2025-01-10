@@ -1,0 +1,82 @@
+#include "GeneratedCode.h"
+
+#include "DataPool.h"
+#include "LangTable.cpp"
+#include "Mfc_Datapool.h"
+#include "RTOS_CustomDataPool.h"
+#include "RTOS_InternalData.h"
+#include "RTOS_LocalDataPool.h"
+#include "Screen_6001.cpp"
+#include "Screen_6004.cpp"
+#include "Screen_6005.cpp"
+#include "Screen_6006.cpp"
+#include "Screen_6007.cpp"
+#include "Screen_6008.cpp"
+#include "Screen_6009.cpp"
+#include "Screen_6012.cpp"
+#include "Screen_6013.cpp"
+#include "Screen_6014.cpp"
+#include "Screen_6015.cpp"
+#include "Screen_6016.cpp"
+#include "Screen_6017.cpp"
+#include "Screen_6019.cpp"
+#include "Screen_6020.cpp"
+#include "Screen_6021.cpp"
+#include "Screen_6022.cpp"
+#include "Screen_6023.cpp"
+#include "Screen_6024.cpp"
+#include "Screen_6025.cpp"
+#include "Screen_6026.cpp"
+#include "Screen_6027.cpp"
+#include "Screen_6028.cpp"
+#include "Screen_6029.cpp"
+#include "Screen_6030.cpp"
+#include "Screen_6031.cpp"
+#include "Screen_6032.cpp"
+#include "Screen_6033.cpp"
+#include "Screen_6035.cpp"
+#include "Screen_6041.cpp"
+#include "Screen_6074.cpp"
+#include "Screen_6500.cpp"
+#include "Screen_7001.cpp"
+#include "Screen_7007.cpp"
+#include "Screen_7008.cpp"
+#include "Screen_7009.cpp"
+#include "Screen_7010.cpp"
+#include "Screen_7011.cpp"
+#include "Screen_7013.cpp"
+#include "Screen_7014.cpp"
+#include "Screen_7015.cpp"
+#include "Screen_7024.cpp"
+#include "Screen_7026.cpp"
+#include "Screen_7027.cpp"
+#include "Screen_7028.cpp"
+#include "Screen_7029.cpp"
+#include "Screen_7030.cpp"
+#include "Screen_7031.cpp"
+#include "Screen_8001.cpp"
+#include "Screen_8002.cpp"
+#include "Screen_8003.cpp"
+#include "Screen_8008.cpp"
+#include "Screen_8010.cpp"
+#include "Screen_8012.cpp"
+#include "Screen_8013.cpp"
+#include "Screen_8014.cpp"
+#include "Screen_8015.cpp"
+#include "Screen_8016.cpp"
+#include "WidgetData.h"
+#include "WidgetProperties.h"
+
+namespace gm
+{
+namespace csm
+{
+
+
+ScreenBindings::ScreenBindings()
+{
+}
+
+
+}//namespace csm
+}//namespace gm

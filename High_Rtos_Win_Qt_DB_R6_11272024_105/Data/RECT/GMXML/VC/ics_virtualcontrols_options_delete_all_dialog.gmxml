@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6044</ScreenID>
+                <Name>ics_virtualcontrols_options_delete_all_dialog</Name>
+				<DialogDismiss callback = "evI_VC_Discard_Notification" zorder="1"/>
+                <ImageWidget>
+                    <ID>img_notification_bg</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_2line_dialog_bg"/>
+                    <NormalURL compression = "NONE">11/img_notification_dialog_bg.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>dummy_event</WidgetCallback>
+					</InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_3_1_UGDOClear_csm</ID>
+                    <Font var="var_font_dialog_text"/>
+					<TextWrap>1</TextWrap>
+                    <Location var="var_loc_2lines_dialog1_text"/>
+                    <Size var="var_size_2lines_dialog_text"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<LabelWidget>
+                    <ID>virtualcontrols_1_5_3_1_UGDOClear1_csm</ID>
+                    <Font var="var_font_snackbar_text"/>
+					<TextWrap>1</TextWrap>
+                    <Location var="var_loc_2lines_dialog_text"/>
+                    <Size var="var_size_dialog_1428"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg1</ID>
+					<Location var="var_loc_2line_2btn_dialog"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg1</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression="CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_normal.png</NormalURL>
+					    <FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_selected.png</NormalURL>
+					    <FocusURL compression = "CompressionAlias1">11/btn_primary_pressed.png</FocusURL>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1">11/btn_primary_disabled.png</NormalURL>
+                        <FocusURL/>
+                    </SelectorState>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_5_3_5_btnUGDODeleteAll_csm</ID>
+					<Location var= "var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Font var="var_font_primary_button_normal"/>
+					<FocusFont var="var_font_primary_button_pressed"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_primary_button_normal"/>
+                        <FocusFont var="var_font_primary_button_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_primary_button_selected"/>
+                        <FocusFont var="var_font_primary_button_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_primary_button_disabled"/>
+                        <FocusFont var="var_font_primary_button_disabled"/>
+                    </SelectorState>
+                    <TextWrap>1</TextWrap>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Erase_All_Remotes</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<GroupWidget>
+					<ID>grp_img_btn_bg2</ID>
+					<Location var="var_loc_2line_2btn_dialog_2nd_btn"/>
+					<Size var="var_size_yes_button"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+                <ImageElements>
+                    <ID>img_btn_bg2</ID>
+                    <Location var="var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_secondary_normal.png</NormalURL>
+						<FocusURL compression="CompressionAlias1">11/btn_secondary_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1">11/btn_secondary_normal.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1">11/btn_secondary_disabled.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression="CompressionAlias1">11/btn_secondary_pressed.png</NormalURL>
+					</SelectorState>
+                    <ZOrder>3</ZOrder>
+                </ImageElements>
+                <LabelElements>
+                    <ID>virtualcontrols_1_5_3_5_btnUGDOCancel_csm</ID>
+                    <Font var="var_font_btn_txt_secondary_normal"/>
+					<FocusFont var="var_font_btn_txt_secondary_pressed"/>
+					<SelectorState>
+                        <DataValue>0</DataValue>
+                        <Font var="var_font_btn_txt_secondary_normal"/>
+                        <FocusFont var="var_font_btn_txt_secondary_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>1</DataValue>
+                        <Font var="var_font_btn_txt_secondary_focused"/>
+                        <FocusFont var="var_font_btn_txt_secondary_pressed"/>
+                    </SelectorState>
+					<SelectorState>
+                        <DataValue>2</DataValue>
+                        <Font var="var_font_btn_txt_secondary_disabled"/>
+                        <FocusFont var="var_font_btn_txt_secondary_disabled"/>
+                    </SelectorState>
+                    <TextWrap>1</TextWrap>
+                    <Location var = "var_loc_orgin_0_0"/>
+                    <Size var="var_size_yes_button"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                </LabelElements>
+						<InputWidgetMapping>
+							<UserInput>TouchPressRelease</UserInput>
+							<WidgetCallback>evG_Remotes_Cancel</WidgetCallback>
+						</InputWidgetMapping>
+						<ScaleAnchor>Center</ScaleAnchor>
+						<BehaviorState var="var_behavior_animation_interpolation"/>
+						<BehaviorState var="var_behavior_state_value_1"/>
+						<BehaviorState var="var_behavior_state_value_2"/>
+				</GroupWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+                <ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

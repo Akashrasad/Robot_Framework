@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_hvac_bottom_bar_view</ViewID>
+            <Location>
+                <LocationX>0</LocationX>
+                <LocationY>1133</LocationY>
+            </Location>
+            <Size>
+                <SizeW>3400</SizeW>
+                <SizeH>167</SizeH> 
+            </Size>
+            <ZOrder>5</ZOrder>
+            <Screen load="ics_hvac_bottom_bar_dual_zone"/>
+            <Screen load="ics_hvac_bottom_bar_single_zone"/>
+        </View>
+    </Display>
+</GMXML>

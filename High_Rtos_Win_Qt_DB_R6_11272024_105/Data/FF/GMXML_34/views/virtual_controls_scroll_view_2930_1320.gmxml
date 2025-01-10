@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>virtual_controls_scroll_view_2930_1320</ViewID>
+            <ZOrder>1</ZOrder>
+            <CustomLocation>
+                <LocationX>5010</LocationX>
+                <LocationY>0</LocationY>
+            </CustomLocation>
+			<Location>
+				<LocationX>0</LocationX>
+				<LocationY>0</LocationY>
+			</Location>
+            <Size>
+                <SizeW>2909</SizeW>
+                <SizeH>866</SizeH>
+            </Size>
+			<Screen load="ics_virtual_controls_scroll_first_page"/>
+            <Screen load="ics_virtual_controls_scroll_second_page"/>
+			<Screen load="ics_virtual_controls_scroll_third_page"/>
+        </View>
+    </Display>
+</GMXML>

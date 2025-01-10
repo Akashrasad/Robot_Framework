@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMXML>
+    <Display>
+        <View>
+            <ViewID>ics_persistent_controls_view</ViewID>
+            <Location>
+                <LocationX>19</LocationX>
+                <LocationY>2053</LocationY>
+            </Location>
+            <Size>
+                <SizeW>2011</SizeW>
+                <SizeH>223</SizeH> 
+            </Size>
+            <ZOrder>3</ZOrder>
+            <Screen load="ics_persistent_smart_controls"/>
+        </View>
+    </Display>
+</GMXML>

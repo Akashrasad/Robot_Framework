@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>6032</ScreenID>
+                <Name>ics_virtualcontrols_learn</Name>
+				<ImageWidget var="img_wakescreen_exit_btn">
+					<ID>img_place_holder_WakeScreen</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+                <ImageWidget var="var_img_top_bar_back_btn">
+                    <ID>img_btn_back</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_back</WidgetCallback>
+                    </InputWidgetMapping>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <LabelWidget var="var_action_bar_text_vc">
+                    <ID>virtualcontrols_1_5_0_1_Universal_Remote_csm</ID>
+                </LabelWidget>
+                <ImageWidget var="img_exit_btn">
+                    <ID>img_learn_close</ID>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Home</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>virtualcontrols_1_5_0_4_ugdo_learn_csm</ID>
+                    <Font var="var_font_learn_success_test"/>
+                    <TextWrap>1</TextWrap>
+                    <Location var="var_loc_learn_success_test_body_content"/>
+                    <Size var="var_size_learn_success_test_body_content_2"/>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+				<GroupWidget>
+					<ID>grp_test_btn</ID>
+					<Location var="var_loc_test_btn"/>
+                    <Size var="var_size_test_btn"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<ImageElements var="var_img_primary_btn">
+						<ID>img_test_popup</ID>
+					</ImageElements>
+					<LabelElements var="var_primary_btn_txt">
+						<ID>virtualcontrols_1_5_0_2_ugdo_test_csm</ID>
+					</LabelElements>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Remote_test</WidgetCallback>
+                    </InputWidgetMapping>
+				</GroupWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>
+

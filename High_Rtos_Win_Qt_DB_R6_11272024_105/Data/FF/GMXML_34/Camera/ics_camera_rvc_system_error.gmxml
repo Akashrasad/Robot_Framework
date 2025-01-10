@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>8008</ScreenID>
+                <Name>ics_camera_rvc_system_error</Name>
+				<ImageWidget var="img_bg_black">
+                    <ID>img_bg_black</ID>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_cameraerror</ID>
+					<Location var="var_loc_img_camera_error_icon"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+                    <Location>
+							<LocationX>3703</LocationX>
+							<LocationY>903</LocationY>
+                    </Location>
+					</LayoutOverride>
+					<Size var="var_size_img_camera_error_img"/>
+                    <NormalURL compression = "CompressionAlias10" skinid="skin_camera_URL">11/icn_camera.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_camera_error_icn</ID>
+					<Location var="var_loc_img_camera_error_icon"/>
+					<LayoutOverride>
+						<ID>RHD</ID>
+                    <Location>
+							<LocationX>3703</LocationX>
+							<LocationY>903</LocationY>
+                    </Location>
+					</LayoutOverride>
+					<Size var="var_size_img_camera_error_img"/>
+                    <NormalURL compression = "CompressionAlias10" skinid="skin_camera_error_URL">11/icn_error_circle.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>               
+				<ImageWidget var="img_exit_btn_camera_apa">
+					<ID>img_exit_camera</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				 <LabelWidget var="exit_btn_txt_apa_cam">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+			    </LabelWidget>
+				<ImageWidget var="img_exit_btn_camera_apa_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<InputScreenMap>
+                    <UserInput>RotaryUpReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Up_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryDownReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Down_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryRightReleased</UserInput>
+                    <FocusInput>4</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Right_Press</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryLeftReleased</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_Left_Press</FocusCallbackStr>
+                </InputScreenMap>
+				<InputScreenMap>
+                    <UserInput>RotaryCW</UserInput>
+                    <FocusInput>3</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+                <InputScreenMap>
+                    <UserInput>RotaryCCW</UserInput>
+                    <FocusInput>2</FocusInput>
+                    <FocusCallbackStr>evG_MFC_CCW_Rotation</FocusCallbackStr>
+                </InputScreenMap>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

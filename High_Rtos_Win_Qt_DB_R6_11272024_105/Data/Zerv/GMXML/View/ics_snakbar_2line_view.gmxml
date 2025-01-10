@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<ViewID>ics_snakbar_2line_view</ViewID>
+			<Size>
+				<SizeW>2082</SizeW>
+				<SizeH>322</SizeH>
+			</Size>
+			<Location>
+				<LocationX>587</LocationX>
+				<LocationY>616</LocationY>
+			</Location>
+			<ZOrder>8</ZOrder>
+			<CAMERA>
+				<Screen load="ics_saftey_camera_feature_unavailable"/>				
+			</CAMERA>
+		</View>
+	</Display>
+</GMXML>

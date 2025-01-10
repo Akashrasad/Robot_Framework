@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <View>
+            <Screen>
+                <ScreenID>ics_camera_bowl_touch</ScreenID>
+                <Name>ics_camera_bowl_touch</Name>
+                <ImageWidget> 
+                    <ID>img_bg_black</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>3950</SizeW>
+                        <SizeH>1320</SizeH>
+                    </Size>
+                    <NormalURL compression = "NONE">11/img_background.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_tabs_camera_front</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>90</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias3" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias3" skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_normal_URL">11/btn_tabs_camera_front_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias4" skinid="skin_camera_focused_URL">11/btn_tabs_camera_front_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_front_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_tabs_camera_front_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_front_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_tabs_camera_rear</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>271</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias3" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias6" skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_normal_URL">11/btn_tabs_camera_rear_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias6" skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias6" skinid="skin_camera_focused_URL">11/btn_tabs_camera_rear_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_rear_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_selected_URL">11/btn_tabs_camera_rear_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_rear_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_tabs_camera_bowl</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>452</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_bowl_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_bowl_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_bowl_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_bowl_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_bowl_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_tabs_camera_hitch</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>633</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_hitch_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_hitch_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_tabs_camera_hitch_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_hitch_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_hitch_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_hitch_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_selected_URL">11/btn_tabs_camera_hitch_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_hitch_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_tabs_settings</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>814</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_tabs_camera_settings_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_settings_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_tabs_camera_settings_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_camera_settings_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_tabs_settings_focusonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_settings_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_tabs_camera_settings_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias4" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_settings_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+				<ImageWidget>
+                    <ID>img_tabs_svr</ID>
+                    <Location>
+                        <LocationX>124</LocationX>
+                        <LocationY>995</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>237</SizeW>
+                        <SizeH>181</SizeH>
+                    </Size>
+					<TabOrder>
+                      <TabV>6</TabV>
+                      <TabH>1</TabH>
+                    </TabOrder>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_tabs_camera_svr_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_icn_tabs_svr_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_tabs_camera_svr_normal.png</NormalURL>
+						<FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_icn_tabs_svr_focused.png</FocusURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_icn_tabs_svr_focused.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_icn_tabs_svr_focusedonselected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_pressed_URL">11/btn_tabs_camera_svr_pressed.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_tabs_camera_svr_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL compression = "CompressionAlias4" skinid="skin_camera_disabled_URL">11/btn_tabs_camera_svr_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                    <InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback></WidgetCallback>
+                    </InputWidgetMapping>
+					<InputWidgetMapping> 
+						<UserInput>RotarySelectReleased</UserInput> 
+						<WidgetCallback></WidgetCallback> 
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>		
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>safetysystems_2_3_touchdrag_f_csm</ID>
+                    <Location>
+                        <LocationX>399</LocationX>
+                        <LocationY>162</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>768</SizeW>
+                        <SizeH>196</SizeH>
+                    </Size>
+                    <TextWrap>1</TextWrap>
+                    <Font>
+                        <Name>GMSUICadillacGlobal-Light</Name>
+                        <Size>75</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>1</TextDirection>
+                    </Font>
+                    <Alpha>100</Alpha>
+                    <ZOrder>2</ZOrder>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_btn_camerabowldiagram</ID>
+                    <Location>
+                        <LocationX>429</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>704</SizeW>
+                        <SizeH>704</SizeH>
+                    </Size>
+                    <NormalURL skinid="skin_camera_focused_URL">11/btn_camerabowldiagram_bg_focused.png</NormalURL>
+                    <FocusURL skinid="skin_camera_normal_URL">11/btn_camerabowldiagram_bg_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL skinid="skin_camera_normal_URL">11/btn_camerabowldiagram_bg_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL skinid="skin_camera_focused_URL">11/btn_camerabowldiagram_bg_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_camerabowldiagram_circle</ID>
+                    <Location>
+                        <LocationX>429</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>704</SizeW>
+                        <SizeH>704</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_camerabowldiagram_circle_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_camerabowldiagram_circle_focused.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_normal_URL">11/btn_camerabowldiagram_circle_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_focused_URL">11/btn_camerabowldiagram_circle_focused.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_1</ID>
+                    <Location>
+                        <LocationX>696</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_2</ID>
+                    <Location>
+                        <LocationX>892</LocationX>
+                        <LocationY>508</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_3</ID>
+                    <Location>
+                        <LocationX>971</LocationX>
+                        <LocationY>681</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_4</ID>
+                    <Location>
+                        <LocationX>892</LocationX>
+                        <LocationY>847</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_5</ID>
+                    <Location>
+                        <LocationX>696</LocationX>
+                        <LocationY>952</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_6</ID>
+                    <Location>
+                        <LocationX>493</LocationX>
+                        <LocationY>847</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_7</ID>
+                    <Location>
+                        <LocationX>429</LocationX>
+                        <LocationY>681</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_btn_touchpoint_8</ID>
+                    <Location>
+                        <LocationX>493</LocationX>
+                        <LocationY>508</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>162</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    <FocusURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</FocusURL>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL compression = "CompressionAlias1" skinid="skin_camera_normal_URL">11/btn_touchpoint_normal.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL compression = "CompressionAlias2" skinid="skin_camera_selected_URL">11/btn_touchpoint_selected.png</NormalURL>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL compression = "CompressionAlias3" skinid="skin_camera_disabled_URL">11/btn_touchpoint_disabled.png</NormalURL>
+                    </SelectorState>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_vehicleplaceholder</ID>
+                    <Location>
+                        <LocationX>696</LocationX>
+                        <LocationY>644</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>162</SizeW>
+                        <SizeH>339</SizeH>
+                    </Size>
+                    <NormalURL compression = "CompressionAlias1">11/img_vehicleplaceholder.png</NormalURL>
+                    <Alpha>100</Alpha>
+                    <OnFocusCallback/>
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+               <ImageWidget var="img_exit_btn_camera_apa">
+					<ID>img_exit_camera</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Close</WidgetCallback>
+					</InputWidgetMapping>
+					<ScaleAnchor>Center</ScaleAnchor>
+					<BehaviorState var="var_behavior_animation_interpolation"/>
+					<BehaviorState var="var_behavior_state_value_1"/>
+					<BehaviorState var="var_behavior_state_value_2"/>
+				</ImageWidget>
+				 <LabelWidget var="exit_btn_txt_apa_cam">
+					<ID>virtualcontrols_1_1_exitBtn_csm</ID>
+			    </LabelWidget>
+				<ImageWidget var="img_exit_btn_camera_apa_mfc">
+                    <ID>img_exit_btn_mfc_camera</ID>
+					<TabOrder>
+						 <TabV>2</TabV>
+						 <TabH>1</TabH>
+			       </TabOrder>
+				<InputWidgetMapping>
+			      <UserInput>RotarySelectReleased</UserInput>
+			     <WidgetCallback>evG_Close</WidgetCallback>
+			   </InputWidgetMapping>
+                </ImageWidget>
+				<ConsumeUserInput>RotaryUpReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryDownReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryRightReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryLeftReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotarySelectReleased</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCW</ConsumeUserInput>
+				<ConsumeUserInput>RotaryCCW</ConsumeUserInput>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

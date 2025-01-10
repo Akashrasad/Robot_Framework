@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6075</ScreenID>
+				<Name>ics_virtualcontrols_universal_remotes_multiple</Name>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOUnivRemote_csm</ID>
+					<Font var="var_font_learn_success_test_body_content_UniRemote"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_dialog_text_1"/>
+					<Size var="var_size_universal_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOTransmit_csm</ID>
+					<Font var="var_font_learn_success_test_body_content_UniRemote"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_Transmit_text"/>
+					<Size var="var_size_universal_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>3</ZOrder>
+				</LabelWidget>
+				<!--<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOMultiple1_csm</ID>
+					<Font var="var_font_secondary_button_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_notification_dialog_left_text"/>
+					<Size var="var_size_notification_dialog_left_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOMultiple3_csm</ID>
+					<Font var="var_font_secondary_button_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_notification_dialog_right_text"/>
+					<Size var="var_size_notification_dialog_left_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_6_7_UGDOMultiple2_csm</ID>
+					<Font var="var_font_secondary_button_txt"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_notification_dialog_lighting_text"/>
+					<Size var="var_size_notification_dialog_left_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget> -->
+				<ScrollBarWidget>
+					<ID>Scrollbar_small</ID>
+					<ListID>Scrollbar_small</ListID>
+					<Location>
+						<LocationX>22</LocationX>
+						<LocationY>42</LocationY>
+					</Location>
+					<Size>
+						<SizeW>6</SizeW>
+						<SizeH>694</SizeH>
+					</Size>
+					<Track>
+						<TrackHousing>
+							<ID>img_scrollbar_bg_small</ID>
+							<ImageWidgetID>img_scrollbar_bg_small</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>6</SizeW>
+								<SizeH>694</SizeH>
+							</Size>
+							<NormalURL>11/img_scroll_track_02_normal.png</NormalURL>
+							<FocusURL/>
+							<Alpha>100</Alpha>
+							<ZOrder>3</ZOrder>
+						</TrackHousing>
+						<ThumbHousing>
+							<ID>img_scrollbar_indicator_short</ID>
+							<ImageWidgetID>img_scrollbar_indicator_short</ImageWidgetID>
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>6</SizeW>
+								<SizeH>453</SizeH>
+							</Size>
+							<NormalURL>11/btn_scroll_thumb_02.png</NormalURL>
+							<FocusURL/>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+						</ThumbHousing>
+					</Track>
+					<ZOrder>4</ZOrder>
+				</ScrollBarWidget>
+				<ListWidget>
+					<ListID>ics_vc_universal_remotes_multiple_list</ListID>
+					<Location>
+						<LocationX>56</LocationX>
+						<LocationY>231</LocationY>
+					</Location>
+					<Size>
+						<SizeW>1456</SizeW>
+						<SizeH>518</SizeH>
+					</Size>
+					<FocusedRow>1</FocusedRow>
+					<BackgroundURL/>
+					<RowLayout>
+						<RowLayoutID>normal_layout</RowLayoutID>
+						<Size>
+							<SizeW>1456</SizeW>
+							<SizeH>119</SizeH>
+						</Size>
+						<RowSpacing>14</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL/>
+						<FocusURL/>
+						<RowSeparatorImageURL/>
+					</RowLayout>
+					<ZOrder>5</ZOrder>
+					<ElementData>
+						<LabelElements>
+							<ID>labelElement</ID>
+							<Location>
+								<LocationX>88</LocationX>
+								<LocationY>33</LocationY>
+							</Location>
+							<Size>
+								<SizeW>1279</SizeW>
+								<SizeH>56</SizeH>
+							</Size>
+							<Font var="var_font_secondary_button_txt"/>
+							<TextWrap>1</TextWrap>
+							<Alpha>100</Alpha>
+							<ZOrder>4</ZOrder>
+						</LabelElements>
+					</ElementData>
+				</ListWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6133</ScreenID>
+				<Name>ics_virtual_controls_aux_switches</Name>
+				<ImageWidget var="img_exit_btn">
+					<ID>img_aux_switches_close</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Home</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget var="img_divider">
+					<ID>img_divider</ID>
+				</ImageWidget>
+				<ImageWidget var="img_back_btn">
+					<ID>img_btn_back</ID>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_AppHome_back</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>virtualcontrols_1_8_AuxilliarySwitches_csm</ID>
+					<Font var="var_font_call_assistance"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_actionbar_text"/>
+					<Size var="var_size_actionbar_text"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_container_1</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>233</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit1</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux1</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux1_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_1</ID>
+					<Location>
+						<LocationX>1063</LocationX>
+						<LocationY>233</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit1</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_1</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>374</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_1.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_2.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_3.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_4.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_5.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_6.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_7.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_8.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_9.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>9</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_10.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>10</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_11.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>11</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_12.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>12</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_13.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>13</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_14.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>14</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_1.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>15</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_2.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>16</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_3.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>17</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_4.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>18</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_5.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>19</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_6.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>20</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_7.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>21</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_8.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>22</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_9.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>23</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_10.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>24</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_11.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>25</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_12.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>26</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_13.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>27</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_14.png</NormalURL>
+					</SelectorState>
+						<SelectorState>
+						<DataValue>28</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_15.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>29</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/icn_aux_icon_selected_16.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>30</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_1_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>31</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_2_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>32</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_3_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>33</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_4_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>34</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_5_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>35</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_6_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>36</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_7_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>37</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_8_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>38</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_9_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>39</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_10_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>40</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_11_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>41</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_12_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>42</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_13_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>43</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_14_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>44</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_15_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>45</DataValue>
+						<FocusURL skinid="skin_pressed_URL" compression = "CompressionAlias1">11/icn_aux_icon_16_pressed.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>46</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_1.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>47</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_2.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>48</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_3.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>49</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_4.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>50</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_5.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>51</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_6.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>52</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_7.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>53</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_8.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>54</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_9.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>55</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_10.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>56</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_11.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>57</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_12.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>58</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_13.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>59</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_14.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>60</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_15.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>61</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/aux_icon_16.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>62</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_1.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>63</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_2.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>64</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_3.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>65</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_4.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>66</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_5.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>67</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_6.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>68</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_7.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>69</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_8.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>70</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_9.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>71</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_10.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>72</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_11.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>73</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_12.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>74</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_13.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>75</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_14.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>76</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_15.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>77</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression = "CompressionAlias1">11/aux_icon_selected_16.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>78</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>79</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_2.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>80</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_3.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>81</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_4.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>82</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_5.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>83</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_6.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>84</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_7.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>85</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_8.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>86</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_9.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>87</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_10.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>88</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_11.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>89</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_12.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>90</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_13.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>91</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_14.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>92</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_15.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>93</DataValue>
+						<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_16.png</FocusURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>94</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_15.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>95</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression = "CompressionAlias1">11/icn_aux_icon_16.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux1_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux1_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_container_2</ID>
+					<Location>
+						<LocationX>216</LocationX>
+						<LocationY>497</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit2</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux2</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux2_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_2</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>638</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux2_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux2_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_2</ID>
+					<Location>
+						<LocationX>1063</LocationX>
+						<LocationY>497</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL  compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit2</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_container_3</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>761</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit3</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux3</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux3_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_3</ID>
+					<Location>
+						<LocationX>215</LocationX>
+						<LocationY>901</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux3_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux3_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_3</ID>
+					<Location>
+						<LocationX>1062</LocationX>
+						<LocationY>761</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit3</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_container_4</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>233</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit4</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux4</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux4_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_4</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>374</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux4_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux4_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_4</ID>
+					<Location>
+						<LocationX>2060</LocationX>
+						<LocationY>233</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit4</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_container_5</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>497</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit5</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux5</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux5_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_5</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>638</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux5_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux5_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_5</ID>
+					<Location>
+						<LocationX>2060</LocationX>
+						<LocationY>497</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit5</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_container_6</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>761</LocationY>
+					</Location>
+					<Size var="var_size_container_img"/>
+					<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL skinid="skin_normal_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL skinid="skin_pressed_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL skinid="skin_selected_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL skinid="skin_disabled_URL" compression="CompressionAlias1">11/img_virtual_controls_container_bg_medium_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit6</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_virtualcontrols_1_8_v_aux6</ID>
+					<Font var="var_font_body_text"/>
+					<TextWrap>1</TextWrap>
+					<Location var="var_loc_aux6_txt"/>
+					<Size var="var_size_aux_txt"/>
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_aux_icon_6</ID>
+					<Location>
+						<LocationX>1213</LocationX>
+						<LocationY>901</LocationY>
+					</Location>
+					<Size var="var_size_aux_icons"/>
+					<NormalURL skinid="skin_normal_URL">11/aux_icon_1.png</NormalURL>
+					<FocusURL skinid="skin_pressed_URL">11/aux_icon_pressed_1.png</FocusURL>
+					<Alpha>100</Alpha>
+					<OnFocusCallback/>
+					<ZOrder>3</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux6_Released</WidgetCallback>
+					</InputWidgetMapping>
+					<InputWidgetMapping>
+						<UserInput>TouchPressDown</UserInput>
+						<WidgetCallback>evG_Aux6_Pressed</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_aux_right_icn_6</ID>
+					<Location>
+						<LocationX>2060</LocationX>
+						<LocationY>761</LocationY>
+					</Location>
+					<Size var="var_size_notification_dialog_check_box"/>
+					<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					<FocusURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</FocusURL>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_normal_URL">11/btn_general_right_normal.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_pressed_URL">11/btn_general_right_pressed.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_selected_URL">11/btn_general_right_selected.png</NormalURL>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL compression = "CompressionAlias1" skinid="skin_disabled_URL">11/btn_general_right_disabled.png</NormalURL>
+					</SelectorState>
+					<Alpha>100</Alpha>
+					<ZOrder>4</ZOrder>
+					<InputWidgetMapping>
+						<UserInput>TouchPressRelease</UserInput>
+						<WidgetCallback>evG_Aux_Edit6</WidgetCallback>
+					</InputWidgetMapping>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

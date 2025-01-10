@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<View>
+			<Screen>
+				<ScreenID>6078</ScreenID>
+				<Name>ics_persistent_smart_controls</Name>
+                <ImageWidget>
+                    <ID>img_persistent_controls_lights_headlights</ID>
+                    <Location>
+                        <LocationX>180</LocationX>
+                        <LocationY>11</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>95</SizeW>
+                        <SizeH>95</SizeH> 
+                    </Size>
+                    <NormalURL compression = "NONE">11/btn_icn_sb_lights_headlights_normal.png</NormalURL>
+					<FocusURL compression = "NONE">11/btn_icn_sb_lights_headlights_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+					<InputWidgetMapping>
+                        <UserInput>TouchPressRelease</UserInput>
+                        <WidgetCallback>evG_Head_lights_open</WidgetCallback>
+                    </InputWidgetMapping>
+                </ImageWidget>
+				</Screen>
+		</View>
+	</Display>
+</GMXML>
