@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.10 on win32)" generated="20250109 12:30:55.543" rpa="false" schemaversion="4">
+<suite id="s1" name="bT1CG" source="c:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\Testcase\bT1CG.robot">
+<test id="s1-t1" name="Launching the Application" line="18">
+<kw name="Rtos Launch Exe" library="launch">
+<arg>${build}</arg>
+<msg timestamp="20250109 12:31:14.114" level="INFO">File 'C:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\High_Rtos_Win_Qt_DB_R6_11272024_105\HmicSettings.ini' created with the specified content.
+file:: C:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\HmicSettings.ini
+modified_path: C:/Users/AkashPrasad/Downloads/windows_automation/Rtos_windows/High_Rtos_Win_Qt_DB_R6_11272024_105/Config.xml
+file:: C:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\RtosAppMain.ini
+modified_path2: C:/Users/AkashPrasad/Downloads/windows_automation/Rtos_windows/High_Rtos_Win_Qt_DB_R6_11272024_105/GMCals/S233(Bev)-34</msg>
+<status status="PASS" starttime="20250109 12:31:07.603" endtime="20250109 12:31:14.119"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>24s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20250109 12:31:38.127" level="INFO">Slept 24 seconds</msg>
+<status status="PASS" starttime="20250109 12:31:14.123" endtime="20250109 12:31:38.128"/>
+</kw>
+<kw name="Screenshot" library="rtos_Keywords">
+<doc>Takes a screenshot and saves it to the 'Images' folder within the current working directory.
+If the folder does not exist, it is created.</doc>
+<msg timestamp="20250109 12:31:38.666" level="INFO">Screenshot saved at: C:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\Images\screenshot.png</msg>
+<status status="PASS" starttime="20250109 12:31:38.129" endtime="20250109 12:31:38.667"/>
+</kw>
+<kw name="Tap Element By Reference Image" library="rtos_Keywords">
+<arg>parked.png</arg>
+<msg timestamp="20250109 12:31:49.353" level="INFO">max_loc (769, 494)
+Image found and clicked at: parked.png
+Image found and clicked at: C:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\Images\references\parked.png
+Image found and clicked at: Point(x=813, y=508)</msg>
+<status status="PASS" starttime="20250109 12:31:38.669" endtime="20250109 12:31:49.354"/>
+</kw>
+<kw name="Maximize Window" library="full_screen">
+<arg>MainWindow</arg>
+<doc>Maximize a window by its title.</doc>
+<msg timestamp="20250109 12:31:49.395" level="INFO">Window 'MainWindow' maximized successfully.</msg>
+<status status="PASS" starttime="20250109 12:31:49.356" endtime="20250109 12:31:49.396"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20250109 12:31:51.400" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20250109 12:31:49.398" endtime="20250109 12:31:51.403"/>
+</kw>
+<kw name="capture_window_screenshot">
+<arg>MainWindow</arg>
+<msg timestamp="20250109 12:31:51.411" level="FAIL">No keyword with name 'capture_window_screenshot' found.</msg>
+<status status="FAIL" starttime="20250109 12:31:51.410" endtime="20250109 12:31:51.413"/>
+</kw>
+<kw name="Screenshot" library="rtos_Keywords">
+<doc>Takes a screenshot and saves it to the 'Images' folder within the current working directory.
+If the folder does not exist, it is created.</doc>
+<status status="NOT RUN" starttime="20250109 12:31:51.415" endtime="20250109 12:31:51.415"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20250109 12:31:51.418" endtime="20250109 12:31:51.418"/>
+</kw>
+<status status="FAIL" starttime="20250109 12:31:07.603" endtime="20250109 12:31:51.421">No keyword with name 'capture_window_screenshot' found.</status>
+</test>
+<status status="FAIL" starttime="20250109 12:30:55.543" endtime="20250109 12:31:51.425"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="bT1CG">bT1CG</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20250109 12:31:07.587" level="ERROR">Error in file 'c:\Users\AkashPrasad\Downloads\windows_automation\Rtos_windows\Testcase\bT1CG.robot' on line 6: Library '..\screenshot_application.py' does not exist.</msg>
+</errors>
+</robot>

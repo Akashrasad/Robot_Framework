@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "robotframework-lsp",
+            "name": "Robot Framework: Launch Tests",
+            "request": "launch",
+            "target": "${workspaceFolder}/path/to/your/tests", // Replace with your test file or folder
+            "env": {}
+        }
+    ]
+}
